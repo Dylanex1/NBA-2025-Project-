@@ -10,9 +10,6 @@ Note: If it is one small change to main you are free to commit. Anything bigger 
 
 
 
-## Stages of implementation and reflection  periods
-
-
 
 ## Project Timeline
 
