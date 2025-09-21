@@ -29,7 +29,7 @@ Assists: Johnny, Kameron
 Organizer: Dylan
 Assists: Johnny, Kameron 
 
-### Reflection #1 - October 10th
+### Reflection 1 - October 10th
 
 ### Stage 4  Query check-in (optional) - October 24th
 
@@ -51,6 +51,7 @@ Assists: Kameron,  Dylan
 ### Final Report - December 5th
 
 ### Reflection 3 - December 5th 
+
 
 
 
