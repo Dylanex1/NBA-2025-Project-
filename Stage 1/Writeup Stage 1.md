@@ -40,38 +40,51 @@ This will be submitted with the first 2 Stages planned out
 
 ### Stage 1 Data Discovery - September 26th
 Organizer: Johnny
+
 Assists: Kameron,  Dylan
 
-* Timeline of stage 1-2 done by September 20th
-* Rough copy of summary of dataset should be done by September 24th
+* Timeline of stage 1-2 done by September 20th **FINISHED**
+* Rough copy of summary of dataset should be done by September 24th **FINISHED**
 * Review phase of written summary and chosen data by September 25th
 
-### Stage 2 ER Diagram (Optional) - October 3rd
-Organizer: Dylan
+### Stage 2 ER/EER Diagram (Optional) - October 3rd
+Organizer: Dylan 
+
 Assists: Johnny, Kameron 
 
-* 1 paragraph reminder of chosen data from stage 1 feedback should be done by September 28th
-* Rough draft of ER diagram should be done by October 1st
+* 1 paragraph reminder of chosen data from stage 1 feedback should be done by September 28th (or as soon as feedback is given)
+* Rough draft of ER diagram with point form notes should be done by October 1st
 * Review phase complete after October 1st
 
 
 ### Stage 3 Database Design - October 10th
 Organizer: Dylan
+
 Assists: Johnny, Kameron 
 
+* 3-5 paragraph summary of data October 4th
+* ER/EER diagram with justification October 4th
+* Review the diagram October 4th
+* The final relational model with description of transition from ER/EER to relational (merging and normalizing) October 7th
+* Final review October 10th
+
+  
 ### Reflection #1 - October 10th
 
 ### Stage 4  Query check-in (optional) - October 24th
 
 Organizer: Kameron
+
 Assists: Johnny,  Dylan
 
 ### Stage 5 Query Design - November 7th
 Organizer: Kameron
+
 Assists: Johnny,  Dylan
 
 ### Stage 6  Interface Design -  November 21st
 Organizer: Johnny
+
 Assists: Kameron,  Dylan 
 
 ### Reflection 2 - November 21st
@@ -81,6 +94,7 @@ Assists: Kameron,  Dylan
 ### Final Report - December 5th
 
 ### Reflection 3 - December 5th 
+
 
 
 
