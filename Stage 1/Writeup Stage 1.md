@@ -10,7 +10,7 @@ The `coaches_24_25.csv` contains 35 rows and 22 attributes that summarize the 20
 Lastly, the `NBA_24_25_schedule.csv` file records the season schedule with 1321 rows and 12 attributes, such as `date`, `Start` (time start ET), `Vistor`, `Home`, `Away_PTS`, `Home_PTS`, an other attributes such as attendance and arena name. This csv file was taken from https://www.basketball-reference.com/leagues/NBA_2025_games.html. The pandas library was used to read each months schedule into one csv file.
 
 ## Cleaning plan
-Most of the csv files are clean and formatted correctly. However, we will have missing values in most of the attributes for rookies who were drafted in 2024 in the `draft_combine_stats.csv`, `draft_history.csv`, and `common_player_info.csv` tables. This is because those files only include information on players who were drafted between 1947 and 2023. This affectsba small portion of the dataset, as according to Basketball-Reference, only 53 out of the 569 players were drafted in 2024. We will initially load these players missing fields as NULL. If time permits, we'll manually fill the fields missing in `draft_combine_stats.csv`, `draft_history.csv`, and `common_player_info.csv` for players drafted in 2024 using public sources. 
+Most of the csv files are clean and formatted correctly. However, we will have missing values in most of the attributes for rookies who were drafted in 2024 in the `draft_combine_stats.csv`, `draft_history.csv`, and `common_player_info.csv` tables. This is because those files only include information on players who were drafted between 1947 and 2023. This affects a small portion of the dataset, as according to Basketball-Reference, only 53 out of the 569 players were drafted in 2024. We will initially load these players missing fields as NULL. If time permits, we'll manually fill the fields missing in `draft_combine_stats.csv`, `draft_history.csv`, and `common_player_info.csv` for players drafted in 2024 using public sources. 
 
 Next, we will need to fill the `player.csv` file with the players drafted in 2024. To do this we will create a list of all unqiue players from the `players.csv` and `database_24_25.csv`. The players in `database_24_25.csv` that are not in `players.csv` will be the players drafted in 2024. We will then insert these players into `players.csv` and `common_player_info.csv`, leaving all missing values as NULL. The `Player` attribute in `database_24_25.csv` which contains the players full name, will be split into the players first and last name to align with the attributes of `players.csv`.
 
@@ -81,6 +81,7 @@ Assists: Kameron,  Dylan
 ### Final Report - December 5th
 
 ### Reflection 3 - December 5th 
+
 
 
 
