@@ -1,3 +1,8 @@
+---
+output:
+  pdf_document: default
+  html_document: default
+---
 ## Summary of Dataset
 For our project, we have chosen to use data from the 2024-2025 NBA season. The dataset includes game-by-game stats on every player, team data, player data, draft data, combine data, schedule data, and coach data. The complete dataset is drawn from eight different files with a total of 36092 rows and 151 columns. The size of the dataset is a great fit for this project as it is large and diverse enough to be broken down into 10 or more tables, while still being manageable and complex enough to make some interesting queries. In the later stages we will trim attributes that aren't relevant to our needs.
 
@@ -16,7 +21,7 @@ Next, we will need to fill the `player.csv` file with the players drafted in 202
 
 Since `common_player_info.csv`, `draft_combine_stats.csv`, `draft_history.csv`, and `player.csv` contain information on players dating back to 1947, we will filter for players active in the 2024-2025 season.
 
-Lastly, `Coaches_24_25.csv` has some blank cells, specifcally the columns for playoffs. This is because some coaches do not make it to the playoffs, Thus for these values we will fill it with 0 or null.
+Lastly, `Coaches_24_25.csv` has some blank cells, specifcally the columns for playoffs. This is because some coaches did not make it to the playoffs, Thus for these values we will fill it with 0 or null.
 
 ## Connectedness
 The `player.csv` file links to `team.csv` through the `team_id` attribute. `player.csv` also links to `common_player_info.csv`, `draft_history.csv`, and `draft_combine_stats.csv`, through the `player_id`. The `database_24_25.csv` file links to `player.csv` through the `full_name` attribute in `player.csv` and the `Player` attribute in `database_24_25.csv`. `Coaches_24_25.csv` links to `team.csv` through the `Tm` attribute in `Coaches_24_25.csv` and the `abbreviation` attribute in `team.csv`. Lastly, `NBA_24_25_schedule.csv` can be linked to `team.csv` through the `full_name` attribute in `team.csv` and either the `Home` or `Vistor` attributes in `NBA_24_25_schedule.csv`. This makes all data sets fully connected, so we can get from a dataset to any other dataset through the connected graph. Once the database is set up most, if not all tables will give ID's to each record, so we don't need to rely on the name of something as the unique identifier. The current set up of name being the primary/foreign key is so display how the tables are connected.
@@ -64,7 +69,6 @@ Organizer: Dylan
 
 Assists: Johnny, Kameron 
 
-
 * 3-5 paragraph summary of data October 4th
 * ER/EER diagram with justification October 4th
 * Review the diagram October 4th
@@ -73,7 +77,6 @@ Assists: Johnny, Kameron
 
   
 ### Reflection #1 - October 10th
-
 
 Everyone participates
 
@@ -103,6 +106,12 @@ Assists: Kameron,  Dylan
 ### Final Report - December 5th
 
 ### Reflection 3 - December 5th 
+
+
+
+
+
+
 
 
 
