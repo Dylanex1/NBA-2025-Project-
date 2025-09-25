@@ -64,6 +64,7 @@ Organizer: Dylan
 
 Assists: Johnny, Kameron 
 
+
 * 3-5 paragraph summary of data October 4th
 * ER/EER diagram with justification October 4th
 * Review the diagram October 4th
@@ -72,6 +73,7 @@ Assists: Johnny, Kameron
 
   
 ### Reflection #1 - October 10th
+
 
 Everyone participates
 
@@ -101,12 +103,6 @@ Assists: Kameron,  Dylan
 ### Final Report - December 5th
 
 ### Reflection 3 - December 5th 
-
-
-
-
-
-
 
 
 

@@ -10,9 +10,6 @@ Note: If it is one small change to main you are free to commit. Anything bigger 
 
 
 
-## Stages of implementation and reflection  periods
-
-
 
 ## Project Timeline
 
@@ -44,7 +41,7 @@ Assists: Johnny, Kameron
 Organizer: Dylan
 Assists: Johnny, Kameron 
 
-### Reflection #1 - October 10th
+### Reflection 1 - October 10th
 
 ### Stage 4  Query check-in (optional) - October 24th
 
