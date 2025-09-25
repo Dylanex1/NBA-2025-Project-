@@ -73,6 +73,11 @@ Assists: Johnny, Kameron
   
 ### Reflection #1 - October 10th
 
+Everyone participates
+
+* Get 3-5 paragraph rough copy of the reflection done by Oct 7th
+* Do a review of the reflection by Oct 9th 
+
 ### Stage 4  Query check-in (optional) - October 24th
 
 Organizer: Kameron
@@ -96,6 +101,7 @@ Assists: Kameron,  Dylan
 ### Final Report - December 5th
 
 ### Reflection 3 - December 5th 
+
 
 
 
