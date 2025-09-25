@@ -16,6 +16,8 @@ Next, we will need to fill the `player.csv` file with the players drafted in 202
 
 Since `common_player_info.csv`, `draft_combine_stats.csv`, `draft_history.csv`, and `player.csv` contain information on players dating back to 1947, we will filter for players active in the 2024-2025 season.
 
+Lastly, `Coaches_24_25.csv` has some blank cells, specifcally the columns for playoffs. This is because some coaches do not make it to the playoffs, Thus for these values we will fill it with 0.
+
 ## Connectedness
 The `player.csv` file links to `team.csv` through the `team_id` attribute. `player.csv` also links to `common_player_info.csv`, `draft_history.csv`, and `draft_combine_stats.csv`, through the `player_id`. The `database_24_25.csv` file links to `player.csv` through the `full_name` attribute in `player.csv` and the `Player` attribute in `database_24_25.csv`. `Coaches_24_25.csv` links to `team.csv` through the `Tm` attribute in `Coaches_24_25.csv` and the `abbreviation` attribute in `team.csv`. Lastly, `NBA_24_25_schedule.csv` can be linked to `team.csv` through the `full_name` attribute in `team.csv` and either the `Home` or `Vistor` attributes in `NBA_24_25_schedule.csv`. This makes all data sets fully connected, so we can get from a dataset to any other dataset through the connected graph. Once the database is set up most, if not all tables will give ID's to each record, so we don't need to rely on the name of something as the unique identifier. The current set up of name being the primary/foreign key is so display how the tables are connected.
 
@@ -94,6 +96,7 @@ Assists: Kameron,  Dylan
 ### Final Report - December 5th
 
 ### Reflection 3 - December 5th 
+
 
 
 
