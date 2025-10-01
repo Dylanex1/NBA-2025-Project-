@@ -52,7 +52,7 @@ output:
 
 * This relationship exists since a team will draft a player to play on their team in an NBA season. We have connectedness from the `drafts_history.csv` with teamID and PlayerID that connect the entities together.
 
-* The Drafts relationship is many-to-many since each player will be drafted in many seasons in the NBA playing for different teams and a team will draft many players overtime in seasons to play for their team. We can see that is the case in `drafts_history.csv` even the same player can be drafted many times to the same team overtime.
+* The Drafts relationship is many-to-one since each player will be drafted once in the NBA and a team will draft many players overtime in seasons to play for their team. We can see that is the case in `drafts_history.csv`.
 
 * The Drafts relationship are both partially participate in this relationship since a player does not need to be drafted on a team to be in our database. We have inactive players in `Player.csv`. A team does not need to have players on it to exist in the database.
 
@@ -98,3 +98,4 @@ output:
 relationship since a player does not need to have their player information to exist in the database and the player information totally participates in the relationship since it is a weak entity and would not exist in the database without the actual player.
 
 * The primary key in the relationship is only the playerID since the player information is a weak entity
+
