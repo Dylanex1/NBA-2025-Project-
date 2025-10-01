@@ -1,8 +1,3 @@
----
-output:
-  pdf_document: default
-  html_document: default
----
 # Details For Relationships, Participation And Cardinality Constraints
 
 ### Coach - Has - GameRecord
@@ -19,7 +14,7 @@ output:
 
 * The reason for this relationship is each coach will instruct a team in an NBA season. Since we got coaches and teams for 2024-2025 this relationship will focus on that particular season.
 
-* The instructs relationship is many-to-many. Each coach can instruct many teams. This is because in our `coaches_24_25.csv` has a few teams that are coached by mulitiple coaches in the season.Each team is instructed by multiple coaches in a season as well since coaches can swap out with each other for games in the season.
+* The instructs relationship is many-to-many. Each coach can instruct many teams. This is because in our `coaches_24_25.csv` has a few teams that are coached by mulitiple coaches in the season. Each team is instructed by multiple coaches in a season as well since coaches can swap out with each other for games in the season.
 
 * Each coach will totally participate in this relationship since in `coaches_24_25.csv` has an associated team along with their stats in a season. There is no coach without a team in that file. A team must totally participate as well in the instructs relationship since each team in the season is instructed by at least one coach.
 
@@ -52,7 +47,7 @@ output:
 
 * This relationship exists since a team will draft a player to play on their team in an NBA season. We have connectedness from the `drafts_history.csv` with teamID and PlayerID that connect the entities together.
 
-* The Drafts relationship is many-to-one since each player will be drafted once in the NBA and a team will draft many players overtime in seasons to play for their team. We can see that is the case in `drafts_history.csv`.
+* The Drafts relationship is many-to-many since each player will be drafted in many seasons in the NBA playing for different teams and a team will draft many players overtime in seasons to play for their team. We can see that is the case in `drafts_history.csv` even the same player can be drafted many times to the same team overtime.
 
 * The Drafts relationship are both partially participate in this relationship since a player does not need to be drafted on a team to be in our database. We have inactive players in `Player.csv`. A team does not need to have players on it to exist in the database.
 
@@ -82,7 +77,7 @@ output:
 
 * In the NBA players will attend a draft combine before getting picked out on a team. The team will decide if they want that player after seeing certain statistics of the player. This is connected by `Draft_combine_stats.csv` it has playerID to connect to the players.
 
-* The Attends relationship is many-to-many since each player in the NBA will attend many draft combines over the seasons if they did not make the cut the first time in the NBA. Each draft combine will have many attending players to the event.
+* The Attends relationship is many-to-many since each player in the NBA will attend many draft combines over the seasons in NBA and each draft combine will have many attending players.
 
 * In the attends relationship a player will partially participate in a draft combine since a player can be excused or not invited to a draft combine and a draft combine will totally participate since the draft combine will not be logged if the combine was cancelled.
 
@@ -98,5 +93,3 @@ output:
 relationship since a player does not need to have their player information to exist in the database and the player information totally participates in the relationship since it is a weak entity and would not exist in the database without the actual player.
 
 * The primary key in the relationship is only the playerID since the player information is a weak entity
-
-
