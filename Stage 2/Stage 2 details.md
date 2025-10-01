@@ -82,7 +82,7 @@ output:
 
 * In the NBA players will attend a draft combine before getting picked out on a team. The team will decide if they want that player after seeing certain statistics of the player. This is connected by `Draft_combine_stats.csv` it has playerID to connect to the players.
 
-* The Attends relationship is many-to-many since each player in the NBA will attend many draft combines over the seasons in NBA and each draft combine will have many attending players.
+* The Attends relationship is many-to-many since each player in the NBA will attend many draft combines over the seasons if they did not make the cut the first time in the NBA. Each draft combine will have many attending players to the event.
 
 * In the attends relationship a player will partially participate in a draft combine since a player can be excused or not invited to a draft combine and a draft combine will totally participate since the draft combine will not be logged if the combine was cancelled.
 
@@ -98,4 +98,5 @@ output:
 relationship since a player does not need to have their player information to exist in the database and the player information totally participates in the relationship since it is a weak entity and would not exist in the database without the actual player.
 
 * The primary key in the relationship is only the playerID since the player information is a weak entity
+
 
