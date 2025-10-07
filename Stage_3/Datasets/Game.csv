@@ -1,4 +1,4 @@
-﻿GameID,Date,Visitor/Neutral,Home/Neutral,Home PTS,Visitor PTS,Length,Arena,Overtime,Result,Attending Amount
+﻿GameID,Date,Visitor team name,home team name,Home PTS,Visitor PTS,Length,Arena,Overtime,Result,Attending Amount
 1,"Tue, Oct 22, 2024",New York Knicks,Boston Celtics,109,132,2:04,TD Garden,N,L,19156
 2,"Tue, Oct 22, 2024",Minnesota Timberwolves,Los Angeles Lakers,103,110,2:26,Crypto.com Arena,N,L,18997
 3,"Wed, Oct 23, 2024",Indiana Pacers,Detroit Pistons,115,109,2:23,Little Caesars Arena,N,W,20062
