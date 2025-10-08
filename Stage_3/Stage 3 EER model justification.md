@@ -1,3 +1,8 @@
+---
+output:
+  pdf_document: default
+  html_document: default
+---
 # Details For Relationships, Participation And Cardinality Constraints
 
 ### Coach - Has - CoachStats
@@ -6,9 +11,9 @@
 
 * The has relationship is one-to-many since each coach will have a playoff and normal record. This is because all NBA games they have coached are thought of seperately in our database of all time wins, losses and games played. A game record has 1 coach that it is tied to since we do not keep track of a record for multiple coaches that would logically not make any sense. 
 
-* Each Coach only has to partially participate in this relationship since a coach can exist in the database without the GameRecord. The GameRecord must totally participate since the GameRecord would not make sense if there was no coach assigned to that GameRecord. This is also why GameRecord is a **Weak entity**.
+* Each Coach only has to partially participate in this relationship since a coach can exist in the database without the CoachStats. The CoachStats must totally participate since the CoachStats would not make sense if there was no coach assigned to that CoachStats. This is also why CoachStats is a **Weak entity**.
 
-* The Primary key in this relationship is CoachID. This will be sufficent of uniquely identify the entities since GameRecord is a weak entity.
+* The Primary key in this relationship is CoachID. This will be sufficent of uniquely identify the entities since CoachStats is a weak entity.
 
 ### Coach - Instructs - Team
 
@@ -55,7 +60,7 @@
 
 ### Player - Plays in - Game
 
-* In the NBA players need to play in games for the game to even be considered a game. `Database_24_25.csv` will have that information of players playing in a specific NBA game
+* In the NBA players need to play in games for the game to even be considered a game. `Play in.csv` will have that information of players playing in a specific NBA game
 
 * The plays in relationship is many-to-many since each player will play many games in a season and each game will have many players in the game.
 
