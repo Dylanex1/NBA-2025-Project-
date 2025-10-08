@@ -1,1203 +1,1203 @@
-season,player_id,first_name,last_name,player_name,position,height_wo_shoes,wingspan,standing reach,body fat pct,standing vertical leap,maximum vertical leap,lane agility time,three quarter sprint,bench press
-2001,12033,Adam,Allenspach,Adam Allenspach,C,6' 11.5'',84.5,107,12.4,28.5,31,11.9,3.4,16
-2001,2240,Gilbert,Arenas,Gilbert Arenas,SG,6' 2.25'',81.5,99.5,5.3,31.5,36,NULL,3.25,12
-2001,2220,Brandon,Armstrong,Brandon Armstrong,SG,6' 3.5'',81.5,99.5,9.3,30,37,10.91,3.2,6
-2001,2203,Shane,Battier,Shane Battier,SF-PF,6' 8.25'',82.5,105,9.3,29.5,33,10.95,3.3,12
-2001,12034,Cookie,Belcher,Cookie Belcher,SG-PG,6' 3'',80.5,99,5.3,35,41.5,11.26,2.91,7
-2001,2294,Charlie,Bell,Charlie Bell,PG,6' 2.5'',79.5,97.5,6.7,31.5,38,10.59,3.12,15
-2001,2257,Ruben,Boumtje-Boumtje,Ruben Boumtje-Boumtje,C,6' 11.5'',88,111,6,26.5,31,11.84,3.33,6
-2001,12035,Calvin,Bowman,Calvin Bowman,PF,6' 8.75'',83.5,104,8.6,28.5,34.5,11.96,3.21,7
-2001,2214,Michael,Bradley,Michael Bradley,PF,6' 9.5'',85.5,107,9.3,27,30,11.11,3.35,13
-2001,2249,Jamison,Brewer,Jamison Brewer,PG,6' 2.5'',80.75,102.5,6.7,26,32.5,9.65,3.15,12
-2001,2198,Kwame,Brown,Kwame Brown,PF-C,6' 10'',85,108,8.9,30,33,11.59,3.45,17
-2001,12031,SirValiant,Brown,SirValiant Brown,PG,5' 11'',76,92.5,6.7,31,39.5,11.23,3,10
-2001,2245,Damone,Brown,Damone Brown,SF,6' 8.25'',83.75,104.5,6.7,32,37,11.81,3.27,6
-2001,12032,Ryan,Carroll,Ryan Carroll,SF-SG,6' 4'',80.25,99,8,34.5,39,11,3.1,14
-2001,2199,Tyson,Chandler,Tyson Chandler,SF-PF,6' 11.5'',87,110,6.7,31,33.5,12.13,3.36,2
-2001,2251,Eric,Chenowith,Eric Chenowith,C,7' 1'',88,111,12.9,23.5,27.5,12.5,3.59,6
-2001,2439,Sam,Clancy,Sam Clancy,PF,6' 6.25'',86.75,107,8,31,34,11.47,3.13,15
-2001,12036,Gyasi,Cline-Heard,Gyasi Cline-Heard,PF,6' 6.25'',83.5,103,8,31.5,34.5,11.4,3.23,11
-2001,2215,Jason,Collins,Jason Collins,PF-C,6' 10.25'',88.5,110,12.9,25.5,28.5,12.1,3.54,8
-2001,2260,Jarron,Collins,Jarron Collins,C-PF,6' 9.25'',87,104,15.2,23,29,11.65,3.6,10
-2001,2241,Omar,Cook,Omar Cook,PG,5' 11.5'',77.5,92,5.5,31,35.5,10.77,3.2,9
-2001,2201,Eddy,Curry,Eddy Curry,C,6' 10.5'',90.5,111,16.5,28,31,12.25,3.53,16
-2001,12037,Tate,Decker,Tate Decker,SF,6' 9.25'',83.75,107,13.6,25.5,28.5,12.19,3.47,13
-2001,2205,DeSagana,Diop,DeSagana Diop,C,6' 10'',90.5,113,21,21.5,25.5,12.37,3.56,15
-2001,12038,Robb,Dryden,Robb Dryden,C,7' 1'',86.5,110.2,8,27,30,12.47,3.46,8
-2001,12039,Anthony,Evans,Anthony Evans,PF,6' 6'',83.5,101.5,12.9,31.5,33,12.56,3.31,18
-2001,2230,Maurice,Evans,Maurice Evans,SG,6' 4.25'',80,101,4,34.5,37.5,10.08,3.12,22
-2001,12150,Benjamin,Eze,Benjamin Eze,C-PF,6' 8.75'',90,109,3.9,29,32,13.05,3.36,14
-2001,2386,Kimani,Ffriend,Kimani Ffriend,C-PF,6' 9.5'',82.75,108.5,11.7,32,33,11.46,3.09,9
-2001,2228,Alton,Ford,Alton Ford,PF,6' 8.25'',82.5,102.5,8,34.5,36.5,11.7,3.16,21
-2001,2218,Joseph,Forte,Joseph Forte,SG,6' 3.5'',78.5,100.5,NULL,26.5,33,11.51,3.19,10
-2001,-1,Jason,Gardner,Jason Gardner,PG,5' 9.75'',73.25,92.5,8,34.5,40,10.88,2.92,9
-2001,12151,Jerry,Green,Jerry Green,PG-SG,6' 1.5'',78.25,99,5.5,28.5,35,11.7,3.17,13
-2001,12152,Kenny,Gregory,Kenny Gregory,SF,6' 3.5'',83.25,101,6.7,39.5,45.5,11.33,3.1,10
-2001,2204,Eddie,Griffin,Eddie Griffin,PF-SF,6' 9.25'',87,110,4,26.5,33,11.77,3.21,3
-2001,2239,Trenton,Hassell,Trenton Hassell,SG-SF,6' 4.25'',80,99.5,5.3,35.5,37.5,11.57,3.29,12
-2001,2213,Kirk,Haston,Kirk Haston,PF-SF,6' 8'',84.25,106,10.5,27,31.5,12.25,3.35,11
-2001,12153,Charles,Hathaway,Charles Hathaway,C,6' 8'',86,107.5,NULL,NULL,NULL,NULL,NULL,NULL
-2001,2217,Brendan,Haywood,Brendan Haywood,C,6' 11.75'',90.5,113.5,12.9,27,28.5,12.87,3.5,17
-2001,12154,Michael,Hicks,Michael Hicks,SG,6' 4'',81.25,100.5,7.3,33,40.5,11.38,3.19,13
-2001,2212,Steven,Hunter,Steven Hunter,C-PF,6' 10.25'',88,108,5.3,30.5,38.5,11.99,3.15,11
-2001,12155,Andre,Hutson,Andre Hutson,PF,6' 8.25'',83.75,105.5,11.7,29,32.5,11.25,3.3,17
-2001,12156,Nate,James,Nate James,SF,6' 4.75'',82.75,103,6,26,31,11.42,3.31,23
-2001,2210,Richard,Jefferson,Richard Jefferson,SF,6' 7.25'',84,103,6.7,33,38.5,11.19,3.15,14
-2001,2798,Horace,Jenkins,Horace Jenkins,PG,5' 11.75'',77.25,97,6,34.5,41,10.97,3.1,2
-2001,12157,Darrell,Johns,Darrell Johns,C,6' 11.25'',89,111.5,19.1,23.5,30,12.41,3.59,18
-2001,2256,Ken,Johnson,Ken Johnson,C,6' 10.75'',88,109.5,9.9,32.5,35,11.27,3.12,13
-2001,2207,Joe,Johnson,Joe Johnson,SF-SG,6' 6.75'',81,105,6.7,32.5,36.5,12.05,3.4,12
-2001,12158,Darren,Kelly,Darren Kelly,SG-PG,6' 2'',78.75,100,6.7,30.5,34.5,11.38,3.21,1
-2001,2253,Sean,Lampley,Sean Lampley,SF,6' 5.5'',81.25,101,8,36,40,11.06,3.12,12
-2001,12159,Zach,Marbury,Zach Marbury,PG-SG,6' 1.25'',75.5,96.5,6.7,33,36.5,11.53,3.1,0
-2001,12160,Mike,Mardesich,Mike Mardesich,C-PF,6' 10.25'',84.5,108.5,13.6,24,30,11.65,3.45,8
-2001,12161,DeMarcus,Minor,DeMarcus Minor,SG,6' 3.25'',80.25,99.5,6.7,29,41,10.57,3.15,9
-2001,200081,Jamario,Moon,Jamario Moon,SF,6' 6.5'',83.5,103,5.3,33,43,11.64,3.08,0
-2001,2211,Troy,Murphy,Troy Murphy,PF,6' 9.75'',83,105.5,11.7,28.5,34.5,11.22,3.43,11
-2001,12162,Troy,Ostler,Troy Ostler,PF-SF,6' 8.75'',85.5,106.5,8,26.5,29.5,13.42,3.5,2
-2001,40046,Lazaros,Papadopoulos,Lazaros Papadopoulos,C-PF,6' 10.25'',86.5,110.5,11.7,23,26,12,3.7,4
-2001,12164,Rashad,Phillips,Rashad Phillips,PG,5' 9'',73.5,92,12.4,27,32,11.93,3.27,5
-2001,12165,Demetrius,Porter,Demetrius Porter,PG,5' 10.75'',74.75,94,12.4,26,31,11.5,3.34,5
-2001,12166,Martin,Rancik,Martin Rancik,PF-SF,6' 8.75'',80,102.5,8,32,37,10.77,3.19,14
-2001,2202,Jason,Richardson,Jason Richardson,SF-SG,6' 4.75'',83.5,102.5,5.3,32.5,39.5,11.75,3.12,15
-2001,2369,Norman,Richardson,Norman Richardson,SG,6' 3.5'',76.5,99,6,30.5,35.5,10.97,3.15,2
-2001,2219,Jeryl,Sasser,Jeryl Sasser,PG-SG,6' 5.5'',82.5,103.5,6.7,29,34,11.47,3.22,1
-2001,12167,Kenny,Satterfield,Kenny Satterfield,PG,6' 1'',76.5,98,6.7,28.5,33,12.05,3.2,3
-2001,2243,Brian,Scalabrine,Brian Scalabrine,PF-SF,6' 8.75'',81.75,105.5,13.6,27,30.5,11.75,3.47,14
-2001,12168,Lee,Scruggs,Lee Scruggs,PF-SF,6' 10.25'',89.75,110.5,10.5,23.5,29.5,13.28,3.55,0
-2001,2250,Bobby,Simmons,Bobby Simmons,SF,6' 6.25'',84.25,105,6.7,27.5,34,11.69,3.41,12
-2001,2226,Will,Solomon,Will Solomon,PG-SG,5' 11.75'',81.5,99.5,4,28.5,35,11.3,3.22,4
-2001,12169,Greg,Stevenson,Greg Stevenson,SF,6' 3.75'',84.5,102,7.3,30,35.5,11.29,3.23,15
-2001,12170,Damone,Thornton,Damone Thornton,PF,6' 6.75'',85.75,103.7,8,33.5,37.5,11.17,3.2,19
-2001,2224,Jamaal,Tinsley,Jamaal Tinsley,PG,6' 0.75'',79.5,97.5,13.6,28,37.5,11.96,3.2,1
-2001,12171,Tory,Walker,Tory Walker,SF,6' 6.75'',83.25,104.5,6.7,28,33,11.95,3.25,7
-2001,12172,Souleymane,Wane,Souleymane Wane,C,6' 8.5'',89,109,11.2,29,30.5,12.02,3.46,9
-2001,2248,Earl,Watson,Earl Watson,PG,6' 0'',78.75,97,4,32.5,37.5,10.97,3.19,4
-2001,2206,Rodney,White,Rodney White,SF,6' 7.5'',83.5,104.5,9.3,27.5,33,12.07,3.47,16
-2001,2254,Loren,Woods,Loren Woods,C-PF,7' 0.75'',89.5,113,9.3,24.5,28,11.83,3.48,10
-2001,12041,Michael,Wright,Michael Wright,PF,6' 7'',83.5,106.5,9.3,27.5,33.5,11.37,3.21,18
-2001,12040,Brent,Wright,Brent Wright,PF-SF,6' 7.75'',85.5,105.5,12.4,23,29,12.25,3.3,19
-2004,2754,Tony,Allen,Tony Allen,SG,6' 3.5'',81,102,6.7,31.5,36.5,10.7,3.19,17
-2004,2772,Trevor,Ariza,Trevor Ariza,SG-SF,6' 7'',86,107.5,8,29.5,32,11.63,3.29,8
-2004,2857,Andre,Barrett,Andre Barrett,PG,5' 8.75'',73,92,6.7,29,34.5,10.63,3.08,13
-2004,101138,Brandon,Bass,Brandon Bass,PF,6' 6.25'',86.5,106.5,9.3,31.5,33,11.61,3.24,18
-2004,2740,Andris,Biedrins,Andris Biedrins,C,NULL,NULL,NULL,9.3,NULL,NULL,NULL,NULL,NULL
-2004,2800,Tony,Bobbitt,Tony Bobbitt,SG,6' 2.75'',79,100,7.3,NULL,NULL,NULL,NULL,1
-2004,12173,Brian,Boddicker,Brian Boddicker,SF-PF,6' 7.5'',82,105.5,11.2,28,30,10.93,3.25,16
-2004,12174,Tim,Bowers,Tim Bowers,PG-SG,6' 0.5'',81,98,2.6,37,43.5,11.24,3.21,13
-2004,2810,Andre,Brown,Andre Brown,PF-C,6' 8'',83,107,6,32,35.5,11.7,3.22,18
-2004,2766,Antonio,Burks,Antonio Burks,PG,6' 0'',78.5,96.5,9.9,NULL,NULL,NULL,NULL,9
-2004,2866,Jackie,Butler,Jackie Butler,C,6' 8'',85.5,109,16.3,23,25,13.32,3.4,14
-2004,12175,Aleksandar,Capin,Aleksandar Capin,PG,6' 0'',73.5,94,9.3,23,29,11.5,3.27,4
-2004,12176,Ales,Chan,Ales Chan,C,7' 0'',87,113,14.8,21,29,12.9,3.62,2
-2004,2735,Josh,Childress,Josh Childress,SG-SF,6' 5.75'',83,105,9.3,29,36,11.95,3.38,11
-2004,200555,TJ,Cummings,TJ Cummings,SF,6' 7.5'',81.5,106.5,6.7,27,31,11.58,3.12,6
-2004,2845,Erik,Daniels,Erik Daniels,SF-PF,6' 6.25'',83,106,18.5,31,32,11.38,3.19,4
-2004,2736,Luol,Deng,Luol Deng,SF,6' 7'',84.5,108.5,6.7,27.5,31.5,11.46,3.34,5
-2004,12177,Marcus,Douthit,Marcus Douthit,C-PF,6' 9.5'',88,111.5,13.7,25.5,31.5,11.64,3.34,1
-2004,2768,Chris,Duhon,Chris Duhon,PG,6' 0'',78.5,98,6.7,31.5,35,10.45,3.14,7
-2004,2823,John,Edwards,John Edwards,C,6' 11.25'',88.5,113,14.1,NULL,NULL,NULL,NULL,15
-2004,2765,Andre,Emmett,Andre Emmett,SG-SF,6' 3.5'',81,100,6.7,NULL,NULL,NULL,NULL,NULL
-2004,2824,Desmon,Farmer,Desmon Farmer,SG,6' 4.5'',80.5,103,5.3,24,31,10.89,3.2,12
-2004,2784,Luis,Flores,Luis Flores,PG-SG,6' 0.5'',79.5,98.5,6,29,32,10.97,3.1,15
-2004,2782,Matt,Freije,Matt Freije,SF-PF,6' 8.25'',85,108.5,10.8,29.5,31,11.15,3.25,13
-2004,12178,Chris,Garnett,Chris Garnett,C-PF,6' 8.25'',85,108,14.8,27,31.5,11.75,3.36,22
-2004,101155,Ryan,Gomes,Ryan Gomes,SF-PF,6' 6.5'',86,106.5,NULL,26.5,30.5,12.49,3.24,9
-2004,2732,Ben,Gordon,Ben Gordon,PG-SG,6' 1'',80.5,99,5.3,31.5,37.5,11.28,3.19,12
-2004,2734,Devin,Harris,Devin Harris,PG,6' 1.75'',79.5,98.5,5.3,30.5,37,11.03,3.19,5
-2004,2730,Dwight,Howard,Dwight Howard,PF-C,6' 9'',88.5,111.5,10.5,30.5,35.5,11.21,3.14,7
-2004,12179,Rolando,Howell,Rolando Howell,PF,6' 7.5'',84.5,107,11.7,28.5,34.5,11.91,3.28,NULL
-2004,2743,Kris,Humphries,Kris Humphries,PF,6' 8.25'',84.5,106.5,6.7,29.5,36,11.33,3.2,22
-2004,2738,Andre,Iguodala,Andre Iguodala,SG-SF,6' 5.75'',83,105.5,6.7,30.5,34.5,11.17,3.18,4
-2004,12180,Martin,Iti,Martin Iti,C-PF,6' 8.5'',89,111.5,10.5,26.5,32.5,12.28,3.41,13
-2004,2739,Luke,Jackson,Luke Jackson,SF-SG,6' 6'',80.5,103,8,26.5,36,11.1,3.24,13
-2004,2744,Al,Jefferson,Al Jefferson,PF-SF,6' 8.5'',86.5,110,10.5,28.5,30,13.08,3.29,3
-2004,2865,Arthur,Johnson,Arthur Johnson,PF-C,6' 7'',87,109,16.3,26.5,28.5,11.81,3.38,14
-2004,12181,Ivan,Koljevic,Ivan Koljevic,PG,6' 1'',74.5,95,6.7,26,28.5,11.07,3.28,4
-2004,12182,Herve,Lamizana,Herve Lamizana,SF-PF,6' 7.5'',85.5,107,6.7,NULL,NULL,NULL,NULL,NULL
-2004,2778,Sergei,Lishouk,Sergei Lishouk,PF-SF,6' 10.25'',84,109.5,10.5,NULL,NULL,NULL,NULL,NULL
-2004,2733,Shaun,Livingston,Shaun Livingston,PG-SG,6' 6.25'',83,105.5,6.7,26.5,30,10.72,3.23,NULL
-2004,12184,Jaime,Lloreda,Jaime Lloreda,PF,6' 6.75'',81.5,107,9.9,25.5,29.5,12.93,3.23,6
-2004,12000,Bryant,Matthews,Bryant Matthews,SF-SG,6' 5.75'',84.5,105.5,6.7,29,34.5,11.08,3.13,13
-2004,12001,Marcus,Melvin,Marcus Melvin,SF-PF,6' 6.75'',84,105.5,10.5,25,30.5,11.81,3.33,11
-2004,2822,Rich,Melzer,Rich Melzer,PF-SF,6' 7.5'',86,107,12.4,24.5,28.5,11.74,3.39,8
-2004,2777,Ricky,Minard,Ricky Minard,PG-SG,6' 3.25'',79,101.5,8,27.5,33,10.94,3.1,13
-2004,12002,James,Moore,James Moore,PF-SF,6' 6.5'',84.5,107,8,28.5,32.5,11.01,3.21,NULL
-2004,12003,Marcus,Moore,Marcus Moore,PG-SG,6' 4'',81,101.5,14.8,25,30,11.31,3.34,NULL
-2004,12004,Michel,Morandais,Michel Morandais,SG-SF,6' 3.75'',83.5,102,8.6,30.5,33.5,11.45,3.22,16
-2004,2749,Jameer,Nelson,Jameer Nelson,PG,5' 11'',74.5,95,8,28.5,33.5,10.95,3.14,15
-2004,12005,Misan,Nikagbatse,Misan Nikagbatse,SG-PG,6' 3.5'',82,102,12.9,27.5,32.5,11.27,3.32,11
-2004,2731,Emeka,Okafor,Emeka Okafor,C-PF,6' 8.75'',88,110.5,5.3,31.5,34,12.32,3.15,22
-2004,12006,Randall,Orr,Randall Orr,PF-SF,6' 9'',82.5,107.5,6.7,26.5,33,11.18,3.27,6
-2004,12007,Dylan,Page,Dylan Page,SF,6' 7.5'',79,105,12.3,26,30,10.99,3.4,17
-2004,-1,Drago,Pasalic,Drago Pasalic,PF,6' 9.25'',83.5,108,12.9,25.5,30,12.97,3.56,8
-2004,12008,Rickey,Paulding,Rickey Paulding,SG,6' 2.75'',81.5,101.5,5.3,30,36,11.14,3.17,17
-2004,12009,Kelvin,Pena,Kelvin Pena,SG-PG,6' 2.25'',78.5,99.5,8.6,27.5,32.5,11.5,3.24,1
-2004,2773,Tim,Pickett,Tim Pickett,PG-SG,6' 3'',79.5,100.5,6,NULL,NULL,NULL,NULL,NULL
-2004,12010,Omar,Quintero,Omar Quintero,PG,5' 9.75'',71.5,92.5,14.1,25,29,11.37,3.25,2
-2004,2762,Peter,Ramos,Peter Ramos,C,7' 1.75'',89.5,111.5,6.7,24,26.5,12.61,3.6,2
-2004,2876,Jared,Reiner,Jared Reiner,C-PF,6' 10'',84.5,109,12.9,22,26,12.65,3.56,15
-2004,101160,Lawrence,Roberts,Lawrence Roberts,PF,6' 7.5'',81.5,106.5,9.3,27.5,33,12.52,3.3,18
-2004,2774,Bernard,Robinson,Bernard Robinson,SG-SF,6' 5.25'',82,102,6,28.5,34.5,10.91,3.17,14
-2004,101126,Nate,Robinson,Nate Robinson,PG,5' 7.75'',73,91.5,6.7,35.5,43.5,10.75,2.96,13
-2004,12011,Aerick,Sanders,Aerick Sanders,PF,6' 6.5'',83.5,106,6.7,24.5,30.5,11.98,3.37,9
-2004,2781,Romain,Sato,Romain Sato,SG,6' 2'',83,102.5,6,31.5,35.5,11.27,3.18,8
-2004,12012,Blagota,Sekulic,Blagota Sekulic,SF-PF,6' 9.25'',83,107,9.3,23.5,31.5,10.93,3.39,8
-2004,2746,Josh,Smith,Josh Smith,SG-SF,6' 7'',84,106.5,6.7,32.5,39.5,11.43,3.24,12
-2004,2747,J.R.,Smith,J.R. Smith,SG-SF,6' 5.5'',82,104,6.7,29,35.5,10.93,3.21,5
-2004,2745,Kirk,Snyder,Kirk Snyder,SG-SF,6' 6'',81,104,9.3,30,35,10.79,3.13,19
-2004,2776,Pape,Sow,Pape Sow,PF-C,6' 8.5'',86,108.5,9.3,28,31.5,12.13,3.27,18
-2004,12014,Tiago,Splitter,Tiago Splitter,C-PF,6' 10.25'',86,109.5,5.3,26,31.5,11.65,3.38,8
-2004,12015,Blake,Stepp,Blake Stepp,PG,NULL,NULL,NULL,8,NULL,NULL,NULL,NULL,NULL
-2004,12016,Tom,Timmerrmans,Tom Timmerrmans,PF-C,6' 10.5'',83,107.5,15.2,23,26.5,13.13,3.63,15
-2004,12296,Marko,Tomas,Marko Tomas,SG-PG,6' 6.5'',79,103.5,9.3,32,31.5,11.8,3.23,NULL
-2004,2757,Beno,Udrih,Beno Udrih,PG,6' 2.5'',76.5,98,9.3,NULL,NULL,NULL,NULL,2
-2004,2761,Jackson,Vroman,Jackson Vroman,PF-C,6' 9.25'',84,105.5,6.7,29.5,33.5,10.75,3.25,12
-2004,2753,Delonte,West,Delonte West,PG-SG,6' 1.5'',78,99.5,6.7,30,35,11.2,3.15,12
-2004,2863,Damien,Wilkins,Damien Wilkins,SG-SF,6' 4.5'',84,106,7.3,26.5,31,11.92,3.15,15
-2004,12292,Mike,Williams,Mike Williams,SF,6' 5.5'',83.5,105.5,9.3,23.5,27.5,11.59,3.42,NULL
-2004,12293,Nate,Williams,Nate Williams,PF-SF,6' 8.5'',85.5,109.5,12.4,23.5,26,12.6,3.35,1
-2004,12294,Rashad,Wright,Rashad Wright,PG,6' 0.5'',82,98.5,8,28.5,32.5,11.15,3.28,10
-2005,101165,Alex,Acker,Alex Acker,SG,6' 3.75'',84,102.5,NULL,28,32,11.67,3.35,11
-2005,101224,Deji,Akindele,Deji Akindele,C-PF,6' 9.5'',87,108.5,NULL,30.5,32.5,12.58,3.35,13
-2005,200969,Mustafa,Al-Sayyad,Mustafa Al-Sayyad,PF-C,NULL,NULL,NULL,NULL,26.5,30.5,11.56,3.42,NULL
-2005,12104,Nemanja,Aleksandrov,Nemanja Aleksandrov,PF-SF,6' 10'',83,110,NULL,NULL,NULL,NULL,NULL,5
-2005,101187,Alan,Anderson,Alan Anderson,SG-SF,6' 4.5'',81.5,104,NULL,26.5,30.5,10.32,3.27,10
-2005,101149,Martynas,Andriuskevicius,Martynas Andriuskevicius,C-PF,7' 1.25'',83.25,112.5,NULL,24,27.5,11.94,3.42,0
-2005,101252,Sean,Banks,Sean Banks,SF,6' 5.75'',85,108,NULL,25,31.5,11.74,3.35,7
-2005,101188,Eddie,Basden,Eddie Basden,SG-SF,6' 4.25'',82.25,101,NULL,33,36.5,10.52,3.21,14
-2005,12105,Mike,Bell,Mike Bell,SF-PF,6' 8.75'',85.5,104.5,NULL,33.5,39.5,11.73,3.29,13
-2005,101106,Andrew,Bogut,Andrew Bogut,C-PF,6' 11'',87,110.5,NULL,27.5,33.5,12.06,3.51,13
-2005,200793,Dee,Brown,Dee Brown,PG-SG,5' 11'',74,94,NULL,NULL,NULL,NULL,NULL,NULL
-2005,101198,Will,Bynum,Will Bynum,PG-SG,5' 10.5'',75.5,93,NULL,33,40.5,11.12,3,15
-2005,12106,Marcus,Campbell,Marcus Campbell,C,6' 10.25'',90,114,NULL,NULL,NULL,NULL,NULL,9
-2005,101215,Will,Conroy,Will Conroy,PG,6' 1'',75,96.5,NULL,30.5,36.5,10.51,3.28,14
-2005,12107,Taylor,Coppenrath,Taylor Coppenrath,PF-SF,6' 7.75'',83.5,106.5,NULL,24.5,27,11.51,3.44,5
-2005,101143,Travis,Diener,Travis Diener,PG-SG,5' 11.75'',71.75,93.5,NULL,24.5,31,10.85,3.26,1
-2005,101113,Ike,Diogu,Ike Diogu,PF,6' 6.5'',87.5,109,NULL,28,31,11.94,3.45,21
-2005,12108,Daryl,Dorsey,Daryl Dorsey,PG,5' 11.25'',71.5,94,NULL,25,30.5,11.41,3.24,0
-2005,101145,Monta,Ellis,Monta Ellis,SG-PG,6' 2.25'',74.75,98,NULL,26.5,31.5,12.13,3.31,0
-2005,101109,Raymond,Felton,Raymond Felton,PG,5' 11.5'',76.25,98,NULL,29,33.5,10.5,3.06,6
-2005,201164,Rudy,Fernandez,Rudy Fernandez,SG,6' 4.75'',79.5,101.5,NULL,26.5,35.5,10.48,3.33,0
-2005,12109,D'Or,Fischer,D'Or Fischer,C-PF,6' 9.25'',90,110.5,NULL,28,30.5,12.53,3.5,2
-2005,12110,Eddy,Fobbs,Eddy Fobbs,C-PF,6' 10.25'',90.75,111.5,NULL,29.5,34,11.53,3.28,12
-2005,101213,Sharrod,Ford,Sharrod Ford,PF,6' 7.25'',85.5,106,NULL,28.5,37,11.92,3.2,9
-2005,101112,Channing,Frye,Channing Frye,PF-C,6' 9.5'',86.5,110.5,NULL,27.5,31,11.6,3.38,19
-2005,101184,Deng,Gai,Deng Gai,PF-C,6' 7.75'',88.5,110.5,NULL,31.5,35.5,12.51,3.27,11
-2005,101128,Francisco,Garcia,Francisco Garcia,SF-SG,6' 5.75'',82.75,103,NULL,27.5,31.5,10.63,3.33,5
-2005,12111,John,Gilchrist,John Gilchrist,PG,6' 1.25'',81.25,96.5,NULL,30.5,36.5,11.48,3.15,12
-2005,101162,Marcin,Gortat,Marcin Gortat,PF-C,6' 11'',87.5,110,NULL,29.5,36,11.48,3.33,18
-2005,101121,Joey,Graham,Joey Graham,SF,6' 5.25'',80,104,NULL,30,36,10.62,3.05,26
-2005,101122,Danny,Granger,Danny Granger,NULL,6' 7.5'',85.5,103,NULL,31,34,10.84,3.34,10
-2005,101123,Gerald,Green,Gerald Green,SF,6' 6'',81.75,104,NULL,31.5,39,11.2,3.21,7
-2005,101236,Charles,Hayes,Charles Hayes,SF-PF,6' 5.5'',82,104.5,NULL,30,33,10.7,3.34,20
-2005,101129,Luther,Head,Luther Head,PG-SG,6' 2'',77.25,98.5,NULL,31.5,38.5,11.12,3.21,14
-2005,101125,Julius,Hodge,Julius Hodge,SG-SF,6' 6'',84.5,107.5,NULL,24.5,29,10.89,3.18,14
-2005,12112,Jared,Homan,Jared Homan,C-PF,6' 7.75'',85.25,104.5,NULL,NULL,NULL,NULL,NULL,16
-2005,101141,Ersan,Ilyasova,Ersan Ilyasova,SF,6' 7.75'',85.25,109.5,NULL,22,30,11.59,3.56,2
-2005,101127,Jarrett,Jack,Jarrett Jack,PG,6' 2.5'',79.5,100,NULL,26,28.5,10.87,3.24,5
-2005,101204,Dwayne,Jones,Dwayne Jones,C-PF,6' 8.5'',86.75,108.5,NULL,28,31.5,11.87,3.25,15
-2005,12113,Mindaugas,Katelynas,Mindaugas Katelynas,SF-PF,6' 7.5'',83,105.5,NULL,31.5,35,11.6,3.38,7
-2005,201318,Jason,Klotz,Jason Klotz,C-PF,6' 8.5'',82,107.5,NULL,21.5,27,13.13,3.68,12
-2005,-1,Carl,Krauser,Carl Krauser,PG-SG,5' 11.5'',77.5,98.5,NULL,26,31,11.62,3.38,8
-2005,101247,Keith,Langford,Keith Langford,SG-SF,6' 2.25'',81,101,NULL,32,29.5,11.38,3.23,8
-2005,101135,David,Lee,David Lee,PF,6' 7.75'',84,106.5,NULL,30.5,32.5,10.8,3.19,14
-2005,12114,David,Lucas,David Lucas,PF,6' 6.5'',84,103.5,NULL,NULL,NULL,NULL,NULL,17
-2005,101249,John,Lucas III,John Lucas III,PG,5' 9.25'',72,92,NULL,29,34,10.44,3.14,4
-2005,101185,Rawle,Marshall,Rawle Marshall,SG-SF,6' 4.5'',85,104,NULL,30.5,37,11.64,3.21,7
-2005,101131,Jason,Maxiell,Jason Maxiell,PF,6' 5'',87.25,107,NULL,NULL,NULL,NULL,NULL,NULL
-2005,101118,Sean,May,Sean May,PF,6' 7'',85.25,105,NULL,30,33,11.04,3.29,12
-2005,101119,Rashad,McCants,Rashad McCants,SG,6' 2.75'',82.75,103.5,NULL,32.5,34.5,10.39,3.11,15
-2005,200829,Ivan,McFarlin,Ivan McFarlin,PF,6' 5.5'',81,105.5,NULL,26.5,32,10.64,3.27,10
-2005,12115,Juan,Mendez,Juan Mendez,PF-SF,6' 5.25'',84,106.5,NULL,29,33,11.7,3.24,14
-2005,101223,Aaron,Miles,Aaron Miles,PG,6' 0'',75.5,94,NULL,32,37.5,10.69,3.22,7
-2005,12116,Ellis,Myles,Ellis Myles,PF,6' 6'',81.75,105.5,NULL,26,28.5,12.8,3.42,15
-2005,12117,Larry,O'Bannon,Larry O'Bannon,SG,6' 3'',78,99.5,NULL,31.5,36.5,11.44,3.18,17
-2005,12118,Drago,Pasalic,Drago Pasalic,SF-PF,6' 9.5'',83.75,108.5,NULL,25,30.5,12.12,3.48,11
-2005,101108,Chris,Paul,Chris Paul,PG,5' 11.75'',76.25,93,NULL,32,38,11.09,3.22,10
-2005,200819,Kevin,Pittsnogle,Kevin Pittsnogle,PF,6' 9.25'',82.5,106,NULL,NULL,NULL,NULL,NULL,NULL
-2005,201225,Carlos,Powell,Carlos Powell,SF-PF,6' 5.25'',82.75,105,NULL,27.5,34.5,11.54,3.21,12
-2005,101232,Roger,Powell,Roger Powell,SF,6' 4.75'',83.5,104,NULL,NULL,NULL,NULL,NULL,NULL
-2005,101179,Ronnie,Price,Ronnie Price,PG,6' 0.75'',77.5,96.5,NULL,31.5,39,10.49,3.29,11
-2005,101194,Anthony,Roberson,Anthony Roberson,PG,6' 0.75'',74.75,95,NULL,31.5,37,11.17,3.19,14
-2005,201575,Brandon,Rush,Brandon Rush,SG-SF,6' 5'',83.25,104.5,NULL,32.5,35,11.33,3.31,0
-2005,101195,Luke,Schenscher,Luke Schenscher,C,6' 11.75'',89,111.5,NULL,23.5,26.5,12.4,3.47,1
-2005,101134,Wayne,Simien,Wayne Simien,PF,6' 7.25'',84,107,NULL,27,27.5,11.05,3.35,11
-2005,12120,Tre,Simmons,Tre Simmons,SG-SF,6' 4'',79.5,102.5,NULL,27,31.5,10.8,3.18,3
-2005,12121,David,Simon,David Simon,C-PF,6' 8'',87.5,108,NULL,28,33,11.98,3.44,18
-2005,101147,Chris,Taft,Chris Taft,PF,6' 8.5'',85.75,109,NULL,28.5,33,11.26,3.27,14
-2005,12122,Chris,Thomas,Chris Thomas,PG,5' 11.75'',75,95,NULL,28.5,34,10.84,3.33,14
-2005,12119,Omar,Thomas,Omar Thomas,SF-SG,6' 3.25'',80,102,NULL,25,29.5,11.11,3.27,6
-2005,101159,Dijon,Thompson,Dijon Thompson,SF-SG,6' 6.25'',81.75,105.5,NULL,NULL,NULL,NULL,NULL,NULL
-2005,101142,Ronny,Turiaf,Ronny Turiaf,PF,6' 8'',85.5,106.5,NULL,30.5,33,11.5,3.23,15
-2005,101111,Charlie,Villanueva,Charlie Villanueva,PF-SF,6' 9'',84.25,109,NULL,26,31,10.86,3.3,11
-2005,101124,Hakim,Warrick,Hakim Warrick,PF-SF,6' 7.25'',86,108,NULL,33,38,NULL,3.22,11
-2005,101110,Martell,Webster,Martell Webster,SF,6' 6'',83,106,NULL,28,30.5,11.39,3.39,7
-2005,101156,Robert,Whaley,Robert Whaley,PF-C,6' 8'',86,108,NULL,28.5,33.5,12.11,3.25,15
-2005,101107,Marvin,Williams,Marvin Williams,PF-SF,6' 7'',87.5,108,NULL,29.5,35,11.11,3.17,12
-2005,101114,Deron,Williams,Deron Williams,PG,6' 1.75'',78.25,98,NULL,30,35,10.83,3.25,15
-2005,101214,Jawad,Williams,Jawad Williams,SF,6' 7'',85.25,106.5,NULL,28,34,11.39,3.23,15
-2005,101120,Antoine,Wright,Antoine Wright,SF-SG,6' 5.25'',80.75,104.5,NULL,26.5,29.5,11.45,3.41,12
-2005,101152,Bracey,Wright,Bracey Wright,SG-PG,6' 1.25'',82,100.5,NULL,30,36,11.58,3.27,8
-2007,12204,Mohamed,Abukar,Mohamed Abukar,SF,6' 8'',81,103,8.9,30.5,35,11.78,3.37,15
-2007,12205,Mario,Boggan,Mario Boggan,PF,6' 5'',86,107,9.2,24,26.5,12.18,3.45,12
-2007,12206,Craig,Bradshaw,Craig Bradshaw,PF,6' 8'',85.5,106.5,12.1,26,28,11.88,3.54,12
-2007,201147,Corey,Brewer,Corey Brewer,SF-SG,6' 6'',80.25,103,4.2,30.5,36.5,11.69,3.22,11
-2007,201166,Aaron,Brooks,Aaron Brooks,PG,5' 10'',76,94,2.7,32.5,39.5,10.57,3.2,6
-2007,201628,Bobby,Brown,Bobby Brown,PG,5' 11'',76,95.5,6.6,32.5,41,11.27,3.25,3
-2007,201469,Russell,Carter,Russell Carter,SG,6' 3'',80.5,97.5,6,33,38.5,11.61,3.29,25
-2007,12207,Coleman,Collins,Coleman Collins,PF,6' 8'',86,107,6.2,30,35,11.47,NULL,21
-2007,201144,Mike,Conley,Mike Conley,PG,5' 11'',77.75,94.5,4.2,35.5,40.5,11.63,3.09,13
-2007,201161,Daequan,Cook,Daequan Cook,SG,6' 3'',80.25,101.5,7,30,34.5,11.12,3.22,4
-2007,12208,Ryvon,Covile,Ryvon Covile,C-PF,6' 7'',85.25,107.5,8,25,30.5,12.52,3.37,19
-2007,201159,Javaris,Crittenton,Javaris Crittenton,PG,6' 3'',77.5,98,4.5,32.5,38,11.6,3.32,11
-2007,201176,Jermareo,Davidson,Jermareo Davidson,PF,6' 9'',88,109.5,6.9,27,30,12.63,3.53,7
-2007,12209,Justin,Doellman,Justin Doellman,PF,6' 8'',80.75,105,7,NULL,NULL,NULL,NULL,19
-2007,12210,Zabian,Dowdell,Zabian Dowdell,PG,6' 1'',82,100,5.1,30,33.5,11.13,3.29,3
-2007,201162,Jared,Dudley,Jared Dudley,SF,6' 5'',79,102,7.1,28,32,11.32,3.45,14
-2007,201142,Kevin,Durant,Kevin Durant,SF-PF,6' 9'',88.75,110,6.6,26,33.5,12.33,3.45,0
-2007,12211,Rashaun,Freeman,Rashaun Freeman,PF,6' 6'',83.5,104,11.5,28,32,11.43,3.41,20
-2007,201189,Aaron,Gray,Aaron Gray,C,7' 0'',87.25,108.5,10.8,27,32.5,12.07,3.7,17
-2007,12212,Caleb,Green,Caleb Green,PF,6' 6'',83.75,103,10.9,28.5,36,11.72,3.46,9
-2007,201145,Jeff,Green,Jeff Green,SF,6' 7'',85.25,103,3.7,33.5,38,12,3.34,17
-2007,201192,Taurean,Green,Taurean Green,PG,5' 11'',74.25,96,4.6,29,32.5,11.3,3.26,8
-2007,201150,Spencer,Hawes,Spencer Hawes,PF,6' 10'',84.5,110,13,26,29,11.88,3.51,9
-2007,12214,Brandon,Heath,Brandon Heath,PG,6' 2'',79,94,9,32,36,11.39,3.28,11
-2007,201195,Herbert,Hill,Herbert Hill,C,6' 7'',86.25,108.5,5.6,30.5,34,12.31,3.39,15
-2007,201143,Al,Horford,Al Horford,PF,6' 8'',84.75,107,9.1,31,35.5,12.15,3.37,20
-2007,12215,Quinton,Hosley,Quinton Hosley,SF-SG,6' 5'',83.25,105,5.7,28.5,34,12.47,3.32,12
-2007,12216,James,Hughes,James Hughes,C,6' 9'',87,111,3.5,31,33,13.31,3.37,8
-2007,12217,Jeremy,Hunt,Jeremy Hunt,SG,6' 2'',80.25,101.5,5.2,30.5,33,12.11,3.29,10
-2007,12218,Ekene,Ibekwe,Ekene Ibekwe,PF,6' 8'',90,104,3.2,34.5,39,11,3.28,10
-2007,12219,Dominic,James,Dominic James,PG,5' 10'',74,93,4.8,33.5,38.5,10.94,3.11,14
-2007,201234,Trey,Johnson,Trey Johnson,SG,6' 3'',77,98,5.4,26.5,35,11.78,3.31,18
-2007,12220,Rashad,Jones-Jennings,Rashad Jones-Jennings,PF,6' 6'',84,105.5,5.9,25,30,12.18,3.29,20
-2007,201185,Jared,Jordan,Jared Jordan,PG,6' 0'',72,94,7,24.5,28.5,11.02,3.39,6
-2007,201207,Coby,Karl,Coby Karl,SG-PG,6' 3'',83,99.5,5.4,32,34.5,11.57,3.41,9
-2007,12221,Antanas,Kavaliauskas,Antanas Kavaliauskas,PF,6' 9'',82.5,106.5,7.7,25.5,30,11.19,3.42,19
-2007,201171,Carl,Landry,Carl Landry,PF,6' 7'',83,102.5,7.5,31.5,36.5,11.35,3.29,21
-2007,201186,Stephane,Lasme,Stephane Lasme,PF,6' 5'',86,107,4.9,29.5,36,11.73,3.22,17
-2007,201151,Acie,Law,Acie Law,PG,6' 2'',78.5,98,5.6,29,34,11,3.22,8
-2007,12222,Marko,Lekic,Marko Lekic,C,6' 9'',85,108.5,11.4,24,30.5,11.96,3.43,19
-2007,12223,Ron,Lewis,Ron Lewis,SG,6' 2'',78.5,99,4.5,33,38,11.59,3.22,16
-2007,201858,Cartier,Martin,Cartier Martin,SF,6' 4'',82,103.5,5.6,27,29.5,12.1,3.43,11
-2007,201187,Dominic,McGuire,Dominic McGuire,SF,6' 7'',82.5,104,4.7,28.5,34.5,10.95,3.25,12
-2007,201177,Josh,McRoberts,Josh McRoberts,PF,6' 8'',85,106.5,13.7,27.5,31.5,11.7,3.47,12
-2007,201197,Sammy,Mejia,Sammy Mejia,SG,6' 5'',83,105,8.3,27,31.5,11.87,3.49,7
-2007,12224,Brad,Newley,Brad Newley,SG,6' 5'',80,102.5,8,29.5,31.5,11.77,3.29,3
-2007,201193,Demetris,Nichols,Demetris Nichols,SF,6' 6'',84.25,105,6.2,28.5,32.5,10.39,3.38,16
-2007,201149,Joakim,Noah,Joakim Noah,PF,6' 10'',85.25,106.5,4.8,32.5,37.5,11.79,3.47,12
-2007,201141,Greg,Oden,Greg Oden,C,6' 11'',88.25,112,7.8,32,34,11.67,3.27,NULL
-2007,12225,Ivan,Radenovic,Ivan Radenovic,PF,6' 9'',83.75,106,9.8,23,28,11.61,3.6,7
-2007,12226,JR,Reynolds,JR Reynolds,PG,6' 0'',75.25,95,8.2,27.5,34.5,11.69,3.24,15
-2007,201181,Chris,Richard,Chris Richard,PF,6' 7'',88.5,110.5,7.5,26.5,30.5,11.39,3.29,15
-2007,12227,Dustin,Salisbery,Dustin Salisbery,SG,6' 3'',80,100.5,6.6,34,38,11.07,3.12,11
-2007,12228,Blake,Schilb,Blake Schilb,SG,6' 5'',81,102.5,10,26.5,33.5,11.63,3.36,11
-2007,12229,Renaldas,Seibutis,Renaldas Seibutis,SG,6' 4'',80.75,101,6.1,24,32.5,11.33,3.39,1
-2007,201196,Ramon,Sessions,Ramon Sessions,PG,6' 2'',76.25,97.5,6.2,29.5,33.5,11.65,3.27,8
-2007,201203,Mustafa,Shakur,Mustafa Shakur,PG,6' 3'',77.5,99,4.1,28.5,35,11.82,3.27,11
-2007,201160,Jason,Smith,Jason Smith,PF,6' 10.75'',82.75,106,7.5,33.5,37.5,10.96,3.29,15
-2007,201199,DJ,Strawberry,DJ Strawberry,SG,6' 3.75'',78.5,101,4.5,28.5,35,10.87,3.14,21
-2007,201155,Rodney,Stuckey,Rodney Stuckey,SG-PG,6' 3.75'',79.25,100.5,6.1,30.5,35,11.34,3.11,14
-2007,12230,Curtis,Sumpter,Curtis Sumpter,SF,6' 6'',81.5,104,5.3,27.5,32.5,11.3,3.22,12
-2007,201180,Yue,Sun,Yue Sun,SF,6' 7.75'',81,105,5.1,29,34,10.68,3.45,9
-2007,201249,Jamaal,Tatum,Jamaal Tatum,PG,5' 11.5'',74.5,93.5,5,28.5,33,11.51,3.22,7
-2007,12232,Reyshawn,Terry,Reyshawn Terry,SF,6' 6.75'',82,103.5,8.9,31,37.5,11.76,3.26,18
-2007,201154,Al,Thornton,Al Thornton,SF,6' 5.75'',85,104,5.8,35,41,11.96,3.16,9
-2007,201229,Anthony,Tolliver,Anthony Tolliver,PF,6' 7'',86.5,107.5,5.7,28.5,30,11.49,3.29,21
-2007,12233,Ali,Traore,Ali Traore,C-PF,6' 8.75'',88,108.5,12.1,25,29,12.16,3.52,11
-2007,12234,Kyle,Visser,Kyle Visser,C,6' 10'',83,108,10.2,26,29,12.6,3.39,18
-2007,201208,Darryl,Watkins,Darryl Watkins,C,6' 8.75'',87,110,6.9,26.5,31,11.65,3.56,14
-2007,12235,Major,Wingate,Major Wingate,C,6' 8.5'',88,109,6.7,27.5,30.5,12.14,3.47,15
-2007,12236,DaShaun,Wood,DaShaun Wood,PG,5' 10.75'',72.75,92,5.4,31.5,34.5,11.4,3.23,13
-2007,201153,Julian,Wright,Julian Wright,SF-PF,6' 6.5'',86.25,108,6.1,28.5,33.5,11.48,3.36,2
-2007,201148,Brandan,Wright,Brandan Wright,PF,6' 8.75'',87.75,108.5,5.8,30.5,35.5,11.76,3.31,2
-2007,12237,Avis,Wyatt,Avis Wyatt,PF,6' 8.75'',85,107,3.3,27.5,32,11.46,3.23,12
-2007,201146,Jianlian,Yi,Jianlian Yi,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-2007,201156,Nick,Young,Nick Young,SG-SF,6' 5'',84,100.5,6.8,39.5,40.5,11,3.25,6
-2007,201152,Thaddeus,Young,Thaddeus Young,SF,6' 5.75'',83.5,106,4.9,34.5,37,11.06,3.19,13
-2008,201570,Joe,Alexander,Joe Alexander,SF-PF,6' 7.25'',83.5,106,5.8,32.5,38.5,11.33,2.99,24
-2008,201589,Darrell,Arthur,Darrell Arthur,PF,6' 7.5'',82.75,107,7.3,28.5,30,12.18,3.14,12
-2008,201571,D.J.,Augustin,D.J. Augustin,PG,5' 10'',75.5,94.5,8.1,28.5,35,11.27,3.07,2
-2008,201573,Jerryd,Bayless,Jerryd Bayless,PG-SG,6' 1.75'',75.5,97,4.7,31,38,11.26,3.07,10
-2008,201563,Michael,Beasley,Michael Beasley,PF-SF,6' 7'',84.25,107,7.7,30,35,11.06,3.24,19
-2008,12239,Ramel,Bradley,Ramel Bradley,PG-SG,6' 1.25'',77,98,5.7,24.5,29.5,10.68,3.24,9
-2008,12240,Tyrone,Brazelton,Tyrone Brazelton,PG,5' 10'',73.75,94,8.1,30,34,11.59,3.25,8
-2008,12241,Takais,Brown,Takais Brown,PF,6' 7.25'',82,106,9.2,29,31,12.47,3.25,22
-2008,201812,Keith,Brumbaugh,Keith Brumbaugh,SF-PF,6' 7.5'',79.25,104.5,4,26,27,11.65,3.28,2
-2008,201868,Stanley,Burrell,Stanley Burrell,PG,6' 1.5'',78.25,97.5,5.6,29.5,34.5,11.19,3.19,21
-2008,12242,Brian,Butch,Brian Butch,C-PF,6' 9.5'',83.25,108,10.8,24,26.5,11.87,3.52,9
-2008,12243,Jamar,Butler,Jamar Butler,PG,6' 0.25'',76.75,97,6,NULL,NULL,NULL,NULL,15
-2008,12244,Pat,Calathes,Pat Calathes,SF-PF,6' 8.75'',81.75,106,7.3,NULL,NULL,NULL,NULL,7
-2008,12245,Joe,Crawford,Joe Crawford,SG,6' 3'',77.75,99.5,7.6,31,36,11.67,3.22,13
-2008,12246,Chris,Daniels,Chris Daniels,C-PF,6' 8.25'',84.5,109,16.1,26,28.5,12.72,3.56,11
-2008,201595,Joey,Dorsey,Joey Dorsey,PF-C,6' 6.25'',85.75,107,9,27.5,33,11.84,3.2,19
-2008,12247,Marcus,Dove,Marcus Dove,SF-PF,6' 6.75'',83.5,105,5.3,27.5,33.5,11.59,3.26,10
-2008,12248,Josh,Duncan,Josh Duncan,PF,6' 8'',83.5,104.5,5.4,28,32,12.47,3.26,26
-2008,12249,Frank,Elegar,Frank Elegar,PF,6' 7.25'',87.25,106,4.5,33.5,37.5,11.86,3.17,11
-2008,201607,Patrick,Ewing Jr.,Patrick Ewing Jr.,SF-PF,6' 6'',84.25,97.5,9.4,35,42,11.77,3.43,2
-2008,201814,Gary,Forbes,Gary Forbes,SG,6' 4.5'',83.25,104.5,6.5,27.5,33.5,11.45,3.25,13
-2008,12250,Shan,Foster,Shan Foster,SG,6' 4'',83.5,103.5,6.3,30,33,12.3,3.24,10
-2008,201592,J.R.,Giddens,J.R. Giddens,SG,6' 4'',83.25,103,5.4,NULL,NULL,NULL,NULL,10
-2008,12251,James,Gist,James Gist,PF,6' 7'',88,107.5,4.8,30.5,35,11.37,3.14,5
-2008,12252,Vladimir,Golubovic,Vladimir Golubovic,C,6' 11.25'',86.5,111.5,6.9,21.5,27,12.4,3.33,15
-2008,201569,Eric,Gordon,Eric Gordon,SG,6' 2'',81,99,8.2,32,40,10.81,3.01,15
-2008,201863,Kentrell,Gransberry,Kentrell Gransberry,C,6' 6.75'',82.25,106,17.4,24.5,27.5,12.16,3.32,18
-2008,201590,Donte,Greene,Donte Greene,SF-PF,6' 8.25'',82,108,7.6,27.5,31.5,11.21,3.2,2
-2008,201612,Malik,Hairston,Malik Hairston,SG,6' 4.25'',81,103.5,6.9,30.5,38,11.33,3.08,13
-2008,201614,DeVon,Hardin,DeVon Hardin,C-PF,6' 9.5'',87,109.5,5.8,29.5,32,11.49,3.33,20
-2008,201613,Richard,Hendrix,Richard Hendrix,PF,6' 6.75'',87,108,9.2,26.5,28,10.62,3.27,13
-2008,201588,George,Hill,George Hill,PG,6' 1.25'',81,97.5,3,34,37.5,12.2,3.07,9
-2008,12254,Kyle,Hines,Kyle Hines,SF-PF,6' 3.75'',85.25,104.5,3.6,28.5,33,12.17,3.4,16
-2008,12255,Jiri,Hubalek,Jiri Hubalek,C-PF,6' 9.5'',82.75,109,8.8,20.5,26,12.26,3.54,2
-2008,201991,Lester,Hudson,Lester Hudson,PG,5' 11.75'',80.75,98.5,3.4,30.5,36,11.15,3.16,12
-2008,201629,Othello,Hunter,Othello Hunter,PF-SF,6' 6.5'',87,109.5,6.4,28,34.5,11.51,3.18,7
-2008,201616,Darnell,Jackson,Darnell Jackson,PF,6' 7'',83.25,106.5,12.5,27,31,11.75,3.26,11
-2008,12256,Shawn,James,Shawn James,PF,6' 7.75'',89,111,9.2,NULL,NULL,NULL,NULL,6
-2008,12257,Davon,Jefferson,Davon Jefferson,SF,6' 5.25'',81.5,105,12,27,32,12.02,3.36,2
-2008,12258,Joseph,Jones,Joseph Jones,PF,6' 7'',84.25,107,12.2,25.5,31,11.61,3.33,16
-2008,201599,DeAndre,Jordan,DeAndre Jordan,C,6' 9.75'',90,113.5,7.5,26,30.5,12.3,3.27,8
-2008,12253,Sasha,Kaun,Sasha Kaun,C-PF,6' 9'',88,110,9.6,29,32,12.06,3.2,13
-2008,12260,Marcelus,Kemp,Marcelus Kemp,SG,6' 3'',80.5,103.5,9,26,30,11.79,3.39,9
-2008,12261,Maarty,Leunen,Maarty Leunen,SF,6' 7.25'',80,102.5,8.9,29.5,34.5,11.57,3.36,14
-2008,201848,Longar,Longar,Longar Longar,C,6' 9'',85.25,109.5,10.6,NULL,NULL,NULL,NULL,14
-2008,201572,Brook,Lopez,Brook Lopez,C,6' 11.25'',89.5,113,6.3,27.5,30.5,12.77,3.57,7
-2008,201567,Kevin,Love,Kevin Love,PF,6' 7.75'',83.25,106,12.9,29.5,35,11.17,3.22,18
-2008,12262,Aleks,Maric,Aleks Maric,C,6' 9.75'',85,109.5,10.1,23,28,11.76,3.35,15
-2008,201564,O.J.,Mayo,O.J. Mayo,SG-PG,6' 3.25'',78,99.5,6.3,30.5,41,11.04,3.14,7
-2008,201651,James,Mays,James Mays,PF,6' 6.75'',85.75,105,8.8,29.5,35,11.23,3.19,13
-2008,201601,Luc,Mbah a Moute,Luc Mbah a Moute,SF,6' 5.75'',86.5,103.5,7,32,38.5,11.71,3.17,11
-2008,201580,JaVale,McGee,JaVale McGee,C-PF,6' 11'',90,114.5,5.3,27,32.5,12.75,3.25,7
-2008,12263,Drew,Neitzel,Drew Neitzel,PG,5' 11.75'',74.5,95,6.2,25.5,32,11.19,3.2,10
-2008,201634,DeMarcus,Nelson,DeMarcus Nelson,PG-SG,6' 1'',82,98.5,4.5,34.5,38.5,10.54,3.13,19
-2008,201624,David,Padgett,David Padgett,C-PF,6' 10.25'',85,109.5,9,24,28,12.45,3.45,17
-2008,12264,Jeremy,Pargo,Jeremy Pargo,PG,6' 0.5'',77,96,7.6,32,37,10.65,3.07,7
-2008,12265,Trent,Plaisted,Trent Plaisted,PF,6' 9.25'',82.5,105.5,11,30.5,35.5,11.32,3.17,14
-2008,12266,Quan,Prowell,Quan Prowell,SF-PF,6' 6.75'',82.5,103.5,6.5,32,36,11.79,3.14,16
-2008,12267,Shaun,Pruitt,Shaun Pruitt,C-PF,6' 8.25'',85,107.5,13.8,27,32.5,11.3,3.4,10
-2008,201576,Anthony,Randolph,Anthony Randolph,PF-SF,6' 9'',87,109,4.7,29,35,11.86,3.26,7
-2008,12268,Charles,Rhodes,Charles Rhodes,PF,6' 7.25'',83.25,107.5,10.7,26.5,33.5,11.51,3.13,14
-2008,12259,John,Riek,John Riek,C,6' 10.5'',92.75,NULL,11,NULL,NULL,NULL,NULL,NULL
-2008,12269,Brian,Roberts,Brian Roberts,PG,6' 0.25'',73.25,95,3.6,31.5,36.5,10.65,3.05,10
-2008,201781,Russell,Robinson,Russell Robinson,PG,6' 0.5'',80,100.5,7.4,25,31.5,11.3,3.15,8
-2008,12270,Richard,Roby,Richard Roby,SG-SF,6' 4.25'',81.75,104,9.2,NULL,NULL,NULL,NULL,NULL
-2008,201565,Derrick,Rose,Derrick Rose,PG,6' 1.5'',80,98.5,4.6,34.5,40,11.69,3.05,10
-2008,201606,Sean,Singletary,Sean Singletary,PG,5' 11'',76.5,95,4.2,26,NULL,NULL,NULL,18
-2008,12271,Ronald,Steele,Ronald Steele,PG,6' 0.25'',76.25,97.5,8.1,25,29.5,11.08,3.26,5
-2008,201446,Mike,Taylor,Mike Taylor,SG-PG,6' 0.75'',79.25,98,3.8,31,39,10.98,3.08,2
-2008,12272,Bryce,Taylor,Bryce Taylor,SG,6' 2.75'',81,99.5,8.3,34.5,41,11.08,3.19,16
-2008,201872,Mark,Tyndale,Mark Tyndale,SG-SF,6' 2.75'',83,103.5,6.7,27,33.5,12.52,3.14,5
-2008,12273,Robert,Vaden,Robert Vaden,SG,6' 3.5'',80,101,6.2,26,29.5,11.97,3.4,10
-2008,201622,Deron,Washington,Deron Washington,SF,6' 5.25'',81,102.5,7.2,34,40,11.03,3.09,7
-2008,201603,Sonny,Weems,Sonny Weems,SG-SF,6' 4'',82,104,4.4,29,36.5,10.58,2.96,12
-2008,201566,Russell,Westbrook,Russell Westbrook,PG,6' 2.25'',79.75,100,4.8,30,36.5,10.98,3.08,12
-2008,199,Reggie,Williams,Reggie Williams,SG,6' 3.25'',81.25,103,5.3,31.5,36.5,11.32,3.07,15
-2009,202399,Jeff,Adrien,Jeff Adrien,PF,6' 5.25'',86,107.5,7.9,27.5,31.5,11.34,3.32,16
-2009,201965,Jeff,Ayres,Jeff Ayres,PF,6' 8.75'',85,107,5.5,31,35,11.98,3.14,15
-2009,201958,Rodrigue,Beaubois,Rodrigue Beaubois,PG,6' 1.25'',81.75,100,7.9,29.5,39,10.49,3.15,3
-2009,201971,DeJuan,Blair,DeJuan Blair,PF,6' 5.25'',86,106.5,12,26,33,11.5,3.45,18
-2009,201974,Derrick,Brown,Derrick Brown,SF-PF,6' 7.5'',86.5,107.5,8.6,30.5,35.5,11.26,3.13,20
-2009,201978,Chase,Budinger,Chase Budinger,SF-SG,6' 6.25'',79,101,10,29.5,38.5,11.08,3.24,10
-2009,201960,DeMarre,Carroll,DeMarre Carroll,PF-SF,6' 6.25'',82,105,6.3,NULL,NULL,NULL,NULL,NULL
-2009,201956,Omri,Casspi,Omri Casspi,SF,6' 7.75'',81.25,106.5,8.6,25.5,32.5,11.15,3.28,2
-2009,12275,Dionte,Christmas,Dionte Christmas,SG,6' 4.25'',81,102.5,7.1,27,33.5,10.83,3.21,3
-2009,201947,Earl,Clark,Earl Clark,SF-PF,6' 8.5'',86.5,109.5,5.2,28.5,33,11.17,3.35,5
-2009,201954,Darren,Collison,Darren Collison,PG,6' 0.25'',75,96.5,5.7,30.5,33.5,10.45,3.1,9
-2009,201967,Dante,Cunningham,Dante Cunningham,PF,6' 7'',83,106.5,4.8,28,35,11.18,3.26,18
-2009,201939,Stephen,Curry,Stephen Curry,PG-SG,6' 2'',75.5,97,5.7,29.5,35.5,11.07,3.28,10
-2009,201948,Austin,Daye,Austin Daye,SF-PF,6' 9.75'',86.75,110,5.5,25,28,12.11,3.55,0
-2009,201942,DeMar,DeRozan,DeMar DeRozan,SG-SF,6' 5.5'',81,102.5,4.9,29,38.5,11.88,3.31,5
-2009,201962,Toney,Douglas,Toney Douglas,PG,6' 1'',78,97.5,5.2,28,32.5,10.63,3.03,15
-2009,201961,Wayne,Ellington,Wayne Ellington,SG,6' 4.25'',78.5,100,5.5,31.5,38,11.14,3.2,13
-2009,201936,Tyreke,Evans,Tyreke Evans,PG-SG,6' 4'',83.25,104,7.1,28.5,34,11.81,3.17,7
-2009,201938,Jonny,Flynn,Jonny Flynn,PG,5' 11.25'',76,95.5,6.3,33,40,10.86,3.23,10
-2009,201959,Taj,Gibson,Taj Gibson,PF,6' 8.5'',88,109,6.6,25.5,30,11.56,3.41,12
-2009,201980,Danny,Green,Danny Green,SG-SF,6' 5.25'',82,103,5.6,29,33,11.3,3.3,15
-2009,201933,Blake,Griffin,Blake Griffin,PF,6' 8.5'',83.25,105,8.2,32,35.5,10.95,3.28,22
-2009,201946,Tyler,Hansbrough,Tyler Hansbrough,PF,6' 8.25'',83.5,106,8.5,27.5,34,11.12,3.27,18
-2009,201935,James,Harden,James Harden,SG,6' 4'',82.75,103.5,10.1,31.5,37,11.1,3.13,17
-2009,201945,Gerald,Henderson,Gerald Henderson,SG-SF,6' 4'',82.25,102.5,4.4,31.5,35,11.17,3.14,8
-2009,12278,Josh,Heytvelt,Josh Heytvelt,PF-C,6' 10'',85.25,108,10.8,28.5,34,11.67,3.38,15
-2009,201941,Jordan,Hill,Jordan Hill,PF-C,6' 9.25'',85.5,108,6,31,35,12.23,3.3,11
-2009,201950,Jrue,Holiday,Jrue Holiday,PG-SG,6' 3.25'',79,100.5,6.3,28.5,34,10.64,3.21,6
-2009,12279,Joe,Ingles,Joe Ingles,SF,6' 7.75'',82.25,105,10.1,26,31,10.66,3.3,3
-2009,201949,James,Johnson,James Johnson,SF-PF,6' 7'',84.75,105.5,12,30.5,35,11.21,3.23,18
-2009,201951,Ty,Lawson,Ty Lawson,PG,5' 11.25'',72.75,94.5,6.6,29,36.5,10.98,3.12,14
-2009,201953,Eric,Maynor,Eric Maynor,PG,6' 2.25'',74.5,97,5.4,28.5,31.5,10.78,3.19,8
-2009,12282,Jack,McClinton,Jack McClinton,SG-PG,5' 11.75'',74.5,96,6.2,30,36.5,10.44,3.21,13
-2009,12283,Jerel,McNeal,Jerel McNeal,SG,6' 1.5'',79.25,99.5,5.4,31.5,36.5,10.61,3.25,10
-2009,201975,Jodie,Meeks,Jodie Meeks,SG,6' 3'',76.5,98,8,28.5,37,10.96,3.1,14
-2009,201988,Patty,Mills,Patty Mills,PG,5' 11.25'',74,95,6.9,27.5,33,10.87,3.1,8
-2009,201957,Byron,Mullens,Byron Mullens,C,6' 11.75'',85.5,111,8.5,28.5,32.5,11.1,3.45,10
-2009,201985,A.J.,Price,A.J. Price,PG,6' 0.5'',75.75,97,12.4,26,31,10.99,3.22,11
-2009,12284,Tyler,Smith,Tyler Smith,SF,6' 5.25'',81.75,104.5,7,29,33.5,10.69,3.24,10
-2009,201969,DaJuan,Summers,DaJuan Summers,SF,6' 7.25'',84.75,106.5,6.6,29.5,34.5,10.94,3.17,15
-2009,201966,Jermaine,Taylor,Jermaine Taylor,SG,6' 3.5'',80.75,101,5.8,34,37.5,11.54,3.32,16
-2009,201952,Jeff,Teague,Jeff Teague,PG,6' 0.25'',79.5,98.5,4.5,30.5,36.5,11.05,3.18,13
-2009,201934,Hasheem,Thabeet,Hasheem Thabeet,C,7' 1.25'',90.25,113,6.7,NULL,NULL,NULL,NULL,NULL
-2009,201977,Marcus,Thornton,Marcus Thornton,SG,6' 2.75'',77,99,4.8,31,33,10.73,3.28,14
-2009,201944,Terrence,Williams,Terrence Williams,SG-SF,6' 5'',81,103.5,5.1,30.5,37,11.15,3.18,9
-2009,201970,Sam,Young,Sam Young,SF-SG,6' 5.25'',82.75,105.5,4.9,27.5,33,11.47,3.45,NULL
-2010,202374,Solomon,Alabi,Solomon Alabi,C,6' 11.5'',89,113,5,22.5,26,13.2,3.68,10
-2010,202332,Cole,Aldrich,Cole Aldrich,C,6' 9'',88.75,111.5,8.5,23,28,11.48,3.35,10
-2010,202329,Al-Farouq,Aminu,Al-Farouq Aminu,SF,6' 7.25'',87.25,108.5,8.2,27,33.5,11.29,3.3,13
-2010,202341,James,Anderson,James Anderson,SF,6' 4.75'',80.5,104,7.9,30,35.5,11.86,3.19,14
-2010,202337,Luke,Babbitt,Luke Babbitt,SF-PF,6' 7.5'',83.25,104.5,5.6,29.5,37.5,10.98,3.4,15
-2010,202339,Eric,Bledsoe,Eric Bledsoe,PG,6' 0.25'',79.5,98,5.6,NULL,NULL,NULL,NULL,9
-2010,202344,Trevor,Booker,Trevor Booker,PF,6' 6.25'',81.75,106,7.3,31,36,11.15,3.1,22
-2010,202342,Craig,Brackins,Craig Brackins,PF-SF,6' 8.5'',84,109,7.9,26,35,11.65,3.39,6
-2010,202340,Avery,Bradley,Avery Bradley,SG-PG,6' 2'',79.25,98.5,4,31.5,37.5,11.47,3.14,2
-2010,202382,Derrick,Caracter,Derrick Caracter,PF,6' 8.25'',84.25,107.5,12.8,25,30.5,12.78,3.61,22
-2010,202395,Sherron,Collins,Sherron Collins,PG,5' 10.25'',74.5,94,9.2,27.5,33,12.31,3.24,NULL
-2010,202326,DeMarcus,Cousins,DeMarcus Cousins,C,6' 9.5'',89.75,113,16.4,23.5,27.5,11.4,3.55,NULL
-2010,202348,Jordan,Crawford,Jordan Crawford,SG,6' 3'',79,101,4.9,31.5,34.5,11.03,3.37,7
-2010,202334,Ed,Davis,Ed Davis,PF,6' 9'',84,108,10,31,36,11.7,3.21,NULL
-2010,202365,Devin,Ebanks,Devin Ebanks,SF,6' 7'',84.25,107.5,7.9,23.5,32,11.69,3.44,6
-2010,202324,Derrick,Favors,Derrick Favors,PF,6' 8.75'',88,110,6.5,31.5,35.5,11.74,3.25,14
-2010,12316,Keith,Gallon,Keith Gallon,PF-C,6' 8.5'',88.5,109.5,15.1,23.5,28.5,13.44,3.7,14
-2010,12317,Charles,Garcia,Charles Garcia,SF,6' 8.25'',85.75,107.5,7,24.5,30.5,11.65,3.23,2
-2010,202331,Paul,George,Paul George,SF,6' 7.75'',83.25,107,5,NULL,NULL,NULL,NULL,4
-2010,202376,Luke,Harangody,Luke Harangody,PF,6' 6'',81.5,106,11.1,24,28.5,11.83,3.41,23
-2010,202412,Manny,Harris,Manny Harris,SG,6' 4'',79.25,102,3.8,NULL,NULL,NULL,NULL,11
-2010,202351,Lazar,Hayward,Lazar Hayward,SG-SF,6' 4.5'',84.75,102,7.5,31,36,10.87,3.31,15
-2010,202330,Gordon,Hayward,Gordon Hayward,SF,6' 6.75'',79.75,103,6.9,30.5,34.5,11.73,3.22,10
-2010,202333,Xavier,Henry,Xavier Henry,SG,6' 5.25'',83.25,105,4.7,28.5,36.5,11.1,3.18,8
-2010,202359,Darington,Hobson,Darington Hobson,SG-SF,6' 5.25'',81.25,104.5,6.2,29,34,11.68,3.25,NULL
-2010,202345,Damion,James,Damion James,SF,6' 6.25'',84.75,107,9.6,29,33,10.89,3.2,13
-2010,202325,Wesley,Johnson,Wesley Johnson,SF,6' 6.25'',85,106,4.6,32,37,11.43,3.14,16
-2010,202356,Armon,Johnson,Armon Johnson,PG-SG,6' 2'',80,99.5,5.6,31.5,38.5,11.25,3.19,18
-2010,202346,Dominique,Jones,Dominique Jones,SG,6' 3.25'',81.25,101,5.9,26,32.5,10.88,3.31,19
-2010,12329,Jerome,Jordan,Jerome Jordan,C,6' 11.5'',89.25,113,6.9,NULL,NULL,NULL,NULL,NULL
-2010,12330,Sylven,Landesberg,Sylven Landesberg,SG,6' 4.75'',81,100.5,11.6,28,32,11.59,3.36,8
-2010,202371,Gani,Lawal,Gani Lawal,PF,6' 7.5'',84,107.5,6.3,27,31.5,11.61,3.24,20
-2010,202328,Greg,Monroe,Greg Monroe,PF-C,6' 9.75'',86.25,108.5,11.2,25,29,12.1,3.35,15
-2010,202350,Daniel,Orton,Daniel Orton,C,6' 8.75'',88.25,110.5,13.8,24,30.5,12.32,3.39,13
-2010,12334,Artsiom,Parakhouski,Artsiom Parakhouski,C,6' 10.25'',85,109.5,6,25.5,26.5,12.07,3.33,16
-2010,202335,Patrick,Patterson,Patrick Patterson,PF,6' 8'',85.25,107,5.3,28.5,33.5,11.14,3.25,17
-2010,202354,Dexter,Pittman,Dexter Pittman,PF-C,6' 9.5'',90,111,20.8,NULL,NULL,NULL,NULL,NULL
-2010,202360,Andy,Rautins,Andy Rautins,SG,6' 4.25'',79,100,6.2,23.5,30.5,11.27,3.49,8
-2010,12338,Ryan,Richards,Ryan Richards,PF,6' 10.5'',85.5,110,8,25,28.5,11.33,3.37,4
-2010,202383,Stanley,Robinson,Stanley Robinson,SF,6' 6.5'',84,107.5,8.3,NULL,37.5,11.65,3.23,6
-2010,202336,Larry,Sanders,Larry Sanders,PF-C,6' 9.25'',89.75,112,4.6,25.5,28,12.49,3.27,7
-2010,12341,Jon,Scheyer,Jon Scheyer,PG-SG,6' 4.75'',75.25,99,5.4,NULL,NULL,NULL,NULL,NULL
-2010,202362,Lance,Stephenson,Lance Stephenson,SG,6' 4.5'',82.5,103,9.3,27,33,11.39,3.38,10
-2010,12343,Mikhail,Torrance,Mikhail Torrance,PG,6' 4'',79.5,103,7,23,32,11.43,3.17,8
-2010,202323,Evan,Turner,Evan Turner,SG,6' 5.75'',80,103.5,8.6,27.5,34.5,11.06,3.27,9
-2010,202327,Ekpe,Udoh,Ekpe Udoh,PF,6' 8.75'',88.5,106.5,8,31,33.5,11.15,3.29,10
-2010,12346,Jarvis,Varnado,Jarvis Varnado,PF-C,6' 8.25'',87.5,109.5,9.5,29.5,32.5,11.61,3.37,3
-2010,202349,Greivis,Vasquez,Greivis Vasquez,PG-SG,6' 5'',79,101,8.6,NULL,NULL,NULL,NULL,NULL
-2010,202322,John,Wall,John Wall,PG,6' 2.75'',81.25,101.5,5.6,30,39,10.84,3.14,NULL
-2010,202378,Willie,Warren,Willie Warren,SG-PG,6' 2.5'',78,99.5,7.6,23,31.5,11.21,3.5,10
-2010,202358,Terrico,White,Terrico White,SG-PG,6' 3.75'',81,101,3.7,31,40,11.38,3.15,10
-2010,202355,Hassan,Whiteside,Hassan Whiteside,C-PF,6' 10.5'',91,113,5.5,27,31.5,11.83,3.54,12
-2011,202728,Keith,Benson,Keith Benson,C-PF,6' 10'',87.75,109.5,6.1,31.5,36,11.88,3.35,12
-2011,202705,Marshon,Brooks,Marshon Brooks,SG,6' 4.25'',85,101,5.2,34,38.5,10.74,3.09,5
-2011,202692,Alec,Burks,Alec Burks,SG,6' 5'',82,103.5,5.1,29,36,10.96,3.17,5
-2011,202710,Jimmy,Butler,Jimmy Butler,SF,6' 6'',79.5,101.5,5.4,32,39,11.12,3.15,14
-2011,202708,Norris,Cole,Norris Cole,PG,6' 0.25'',74.25,95.5,4.7,29.5,38.5,10.07,3.22,11
-2011,202739,Jon,Diebler,Jon Diebler,SG,6' 5.25'',78,99,8.5,28,35,10.94,3.37,2
-2011,12406,Michael,Dunigan,Michael Dunigan,PF-C,6' 8.5'',87.25,107.5,8,29.5,34.5,11.85,3.27,10
-2011,12407,LaceDarius,Dunn,LaceDarius Dunn,SG,6' 3'',78.25,101,5.5,26.5,31,11.45,3.27,3
-2011,202702,Kenneth,Faried,Kenneth Faried,PF,6' 6'',84,108,6.3,30.5,35,11.35,3.26,16
-2011,12409,James,Fredette,James Fredette,PG,6' 0.75'',76.5,96.5,7.7,28,33,10.42,3.21,14
-2011,202726,Andrew,Goudelock,Andrew Goudelock,PG,6' 1.25'',76.25,96.5,9.9,32.5,37,10.33,3.1,4
-2011,202706,Jordan,Hamilton,Jordan Hamilton,SF,6' 6.75'',81.5,104,9.8,25,32,11.47,3.3,7
-2011,202712,Justin,Harper,Justin Harper,PF-SF,6' 8'',83.75,106,4,28.5,33,11.92,3.3,19
-2011,202699,Tobias,Harris,Tobias Harris,SF-PF,6' 6.5'',83,103.5,8.4,31.5,37.5,10.96,3.17,12
-2011,202715,Tyler,Honeycutt,Tyler Honeycutt,SF,6' 6.75'',81,105,5.3,30,37,11.68,3.07,NULL
-2011,12415,Scotty,Hopson,Scotty Hopson,SG,6' 5.75'',82.5,103.5,4.8,32.5,36,10.47,3.18,10
-2011,202681,Kyrie,Irving,Kyrie Irving,PG,6' 1.75'',76,99,10.2,NULL,NULL,NULL,NULL,NULL
-2011,12417,Rick,Jackson,Rick Jackson,PF,6' 8.25'',86,106.5,8.3,28.5,33,11.51,3.26,9
-2011,202724,Charles,Jenkins,Charles Jenkins,PG-SG,6' 1.5'',79.5,96.5,4.3,29.5,34,11.68,3.18,16
-2011,202707,JaJuan,Johnson,JaJuan Johnson,PF,6' 9'',86,107.5,7.5,33.5,38,11.21,3.14,15
-2011,202709,Cory,Joseph,Cory Joseph,PG,6' 2'',77.5,99,9.7,27.5,35,10.75,3.27,5
-2011,202683,Enes,Kanter,Enes Kanter,PF-C,6' 9.75'',85.5,109.5,5.9,26,32.5,11.3,3.26,14
-2011,202688,Brandon,Knight,Brandon Knight,PG,6' 1.5'',78.75,98.5,4.2,29,37.5,10.74,3.07,10
-2011,202723,Malcolm,Lee,Malcolm Lee,SG,6' 4'',81.75,101.5,5.9,30,35.5,11.2,3.09,17
-2011,202695,Kawhi,Leonard,Kawhi Leonard,SF,6' 6'',87,106,5.4,25.5,32,11.45,3.15,3
-2011,202727,Travis,Leslie,Travis Leslie,SG,6' 3'',82.5,103,8.1,33,40.5,11,3.13,10
-2011,202720,Jon,Leuer,Jon Leuer,PF,6' 10'',84,105.5,5.4,29.5,36.5,10.82,3.36,14
-2011,202732,DeAndre,Liggins,DeAndre Liggins,SF-SG,6' 5'',83,103.5,5,27,31,NULL,3.33,6
-2011,12428,David,Lighty,David Lighty,SG,6' 4.75'',80,101,6.5,28.5,33,10.81,3.25,15
-2011,202714,Shelvin,Mack,Shelvin Mack,PG,6' 1'',79.5,96.5,7.1,32,39,11.23,3.18,17
-2011,12430,Demetri,McCamey,Demetri McCamey,PG,6' 1.75'',78.25,99.5,6.1,27,33,11.55,3.19,NULL
-2011,202734,E'Twaun,Moore,E'Twaun Moore,SG,6' 2.5'',81.5,99.5,7.6,32,34.5,11.12,3.31,NULL
-2011,202694,Marcus,Morris,Marcus Morris,PF-SF,6' 7'',82,105.5,8,29,33,NULL,3.15,11
-2011,202693,Markieff,Morris,Markieff Morris,PF,6' 7.75'',82.75,106.5,10.2,27,31.5,NULL,3.4,11
-2011,202721,Darius,Morris,Darius Morris,PG-SG,6' 3.25'',79.5,102,5.3,24.5,32,11,3.2,12
-2011,202718,Chandler,Parsons,Chandler Parsons,SF,6' 8.75'',81.5,104.5,7,25.5,31.5,11.05,3.29,4
-2011,12436,Jereme,Richmond,Jereme Richmond,SF,6' 6'',82.25,106.5,5.5,27,33.5,11.74,3.02,0
-2011,202729,Josh,Selby,Josh Selby,SG-PG,6' 1.75'',77.25,98,7.9,29.5,42,11.13,3.2,5
-2011,202697,Iman,Shumpert,Iman Shumpert,PG-SG,6' 4.25'',81.5,99.5,6.5,36.5,42,11.1,3.18,18
-2011,202713,Kyle,Singler,Kyle Singler,SF,6' 7.5'',82.1,106,10,23,30,11.22,3.21,10
-2011,202698,Chris,Singleton,Chris Singleton,SF,6' 7.75'',85,103.5,7.4,30.5,37.5,11.33,3.09,15
-2011,12441,Jamie,Skeen,Jamie Skeen,PF,6' 6.5'',85.25,106.5,9.8,26,30.5,12.43,3.46,10
-2011,202701,Nolan,Smith,Nolan Smith,PG,6' 1.5'',77.5,99,5.6,28.5,34,11.05,3.17,9
-2011,12442,Gregory,Smith,Gregory Smith,PF-C,6' 8'',86.5,106.5,7.4,29.5,36,12.43,3.36,17
-2011,12445,Malcolm,Thomas,Malcolm Thomas,PF,6' 7.5'',84.5,107.5,5.9,32,36.5,11.31,3.29,3
-2011,202738,Isaiah,Thomas,Isaiah Thomas,PG,5' 8.75'',73.75,91.5,6.7,31.5,40,10.49,3.14,13
-2011,202717,Trey,Thompkins,Trey Thompkins,PF,6' 8.5'',85,107.5,15.5,27.5,30.5,11.72,3.41,15
-2011,202684,Tristan,Thompson,Tristan Thompson,PF,6' 7.5'',85.25,108.5,6.2,30,35,10.92,3.26,9
-2011,202691,Klay,Thompson,Klay Thompson,SG,6' 5.75'',81,103.5,8,26.5,31.5,10.99,3.24,5
-2011,202719,Jeremy,Tyler,Jeremy Tyler,PF-C,6' 9'',89,110.5,13.4,28,33.5,11.26,3.29,10
-2011,202696,Nikola,Vucevic,Nikola Vucevic,PF-C,6' 10.25'',88.5,112.5,6.1,23.5,25,12.02,3.27,8
-2011,202689,Kemba,Walker,Kemba Walker,PG,5' 11.5'',75.5,91.5,5.9,32,39.5,10.87,3.16,7
-2011,202716,Jordan,Williams,Jordan Williams,PF,6' 7.75'',84.25,106.5,12.1,25,30.5,12.74,3.45,10
-2011,202682,Derrick,Williams,Derrick Williams,PF-SF,6' 7.25'',85.5,108,10.8,29,34.5,11.03,3.23,19
-2012,203112,Quincy,Acy,Quincy Acy,PF,6' 6.5'',86.75,106.5,7.1,32,37,10.48,3.28,13
-2012,203084,Harrison,Barnes,Harrison Barnes,SF-SG,6' 7'',83.25,101.5,9.6,38,39.5,10.93,3.16,15
-2012,203115,Will,Barton,Will Barton,SG-SF,6' 5'',81.75,102.5,4.1,30,34,12.5,3.6,0
-2012,203078,Bradley,Beal,Bradley Beal,SG,6' 3.25'',80,100,6,33,39,10.95,3.28,8
-2012,12458,J'Covan,Brown,J'Covan Brown,PG,6' 1'',77.25,96,12.5,26,29.5,11.68,3.47,3
-2012,203733,William,Buford,William Buford,SG-SF,6' 4'',81.5,102,11.3,27.5,32.5,11.4,3.43,8
-2012,203109,Jae,Crowder,Jae Crowder,SF,6' 4.75'',81.25,99.5,9,31,34.5,11.45,3.37,20
-2012,203099,Jared,Cunningham,Jared Cunningham,SG-PG,6' 3.5'',78.5,98,3.6,NULL,NULL,NULL,NULL,4
-2012,203076,Anthony,Davis,Anthony Davis,PF-C,6' 9.25'',89.5,108,7.9,NULL,NULL,NULL,NULL,NULL
-2012,203134,Marcus,Denmon,Marcus Denmon,SG,6' 2.25'',77,94.5,6.6,33.5,40,10.82,3.19,8
-2012,203083,Andre,Drummond,Andre Drummond,C,6' 9.75'',90.25,109.5,7.5,31.5,33.5,10.83,3.39,10
-2012,203119,Kim,English,Kim English,SG,6' 4.5'',78.5,98,4.3,29,36.5,10.59,3.33,NULL
-2012,203105,Festus,Ezeli,Festus Ezeli,C-PF,6' 9.75'',89.75,108,5.5,34,33.5,12.35,3.29,18
-2012,12467,Drew,Gordon,Drew Gordon,PF,6' 8'',83.5,103.5,9.1,29,34,11.35,3.49,10
-2012,203254,JaMychal,Green,JaMychal Green,PF,6' 8'',86.25,106.5,9.8,29.5,32.5,10.63,3.38,19
-2012,203110,Draymond,Green,Draymond Green,PF-SF,6' 5.75'',85.25,105,11.3,28,33,11.01,3.4,9
-2012,203090,Maurice,Harkless,Maurice Harkless,SF,6' 7.25'',84,102.5,5.3,32.5,37,10.87,3.25,5
-2012,203089,John,Henson,John Henson,PF,6' 9'',89,112,8.6,25.5,30,NULL,NULL,5
-2012,203189,Tu,Holloway,Tu Holloway,PG,5' 10.5'',77.5,94.5,8.5,28,35,11,3.42,12
-2012,203133,Robbie,Hummel,Robbie Hummel,SF,6' 7.25'',80.5,102,9.4,27.5,30,11.56,3.41,13
-2012,203108,Bernard,James,Bernard James,PF,6' 8.75'',87,108.5,5,30,32.5,11.84,3.4,6
-2012,203098,John,Jenkins,John Jenkins,SG,6' 3.25'',80.5,98,7.1,30.5,36.5,11.36,3.37,10
-2012,203111,Orlando,Johnson,Orlando Johnson,SG,6' 3.75'',83.25,99,7,32,39.5,10.98,3.25,13
-2012,203130,Darius,Johnson-Odom,Darius Johnson-Odom,SG,6' 1.5'',79,96,7,33.5,41.5,10.76,3.21,17
-2012,203093,Terrence,Jones,Terrence Jones,PF-SF,6' 8.25'',86.25,107,7.7,29.5,34.5,11.57,3.4,12
-2012,203158,Kevin,Jones,Kevin Jones,PF,6' 6.25'',85.5,105,11.2,27.5,32.5,11.94,3.6,17
-2012,203103,Perry,Jones,Perry Jones,PF-SF,6' 10.25'',85.75,107,4.6,33,38.5,11.31,3.19,11
-2012,203126,Kris,Joseph,Kris Joseph,SG,6' 6'',83,104,8.6,28.5,35,NULL,3.46,6
-2012,203077,Michael,Kidd-Gilchrist,Michael Kidd-Gilchrist,SF,6' 5.75'',84,104.5,7,32,35.5,11.77,3.18,6
-2012,203117,Doron,Lamb,Doron Lamb,SG-PG,6' 3.25'',78.75,98.5,6.7,29,33.5,11.12,3.41,2
-2012,203087,Jeremy,Lamb,Jeremy Lamb,SG,6' 4'',83,102,4.5,31.5,38,10.98,3.25,5
-2012,203086,Meyers,Leonard,Meyers Leonard,C,6' 11.75'',87,108,5.7,30,32.5,11.34,3.41,19
-2012,203081,Damian,Lillard,Damian Lillard,PG,6' 1.75'',79.75,95.5,5.9,34.5,39.5,11.15,3.34,13
-2012,203159,Scott,Machado,Scott Machado,PG,6' 1'',76,94.5,5.8,27,32.5,11.26,3.3,17
-2012,203088,Kendall,Marshall,Kendall Marshall,PG,6' 3.25'',77.5,96,7.8,31,37,12.03,3.23,NULL
-2012,203097,Fab,Melo,Fab Melo,C,6' 10.75'',86.5,110,9.2,29.5,31,12.14,3.44,9
-2012,203114,Khris,Middleton,Khris Middleton,SF,6' 6.75'',82.75,103,7.8,28,31,11.45,3.47,4
-2012,203121,Darius,Miller,Darius Miller,SF-SG,6' 6'',81,101,7.5,33,37,11.34,3.31,14
-2012,203113,Quincy,Miller,Quincy Miller,SF,6' 8.75'',85.25,105,7.8,30.5,36,11.05,3.48,8
-2012,203183,Tony,Mitchell,Tony Mitchell,SG,6' 5.25'',82,100,5.7,31.5,40,11.72,3.47,14
-2012,203102,Arnett,Moultrie,Arnett Moultrie,PF,6' 9.5'',86.25,106.5,7.7,33.5,37.5,11.32,3.22,10
-2012,203122,Kevin,Murphy,Kevin Murphy,SG,6' 5'',78.75,99,5.8,31,36.5,10.97,3.42,11
-2012,203094,Andrew,Nicholson,Andrew Nicholson,PF,6' 8.5'',88,107,7.6,28.5,30.5,11.89,3.67,10
-2012,203124,Kyle,O'Quinn,Kyle O'Quinn,PF,6' 8.5'',88.75,106.5,8,31.5,31.5,11.65,3.53,NULL
-2012,203101,Miles,Plumlee,Miles Plumlee,PF-C,6' 10.5'',84.75,105.5,11.4,34,40.5,10.64,3.36,15
-2012,203085,Austin,Rivers,Austin Rivers,SG-PG,6' 3.5'',79.25,96.5,6.2,32.5,37.5,11.54,3.32,1
-2012,203080,Thomas,Robinson,Thomas Robinson,PF,6' 7.75'',87.25,106,5,28.5,35.5,11.96,3.17,15
-2012,203082,Terrence,Ross,Terrence Ross,SG-SF,6' 6'',79.25,100.5,3.2,31,37.5,11.78,3.28,2
-2012,203107,Tomas,Satoransky,Tomas Satoransky,PG-SG,6' 6.5'',79.25,100,5.2,NULL,NULL,NULL,NULL,NULL
-2012,203118,Mike,Scott,Mike Scott,PF,6' 7.25'',82.75,104,10.6,27,32.5,11.59,3.44,14
-2012,203156,Henry,Sims,Henry Sims,C-PF,6' 10'',88,108,7.7,26.5,29.5,12.33,3.44,7
-2012,203096,Jared,Sullinger,Jared Sullinger,PF,6' 7.75'',85.25,105.5,10.7,29.5,31,12.77,3.81,9
-2012,203116,Tyshawn,Taylor,Tyshawn Taylor,PG,6' 2.75'',78.25,97.5,4.2,32,36.5,11.48,3.2,0
-2012,12507,Jordan,Taylor,Jordan Taylor,PG,6' 1'',75,92.5,5.5,33,36.5,10.57,3.19,14
-2012,203106,Jeff,Taylor,Jeff Taylor,SF-SG,6' 6'',78.25,101.5,4.2,33.5,40,10.87,3.29,15
-2012,203104,Marquis,Teague,Marquis Teague,PG,6' 1'',79.25,96.5,6.3,32.5,40.5,10.65,3.19,8
-2012,203138,Hollis,Thompson,Hollis Thompson,SF,6' 6.75'',81.5,102.5,6,28.5,36.5,11.72,3.38,6
-2012,203079,Dion,Waiters,Dion Waiters,SG,6' 2.5'',79.25,98,8.5,NULL,NULL,NULL,NULL,NULL
-2012,203091,Royce,White,Royce White,PF,6' 7'',84,104.5,10.6,NULL,NULL,NULL,NULL,NULL
-2012,203100,Tony,Wroten,Tony Wroten,PG,6' 4.75'',81,101,5.2,30,35.5,10.75,3.24,0
-2012,203092,Tyler,Zeller,Tyler Zeller,PF-C,6' 11.25'',84,104.5,6.4,30,34,11.13,3.4,16
-2013,203500,Steven,Adams,Steven Adams,C,6' 10.75'',88.5,109.5,6.65,28.5,33,11.85,3.4,16
-2013,203505,Vander,Blue,Vander Blue,SG,6' 3.5'',78,100.5,4.6,28,37.5,10.4,3.14,4
-2013,203485,Lorenzo,Brown,Lorenzo Brown,PG,6' 4'',79,100,3.95,28,34,11.78,3.4,8
-2013,203493,Reggie,Bullock,Reggie Bullock,SG-SF,6' 5.75'',80.75,102,6.95,31,36.5,11.33,3.31,11
-2013,203504,Trey,Burke,Trey Burke,PG,5' 11.75'',77.5,97.5,6.9,29.5,36.5,11.2,3.16,3
-2013,203484,Kentavious,Caldwell-Pope,Kentavious Caldwell-Pope,SG,6' 4.5'',80,100.5,6.45,29,34.5,10.6,3.12,7
-2013,203477,Isaiah,Canaan,Isaiah Canaan,PG,5' 11'',76.5,94.5,5.9,33,40.5,10.98,3.22,16
-2013,203478,Jackie,Carmichael,Jackie Carmichael,PF,6' 7.5'',85.5,107,5.8,30,32,11.83,3.35,13
-2013,203487,Michael,Carter-Williams,Michael Carter-Williams,PG,6' 4.75'',79.25,101,4.4,31.5,41,10.68,3.22,8
-2013,12524,Will,Clyburn,Will Clyburn,SF-SG,6' 5.75'',84.25,105,6.85,28,34.5,11.68,3.38,3
-2013,203496,Robert,Covington,Robert Covington,SF-PF,6' 6.25'',85.75,106,4.7,29.5,36,11.69,3.34,9
-2013,203459,Allen,Crabbe,Allen Crabbe,SG,6' 5.25'',83.25,103.5,4.65,30.5,36,10.67,3.32,10
-2013,203552,Seth,Curry,Seth Curry,SG,6' 1'',76,97.5,9.6,NULL,NULL,NULL,NULL,NULL
-2013,203561,Brandon,Davies,Brandon Davies,PF,6' 8.5'',85.5,108.5,8.6,26,31.5,11.22,3.5,7
-2013,203473,Dewayne,Dedmon,Dewayne Dedmon,C,6' 10'',88,109,8.35,28,32.5,12.75,3.4,8
-2013,203476,Gorgui,Dieng,Gorgui Dieng,C,6' 9.75'',87.5,111.5,5.35,NULL,NULL,NULL,NULL,NULL
-2013,203516,James,Ennis,James Ennis,SF,6' 5.75'',83.5,104.5,4.5,29.5,36.5,11.55,3.4,7
-2013,203467,Carrick,Felix,Carrick Felix,SF-SG,6' 4.75'',81.25,103.5,3.3,32,38.5,11.16,3.25,15
-2013,203479,Jamaal,Franklin,Jamaal Franklin,SG-SF,6' 4'',83.25,103.5,8.25,NULL,NULL,NULL,NULL,NULL
-2013,203497,Rudy,Gobert,Rudy Gobert,C,7' 0.5'',92.5,115,4.4,25,29,12.85,3.57,7
-2013,203462,Archie,Goodwin,Archie Goodwin,SG,6' 3.75'',81.5,102,4.55,30,36,10.75,3.27,1
-2013,203475,Erick,Green,Erick Green,PG,6' 1.5'',77.75,98,4.35,NULL,NULL,NULL,NULL,5
-2013,203501,Tim,Hardaway Jr.,Tim Hardaway Jr.,SG,6' 4.5'',79,101,6.05,31.5,37.5,10.68,3.25,16
-2013,203524,Solomon,Hill,Solomon Hill,SF,6' 5.5'',81,103,7.6,29.5,37.5,10.77,3.19,14
-2013,203494,Richard,Howell,Richard Howell,PF,6' 6.25'',82.25,105.5,8.75,NULL,NULL,NULL,NULL,NULL
-2013,203470,Colton,Iverson,Colton Iverson,C,6' 10.5'',86,110,9.6,26.5,30,11.52,3.52,12
-2013,203510,Pierre,Jackson,Pierre Jackson,PG,5' 9.5'',70,90,4.5,NULL,NULL,NULL,NULL,NULL
-2013,203511,Grant,Jerrett,Grant Jerrett,PF,6' 8.75'',86,109,10.05,28.5,34,11.85,3.51,2
-2013,203509,Myck,Kabongo,Myck Kabongo,PG,6' 1.25'',78.25,98,6,27.5,33.5,10.64,3.44,2
-2013,203483,Kenny,Kadji,Kenny Kadji,PF-C,6' 8.75'',87,106.5,7.45,34,38,11.47,3.44,9
-2013,203527,Ryan,Kelly,Ryan Kelly,PF,6' 9.75'',83.5,110,14.75,NULL,NULL,NULL,NULL,NULL
-2013,203499,Shane,Larkin,Shane Larkin,PG,5' 10.25'',70.75,89.5,3.8,34.5,44,10.64,3.08,12
-2013,203495,Ricky,Ledo,Ricky Ledo,SG,6' 4.75'',79.25,102.5,10.25,27,33.5,10.72,3.32,4
-2013,203458,Alex,Len,Alex Len,C,NULL,87.5,NULL,6.4,NULL,NULL,NULL,NULL,NULL
-2013,203466,CJ,Leslie,CJ Leslie,PF-SF,6' 7.5'',86.25,104.5,7.95,32.5,40.5,10.19,3.1,NULL
-2013,203522,Trevor,Mbakwe,Trevor Mbakwe,PF,6' 6.75'',88,106.5,5.9,30,36.5,12.01,3.32,21
-2013,203492,Ray,McCallum,Ray McCallum,PG,6' 0.25'',75.25,96.5,7.3,30.5,40,10.82,3.25,5
-2013,203468,CJ,McCollum,CJ McCollum,PG-SG,6' 2.25'',78.25,96.5,8.6,32,38.5,11.02,3.32,13
-2013,203463,Ben,McLemore,Ben McLemore,SG,6' 3.5'',79.75,100.5,5,32.5,42,11.87,3.27,6
-2013,203502,Tony,Mitchell,Tony Mitchell,PF-SF,6' 7.5'',86.5,106.5,5.55,33.5,38,11.82,3.52,13
-2013,203498,Shabazz,Muhammad,Shabazz Muhammad,SF-SG,6' 4.75'',83,104.5,9,29.5,37,10.99,3.32,10
-2013,203513,Erik,Murphy,Erik Murphy,PF,6' 8.75'',82.5,108,7.95,24.5,29.5,12.19,3.57,13
-2013,203488,Mike,Muscala,Mike Muscala,C-PF,6' 10.25'',85,108,6.8,28,33.5,11.76,3.44,5
-2013,203457,Nerlens,Noel,Nerlens Noel,C,6' 10'',87.75,110,4.15,NULL,NULL,NULL,NULL,NULL
-2013,203506,Victor,Oladipo,Victor Oladipo,SG,6' 3.25'',81.25,100.5,6.55,33,42,10.69,3.25,15
-2013,203482,Kelly,Olynyk,Kelly Olynyk,PF-C,6' 10.75'',81.75,108,6.65,24.5,29.5,11.42,3.59,5
-2013,203464,Brandon,Paul,Brandon Paul,SG,6' 2.75'',82.25,98,5.25,33.5,39.5,11.16,3.37,15
-2013,203658,Norvel,Pelle,Norvel Pelle,PF-C,6' 9.5'',86.5,109,5.15,31,34.5,11.49,3.32,0
-2013,203486,Mason,Plumlee,Mason Plumlee,C-PF,6' 11.25'',83,108,6.15,30.5,36,10.89,3.29,14
-2013,203490,Otto,Porter,Otto Porter,SF,6' 7.5'',85.5,105.5,6.65,27,36,11.25,3.4,9
-2013,203515,Phil,Pressey,Phil Pressey,PG,5' 9.5'',74.25,92,4.7,33,38.5,10.86,3.13,7
-2013,203318,Glen,Rice,Glen Rice,SF-SG,6' 4.5'',81.25,101.5,8.45,33,40.5,10.99,3.25,10
-2013,203460,Andre,Roberson,Andre Roberson,PF-SF,6' 6.25'',83,104.5,7.05,30,36.5,11.36,3.34,10
-2013,203471,Dennis,Schroder,Dennis Schroder,PG,6' 1'',79.75,98,4.1,30,34,11.09,3.21,1
-2013,203491,Peyton,Siva,Peyton Siva,PG,5' 11.5'',75,93,6.05,33.5,41.5,10.59,3.16,15
-2013,203503,Tony,Snell,Tony Snell,SF-SG,6' 6'',83.5,105.5,4.85,30,36.5,11.36,3.25,7
-2013,203480,James,Southerland,James Southerland,SF-PF,6' 7'',85,106,8.05,29,32,10.9,3.38,5
-2013,203519,Adonis,Thomas,Adonis Thomas,SF,6' 4.75'',85,99,7.5,34.5,40.5,11.64,3.32,13
-2013,203472,Deshaun,Thomas,Deshaun Thomas,SF,6' 5'',82,104,9.1,28.5,32,12.94,3.53,5
-2013,203481,Jeff,Withey,Jeff Withey,C,6' 10.75'',86,110.5,8.65,26.5,29,12.49,3.47,10
-2013,203489,Nate,Wolters,Nate Wolters,PG,6' 3.5'',75.75,98,5.5,NULL,NULL,NULL,NULL,8
-2013,203523,BJ,Young,BJ Young,SG-PG,6' 2.25'',80.25,99,4.7,NULL,NULL,NULL,NULL,NULL
-2013,203469,Cody,Zeller,Cody Zeller,C-PF,6' 10.75'',82.75,106,4.75,35.5,37.5,10.82,3.15,17
-2014,203919,Jordan,Adams,Jordan Adams,SG,6' 3.5'',82,102,10.8,24.5,29.5,12.13,3.5,NULL
-2014,203937,Kyle,Anderson,Kyle Anderson,SF,6' 7.5'',86.75,107.5,13.35,NULL,NULL,NULL,NULL,NULL
-2014,203648,Thanasis,Antetokounmpo,Thanasis Antetokounmpo,SF,6' 5.25'',84,104.5,6.05,31.5,39.5,11.39,3.18,NULL
-2014,203947,Jordan,Bachynski,Jordan Bachynski,PF,7' 1.25'',88,108.5,7.45,29,33,12.15,3.36,NULL
-2014,203946,Cameron,Bairstow,Cameron Bairstow,PF,6' 8.75'',84.75,107,8.7,31,33.5,11.39,3.37,NULL
-2014,203920,Khem,Birch,Khem Birch,PF,6' 7.5'',85,107,6,30.5,35.5,11.6,3.26,NULL
-2014,203938,Alec,Brown,Alec Brown,PF,7' 0.25'',85.5,109,7.7,27,30,12.05,3.48,NULL
-2014,203900,Markel,Brown,Markel Brown,SG,6' 2.5'',80.75,100,4.2,36.5,43.5,12.62,3.18,NULL
-2014,203913,Jabari,Brown,Jabari Brown,SG,6' 3'',80.25,100,6.05,28,32,11.6,3.5,NULL
-2014,203907,Deonte,Burton,Deonte Burton,PG,6' 0'',79,97.5,7.65,29,39.5,11.28,3.28,NULL
-2014,203902,Semaj,Christon,Semaj Christon,PG,6' 1.5'',78.5,99,5.25,30.5,36.5,11.55,3.32,NULL
-2014,203903,Jordan,Clarkson,Jordan Clarkson,PG,6' 3.25'',80,98,4.3,33,38.5,10.76,3.28,NULL
-2014,203905,Aaron,Craft,Aaron Craft,PG,6' 0.75'',74,94.5,6.1,29,32,10.78,3.26,NULL
-2014,203908,DeAndre,Daniels,DeAndre Daniels,SF,6' 7.25'',86,106.5,3.85,26.5,32,11.46,3.44,NULL
-2014,203915,Spencer,Dinwiddie,Spencer Dinwiddie,PG,6' 4.5'',80.25,103,5.35,NULL,NULL,NULL,NULL,NULL
-2014,203921,Cleanthony,Early,Cleanthony Early,SF,6' 6'',82.75,101.5,4.45,34,40,11.15,3.18,NULL
-2014,203929,Melvin,Ejim,Melvin Ejim,SF,6' 5.25'',83.25,103.5,6.45,29.5,35,11.55,3.14,NULL
-2014,203898,Tyler,Ennis,Tyler Ennis,PG,6' 1'',79.25,98,6.2,29,36,11.12,3.3,NULL
-2014,203957,Dante,Exum,Dante Exum,SG,6' 4.5'',81.5,103,6.4,31.5,34.5,10.75,3.19,NULL
-2014,203927,C.J.,Fair,C.J. Fair,SF,6' 6.5'',81.5,104,5.05,27,35,11,3.32,NULL
-2014,203932,Aaron,Gordon,Aaron Gordon,PF,6' 7.5'',83.75,105,5.05,32.5,39,10.81,3.27,NULL
-2014,203924,Jerami,Grant,Jerami Grant,SF,6' 6.5'',86.75,107,3.75,NULL,NULL,NULL,NULL,NULL
-2014,203798,P.J.,Hairston,P.J. Hairston,SG,6' 4.25'',81,101,8.2,32,37,11.12,3.32,NULL
-2014,203914,Gary,Harris,Gary Harris,SG,6' 2.5'',78.75,96,4.55,NULL,NULL,NULL,NULL,NULL
-2014,203925,Joe,Harris,Joe Harris,SG,6' 4.75'',78,100,6.2,28.5,33.5,11.11,3.31,NULL
-2014,203918,Rodney,Hood,Rodney Hood,SF,6' 7.25'',80.5,103,7.45,29,36,11.21,3.38,NULL
-2014,203928,Cory,Jefferson,Cory Jefferson,PF,6' 7.75'',84.5,105,5.25,33,37.5,12.63,3.36,NULL
-2014,203910,Nick,Johnson,Nick Johnson,SG,6' 1.5'',79.25,96.5,6.05,33.5,41.5,10.8,3.27,NULL
-2014,203930,Sean,Kilpatrick,Sean Kilpatrick,SG,6' 2.5'',79,99,9.2,NULL,NULL,NULL,NULL,NULL
-2014,203945,Alex,Kirk,Alex Kirk,PF,6' 9.25'',87.5,109.5,13.6,28.5,31.5,11.2,3.48,NULL
-2014,203897,Zach,LaVine,Zach LaVine,PG,6' 4.5'',80.25,100,4.7,33.5,41.5,10.42,3.19,NULL
-2014,203906,Devyn,Marble,Devyn Marble,SG,6' 5'',81,102,6.9,29,35,11.32,3.28,NULL
-2014,203949,James,McAdoo,James McAdoo,PF,6' 7.5'',86.25,106.5,6.15,29.5,34,11.61,3.28,NULL
-2014,203909,K.J.,McDaniels,K.J. McDaniels,SF,6' 4.5'',83.25,102,4.45,33,37,12.71,3.1,NULL
-2014,203926,Doug,McDermott,Doug McDermott,SF,6' 6.25'',81.25,103,7.1,28.5,36.5,11.1,3.29,NULL
-2014,203895,Jordan,McRae,Jordan McRae,SG,6' 3.75'',84.5,104,5.2,27.5,34.5,11.07,3.39,NULL
-2014,203894,Shabazz,Napier,Shabazz Napier,PG,5' 11'',75.25,93,7.35,30.5,37.5,11.6,3.2,NULL
-2014,203948,Johnny,O?Bryant III,Johnny O?Bryant III,PF,6' 7.25'',86.25,105,10.75,31,35.5,11.57,3.45,NULL
-2014,203934,Lamar,Patterson,Lamar Patterson,SG,6' 4'',83,101,10.75,27.5,32.5,11.63,3.45,NULL
-2014,203940,Adreian,Payne,Adreian Payne,PF,6' 9'',88,109,7.55,NULL,NULL,NULL,NULL,NULL
-2014,203901,Elfrid,Payton,Elfrid Payton,PG,6' 2.5'',80,98.5,5.65,31.5,35.5,11.06,3.23,NULL
-2014,203939,Dwight,Powell,Dwight Powell,PF,6' 9.5'',84.5,105,6.2,28.5,35,11.28,3.2,NULL
-2014,203944,Julius,Randle,Julius Randle,PF,6' 7.75'',84,105.5,9.4,29,35.5,11.45,3.27,NULL
-2014,203922,Glenn,Robinson III,Glenn Robinson III,SF,6' 5.5'',82,100.5,5.05,36.5,41.5,11.22,3.15,NULL
-2014,203941,LaQuinton,Ross,LaQuinton Ross,SF,6' 6.5'',85.75,106,16.3,25,31,11.97,3.44,NULL
-2014,203935,Marcus,Smart,Marcus Smart,PG,6' 2'',81.25,99,10.55,33,36,10.82,3.26,NULL
-2014,203893,Russ,Smith,Russ Smith,PG,5' 11.5'',75.5,95,3.5,29.5,34,11.57,3.27,NULL
-2014,203917,Nik,Stauskas,Nik Stauskas,SG,6' 5.25'',79.75,102,12.05,29,35.5,10.79,3.27,NULL
-2014,203950,Jarnell,Stokes,Jarnell Stokes,PF,6' 7'',85.25,103.5,8.2,31,36,11.92,3.26,NULL
-2014,203904,Xavier,Thames,Xavier Thames,PG,6' 2.25'',76,96,6.4,29,32.5,11.48,3.48,NULL
-2014,203943,Noah,Vonleh,Noah Vonleh,PF,6' 8'',88.25,108,7.3,31,37,11.45,3.28,NULL
-2014,203933,T.J.,Warren,T.J. Warren,SF,6' 7'',82.25,104,7.95,27,35.5,11.1,3.26,NULL
-2014,203912,C.J.,Wilcox,C.J. Wilcox,SG,6' 3.5'',81.75,100.5,6.5,31,37.5,11.3,3.22,NULL
-2014,203899,Kendall,Williams,Kendall Williams,PG,6' 2.25'',77.5,99,7.2,27,33,10.83,NULL,NULL
-2014,203942,Patric,Young,Patric Young,PF,6' 8.5'',85.75,103.5,5.45,32,37.5,11.18,3.43,NULL
-2014,203923,James,Young,James Young,SG,6' 5.25'',84,104,5.1,28,35.5,NULL,NULL,NULL
-2015,1626146,Cliff,Alexander,Cliff Alexander,PF-C,6' 7.25'',87.5,109.5,5.8,NULL,NULL,NULL,NULL,NULL
-2015,1626147,Justin,Anderson,Justin Anderson,SF-SG,6' 5.25'',83.75,101,5,38,43,11.13,3.22,12
-2015,1626165,Brandon,Ashley,Brandon Ashley,PF,6' 7.25'',87.75,105,8.8,31.5,35.5,11.21,3.58,9
-2015,1626207,Ryan,Boatright,Ryan Boatright,PG,5' 10'',72.5,92.5,6.6,32,41,10.71,3.26,10
-2015,1626164,Devin,Booker,Devin Booker,SG,6' 4.5'',80.25,102.5,8.3,27.5,34.5,10.27,3.28,8
-2015,1626148,Anthony,Brown,Anthony Brown,SF-SG,6' 5.75'',83,104.5,6.1,27.5,34.5,10.94,3.18,4
-2015,1626161,Willie,Cauley-Stein,Willie Cauley-Stein,C,6' 11.25'',87,111,6.3,NULL,NULL,NULL,NULL,NULL
-2015,1626176,Rakeem,Christmas,Rakeem Christmas,PF-C,6' 8.25'',89.25,110.5,9.6,29,32,11.6,3.47,9
-2015,1626192,Pat,Connaughton,Pat Connaughton,SG,6' 4'',80,96,10.2,37.5,44,10.58,3.2,13
-2015,1626188,Quinn,Cook,Quinn Cook,PG,6' 0.25'',76,96.5,6.7,24.5,31,11.44,3.38,14
-2015,1626183,Branden,Dawson,Branden Dawson,PF,6' 5.5'',83,105,5.8,28.5,34.5,12.22,3.2,12
-2015,1626155,Sam,Dekker,Sam Dekker,SF,6' 7.75'',83.5,106,7.5,25.5,34.5,10.64,3.28,5
-2015,1626187,Michael,Frazier II,Michael Frazier II,SG,6' 3.75'',80,101.5,7.4,27,35,10.66,3.32,10
-2015,1626203,Treveon,Graham,Treveon Graham,SF,6' 4'',82.5,103,5.5,28.5,31.5,11.64,3.3,11
-2015,1626170,Jerian,Grant,Jerian Grant,PG,6' 3.25'',79.5,100,5.6,NULL,NULL,NULL,NULL,NULL
-2015,1626152,Olivier,Hanlan,Olivier Hanlan,PG-SG,6' 3.25'',78,100,4.3,28,34,11.41,3.25,19
-2015,1626149,Montrezl,Harrell,Montrezl Harrell,PF,6' 7'',88.25,109,11.9,NULL,NULL,NULL,NULL,NULL
-2015,1626150,Andrew,Harrison,Andrew Harrison,PG,6' 4.5'',81,100,5.9,26.5,33,11.2,3.34,NULL
-2015,1626151,Aaron,Harrison,Aaron Harrison,SG,6' 4.5'',80.25,100.5,6,28.5,34.5,NULL,3.27,1
-2015,1626227,Tyler,Harvey,Tyler Harvey,SG,6' 2.75'',77.5,98.5,9.2,26,28.5,10.56,3.44,1
-2015,1626186,Corey,Hawkins,Corey Hawkins,SG-PG,6' 0.75'',80,99.5,5.5,28.5,34,10.81,3.51,9
-2015,1626178,Rondae,Hollis-Jefferson,Rondae Hollis-Jefferson,SF,6' 5.5'',86,104,5,32,38,10.41,3.12,13
-2015,1626158,Richaun,Holmes,Richaun Holmes,PF,6' 8.25'',85.5,108,8.8,32.5,36,11.24,3.32,15
-2015,1626182,Jonathan,Holmes,Jonathan Holmes,PF-SF,6' 8.25'',83.5,107.5,7.2,25.5,31,10.95,3.51,NULL
-2015,1626154,R.J.,Hunter,R.J. Hunter,SG,6' 4.5'',82.5,104,6,27.5,33.5,10.87,3.26,1
-2015,1626205,Vince,Hunter,Vince Hunter,PF,6' 6.75'',83,104.5,4.6,33.5,37.5,11.19,3.26,13
-2015,1626177,Dakari,Johnson,Dakari Johnson,C,6' 11'',86,112,14.9,22.5,25,11.76,3.62,4
-2015,1626169,Stanley,Johnson,Stanley Johnson,SF,6' 5'',83.5,102,7.5,NULL,NULL,NULL,NULL,NULL
-2015,1626145,Tyus,Jones,Tyus Jones,PG,6' 0.5'',77,97,6.5,26.5,32.5,11.84,3.32,2
-2015,1626163,Frank,Kaminsky,Frank Kaminsky,C-PF,6' 11.75'',83,109.5,9.4,NULL,NULL,NULL,NULL,NULL
-2015,1626172,Kevon,Looney,Kevon Looney,PF,6' 8'',87.5,110,11.9,NULL,NULL,NULL,NULL,NULL
-2015,1626168,Trey,Lyles,Trey Lyles,PF,6' 9'',85.5,108,12.1,NULL,NULL,NULL,NULL,NULL
-2015,1626185,Jarell,Martin,Jarell Martin,PF,6' 8'',81,106.5,10.1,28.5,35,11.2,3.27,19
-2015,204456,TJ,McConnell,TJ McConnell,PG,6' 0.5'',74,96.5,7.3,26,31.5,10.95,3.3,7
-2015,1626191,Chris,McCullough,Chris McCullough,PF,6' 8.25'',87.25,109,6.2,NULL,NULL,NULL,NULL,NULL
-2015,1626175,Jordan,Mickey,Jordan Mickey,PF,6' 7'',87.25,106,7.2,33,37.5,11.72,3.28,9
-2015,2006,Larry,Nance,Larry Nance,PF,6' 7.5'',85.5,108,6.4,29,37.5,10.93,3.25,10
-2015,1626162,Kelly,Oubre,Kelly Oubre,SF-SG,6' 5.75'',86.25,102.5,5.7,34.5,37,11.09,3.32,7
-2015,1626166,Cameron,Payne,Cameron Payne,PG,6' 0.75'',79.25,97.5,6.3,29.75,35.5,10.9,3.28,0
-2015,1626189,Terran,Petteway,Terran Petteway,SG,6' 4.75'',83.25,104.5,4.9,25,31,10.91,3.32,15
-2015,1626171,Bobby,Portis,Bobby Portis,PF,6' 9.5'',86,108.5,8.9,25,31.5,11.78,3.56,5
-2015,1626181,Norman,Powell,Norman Powell,SG,6' 3'',82.75,102.5,6.4,32.5,40.5,10.69,3.2,5
-2015,1626180,Michael,Qualls,Michael Qualls,SG-SF,6' 4'',84.25,104.5,4,34,39.5,11.88,3.18,9
-2015,1626184,Chasson,Randle,Chasson Randle,PG,6' 0.25'',79,96.5,4.5,33.5,39.5,10.63,3.2,6
-2015,1626179,Terry,Rozier,Terry Rozier,PG-SG,6' 0.5'',80.25,98.5,5.6,33,38,10.84,3.15,7
-2015,1626156,D?Angelo,Russell,D?Angelo Russell,PG-SG,6' 3.25'',81.75,102,8.3,NULL,NULL,NULL,NULL,NULL
-2015,1626208,Keifer,Sykes,Keifer Sykes,PG,5' 10.5'',74,93,5,34,43,10.47,3.13,8
-2015,1626194,Marcus,Thornton,Marcus Thornton,PG-SG,6' 1.75'',79.75,97.5,5.3,34.5,43,10.78,3.02,3
-2015,1626160,J.P.,Tokoto,J.P. Tokoto,SF-SG,6' 5.25'',82,100.5,4.1,34.5,40,10.97,3.27,12
-2015,1626167,Myles,Turner,Myles Turner,C-PF,6' 9.75'',88,112,9.3,NULL,NULL,NULL,NULL,NULL
-2015,1626193,Robert,Upshaw,Robert Upshaw,C,6' 10.75'',89.5,113,12.5,NULL,NULL,NULL,NULL,NULL
-2015,1626173,Rashad,Vaughn,Rashad Vaughn,SG,6' 3.75'',79,101,6.2,28,34,11.4,3.21,5
-2015,1626217,Chris,Walker,Chris Walker,PF,6' 8.75'',86.75,108,5.1,30.5,37,11.25,3.35,6
-2015,1627361,Dez,Wells,Dez Wells,SG,6' 3'',81.5,100.5,8.1,31.5,39,10.56,3.2,15
-2015,1626210,Alan,Williams,Alan Williams,PF,6' 7.25'',85.75,106.5,12,25.5,28.5,12.26,3.5,8
-2015,1626159,Justise,Winslow,Justise Winslow,SF,6' 4.5'',82.25,104.5,5.3,NULL,NULL,NULL,NULL,NULL
-2015,1626174,Christian,Wood,Christian Wood,PF,6' 9.25'',87.25,111.5,14.7,NULL,NULL,NULL,NULL,NULL
-2015,1626153,Delon,Wright,Delon Wright,PG,6' 4.25'',79.5,101.5,6.6,29.5,31,11.16,3.29,4
-2017,1628389,Edrice,Adebayo,Edrice Adebayo,PF-C,6' 8.75'',86.75,108,5.2,33.5,38.5,11.94,3.24,12
-2017,1628959,Rawle,Alkins,Rawle Alkins,SG-SF,6' 2.5'',80.75,99,11,31.5,40.5,11.99,3.3,7
-2017,1628386,Jarrett,Allen,Jarrett Allen,C,6' 9'',89.25,109.5,7.4,31.5,35.5,11.82,3.21,4
-2017,1628443,Kadeem,Allen,Kadeem Allen,PG,6' 1'',81.25,99.5,6.4,33,35.5,11.24,3.15,7
-2017,1628387,Ike,Anigbogu,Ike Anigbogu,C,6' 8.5'',90.25,110.5,5.4,29.5,32.5,12.52,3.44,11
-2017,1628384,OG,Anunoby,OG Anunoby,SF,6' 6.25'',86.25,107.5,6.8,NULL,NULL,NULL,NULL,NULL
-2017,1628503,Jamel,Artis,Jamel Artis,SG-SF,6' 5.5'',82,105,11.9,23.5,31,11.62,3.44,5
-2017,1628407,Dwayne,Bacon,Dwayne Bacon,SG-SF,6' 4.75'',82,103.5,7.9,30,36.5,11.7,3.22,8
-2017,1628431,V.J.,Beachem,V.J. Beachem,SG-SF,6' 6.25'',82.25,104.5,6.8,30,37,11.18,3.26,11
-2017,1628395,Jordan,Bell,Jordan Bell,PF,6' 7'',83.75,104.5,5.4,31.5,38,10.63,3.21,16
-2017,1628417,Jaron,Blossomgame,Jaron Blossomgame,SF,6' 5.75'',82,104.5,5.7,31,35.5,11.47,3.17,16
-2017,1628449,Chris,Boucher,Chris Boucher,PF,6' 8'',88,110.5,5.4,NULL,NULL,NULL,NULL,NULL
-2017,1628396,Tony,Bradley,Tony Bradley,C,6' 9.25'',89,112.5,12,24.5,27.5,11.79,3.44,5
-2017,1628515,Isaiah,Briscoe,Isaiah Briscoe,PG,6' 1.25'',81,99.5,11,28,33.5,10.95,3.38,11
-2017,1628415,Dillon,Brooks,Dillon Brooks,SG-SF,6' 5'',78,100.5,7.5,31,37.5,11.14,3.21,16
-2017,1628418,Thomas,Bryant,Thomas Bryant,PF-C,6' 9.5'',90,112.5,9.4,25.5,33,11.42,3.37,7
-2017,1628380,Zach,Collins,Zach Collins,PF-C,6' 10.25'',85,111,8.9,NULL,NULL,NULL,NULL,NULL
-2017,1628381,John,Collins,John Collins,PF,6' 8.25'',83.25,106.5,5.4,33,37.5,11.66,3.27,15
-2017,1628977,Hamidou,Diallo,Hamidou Diallo,SG-SF,6' 3.75'',83.25,101.5,5.2,34.5,44.5,10.88,3.11,0
-2017,1628416,Tyler,Dorsey,Tyler Dorsey,SG,6' 3'',77.25,99.5,4.7,30.5,36,10.55,3.16,8
-2017,1628422,Damyean,Dotson,Damyean Dotson,SG-SF,6' 4.5'',81,100,5.3,31.5,38,11.18,3.13,13
-2017,1628408,PJ,Dozier,PJ Dozier,SG,6' 5.25'',83,101,6.1,34,39,10.84,3.15,9
-2017,1628393,Jawun,Evans,Jawun Evans,PG,5' 10.75'',77.5,95,9.1,27.5,33.5,11.34,3.21,1
-2017,1628390,Terrance,Ferguson,Terrance Ferguson,SG-SF,6' 5.5'',80.75,103,5.8,28.5,38,11.16,3.32,NULL
-2017,1628368,De?Aaron,Fox,De?Aaron Fox,PG,6' 2'',78.5,100,4.5,NULL,NULL,NULL,NULL,NULL
-2017,1628365,Markelle,Fultz,Markelle Fultz,PG,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-2017,1628385,Harry,Giles,Harry Giles,PF,6' 9.25'',87.25,109.5,5.2,27,32.5,11.08,3.34,5
-2017,1628404,Josh,Hart,Josh Hart,SG-SF,6' 3.75'',80.25,101,5.8,27.5,35.5,11.15,3.18,9
-2017,1628502,Nigel,Hayes,Nigel Hayes,PF,6' 6.25'',87.25,104.5,11.5,29,33.5,11.81,3.27,16
-2017,1628439,Isaiah,Hicks,Isaiah Hicks,PF,6' 7.25'',84.5,105,7.7,31.5,37,12.31,3.36,11
-2017,1628411,Wesley,Iwundu,Wesley Iwundu,SG-SF,6' 5.5'',85,105.5,4,31.5,36,11.25,3.36,5
-2017,1628402,Frank,Jackson,Frank Jackson,PG,6' 2'',79.5,98,6.7,34.5,42,10.94,3.14,9
-2017,1628992,Justin,Jackson (UMD),Justin Jackson (UMD),SF,6' 5.75'',87.25,107,7.1,26.5,31.5,11.78,3.43,NULL
-2017,1628382,Justin,Jackson (UNC),Justin Jackson (UNC),SF,6' 7'',83,104.5,8.1,29.5,35.5,10.8,3.3,NULL
-2017,1628514,Peter,Jok,Peter Jok,SG-SF,6' 4.25'',80,102,11,26.5,31,11.34,3.41,NULL
-2017,1628379,Luke,Kennard,Luke Kennard,SG-SF,6' 4.5'',77.25,98.5,6.6,NULL,NULL,NULL,NULL,NULL
-2017,1628398,Kyle,Kuzma,Kyle Kuzma,SF-SG,6' 8'',84.25,107.5,9.4,27,34,10.72,3.25,12
-2017,1628388,TJ,Leaf,TJ Leaf,PF,6' 8.75'',83,107,6.8,29,34.5,11.55,3.27,6
-2017,1628399,Tyler,Lydon,Tyler Lydon,PF,6' 8.25'',84,107.5,13.6,29.5,33.5,11.68,3.46,1
-2017,1628412,Frank,Mason III,Frank Mason III,PG,5' 11'',75.25,94,4.3,34,41,11.41,3.18,15
-2017,1628452,Kennedy,Meeks,Kennedy Meeks,C,6' 8.75'',85,106,11.5,28,30.5,12.91,3.5,15
-2017,1628378,Donovan,Mitchell,Donovan Mitchell,SG,6' 1.25'',82,97,5.9,36.5,40.5,11.53,3.01,10
-2017,1628420,Monte,Morris,Monte Morris,PG,6' 1.25'',76,96.5,6.9,28,33.5,11,3.19,8
-2017,1628405,Johnathan,Motley,Johnathan Motley,PF,6' 7.75'',88,108,NULL,NULL,NULL,NULL,NULL,NULL
-2017,1629004,Svi,Mykhailiuk,Svi Mykhailiuk,SG-SF,6' 6.5'',77,100,11.4,27,33,12.4,3.53,8
-2017,1628400,Semi,Ojeleye,Semi Ojeleye,SF-SG,6' 5.25'',81.75,102,5.5,35,40.5,10.58,3.16,19
-2017,1628419,Cameron,Oliver,Cameron Oliver,PF,6' 7'',85.25,106.5,7.7,28,39.5,12.17,3.16,5
-2017,1628383,Justin,Patton,Justin Patton,C,6' 10'',87,111.5,7.8,26,30.5,11.8,3.46,NULL
-2017,1628409,Alec,Peters,Alec Peters,PF,6' 7.25'',82.75,105,8.8,NULL,NULL,NULL,NULL,NULL
-2017,1628397,Ivan,Rabb,Ivan Rabb,PF,6' 8.75'',85.5,109,6.8,28.5,32.5,12.68,3.35,3
-2017,1628432,Davon,Reed,Davon Reed,SG-SF,6' 4.5'',84,102,6.5,28.5,36,11.37,3.34,12
-2017,1628421,Devin,Robinson,Devin Robinson,SF,6' 7'',84.75,106,3.2,35.5,41.5,12.85,3.23,10
-2017,1628424,Kobi,Simmons,Kobi Simmons,PG,6' 3.25'',78,99,5,30.5,38.5,11.15,3.18,3
-2017,1628410,Edmond,Sumner,Edmond Sumner,PG,6' 4'',81,102.5,8.3,NULL,NULL,NULL,NULL,NULL
-2017,1628403,Caleb,Swanigan,Caleb Swanigan,PF,6' 7.5'',87,108,NULL,NULL,NULL,NULL,NULL,NULL
-2017,1628414,Sindarius,Thornwell,Sindarius Thornwell,SG-SF,6' 3.5'',82,103,7.8,27,30.5,11.48,3.36,15
-2017,1628453,Melo,Trimble,Melo Trimble,PG,6' 1.25'',74,95.5,10.6,24.5,32,10.75,3.27,6
-2017,1629021,Moritz,Wagner,Moritz Wagner,PF,6' 10'',84,108,6.7,25.5,32.5,12,3.35,NULL
-2017,1628476,Derrick,Walton Jr.,Derrick Walton Jr.,PG,5' 11'',74.5,95,5.8,26,32.5,11.28,3.29,9
-2017,1629118,Thomas,Welsh,Thomas Welsh,PF-C,6' 11.5'',84,109.5,10.9,NULL,NULL,NULL,NULL,11
-2017,1628401,Derrick,White,Derrick White,PG,6' 3.25'',79.5,101.5,6.2,31,36.5,10.84,3.08,10
-2017,1628430,Nigel,Williams-Goss,Nigel Williams-Goss,PG,6' 1.5'',79.25,99,5.6,27.5,34.5,10.42,3.19,10
-2017,1628391,D.J.,Wilson,D.J. Wilson,PF,6' 8.75'',87,109.5,6.4,NULL,NULL,NULL,NULL,NULL
-2017,1962937123,Omer,Yurtseven,Omer Yurtseven,C,6' 10.5'',85,108.5,7.6,26,31.5,12.85,3.45,6
-2018,1628959,Rawle,Alkins,Rawle Alkins,SG,6' 2.75'',80.75,99,8.9,32.5,40.5,11.5,3.15,10
-2018,1628960,Grayson,Allen,Grayson Allen,SG,6' 3'',79.25,97,5.55,32.5,40.5,10.31,3.15,NULL
-2018,1628961,Kostas,Antetokounmpo,Kostas Antetokounmpo,PF,6' 9'',86.25,110,5,29.5,35,12.48,3.21,0
-2018,1628962,Udoka,Azubuike,Udoka Azubuike,C,6' 10'',91,112.5,7.95,31,31.5,12.97,3.12,11
-2018,1628964,Mohamed,Bamba,Mohamed Bamba,C,6' 11.25'',94,115.5,6.2,NULL,NULL,NULL,NULL,NULL
-2018,1628965,Jaylen,Barford,Jaylen Barford,PG-SG,6' 1.25'',75.5,96.5,11.65,27,33,11.39,3.31,7
-2018,1628966,Keita,Bates-Diop,Keita Bates-Diop,SG-SF,6' 7.25'',87.25,106.5,5.35,30.5,35,11.2,3.17,11
-2018,1628967,Tyus,Battle,Tyus Battle,SG,6' 5'',81,102,4,32,37.5,11.04,3.07,9
-2018,1628968,Brian,Bowen,Brian Bowen,SG-SF,6' 6.25'',82.25,103.5,7.6,30.5,34,11.58,3.28,0
-2018,1628970,Miles,Bridges,Miles Bridges,SF,6' 5.25'',81.5,103.5,5.9,NULL,NULL,NULL,NULL,NULL
-2018,1628971,Bruce,Brown,Bruce Brown,SG-PG,6' 3.5'',81,98.5,3.75,32.5,38,11.11,3.2,17
-2018,1628972,Troy,Brown,Troy Brown,SF,6' 5.75'',82.25,105,7.05,26,33,11.51,3.33,5
-2018,1628973,Jalen,Brunson,Jalen Brunson,PG,6' 1'',76,96,6.7,29,37,10.59,3.15,7
-2018,1628974,Tony,Carr,Tony Carr,PG,6' 3'',80.25,100,6.5,25,31.5,11.89,3.17,0
-2018,1628975,Jevon,Carter,Jevon Carter,PG,6' 0.25'',76.25,95,4.15,29,36.5,11.04,3.18,14
-2018,1628976,Wendell,Carter,Wendell Carter,C-PF,6' 8.75'',88.5,109,7.85,NULL,NULL,NULL,NULL,NULL
-2018,1628978,Donte,DiVincenzo,Donte DiVincenzo,SG,6' 3.5'',78,97.5,5,34.5,42,10.72,3.11,12
-2018,1628977,Hamidou,Diallo,Hamidou Diallo,SG,6' 4.25'',83.5,103,4.45,32.5,40.5,10.53,3.1,1
-2018,1628979,Trevon,Duval,Trevon Duval,PG,6' 1.5'',80.25,97.5,5.2,34,41.5,10.93,3.18,6
-2018,1629035,Carsen,Edwards,Carsen Edwards,PG,5' 10.75'',78.25,94.5,6.3,28.5,34.5,11.59,3.2,12
-2018,1629037,Keenan,Evans,Keenan Evans,PG,6' 1.5'',77.25,98,6.5,NULL,NULL,NULL,NULL,NULL
-2018,1628980,Jacob,Evans,Jacob Evans,SG-SF,6' 4.25'',81.25,102.5,6.5,28,35.5,11.11,3.2,8
-2018,1628981,Bruno,Fernando,Bruno Fernando,C,6' 8.75'',88.25,109,5.25,29,35,12.19,3.23,11
-2018,1628982,Melvin,Frazier,Melvin Frazier,SF-SG,6' 4.5'',85.75,105,7.9,31,40.5,11.24,3.08,0
-2018,1628983,Shai,Gilgeous-Alexander,Shai Gilgeous-Alexander,PG,6' 4.5'',83.5,104,3,NULL,NULL,NULL,NULL,NULL
-2018,1628984,Devonte,Graham,Devonte Graham,PG,6' 0.25'',78.25,96,4.8,31,37,11.28,3.21,14
-2018,1629036,Isaac,Haas,Isaac Haas,C,7' 1.25'',89,111.5,12.55,NULL,NULL,NULL,NULL,NULL
-2018,1628985,Devon,Hall,Devon Hall,SG,6' 4.25'',79.75,102,8.45,25,31,10.95,3.27,6
-2018,1628986,Jaylen,Hands,Jaylen Hands,PG,6' 1.5'',77.5,98,5,31.5,39.5,12.11,3.13,6
-2018,1628987,Kevin,Hervey,Kevin Hervey,PF,6' 6.5'',87.5,107,5.15,27.5,32,11.28,3.36,4
-2018,1628988,Aaron,Holiday,Aaron Holiday,PG,5' 11.75'',79.5,97,6.4,25.5,33,10.96,3.27,NULL
-2018,1628989,Kevin,Huerter,Kevin Huerter,SG,6' 6.25'',79.5,101.5,8.6,31,38,10.89,3.09,9
-2018,1628991,Jaren,Jackson,Jaren Jackson,PF-C,6' 9.75'',89.25,110,7.2,NULL,NULL,NULL,NULL,NULL
-2018,1628992,Justin,Jackson,Justin Jackson,PF,6' 6'',87,105,8.9,NULL,NULL,NULL,NULL,NULL
-2018,1628993,Alize,Johnson,Alize Johnson,PF,6' 7.25'',80.75,103,8.1,25,31,11.83,3.38,8
-2018,1628994,George,King,George King,SF-SG,6' 4.75'',83.5,101.5,7.25,31,39,10.75,3.29,15
-2018,1628995,Kevin,Knox,Kevin Knox,SF,6' 7.75'',83.75,108,4.95,NULL,NULL,NULL,NULL,NULL
-2018,1628996,Sagaba,Konate,Sagaba Konate,C,6' 6.5'',84,106.5,7.35,31.5,35,12.28,3.28,12
-2018,1628997,Caleb,Martin,Caleb Martin,SF-SG,6' 4.75'',82,101.5,7,29,36.5,10.43,3.26,6
-2018,1628998,Cody,Martin,Cody Martin,SG-SF,6' 4.75'',82.25,102.5,5.45,29,36.5,10.64,3.09,4
-2018,1628999,Yante,Maten,Yante Maten,PF-C,6' 7.25'',84.5,107.5,8.1,27,31.5,11.35,3.17,18
-2018,1629000,Brandon,McCoy,Brandon McCoy,C,6' 11.5'',86,110.5,8.7,27.5,32,11.77,3.23,9
-2018,1629001,DeAnthony,Melton,DeAnthony Melton,SG-PG,6' 2.25'',80.5,99.5,5.2,31,36.5,11.48,3.23,1
-2018,1629002,Chimezie,Metu,Chimezie Metu,PF-C,6' 8.5'',84.5,108,5.05,29.5,36,11.89,3.33,5
-2018,1629003,Shake,Milton,Shake Milton,SG-PG,6' 4.5'',84.75,99.5,6.8,30,33,11.07,3.25,2
-2018,1629004,Sviatoslav,Mykhailiuk,Sviatoslav Mykhailiuk,SG-SF,6' 6.5'',76.75,100,8.45,30.5,37,11.25,3.15,4
-2018,1629005,Malik,Newman,Malik Newman,SG,6' 2.5'',77.5,98.5,6.25,27.5,33.5,10.9,3.13,NULL
-2018,1629006,Josh,Okogie,Josh Okogie,SG,6' 3'',84,102,5.2,33,42,11.08,3.04,12
-2018,1629033,Theo,Pinson,Theo Pinson,SG-SF,6' 5'',82.75,103.5,7.35,27,34,11.53,3.22,7
-2018,1629007,Jontay,Porter,Jontay Porter,C-PF,6' 10'',84.25,109,13.85,25.5,31,11.9,3.4,9
-2018,1629008,Michael,Porter,Michael Porter,SF-PF,6' 9.5'',84.25,108.5,6.4,NULL,NULL,NULL,NULL,NULL
-2018,1629009,Billy,Preston,Billy Preston,PF,6' 8.75'',86,108,5.45,25,33,11.26,3.2,0
-2018,1629010,Jerome,Robinson,Jerome Robinson,SG,6' 4'',79.25,98,6.05,NULL,NULL,NULL,NULL,NULL
-2018,1629012,Collin,Sexton,Collin Sexton,PG,6' 0.5'',79.25,98.5,5.6,NULL,NULL,NULL,NULL,NULL
-2018,1629013,Landry,Shamet,Landry Shamet,PG,6' 4'',78.75,100,4.85,31,39.5,11.26,3.11,8
-2018,1629014,Anfernee,Simons,Anfernee Simons,SG-PG,6' 2.25'',81.25,99.5,7.7,32,41.5,11.27,3.1,1
-2018,1629015,Zhaire,Smith,Zhaire Smith,SF-SG,6' 2.75'',81.75,100,6.05,33,41.5,11.02,3.05,10
-2018,1629034,Ray,Spalding,Ray Spalding,PF,6' 9'',88.75,109,5.55,26,32,11.48,3.34,12
-2018,1629016,Omari,Spellman,Omari Spellman,PF-C,6' 8'',86,107.5,13.75,28.5,35.5,12.28,3.38,8
-2018,1629017,Khyri,Thomas,Khyri Thomas,SG,6' 2.5'',82.5,101,6.4,30,35,10.96,3.18,14
-2018,1629018,Gary,Trent,Gary Trent,SG,6' 4.25'',80.75,98,7,33.5,39.5,11.37,3.12,12
-2018,1629019,Allonzo,Trier,Allonzo Trier,SG,6' 3.75'',78.75,98,4.95,32,40,11.02,3.14,11
-2018,1629021,Moritz,Wagner,Moritz Wagner,C-PF,6' 10.5'',84,108,6.75,27,34,11.48,3.18,8
-2018,1629022,Lonnie,Walker,Lonnie Walker,SG,6' 3.75'',82.25,99.5,5.65,31.5,40,10.87,3.06,12
-2018,1629023,PJ,Washington,PJ Washington,PF,6' 6.5'',86.5,107,6.85,27,34,11.39,3.2,3
-2018,1629024,Austin,Wiley,Austin Wiley,C,6' 8.25'',89,111,5,28,33.5,12.79,3.3,14
-2018,1629025,Kris,Wilkes,Kris Wilkes,SF,6' 6.5'',82.25,103.5,5.15,28,35.5,11.29,3.24,1
-2018,1629026,Kenrich,Williams,Kenrich Williams,SF,6' 6'',79.25,103.5,5.95,28,33,10.86,3.19,14
-2018,1629027,Trae,Young,Trae Young,PG,6' 0.5'',75,95.5,5.35,NULL,NULL,NULL,NULL,NULL
-2019,1629638,Nickeil,Alexander-Walker,Nickeil Alexander-Walker,SG,6' 4.25'',81.5,102,5.9,NULL,NULL,NULL,NULL,NULL
-2019,1629628,RJ,Barrett,RJ Barrett,SF,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-2019,1629646,Charles,Bassey,Charles Bassey,C,6' 8.75'',87.5,109.5,8.5,29,33,12.65,3.53,7
-2019,1629647,Darius,Bazley,Darius Bazley,PF,6' 7.75'',84,107,3.6,30.5,37,11.09,3.27,4
-2019,1629626,Bol,Bol,Bol Bol,C,7' 0.75'',91,115.5,7.1,NULL,NULL,NULL,NULL,NULL
-2019,1629648,Jordan,Bone,Jordan Bone,SG,6' 1.5'',75.25,95,5,36,42.5,9.97,3.08,7
-2019,1628968,Brian,Bowen II,Brian Bowen II,SF,6' 6.25'',82,103,6.5,32,35.5,10.98,3.26,1
-2019,1629065,Ky,Bowman,Ky Bowman,PG,6' 1'',79,98,4.9,27.5,33,11.11,3.26,4
-2019,1629649,Ignas,Brazdeikis,Ignas Brazdeikis,SF,6' 5.75'',81.25,102,6,31,36.5,11.06,3.36,13
-2019,1629052,O'Shae,Brissett,O'Shae Brissett,SF-PF,6' 7'',84,104,2.9,34,37.5,11.3,3.48,11
-2019,1629650,Moses,Brown,Moses Brown,C,7' 1.25'',88.75,113,7.8,27,31,11.95,3.51,NULL
-2019,1629634,Brandon,Clarke,Brandon Clarke,SF,6' 7.25'',80.25,102,4.9,34,40.5,10.61,3.15,10
-2019,1629651,Nicolas,Claxton,Nicolas Claxton,C,6' 10'',86.5,110,4.5,31.5,36.5,11.26,3.36,8
-2019,1629076,Tyler,Cook,Tyler Cook,PF,6' 7.25'',84.5,106.5,6.1,27.5,32,11.32,3.28,11
-2019,1629633,Jarrett,Culver,Jarrett Culver,SG,6' 5.25'',81.5,100.5,5,NULL,NULL,NULL,NULL,NULL
-2019,1629056,Terence,Davis,Terence Davis,SG,6' 3'',80.75,101,4.1,29.5,34,10.69,3.28,13
-2019,1629652,Luguentz,Dort,Luguentz Dort,PG,6' 2.75'',80.5,99.5,5,32.5,38,10.79,3.22,14
-2019,1629653,Devon,Dotson,Devon Dotson,PG,6' 0'',75.25,95.5,5.9,30,38.5,10.63,3.04,7
-2019,1629654,Carsen,Edwards,Carsen Edwards,PG,5' 10.75'',78,94.5,5.5,28.5,34,10.53,3.22,14
-2019,1629605,Tacko,Fall,Tacko Fall,C,7' 5.25'',98.25,122.5,6.8,22,26.5,13.01,3.78,8
-2019,1628981,Bruno,Fernando,Bruno Fernando,C,6' 8.75'',87.25,110,5.4,29.5,33.5,11.29,3.21,13
-2019,1629655,Daniel,Gafford,Daniel Gafford,PF,6' 9.25'',86.5,110,5.9,32.5,36.5,11.61,3.25,5
-2019,1629636,Darius,Garland,Darius Garland,PG,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-2019,1629656,Quentin,Grimes,Quentin Grimes,SG,6' 4'',79.75,100.5,8.4,27.5,36,10.83,3.2,6
-2019,1629657,Kyle,Guy,Kyle Guy,SG,6' 0.75'',76.5,95.5,5.7,30.5,36.5,10.48,3.27,4
-2019,1628986,Jaylen,Hands,Jaylen Hands,PG,6' 1.5'',77.5,97,5.1,33,41.5,10.73,3.12,6
-2019,1629607,Jared,Harper,Jared Harper,PG,5' 9.75'',77.5,94,3.9,33.5,40.5,10.77,3.04,8
-2019,1629637,Jaxson,Hayes,Jaxson Hayes,PF,6' 10.25'',87.5,110.5,5,27,34.5,11.74,3.37,5
-2019,1629608,Dewan,Hernandez,Dewan Hernandez,C,6' 9'',85.75,107,6.1,30.5,35.5,11.46,3.28,13
-2019,1629639,Tyler,Herro,Tyler Herro,SG,6' 4.5'',75.25,100.5,7.1,NULL,NULL,NULL,NULL,NULL
-2019,1629658,Jalen,Hoard,Jalen Hoard,PF,6' 7.25'',84.75,105.5,6.7,27.5,35.5,11.44,3.34,8
-2019,1629659,Talen,Horton-Tucker,Talen Horton-Tucker,SG,6' 2.5'',85.25,103,8.4,26,34.5,11.34,3.34,10
-2019,1629631,De'Andre,Hunter,De'Andre Hunter,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-2019,1629610,DaQuan,Jeffries,DaQuan Jeffries,SF-PF,6' 4'',83.25,104,3.9,NULL,NULL,NULL,NULL,NULL
-2019,1629660,Ty,Jerome,Ty Jerome,PG,6' 4.25'',76,98,6.5,26,31.5,11.21,3.4,2
-2019,1629640,Keldon,Johnson,Keldon Johnson,SG,6' 4.75'',81.25,104,5.6,NULL,NULL,NULL,NULL,NULL
-2019,1629661,Cameron,Johnson,Cameron Johnson,SG,6' 7'',82,103,5.8,30.5,36.5,10.52,3.26,NULL
-2019,1629662,Mfiondu,Kabengele,Mfiondu Kabengele,PF,6' 8.75'',87,109.5,5.1,28,35.5,11.21,3.25,6
-2019,1629663,Louis,King,Louis King,SF,6' 6.75'',84.25,104.5,4.8,29,33,10.99,3.28,0
-2019,1629641,Romeo,Langford,Romeo Langford,SG,6' 4.5'',83,103,NULL,NULL,NULL,NULL,NULL,NULL
-2019,1629664,Dedric,Lawson,Dedric Lawson,PF,6' 7'',86.25,107.5,8.9,23.5,26,11.8,3.6,10
-2019,1629665,Jalen,Lecque,Jalen Lecque,PG,6' 2.5'',80.5,98.5,4,35,43,11.09,3.29,1
-2019,1629642,Nassir,Little,Nassir Little,SF,6' 4.5'',85.25,104.5,5.9,31,38.5,12.15,3.24,5
-2019,1629611,Terance,Mann,Terance Mann,SG-SF,6' 4.75'',79.75,101,4,32.5,38.5,11.51,3.3,6
-2019,1628998,Cody,Martin,Cody Martin,PG-SG,6' 4.75'',82.25,102.5,5,28,35.5,10.44,3.32,7
-2019,1629666,Charles,Matthews,Charles Matthews,SG,6' 5'',81.5,103,3.8,29.5,37.5,11.26,3.38,9
-2019,1629667,Jalen,McDaniels,Jalen McDaniels,SF,6' 8.25'',84.25,105.5,5.7,29.5,33.5,11.54,3.32,0
-2019,1629630,Ja,Morant,Ja Morant,PG,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-2019,1629668,Zach,Norvell Jr.,Zach Norvell Jr.,SG,6' 4.5'',78,101,7.5,24,30,11.6,3.43,NULL
-2019,1629669,Jaylen,Nowell,Jaylen Nowell,SG,6' 3.25'',79.25,98,6.1,32,38.5,10.76,3.23,2
-2019,1629670,Jordan,Nwora,Jordan Nwora,PF,6' 5.75'',82.5,103,7.8,NULL,NULL,NULL,NULL,NULL
-2019,1629643,Chuma,Okeke,Chuma Okeke,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-2019,1629644,KZ,Okpala,KZ Okpala,SF,6' 7.25'',85.75,106.5,4.6,30.5,37,10.88,3.38,9
-2019,1629671,Miye,Oni,Miye Oni,SG,6' 4.25'',82.75,100.5,4.9,30.5,38.5,11.71,3.17,19
-2019,1629672,Eric,Paschall,Eric Paschall,SF,6' 6'',87.75,103.5,6.3,33,38,11.63,3.3,18
-2019,1629617,Reggie,Perry,Reggie Perry,SF-PF,6' 8'',84.5,106,6.7,28.5,31.5,12.46,3.3,15
-2019,1629044,Shamorie,Ponds,Shamorie Ponds,PG,5' 11.5'',75.5,96.5,9.8,29,37,11.01,3.2,0
-2019,1629673,Jordan,Poole,Jordan Poole,SG,6' 3.5'',78.75,99.5,7.5,28,35.5,10.59,3.27,NULL
-2019,1629007,Jontay,Porter,Jontay Porter,PF,6' 9.75'',84,109.5,8.5,NULL,NULL,NULL,NULL,NULL
-2019,1629645,Kevin,Porter Jr.,Kevin Porter Jr.,SG,6' 4'',81,103,5.1,27,34,10.82,3.14,2
-2019,1629674,Neemias,Queta,Neemias Queta,C,6' 10.75'',88.25,111.5,6.3,24,32.5,12.04,3.73,1
-2019,1629629,Cameron,Reddish,Cameron Reddish,SF,6' 6.5'',84.5,105.5,4.7,NULL,NULL,NULL,NULL,NULL
-2019,1629675,Naz,Reid,Naz Reid,PF,6' 8.75'',87.25,109,14,26,32.5,12.03,3.42,3
-2019,1629676,Isaiah,Roby,Isaiah Roby,PF,6' 7.25'',85,106,3.9,32.5,35.5,10.63,3.25,9
-2019,1629677,Luka,Samanic,Luka Samanic,PF,6' 9.5'',82.5,107,5.6,27,38,11.01,3.27,7
-2019,1629678,Admiral,Schofield,Admiral Schofield,SF,6' 4'',81.75,102.5,6.8,30,34,10.77,3.37,15
-2019,1629621,Marial,Shayok,Marial Shayok,SF-PF,6' 4.5'',84.25,103.5,4.7,29.5,36.5,11.16,3.37,9
-2019,1629679,Simisola,Shittu,Simisola Shittu,PF,6' 8.5'',85.25,106,6.2,27,35.5,11.85,3.3,11
-2019,1629681,Killian,Tillie,Killian Tillie,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-2019,1629023,P.J.,Washington,P.J. Washington,PF,6' 6.5'',86.5,106.5,8.6,NULL,NULL,NULL,NULL,NULL
-2019,1629682,Tremont,Waters,Tremont Waters,PG,5' 9.5'',74.25,93.5,6.6,30.5,40.5,10.76,3.07,5
-2019,1629683,Quinndary,Weatherspoon,Quinndary Weatherspoon,SG,6' 3'',81,100,6.1,31,38,11.57,3.16,NULL
-2019,1629632,Coby,White,Coby White,PG,6' 3.5'',77,97.5,4.3,NULL,NULL,NULL,NULL,NULL
-2019,1629025,Kris,Wilkes,Kris Wilkes,SF,6' 6.25'',82.75,103,4.9,27.5,35,10.39,3.34,4
-2019,1629684,Grant,Williams,Grant Williams,PF,6' 5.75'',81.75,104.5,5.4,26,31.5,10.83,3.33,20
-2019,1629627,Zion,Williamson,Zion Williamson,PF,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-2019,1629685,Dylan,Windler,Dylan Windler,SF,6' 6.25'',82,104.5,4.6,29,37.5,10.7,3.3,8
-2020,1630173,Precious,Achiuwa,Precious Achiuwa,PF,6'7.50'',84.75,108.5,6.7,NULL,NULL,NULL,NULL,NULL
-2020,1630234,Ty-Shon,Alexander,Ty-Shon Alexander,SG,6'2.00'',80,100,12.3,28,33,11.33,3.26,NULL
-2020,1628962,Udoka,Azubuike,Udoka Azubuike,C,6'10.00'',91.25,109,9.61,37,41,11.82,3.23,NULL
-2020,1630189,Tyler,Bey,Tyler Bey,PF,6'6.00'',85.25,105.5,5,37,43.5,11.35,3.17,NULL
-2020,1630213,Yoeli,Childs,Yoeli Childs,PF,6'6.00'',83.5,106,8.2,34,38.5,10.87,3.22,NULL
-2020,1629603,Mamadi,Diakite,Mamadi Diakite,PF,6'8.50'',87.75,107,7.83,28,37,11.95,3.16,NULL
-2020,1629653,Devon,Dotson,Devon Dotson,PG,6'0.50'',75,95,4.6,31.5,40.5,10.44,3.02,NULL
-2020,1630220,Paul,Eboua,Paul Eboua,SF-PF,6'6.00'',87.5,108,3.8,33,35.5,10.79,3.19,NULL
-2020,1629604,CJ,Elleby,CJ Elleby,SG-SF,6'5.50'',79.25,100.5,4.2,30.5,36.5,11.25,3.25,NULL
-2020,1630235,Trent,Forrest,Trent Forrest,PG,6'3.50'',79.5,102.5,5.65,28,34.5,11.04,3.18,NULL
-2020,1630182,Josh,Green,Josh Green,SG-SF,6'4.50'',81.75,101.5,6.8,30.5,39.5,10.64,3.12,NULL
-2020,1630204,Ashton,Hagans,Ashton Hagans,PG,6'1.50'',80,99.5,4.1,29.5,36.5,10.82,3.13,NULL
-2020,1630221,Joshua,Hall,Joshua Hall,SF,6'6.00'',83,104.5,7.6,31.5,37.5,12.16,3.38,NULL
-2020,1630223,Jalen,Harris,Jalen Harris,SG,6'2.75'',79,97.5,4.4,37.5,42.5,10.59,3.11,NULL
-2020,1630210,Markus,Howard,Markus Howard,PG,5'9.50'',72.25,91.5,9.91,30.5,35.5,11.21,3.11,NULL
-2020,1630190,Elijah,Hughes,Elijah Hughes,SF-SG,6'4.75'',79.5,101.5,10.2,NULL,NULL,NULL,NULL,NULL
-2020,1630198,Isaiah,Joe,Isaiah Joe,SG,6'3.00'',79.5,101,4.7,NULL,NULL,NULL,NULL,NULL
-2020,1630222,Mason,Jones,Mason Jones,SG,6'3.75'',79,102.5,8.9,24,31,10.6,3.33,NULL
-2020,1630233,Nathan,Knight,Nathan Knight,PF-C,6'8.00'',86,109.5,8.2,23,31.5,11.56,3.31,NULL
-2020,1630177,Theo,Maledon,Theo Maledon,PG,6'4.00'',80.75,100.5,2.8,NULL,NULL,NULL,NULL,NULL
-2020,1630211,Karim,Mane,Karim Mane,PG-SG,6'5.00'',83,102,3.73,31,36,11.52,3.04,NULL
-2020,1630230,Naji,Marshall,Naji Marshall,SF,6'5.75'',84.75,102.5,8.7,28.5,35,11.77,3.37,NULL
-2020,1630231,Kenyon,Martin Jr.,Kenyon Martin Jr.,SF-PF,6'6.00'',79.25,102,5.9,31.5,38.5,11.93,3.16,NULL
-2020,1630219,Skylar,Mays,Skylar Mays,SG,6'3.00'',78,99,7.4,29,37.5,10.65,3.3,NULL
-2020,1630192,Zeke,Nnaji,Zeke Nnaji,PF-C,6'9.25'',86,105.5,5.9,33,38,10.94,3.2,NULL
-2020,1629670,Jordan,Nwora,Jordan Nwora,SF-PF,6'5.75'',82.25,104,11.68,29,35,11.29,3.43,NULL
-2020,1629617,Reggie,Perry,Reggie Perry,PF-C,6'8.25'',84.25,106.5,8.4,30,33.5,11.26,3.25,NULL
-2020,1629619,Myles,Powell,Myles Powell,PG-SG,6'0.50'',79,99,15.8,NULL,NULL,NULL,NULL,NULL
-2020,1630193,Immanuel,Quickley,Immanuel Quickley,SG,6'2.00'',80.25,99,8.2,29.5,35.5,11.21,3.17,NULL
-2020,1630186,Jahmi'us,Ramsey,Jahmi'us Ramsey,SG,6'2.50'',78,100.5,3.4,NULL,NULL,NULL,NULL,NULL
-2020,1630194,Paul,Reed Jr.,Paul Reed Jr.,PF,6'8.50'',86,109.5,6.83,26.5,37.5,12.29,3.45,NULL
-2020,1630208,Nick,Richards,Nick Richards,C,6'10.50'',86.25,110,8.5,30,34,11.42,3.25,NULL
-2020,1630203,Grant,Riller,Grant Riller,PG-SG,6'0.25'',77.25,96.5,5.4,32.5,39.5,11.17,3.07,NULL
-2020,1630206,Jayden,Scrubb,Jayden Scrubb,SG-SF,6'5.00'',81.5,104.5,3.7,NULL,NULL,NULL,NULL,NULL
-2020,1630188,Jalen,Smith,Jalen Smith,PF-C,6'9.25'',86.25,110,3.7,NULL,NULL,NULL,NULL,NULL
-2020,1630199,Cassius,Stanley,Cassius Stanley,SG,6'5.00'',79,99.5,5.8,34.5,44,11.4,3.09,NULL
-2020,1630205,Lamar,Stevens,Lamar Stevens,SF-PF,6'5.75'',81,101,6.8,35,41,10.35,3.2,NULL
-2020,1630191,Isaiah,Stewart,Isaiah Stewart,C,6'7.25'',88.75,108.5,7.5,NULL,NULL,NULL,NULL,NULL
-2020,1630179,Tyrell,Terry,Tyrell Terry,PG,6'1.50'',73.75,96,7.6,30,34,10.78,3.28,NULL
-2020,1629681,Killian,Tillie,Killian Tillie,PF,6'8.75'',80,106,12.43,27.5,32,11.6,3.4,NULL
-2020,1630214,Xavier,Tillman Sr.,Xavier Tillman Sr.,PF-C,6'7.50'',86,106,8.5,26,32.5,11.8,3.49,NULL
-2020,1629700,Kaleb,Wesson,Kaleb Wesson,C,6'9.25'',87.5,111.5,12.5,21.5,27,11.73,3.6,NULL
-2020,1630232,Kahlil,Whitney,Kahlil Whitney,SF,6'5.50'',84.25,105.5,5.3,29,39,11.17,3.28,NULL
-2020,1630216,Cassius,Winston,Cassius Winston,PG,6'0.50'',78,97,9,24,28,11.15,3.61,NULL
-2020,1630218,Robert,Woodard II,Robert Woodard II,SF,6'5.50'',86,105.5,4.5,32,38,11.1,3.18,NULL
-2022,1630534,Ochai,Agbaji,Ochai Agbaji,SG,6' 4.50'',82.25,104,5.4,32,39,10.77,3.13,NULL
-2022,1631116,Patrick,Baldwin Jr.,Patrick Baldwin Jr.,SF,6' 9.25'',85.75,110.5,8.9,23.5,26.5,12.25,3.45,NULL
-2022,1631094,Paolo,Banchero,Paolo Banchero,PF,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-2022,1631230,Dominick,Barlow,Dominick Barlow,PF,6' 8.75'',87,108.5,5.9,28.5,34,11.29,3.33,NULL
-2022,1630699,MarJon,Beauchamp,MarJon Beauchamp,SG,6' 5.25'',84.75,106,5.3,NULL,NULL,NULL,NULL,NULL
-2022,1630656,Hugo,Besson,Hugo Besson,SG,6' 4.50'',77.5,102,8.8,24.5,31.5,11.36,3.4,NULL
-2022,1631103,Malaki,Branham,Malaki Branham,SG,6' 4.00'',82,102.5,6.1,29,35,11.38,3.17,NULL
-2022,1631128,Christian,Braun,Christian Braun,SG,6' 5.50'',78.5,99.5,6.2,33.5,40,11,3.16,NULL
-2022,1631112,Kendall,Brown,Kendall Brown,SF,6' 6.25'',83,103,4.9,31.5,41,11.57,3.29,NULL
-2022,1631219,John,Butler Jr.,John Butler Jr.,PF,6' 11.75'',86.25,112,4.7,26.5,28.5,11.16,3.33,NULL
-2022,1630577,Julian,Champagnie,Julian Champagnie,SF,6' 6.25'',82,107,7.1,28.5,34.5,11.39,3.14,NULL
-2022,1631113,Kennedy,Chandler,Kennedy Chandler,PG,5' 11.50'',77.25,97,4.4,31,41.5,10.73,NULL,NULL
-2022,1631108,Max,Christie,Max Christie,SG,6' 4.25'',80.75,102.5,4.8,32,37.5,10.82,3.07,NULL
-2022,1630594,Kofi,Cockburn,Kofi Cockburn,C,6' 11.00'',88.25,110.5,8.2,29.5,32.5,12.11,3.33,NULL
-2022,1630700,Dyson,Daniels,Dyson Daniels,SG,6' 6.00'',82.5,105,4.9,29,34,10.81,3.22,NULL
-2022,1631098,Johnny,Davis,Johnny Davis,PG,6' 4.25'',80.5,103.5,6.7,NULL,NULL,NULL,NULL,NULL
-2022,1631120,JD,Davison,JD Davison,PG,6' 0.50'',78.5,99.5,7.8,30,37,11.38,3.26,NULL
-2022,1630620,Darius,Days,Darius Days,SF-PF,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-2022,1631217,Moussa,Diabate,Moussa Diabate,C,6' 9.25'',86.5,109.5,2.7,29,36.5,11.16,3.26,NULL
-2022,1631172,Ousmane,Dieng,Ousmane Dieng,SF,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-2022,1631215,Khalifa,Diop,Khalifa Diop,C,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-2022,1631105,Jalen,Duren,Jalen Duren,C,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-2022,1631106,Tari,Eason,Tari Eason,PF,6' 6.75'',86,107.5,5.9,NULL,NULL,NULL,NULL,NULL
-2022,1631165,Keon,Ellis,Keon Ellis,SG,6' 3.50'',80.5,102,3.8,28,35.5,10.87,3.18,NULL
-2022,1630701,Michael,Foster Jr.,Michael Foster Jr.,C,6' 7.75'',84.25,109.5,6.2,28,32.5,11.49,3.22,NULL
-2022,1631221,Collin,Gillespie,Collin Gillespie,PG,6' 1.50'',76,98,8.6,26.5,33,10.95,3.21,NULL
-2022,1631100,AJ,Griffin,AJ Griffin,SF,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-2022,1630702,Jaden,Hardy,Jaden Hardy,SG,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-2022,1631199,Ron,Harper Jr.,Ron Harper Jr.,SF,6' 4.00'',85.25,105.5,14.3,26,30.5,11.41,3.4,NULL
-2022,1631096,Chet,Holmgren,Chet Holmgren,PF,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-2022,1631127,Harrison,Ingram,Harrison Ingram,SF,6' 5.25'',84.25,103.5,8.3,29.5,35,11.83,3.31,NULL
-2022,1631093,Jaden,Ivey,Jaden Ivey,PG,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-2022,1631218,Trayce,Jackson-Davis,Trayce Jackson-Davis,C,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-2022,1631107,Nikola,Jovic,Nikola Jovic,SF,6' 9.50'',84.25,108.5,7.4,NULL,NULL,NULL,NULL,NULL
-2022,1630548,Johnny,Juzang,Johnny Juzang,SG,6' 5.25'',83,102.5,7.5,27.5,32.5,11.03,3.29,NULL
-2022,1631130,Ismael,Kamagate,Ismael Kamagate,PF,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-2022,1631211,Trevor,Keels,Trevor Keels,SG,6' 3.25'',79.25,101,13.5,24.5,31,11.33,3.27,NULL
-2022,1631117,Walker,Kessler,Walker Kessler,C,7' 0.25'',88.25,113,14.7,NULL,NULL,NULL,NULL,NULL
-2022,1631132,Christian,Koloko,Christian Koloko,C,6' 10.75'',89.25,113,5.7,28,33.5,11.3,3.27,NULL
-2022,1631222,Jake,LaRavia,Jake LaRavia,PF,6' 6.75'',81.5,104,9,27.5,34,10.58,3.37,NULL
-2022,1631171,Justin,Lewis,Justin Lewis,PF,6' 6.25'',86.5,105.5,7.3,32.5,35,11.49,3.23,NULL
-2022,1630604,E.J.,Liddell,E.J. Liddell,PF,6' 5.50'',83.75,103.5,12.2,35.5,38,11.11,3.26,NULL
-2022,1631254,Kenneth,Lofton Jr.,Kenneth Lofton Jr.,PF-C,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-2022,1631213,Tyrese,Martin,Tyrese Martin,SG-SF,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-2022,1631097,Bennedict,Mathurin,Bennedict Mathurin,SG,6' 4.50'',81,104,5.7,NULL,NULL,NULL,NULL,NULL
-2022,1630571,Matthew,Mayer,Matthew Mayer,SF,6' 8.00'',82.5,105,11.1,25.5,31.5,10.74,3.39,NULL
-2022,1631121,Bryce,McGowens,Bryce McGowens,SG,6' 5.25'',80.75,103.5,5.4,29.5,34,11.12,3.27,NULL
-2022,1631159,Leonard,Miller,Leonard Miller,SF,6' 8.50'',86,106.5,5.7,30,36.5,11.11,3.36,NULL
-2022,1631125,Josh,Minnott,Josh Minnott,PF,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-2022,1631198,Aminu,Mohammed,Aminu Mohammed,SG-SF,6' 3.50'',83,104,5.1,29.5,36,11.54,3.33,NULL
-2022,1631129,Iverson,Molinar,Iverson Molinar,PG,6' 2.25'',80,101,4.8,31,38,11.23,3.19,NULL
-2022,1631168,Jean,Montero,Jean Montero,PG,6' 1.00'',77.25,98.5,7.4,29.5,37,11.19,3.17,NULL
-2022,1631111,Wendell,Moore,Wendell Moore,SG,6' 4.25'',84.5,101,7.5,32.5,38.5,10.94,3.3,NULL
-2022,1631099,Keegan,Murray,Keegan Murray,PF,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-2022,1629614,Andrew,Nembhard,Andrew Nembhard,PG,6' 3.00'',77.75,99,4.4,26.5,35,10.46,3.26,NULL
-2022,1630590,Scotty,Pippen Jr.,Scotty Pippen Jr.,PG,6' 0.00'',77.75,95.5,5.3,30.5,37.5,11.07,3.21,NULL
-2022,1630629,Gabriele,Procida,Gabriele Procida,SG-SF,6' 5.75'',80,106,3.8,29.5,35,11.02,3.07,NULL
-2022,1631197,Jared,Rhoden,Jared Rhoden,SG-SF,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-2022,1631115,Orlando,Robinson,Orlando Robinson,C,6' 9.75'',88,111,9.5,23,27.5,11.4,3.55,NULL
-2022,1631223,David,Roddy,David Roddy,PF,6' 4.50'',83.5,105,11.6,27,35.5,10.75,3.22,NULL
-2022,1631157,Ryan,Rollins,Ryan Rollins,SG,6' 2.00'',81.75,100.5,5,30.5,36.5,11.26,3.07,NULL
-2022,1631204,Marcus,Sasser,Marcus Sasser,PG,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-2022,1631220,Dereon,Seabron,Dereon Seabron,SG,6' 4.75'',80.75,103.5,4,30.5,38,11.03,3.12,NULL
-2022,1631101,Shaedon,Sharpe,Shaedon Sharpe,SG,6' 4.25'',83.5,103.5,4.8,NULL,NULL,NULL,NULL,NULL
-2022,1631173,Terquavion,Smith,Terquavion Smith,SG,6' 2.25'',78.5,98,3.8,30.5,38.5,10.63,3.14,NULL
-2022,1631095,Jabari,Smith,Jabari Smith,PF,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-2022,1631110,Jeremy,Sochan,Jeremy Sochan,PF,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-2022,1631164,Matteo,Spagnolo,Matteo Spagnolo,PG,6' 4.00'',80,102,8.6,25.5,31.5,11.42,3.4,NULL
-2022,1631124,Julian,Strawther,Julian Strawther,SF,6' 5.75'',81.5,104.5,7.9,28.5,35,10.3,3.26,NULL
-2022,1631207,Dalen,Terry,Dalen Terry,SG,6' 6.00'',84.75,106,5.4,NULL,NULL,NULL,NULL,NULL
-2022,1631166,Drew,Timme,Drew Timme,C,6' 8.25'',86,107.5,15.7,25.5,31.5,11.71,3.38,NULL
-2022,1631133,Jabari,Walker,Jabari Walker,PF,6' 6.75'',82.75,105,12.1,29.5,32.5,11.53,3.24,NULL
-2022,1631102,TyTy,Washington Jr.,TyTy Washington Jr.,SG,6' 2.25'',80,99.5,12,NULL,NULL,NULL,NULL,NULL
-2022,1631212,Peyton,Watson,Peyton Watson,SF,6' 6.75'',84.5,107.5,5.2,28,33.5,11.03,3.28,NULL
-2022,1631104,Blake,Wesley,Blake Wesley,SG,6' 3.00'',81.25,103,5.6,30,36,11.55,3.21,NULL
-2022,1631214,Alondes,Williams,Alondes Williams,SG,6' 3.75'',79,102,7.2,30,35.5,10.96,3.15,NULL
-2022,1631114,Jalen,Williams,Jalen Williams,SG,6' 4.50'',86.25,105.5,8.9,33.5,39,11.13,3.11,NULL
-2022,1631119,Jaylin,Williams,Jaylin Williams,C,6' 8.75'',85,108.5,8,24.5,30,11.64,3.5,NULL
-2022,1630652,Trevion,Williams,Trevion Williams,C,6' 7.25'',86.75,108.5,10.8,27.5,30,12.75,3.48,NULL
-2022,1631258,Bryson,Williams,Bryson Williams,PF-C,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-2022,1631109,Mark,Williams,Mark Williams,C,7' 0.00'',90.5,117,5.4,NULL,NULL,NULL,NULL,NULL
-2022,1630592,Jalen,Wilson,Jalen Wilson,SF-PF,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-2022,1630855,Fanbo,Zeng,Fanbo Zeng,SF-PF,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-2023,1641725,Trey,Alexander,Trey Alexander,SG,6' 3.25'',82,101.5,NULL,29.5,34,11.6,3.35,NULL
-2023,1641735,Amari,Bailey,Amari Bailey,SG,6' 3.25'',79,103.5,NULL,28.5,35,11.34,3.19,NULL
-2023,1641734,Emoni,Bates,Emoni Bates,SF,6' 8.25'',81,105,NULL,27,32.5,11.54,3.49,NULL
-2023,1641736,Reece,Beekman,Reece Beekman,PG,6' 1.50'',79,100.5,NULL,30.5,38,10.99,3.14,NULL
-2023,1641710,Anthony,Black,Anthony Black,PG,6' 5.75'',79.5,102.5,NULL,32,39,11.04,3.35,NULL
-2023,1641737,Adem,Bona,Adem Bona,C,6' 8.25'',NULL,110.5,NULL,NULL,NULL,NULL,NULL,NULL
-2023,1641738,Kobe,Brown,Kobe Brown,PF,6' 6.50'',84.75,106.5,NULL,28.5,32,11.39,3.33,NULL
-2023,1641723,Kobe,Bufkin,Kobe Bufkin,SG,6' 4.25'',79.75,102.5,NULL,29,36,11.71,3.26,NULL
-2023,1641739,Toumani,Camara,Toumani Camara,PF,6' 7.00'',84.5,107,NULL,28.5,33,10.7,3.41,NULL
-2023,1631321,Sidy,Cissoko,Sidy Cissoko,SF,6' 5.50'',81.75,104,NULL,30.5,35.5,11.24,3.31,NULL
-2023,1641740,Jaylen,Clark,Jaylen Clark,SG,6' 4.00'',81,101.5,NULL,NULL,NULL,NULL,NULL,NULL
-2023,1641730,Noah,Clowney,Noah Clowney,PF,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-2023,1641731,Bilal,Coulibaly,Bilal Coulibaly,SG-SF,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-2023,1641741,Ricky,Council IV,Ricky Council IV,SF,6' 5.00'',81,103,NULL,30.5,37,11.2,3.33,NULL
-2023,1641711,Gradey,Dick,Gradey Dick,SG,6' 6.25'',80.75,101,NULL,29,34,11.13,3.5,NULL
-2023,1641743,Nikola,Djurisic,Nikola Djurisic,SF,6' 7.00'',80.25,102,NULL,NULL,NULL,NULL,NULL,NULL
-2023,1641744,Zach,Edey,Zach Edey,C,7' 3.25'',94.5,115.5,NULL,26,29.5,11.37,3.45,NULL
-2023,1641745,Adam,Flagler,Adam Flagler,PG,6' 1.00'',76.5,97,NULL,31,36,10.96,3.24,NULL
-2023,1641718,Keyonte,George,Keyonte George,SG,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-2023,1631243,Mouhamed,Gueye,Mouhamed Gueye,C,6' 10.25'',87.25,110.5,NULL,NULL,NULL,NULL,NULL,NULL
-2023,1641722,Jordan,Hawkins,Jordan Hawkins,SG,6' 4.25'',78.75,101.5,NULL,NULL,NULL,NULL,NULL,NULL
-2023,1641746,Coleman,Hawkins,Coleman Hawkins,PF,6' 8.50'',84.25,108.5,NULL,26.5,32.5,12.14,3.37,NULL
-2023,1630703,Scoot,Henderson,Scoot Henderson,PG,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-2023,1641707,Taylor,Hendricks,Taylor Hendricks,PF,6' 8.25'',84.5,107,NULL,32.5,36,11.27,3.32,NULL
-2023,1641747,DaRon,Holmes II,DaRon Holmes II,C,6' 9.00'',84.5,109,NULL,29.5,35,11.48,3.2,NULL
-2023,1641720,Jalen,Hood-Schifino,Jalen Hood-Schifino,PG,6' 4.25'',82.25,100.5,NULL,NULL,NULL,NULL,NULL,NULL
-2023,1641724,Jett,Howard,Jett Howard,SF,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-2023,1641713,GG,Jackson,GG Jackson,PF,6' 8.25'',83.5,106,NULL,31,37,11.39,3.21,NULL
-2023,1641748,Andre,Jackson Jr.,Andre Jackson Jr.,SF,6' 5.50'',81.75,103,NULL,30.5,39.5,10.83,3.14,NULL
-2023,1631218,Trayce,Jackson-Davis,Trayce Jackson-Davis,C,6' 8.25'',85,106,NULL,33,36.5,11.8,3.2,NULL
-2023,1631170,Jaime,Jaquez Jr.,Jaime Jaquez Jr.,SF,6' 6.00'',81.5,99.5,NULL,34.5,39,11.21,3.33,NULL
-2023,1641749,Keyontae,Johnson,Keyontae Johnson,SF,6' 4.00'',84,103,NULL,NULL,NULL,NULL,NULL,NULL
-2023,1641732,Colby,Jones,Colby Jones,SG,6' 4.50'',80,103,NULL,30.5,35,11.14,3.33,NULL
-2023,1641750,Ryan,Kalkbrenner,Ryan Kalkbrenner,C,7' 0.75'',89,112.5,NULL,28,30.5,12.27,3.39,NULL
-2023,1641751,Arthur,Kaluma,Arthur Kaluma,PF,6' 6.25'',84.5,103.5,NULL,32.5,34.5,11.35,3.44,NULL
-2023,1631340,Mojave,King,Mojave King,SG,6' 3.75'',80,101,NULL,33.5,42,11.07,3.18,NULL
-2023,1641752,Bobi,Klintman,Bobi Klintman,PF,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-2023,1641721,Maxwell,Lewis,Maxwell Lewis,SG,6' 6.25'',84,104.5,NULL,32.5,36.5,11.4,3.43,NULL
-2023,1641726,Dereck,Lively Jr.,Dereck Lively Jr.,C,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-2023,1641753,Chris,Livingston,Chris Livingston,SF,6' 6.00'',83.25,104.5,NULL,30.5,37,11.65,3.27,NULL
-2023,1641754,Seth,Lundy,Seth Lundy,SF,6' 4.00'',82.25,104,NULL,31.5,35.5,11.02,3.15,NULL
-2023,1631256,Kevin,McCullar,Kevin McCullar,SF,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-2023,1641756,Mike,Miles Jr.,Mike Miles Jr.,PG,6' 0.75'',72.5,96,NULL,33,37,11.01,3.11,NULL
-2023,1641757,Jordan,Miller,Jordan Miller,SF,6' 4.50'',83.75,103.5,NULL,32,36.5,11.43,3.17,NULL
-2023,1641706,Brandon,Miller,Brandon Miller,SF,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-2023,1631159,Leonard,Miller,Leonard Miller,PF,6' 9.25'',86,106.5,NULL,32,37.5,11,3.33,NULL
-2023,1641758,Judah,Mintz,Judah Mintz,PG,6' 3.00'',75.5,98,NULL,28.5,37,10.32,3.24,NULL
-2023,1641759,Dillon,Mitchell,Dillon Mitchell,PF,6' 6.75'',82,105,NULL,29,37,10.92,3.32,NULL
-2023,1641760,Omari,Moore,Omari Moore,SG,6' 5.25'',81.75,103.5,NULL,29,35.5,10.8,3.22,NULL
-2023,1631200,Kris,Murray,Kris Murray,PF,6' 7.75'',83.75,106,NULL,29.5,35,11.11,3.3,NULL
-2023,1641761,Grant,Nelson,Grant Nelson,PF,6' 10.00'',84,106.5,NULL,32,35.5,9.99,3.21,NULL
-2023,1641762,James,Nnaji,James Nnaji,C,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-2023,1641763,Julian,Phillips,Julian Phillips,SF,6' 6.75'',83.5,102,NULL,36,43,11.09,3.32,NULL
-2023,1629618,Jalen,Pickett,Jalen Pickett,PG,6' 2.00'',79.25,98.5,NULL,28.5,33,11.91,3.35,NULL
-2023,1641764,Brandin,Podziemski,Brandin Podziemski,SG,6' 3.75'',77.5,96.5,NULL,31.5,39,11.16,3.21,NULL
-2023,1641765,Olivier-Maxence,Prosper,Olivier-Maxence Prosper,PF,6' 6.75'',85,104,NULL,35,40.5,10.59,3.21,NULL
-2023,1641712,Rayan,Rupert,Rayan Rupert,SF,6' 6.00'',86,106,NULL,27.5,32.5,11.18,3.43,NULL
-2023,1641766,Adama,Sanogo,Adama Sanogo,C,6' 7.25'',86.75,108.5,NULL,28.5,31,11.5,3.31,NULL
-2023,1631204,Marcus,Sasser,Marcus Sasser,PG,6' 1.25'',79,99.5,NULL,27,35,10.68,3.43,NULL
-2023,1641729,Brice,Sensabaugh,Brice Sensabaugh,SF,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-2023,1630545,Terrence,Shannon Jr.,Terrence Shannon Jr.,SF,6' 5.50'',80,102,NULL,32,37.5,10.36,3.06,NULL
-2023,1641767,Ben,Sheppard,Ben Sheppard,SG,6' 5.25'',79.75,100,NULL,29.5,35.5,10.88,3.17,NULL
-2023,1641771,Jalen,Slawson,Jalen Slawson,PF,6' 6.50'',83.75,106,NULL,29,33,11.26,3.29,NULL
-2023,1631173,Terquavion,Smith,Terquavion Smith,SG,6' 2.50'',78.75,98,NULL,30,37,10.86,3.21,NULL
-2023,1641733,Nick,Smith Jr.,Nick Smith Jr.,SG,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-2023,1631124,Julian,Strawther,Julian Strawther,SF,6' 6.00'',81.25,105,NULL,27.5,34.5,10.94,3.31,NULL
-2023,1641708,Amen,Thompson,Amen Thompson,SG,6' 5.75'',84,103.5,NULL,NULL,NULL,NULL,NULL,NULL
-2023,1641709,Ausar,Thompson,Ausar Thompson,SG,6' 5.75'',84,104,NULL,NULL,NULL,NULL,NULL,NULL
-2023,1631166,Drew,Timme,Drew Timme,C,6' 8.75'',85.75,108.5,NULL,26,30.5,10.93,3.34,NULL
-2023,1641772,Nae'Qwan,Tomlin,Nae'Qwan Tomlin,PF,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-2023,1631131,Oscar,Tshiebwe,Oscar Tshiebwe,C,6' 7.25'',87.5,108,NULL,29.5,32.5,12.26,3.32,NULL
-2023,1641773,Azuolas,Tubelis,Azuolas Tubelis,PF,6' 8.75'',83,108,NULL,23.5,30.5,11.17,3.5,NULL
-2023,1641774,Tristan,Vukcevic,Tristan Vukcevic,C,6' 11.25'',86.5,111,NULL,26,30.5,11.71,3.43,NULL
-2023,1641716,Jarace,Walker,Jarace Walker,PF,6' 6.50'',86.5,104.5,NULL,34.5,38,10.89,3.2,NULL
-2023,1641717,Cason,Wallace,Cason Wallace,PG,6' 2.50'',80.5,101,NULL,28,36,10.82,3.34,NULL
-2023,1641775,Jordan,Walsh,Jordan Walsh,SF,6' 5.75'',85.75,107,NULL,33,36,10.83,3.3,NULL
-2023,1641705,Victor,Wembanyama,Victor Wembanyama,C,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-2023,1641727,Dariq,Whitehead,Dariq Whitehead,SG,6' 5.75'',82.25,103.5,NULL,NULL,NULL,NULL,NULL,NULL
-2023,1641715,Cam,Whitmore,Cam Whitmore,SF,6' 5.75'',80.5,103.5,NULL,31.5,40.5,10.82,3.2,NULL
-2023,1630592,Jalen,Wilson,Jalen Wilson,SF,6' 5.50'',80,99.5,NULL,31.5,35,11.26,3.2,NULL
-2023,1631209,Isaiah,Wong,Isaiah Wong,SG,6' 2.50'',78.75,97.5,NULL,32.5,37,10.93,3.22,NULL
+season,PlayerID,wingspan,standing reach,body fat pct,standing vertical leap,maximum vertical leap,lane agility time,three quarter sprint,bench press
+2001,12033,84.5,107.0,12.4,28.5,31.0,11.9,3.4,16.0
+2001,2240,81.5,99.5,5.3,31.5,36.0,,3.25,12.0
+2001,2220,81.5,99.5,9.3,30.0,37.0,10.91,3.2,6.0
+2001,2203,82.5,105.0,9.3,29.5,33.0,10.95,3.3,12.0
+2001,12034,80.5,99.0,5.3,35.0,41.5,11.26,2.91,7.0
+2001,2294,79.5,97.5,6.7,31.5,38.0,10.59,3.12,15.0
+2001,2257,88.0,111.0,6.0,26.5,31.0,11.84,3.33,6.0
+2001,12035,83.5,104.0,8.6,28.5,34.5,11.96,3.21,7.0
+2001,2214,85.5,107.0,9.3,27.0,30.0,11.11,3.35,13.0
+2001,2249,80.75,102.5,6.7,26.0,32.5,9.65,3.15,12.0
+2001,2198,85.0,108.0,8.9,30.0,33.0,11.59,3.45,17.0
+2001,12031,76.0,92.5,6.7,31.0,39.5,11.23,3.0,10.0
+2001,2245,83.75,104.5,6.7,32.0,37.0,11.81,3.27,6.0
+2001,12032,80.25,99.0,8.0,34.5,39.0,11.0,3.1,14.0
+2001,2199,87.0,110.0,6.7,31.0,33.5,12.13,3.36,2.0
+2001,2251,88.0,111.0,12.9,23.5,27.5,12.5,3.59,6.0
+2001,2439,86.75,107.0,8.0,31.0,34.0,11.47,3.13,15.0
+2001,12036,83.5,103.0,8.0,31.5,34.5,11.4,3.23,11.0
+2001,2215,88.5,110.0,12.9,25.5,28.5,12.1,3.54,8.0
+2001,2260,87.0,104.0,15.2,23.0,29.0,11.65,3.6,10.0
+2001,2241,77.5,92.0,5.5,31.0,35.5,10.77,3.2,9.0
+2001,2201,90.5,111.0,16.5,28.0,31.0,12.25,3.53,16.0
+2001,12037,83.75,107.0,13.6,25.5,28.5,12.19,3.47,13.0
+2001,2205,90.5,113.0,21.0,21.5,25.5,12.37,3.56,15.0
+2001,12038,86.5,110.2,8.0,27.0,30.0,12.47,3.46,8.0
+2001,12039,83.5,101.5,12.9,31.5,33.0,12.56,3.31,18.0
+2001,2230,80.0,101.0,4.0,34.5,37.5,10.08,3.12,22.0
+2001,12150,90.0,109.0,3.9,29.0,32.0,13.05,3.36,14.0
+2001,2386,82.75,108.5,11.7,32.0,33.0,11.46,3.09,9.0
+2001,2228,82.5,102.5,8.0,34.5,36.5,11.7,3.16,21.0
+2001,2218,78.5,100.5,,26.5,33.0,11.51,3.19,10.0
+2001,-1,73.25,92.5,8.0,34.5,40.0,10.88,2.92,9.0
+2001,12151,78.25,99.0,5.5,28.5,35.0,11.7,3.17,13.0
+2001,12152,83.25,101.0,6.7,39.5,45.5,11.33,3.1,10.0
+2001,2204,87.0,110.0,4.0,26.5,33.0,11.77,3.21,3.0
+2001,2239,80.0,99.5,5.3,35.5,37.5,11.57,3.29,12.0
+2001,2213,84.25,106.0,10.5,27.0,31.5,12.25,3.35,11.0
+2001,12153,86.0,107.5,,,,,,
+2001,2217,90.5,113.5,12.9,27.0,28.5,12.87,3.5,17.0
+2001,12154,81.25,100.5,7.3,33.0,40.5,11.38,3.19,13.0
+2001,2212,88.0,108.0,5.3,30.5,38.5,11.99,3.15,11.0
+2001,12155,83.75,105.5,11.7,29.0,32.5,11.25,3.3,17.0
+2001,12156,82.75,103.0,6.0,26.0,31.0,11.42,3.31,23.0
+2001,2210,84.0,103.0,6.7,33.0,38.5,11.19,3.15,14.0
+2001,2798,77.25,97.0,6.0,34.5,41.0,10.97,3.1,2.0
+2001,12157,89.0,111.5,19.1,23.5,30.0,12.41,3.59,18.0
+2001,2256,88.0,109.5,9.9,32.5,35.0,11.27,3.12,13.0
+2001,2207,81.0,105.0,6.7,32.5,36.5,12.05,3.4,12.0
+2001,12158,78.75,100.0,6.7,30.5,34.5,11.38,3.21,1.0
+2001,2253,81.25,101.0,8.0,36.0,40.0,11.06,3.12,12.0
+2001,12159,75.5,96.5,6.7,33.0,36.5,11.53,3.1,0.0
+2001,12160,84.5,108.5,13.6,24.0,30.0,11.65,3.45,8.0
+2001,12161,80.25,99.5,6.7,29.0,41.0,10.57,3.15,9.0
+2001,200081,83.5,103.0,5.3,33.0,43.0,11.64,3.08,0.0
+2001,2211,83.0,105.5,11.7,28.5,34.5,11.22,3.43,11.0
+2001,12162,85.5,106.5,8.0,26.5,29.5,13.42,3.5,2.0
+2001,40046,86.5,110.5,11.7,23.0,26.0,12.0,3.7,4.0
+2001,12164,73.5,92.0,12.4,27.0,32.0,11.93,3.27,5.0
+2001,12165,74.75,94.0,12.4,26.0,31.0,11.5,3.34,5.0
+2001,12166,80.0,102.5,8.0,32.0,37.0,10.77,3.19,14.0
+2001,2202,83.5,102.5,5.3,32.5,39.5,11.75,3.12,15.0
+2001,2369,76.5,99.0,6.0,30.5,35.5,10.97,3.15,2.0
+2001,2219,82.5,103.5,6.7,29.0,34.0,11.47,3.22,1.0
+2001,12167,76.5,98.0,6.7,28.5,33.0,12.05,3.2,3.0
+2001,2243,81.75,105.5,13.6,27.0,30.5,11.75,3.47,14.0
+2001,12168,89.75,110.5,10.5,23.5,29.5,13.28,3.55,0.0
+2001,2250,84.25,105.0,6.7,27.5,34.0,11.69,3.41,12.0
+2001,2226,81.5,99.5,4.0,28.5,35.0,11.3,3.22,4.0
+2001,12169,84.5,102.0,7.3,30.0,35.5,11.29,3.23,15.0
+2001,12170,85.75,103.7,8.0,33.5,37.5,11.17,3.2,19.0
+2001,2224,79.5,97.5,13.6,28.0,37.5,11.96,3.2,1.0
+2001,12171,83.25,104.5,6.7,28.0,33.0,11.95,3.25,7.0
+2001,12172,89.0,109.0,11.2,29.0,30.5,12.02,3.46,9.0
+2001,2248,78.75,97.0,4.0,32.5,37.5,10.97,3.19,4.0
+2001,2206,83.5,104.5,9.3,27.5,33.0,12.07,3.47,16.0
+2001,2254,89.5,113.0,9.3,24.5,28.0,11.83,3.48,10.0
+2001,12041,83.5,106.5,9.3,27.5,33.5,11.37,3.21,18.0
+2001,12040,85.5,105.5,12.4,23.0,29.0,12.25,3.3,19.0
+2004,2754,81.0,102.0,6.7,31.5,36.5,10.7,3.19,17.0
+2004,2772,86.0,107.5,8.0,29.5,32.0,11.63,3.29,8.0
+2004,2857,73.0,92.0,6.7,29.0,34.5,10.63,3.08,13.0
+2004,101138,86.5,106.5,9.3,31.5,33.0,11.61,3.24,18.0
+2004,2740,,,9.3,,,,,
+2004,2800,79.0,100.0,7.3,,,,,1.0
+2004,12173,82.0,105.5,11.2,28.0,30.0,10.93,3.25,16.0
+2004,12174,81.0,98.0,2.6,37.0,43.5,11.24,3.21,13.0
+2004,2810,83.0,107.0,6.0,32.0,35.5,11.7,3.22,18.0
+2004,2766,78.5,96.5,9.9,,,,,9.0
+2004,2866,85.5,109.0,16.3,23.0,25.0,13.32,3.4,14.0
+2004,12175,73.5,94.0,9.3,23.0,29.0,11.5,3.27,4.0
+2004,12176,87.0,113.0,14.8,21.0,29.0,12.9,3.62,2.0
+2004,2735,83.0,105.0,9.3,29.0,36.0,11.95,3.38,11.0
+2004,200555,81.5,106.5,6.7,27.0,31.0,11.58,3.12,6.0
+2004,2845,83.0,106.0,18.5,31.0,32.0,11.38,3.19,4.0
+2004,2736,84.5,108.5,6.7,27.5,31.5,11.46,3.34,5.0
+2004,12177,88.0,111.5,13.7,25.5,31.5,11.64,3.34,1.0
+2004,2768,78.5,98.0,6.7,31.5,35.0,10.45,3.14,7.0
+2004,2823,88.5,113.0,14.1,,,,,15.0
+2004,2765,81.0,100.0,6.7,,,,,
+2004,2824,80.5,103.0,5.3,24.0,31.0,10.89,3.2,12.0
+2004,2784,79.5,98.5,6.0,29.0,32.0,10.97,3.1,15.0
+2004,2782,85.0,108.5,10.8,29.5,31.0,11.15,3.25,13.0
+2004,12178,85.0,108.0,14.8,27.0,31.5,11.75,3.36,22.0
+2004,101155,86.0,106.5,,26.5,30.5,12.49,3.24,9.0
+2004,2732,80.5,99.0,5.3,31.5,37.5,11.28,3.19,12.0
+2004,2734,79.5,98.5,5.3,30.5,37.0,11.03,3.19,5.0
+2004,2730,88.5,111.5,10.5,30.5,35.5,11.21,3.14,7.0
+2004,12179,84.5,107.0,11.7,28.5,34.5,11.91,3.28,
+2004,2743,84.5,106.5,6.7,29.5,36.0,11.33,3.2,22.0
+2004,2738,83.0,105.5,6.7,30.5,34.5,11.17,3.18,4.0
+2004,12180,89.0,111.5,10.5,26.5,32.5,12.28,3.41,13.0
+2004,2739,80.5,103.0,8.0,26.5,36.0,11.1,3.24,13.0
+2004,2744,86.5,110.0,10.5,28.5,30.0,13.08,3.29,3.0
+2004,2865,87.0,109.0,16.3,26.5,28.5,11.81,3.38,14.0
+2004,12181,74.5,95.0,6.7,26.0,28.5,11.07,3.28,4.0
+2004,12182,85.5,107.0,6.7,,,,,
+2004,2778,84.0,109.5,10.5,,,,,
+2004,2733,83.0,105.5,6.7,26.5,30.0,10.72,3.23,
+2004,12184,81.5,107.0,9.9,25.5,29.5,12.93,3.23,6.0
+2004,12000,84.5,105.5,6.7,29.0,34.5,11.08,3.13,13.0
+2004,12001,84.0,105.5,10.5,25.0,30.5,11.81,3.33,11.0
+2004,2822,86.0,107.0,12.4,24.5,28.5,11.74,3.39,8.0
+2004,2777,79.0,101.5,8.0,27.5,33.0,10.94,3.1,13.0
+2004,12002,84.5,107.0,8.0,28.5,32.5,11.01,3.21,
+2004,12003,81.0,101.5,14.8,25.0,30.0,11.31,3.34,
+2004,12004,83.5,102.0,8.6,30.5,33.5,11.45,3.22,16.0
+2004,2749,74.5,95.0,8.0,28.5,33.5,10.95,3.14,15.0
+2004,12005,82.0,102.0,12.9,27.5,32.5,11.27,3.32,11.0
+2004,2731,88.0,110.5,5.3,31.5,34.0,12.32,3.15,22.0
+2004,12006,82.5,107.5,6.7,26.5,33.0,11.18,3.27,6.0
+2004,12007,79.0,105.0,12.3,26.0,30.0,10.99,3.4,17.0
+2004,-1,83.5,108.0,12.9,25.5,30.0,12.97,3.56,8.0
+2004,12008,81.5,101.5,5.3,30.0,36.0,11.14,3.17,17.0
+2004,12009,78.5,99.5,8.6,27.5,32.5,11.5,3.24,1.0
+2004,2773,79.5,100.5,6.0,,,,,
+2004,12010,71.5,92.5,14.1,25.0,29.0,11.37,3.25,2.0
+2004,2762,89.5,111.5,6.7,24.0,26.5,12.61,3.6,2.0
+2004,2876,84.5,109.0,12.9,22.0,26.0,12.65,3.56,15.0
+2004,101160,81.5,106.5,9.3,27.5,33.0,12.52,3.3,18.0
+2004,2774,82.0,102.0,6.0,28.5,34.5,10.91,3.17,14.0
+2004,101126,73.0,91.5,6.7,35.5,43.5,10.75,2.96,13.0
+2004,12011,83.5,106.0,6.7,24.5,30.5,11.98,3.37,9.0
+2004,2781,83.0,102.5,6.0,31.5,35.5,11.27,3.18,8.0
+2004,12012,83.0,107.0,9.3,23.5,31.5,10.93,3.39,8.0
+2004,2746,84.0,106.5,6.7,32.5,39.5,11.43,3.24,12.0
+2004,2747,82.0,104.0,6.7,29.0,35.5,10.93,3.21,5.0
+2004,2745,81.0,104.0,9.3,30.0,35.0,10.79,3.13,19.0
+2004,2776,86.0,108.5,9.3,28.0,31.5,12.13,3.27,18.0
+2004,12014,86.0,109.5,5.3,26.0,31.5,11.65,3.38,8.0
+2004,12015,,,8.0,,,,,
+2004,12016,83.0,107.5,15.2,23.0,26.5,13.13,3.63,15.0
+2004,12296,79.0,103.5,9.3,32.0,31.5,11.8,3.23,
+2004,2757,76.5,98.0,9.3,,,,,2.0
+2004,2761,84.0,105.5,6.7,29.5,33.5,10.75,3.25,12.0
+2004,2753,78.0,99.5,6.7,30.0,35.0,11.2,3.15,12.0
+2004,2863,84.0,106.0,7.3,26.5,31.0,11.92,3.15,15.0
+2004,12292,83.5,105.5,9.3,23.5,27.5,11.59,3.42,
+2004,12293,85.5,109.5,12.4,23.5,26.0,12.6,3.35,1.0
+2004,12294,82.0,98.5,8.0,28.5,32.5,11.15,3.28,10.0
+2005,101165,84.0,102.5,,28.0,32.0,11.67,3.35,11.0
+2005,101224,87.0,108.5,,30.5,32.5,12.58,3.35,13.0
+2005,200969,,,,26.5,30.5,11.56,3.42,
+2005,12104,83.0,110.0,,,,,,5.0
+2005,101187,81.5,104.0,,26.5,30.5,10.32,3.27,10.0
+2005,101149,83.25,112.5,,24.0,27.5,11.94,3.42,0.0
+2005,101252,85.0,108.0,,25.0,31.5,11.74,3.35,7.0
+2005,101188,82.25,101.0,,33.0,36.5,10.52,3.21,14.0
+2005,12105,85.5,104.5,,33.5,39.5,11.73,3.29,13.0
+2005,101106,87.0,110.5,,27.5,33.5,12.06,3.51,13.0
+2005,200793,74.0,94.0,,,,,,
+2005,101198,75.5,93.0,,33.0,40.5,11.12,3.0,15.0
+2005,12106,90.0,114.0,,,,,,9.0
+2005,101215,75.0,96.5,,30.5,36.5,10.51,3.28,14.0
+2005,12107,83.5,106.5,,24.5,27.0,11.51,3.44,5.0
+2005,101143,71.75,93.5,,24.5,31.0,10.85,3.26,1.0
+2005,101113,87.5,109.0,,28.0,31.0,11.94,3.45,21.0
+2005,12108,71.5,94.0,,25.0,30.5,11.41,3.24,0.0
+2005,101145,74.75,98.0,,26.5,31.5,12.13,3.31,0.0
+2005,101109,76.25,98.0,,29.0,33.5,10.5,3.06,6.0
+2005,201164,79.5,101.5,,26.5,35.5,10.48,3.33,0.0
+2005,12109,90.0,110.5,,28.0,30.5,12.53,3.5,2.0
+2005,12110,90.75,111.5,,29.5,34.0,11.53,3.28,12.0
+2005,101213,85.5,106.0,,28.5,37.0,11.92,3.2,9.0
+2005,101112,86.5,110.5,,27.5,31.0,11.6,3.38,19.0
+2005,101184,88.5,110.5,,31.5,35.5,12.51,3.27,11.0
+2005,101128,82.75,103.0,,27.5,31.5,10.63,3.33,5.0
+2005,12111,81.25,96.5,,30.5,36.5,11.48,3.15,12.0
+2005,101162,87.5,110.0,,29.5,36.0,11.48,3.33,18.0
+2005,101121,80.0,104.0,,30.0,36.0,10.62,3.05,26.0
+2005,101122,85.5,103.0,,31.0,34.0,10.84,3.34,10.0
+2005,101123,81.75,104.0,,31.5,39.0,11.2,3.21,7.0
+2005,101236,82.0,104.5,,30.0,33.0,10.7,3.34,20.0
+2005,101129,77.25,98.5,,31.5,38.5,11.12,3.21,14.0
+2005,101125,84.5,107.5,,24.5,29.0,10.89,3.18,14.0
+2005,12112,85.25,104.5,,,,,,16.0
+2005,101141,85.25,109.5,,22.0,30.0,11.59,3.56,2.0
+2005,101127,79.5,100.0,,26.0,28.5,10.87,3.24,5.0
+2005,101204,86.75,108.5,,28.0,31.5,11.87,3.25,15.0
+2005,12113,83.0,105.5,,31.5,35.0,11.6,3.38,7.0
+2005,201318,82.0,107.5,,21.5,27.0,13.13,3.68,12.0
+2005,-1,77.5,98.5,,26.0,31.0,11.62,3.38,8.0
+2005,101247,81.0,101.0,,32.0,29.5,11.38,3.23,8.0
+2005,101135,84.0,106.5,,30.5,32.5,10.8,3.19,14.0
+2005,12114,84.0,103.5,,,,,,17.0
+2005,101249,72.0,92.0,,29.0,34.0,10.44,3.14,4.0
+2005,101185,85.0,104.0,,30.5,37.0,11.64,3.21,7.0
+2005,101131,87.25,107.0,,,,,,
+2005,101118,85.25,105.0,,30.0,33.0,11.04,3.29,12.0
+2005,101119,82.75,103.5,,32.5,34.5,10.39,3.11,15.0
+2005,200829,81.0,105.5,,26.5,32.0,10.64,3.27,10.0
+2005,12115,84.0,106.5,,29.0,33.0,11.7,3.24,14.0
+2005,101223,75.5,94.0,,32.0,37.5,10.69,3.22,7.0
+2005,12116,81.75,105.5,,26.0,28.5,12.8,3.42,15.0
+2005,12117,78.0,99.5,,31.5,36.5,11.44,3.18,17.0
+2005,12118,83.75,108.5,,25.0,30.5,12.12,3.48,11.0
+2005,101108,76.25,93.0,,32.0,38.0,11.09,3.22,10.0
+2005,200819,82.5,106.0,,,,,,
+2005,201225,82.75,105.0,,27.5,34.5,11.54,3.21,12.0
+2005,101232,83.5,104.0,,,,,,
+2005,101179,77.5,96.5,,31.5,39.0,10.49,3.29,11.0
+2005,101194,74.75,95.0,,31.5,37.0,11.17,3.19,14.0
+2005,201575,83.25,104.5,,32.5,35.0,11.33,3.31,0.0
+2005,101195,89.0,111.5,,23.5,26.5,12.4,3.47,1.0
+2005,101134,84.0,107.0,,27.0,27.5,11.05,3.35,11.0
+2005,12120,79.5,102.5,,27.0,31.5,10.8,3.18,3.0
+2005,12121,87.5,108.0,,28.0,33.0,11.98,3.44,18.0
+2005,101147,85.75,109.0,,28.5,33.0,11.26,3.27,14.0
+2005,12122,75.0,95.0,,28.5,34.0,10.84,3.33,14.0
+2005,12119,80.0,102.0,,25.0,29.5,11.11,3.27,6.0
+2005,101159,81.75,105.5,,,,,,
+2005,101142,85.5,106.5,,30.5,33.0,11.5,3.23,15.0
+2005,101111,84.25,109.0,,26.0,31.0,10.86,3.3,11.0
+2005,101124,86.0,108.0,,33.0,38.0,,3.22,11.0
+2005,101110,83.0,106.0,,28.0,30.5,11.39,3.39,7.0
+2005,101156,86.0,108.0,,28.5,33.5,12.11,3.25,15.0
+2005,101107,87.5,108.0,,29.5,35.0,11.11,3.17,12.0
+2005,101114,78.25,98.0,,30.0,35.0,10.83,3.25,15.0
+2005,101214,85.25,106.5,,28.0,34.0,11.39,3.23,15.0
+2005,101120,80.75,104.5,,26.5,29.5,11.45,3.41,12.0
+2005,101152,82.0,100.5,,30.0,36.0,11.58,3.27,8.0
+2007,12204,81.0,103.0,8.9,30.5,35.0,11.78,3.37,15.0
+2007,12205,86.0,107.0,9.2,24.0,26.5,12.18,3.45,12.0
+2007,12206,85.5,106.5,12.1,26.0,28.0,11.88,3.54,12.0
+2007,201147,80.25,103.0,4.2,30.5,36.5,11.69,3.22,11.0
+2007,201166,76.0,94.0,2.7,32.5,39.5,10.57,3.2,6.0
+2007,201628,76.0,95.5,6.6,32.5,41.0,11.27,3.25,3.0
+2007,201469,80.5,97.5,6.0,33.0,38.5,11.61,3.29,25.0
+2007,12207,86.0,107.0,6.2,30.0,35.0,11.47,,21.0
+2007,201144,77.75,94.5,4.2,35.5,40.5,11.63,3.09,13.0
+2007,201161,80.25,101.5,7.0,30.0,34.5,11.12,3.22,4.0
+2007,12208,85.25,107.5,8.0,25.0,30.5,12.52,3.37,19.0
+2007,201159,77.5,98.0,4.5,32.5,38.0,11.6,3.32,11.0
+2007,201176,88.0,109.5,6.9,27.0,30.0,12.63,3.53,7.0
+2007,12209,80.75,105.0,7.0,,,,,19.0
+2007,12210,82.0,100.0,5.1,30.0,33.5,11.13,3.29,3.0
+2007,201162,79.0,102.0,7.1,28.0,32.0,11.32,3.45,14.0
+2007,201142,88.75,110.0,6.6,26.0,33.5,12.33,3.45,0.0
+2007,12211,83.5,104.0,11.5,28.0,32.0,11.43,3.41,20.0
+2007,201189,87.25,108.5,10.8,27.0,32.5,12.07,3.7,17.0
+2007,12212,83.75,103.0,10.9,28.5,36.0,11.72,3.46,9.0
+2007,201145,85.25,103.0,3.7,33.5,38.0,12.0,3.34,17.0
+2007,201192,74.25,96.0,4.6,29.0,32.5,11.3,3.26,8.0
+2007,201150,84.5,110.0,13.0,26.0,29.0,11.88,3.51,9.0
+2007,12214,79.0,94.0,9.0,32.0,36.0,11.39,3.28,11.0
+2007,201195,86.25,108.5,5.6,30.5,34.0,12.31,3.39,15.0
+2007,201143,84.75,107.0,9.1,31.0,35.5,12.15,3.37,20.0
+2007,12215,83.25,105.0,5.7,28.5,34.0,12.47,3.32,12.0
+2007,12216,87.0,111.0,3.5,31.0,33.0,13.31,3.37,8.0
+2007,12217,80.25,101.5,5.2,30.5,33.0,12.11,3.29,10.0
+2007,12218,90.0,104.0,3.2,34.5,39.0,11.0,3.28,10.0
+2007,12219,74.0,93.0,4.8,33.5,38.5,10.94,3.11,14.0
+2007,201234,77.0,98.0,5.4,26.5,35.0,11.78,3.31,18.0
+2007,12220,84.0,105.5,5.9,25.0,30.0,12.18,3.29,20.0
+2007,201185,72.0,94.0,7.0,24.5,28.5,11.02,3.39,6.0
+2007,201207,83.0,99.5,5.4,32.0,34.5,11.57,3.41,9.0
+2007,12221,82.5,106.5,7.7,25.5,30.0,11.19,3.42,19.0
+2007,201171,83.0,102.5,7.5,31.5,36.5,11.35,3.29,21.0
+2007,201186,86.0,107.0,4.9,29.5,36.0,11.73,3.22,17.0
+2007,201151,78.5,98.0,5.6,29.0,34.0,11.0,3.22,8.0
+2007,12222,85.0,108.5,11.4,24.0,30.5,11.96,3.43,19.0
+2007,12223,78.5,99.0,4.5,33.0,38.0,11.59,3.22,16.0
+2007,201858,82.0,103.5,5.6,27.0,29.5,12.1,3.43,11.0
+2007,201187,82.5,104.0,4.7,28.5,34.5,10.95,3.25,12.0
+2007,201177,85.0,106.5,13.7,27.5,31.5,11.7,3.47,12.0
+2007,201197,83.0,105.0,8.3,27.0,31.5,11.87,3.49,7.0
+2007,12224,80.0,102.5,8.0,29.5,31.5,11.77,3.29,3.0
+2007,201193,84.25,105.0,6.2,28.5,32.5,10.39,3.38,16.0
+2007,201149,85.25,106.5,4.8,32.5,37.5,11.79,3.47,12.0
+2007,201141,88.25,112.0,7.8,32.0,34.0,11.67,3.27,
+2007,12225,83.75,106.0,9.8,23.0,28.0,11.61,3.6,7.0
+2007,12226,75.25,95.0,8.2,27.5,34.5,11.69,3.24,15.0
+2007,201181,88.5,110.5,7.5,26.5,30.5,11.39,3.29,15.0
+2007,12227,80.0,100.5,6.6,34.0,38.0,11.07,3.12,11.0
+2007,12228,81.0,102.5,10.0,26.5,33.5,11.63,3.36,11.0
+2007,12229,80.75,101.0,6.1,24.0,32.5,11.33,3.39,1.0
+2007,201196,76.25,97.5,6.2,29.5,33.5,11.65,3.27,8.0
+2007,201203,77.5,99.0,4.1,28.5,35.0,11.82,3.27,11.0
+2007,201160,82.75,106.0,7.5,33.5,37.5,10.96,3.29,15.0
+2007,201199,78.5,101.0,4.5,28.5,35.0,10.87,3.14,21.0
+2007,201155,79.25,100.5,6.1,30.5,35.0,11.34,3.11,14.0
+2007,12230,81.5,104.0,5.3,27.5,32.5,11.3,3.22,12.0
+2007,201180,81.0,105.0,5.1,29.0,34.0,10.68,3.45,9.0
+2007,201249,74.5,93.5,5.0,28.5,33.0,11.51,3.22,7.0
+2007,12232,82.0,103.5,8.9,31.0,37.5,11.76,3.26,18.0
+2007,201154,85.0,104.0,5.8,35.0,41.0,11.96,3.16,9.0
+2007,201229,86.5,107.5,5.7,28.5,30.0,11.49,3.29,21.0
+2007,12233,88.0,108.5,12.1,25.0,29.0,12.16,3.52,11.0
+2007,12234,83.0,108.0,10.2,26.0,29.0,12.6,3.39,18.0
+2007,201208,87.0,110.0,6.9,26.5,31.0,11.65,3.56,14.0
+2007,12235,88.0,109.0,6.7,27.5,30.5,12.14,3.47,15.0
+2007,12236,72.75,92.0,5.4,31.5,34.5,11.4,3.23,13.0
+2007,201153,86.25,108.0,6.1,28.5,33.5,11.48,3.36,2.0
+2007,201148,87.75,108.5,5.8,30.5,35.5,11.76,3.31,2.0
+2007,12237,85.0,107.0,3.3,27.5,32.0,11.46,3.23,12.0
+2007,201146,,,,,,,,
+2007,201156,84.0,100.5,6.8,39.5,40.5,11.0,3.25,6.0
+2007,201152,83.5,106.0,4.9,34.5,37.0,11.06,3.19,13.0
+2008,201570,83.5,106.0,5.8,32.5,38.5,11.33,2.99,24.0
+2008,201589,82.75,107.0,7.3,28.5,30.0,12.18,3.14,12.0
+2008,201571,75.5,94.5,8.1,28.5,35.0,11.27,3.07,2.0
+2008,201573,75.5,97.0,4.7,31.0,38.0,11.26,3.07,10.0
+2008,201563,84.25,107.0,7.7,30.0,35.0,11.06,3.24,19.0
+2008,12239,77.0,98.0,5.7,24.5,29.5,10.68,3.24,9.0
+2008,12240,73.75,94.0,8.1,30.0,34.0,11.59,3.25,8.0
+2008,12241,82.0,106.0,9.2,29.0,31.0,12.47,3.25,22.0
+2008,201812,79.25,104.5,4.0,26.0,27.0,11.65,3.28,2.0
+2008,201868,78.25,97.5,5.6,29.5,34.5,11.19,3.19,21.0
+2008,12242,83.25,108.0,10.8,24.0,26.5,11.87,3.52,9.0
+2008,12243,76.75,97.0,6.0,,,,,15.0
+2008,12244,81.75,106.0,7.3,,,,,7.0
+2008,12245,77.75,99.5,7.6,31.0,36.0,11.67,3.22,13.0
+2008,12246,84.5,109.0,16.1,26.0,28.5,12.72,3.56,11.0
+2008,201595,85.75,107.0,9.0,27.5,33.0,11.84,3.2,19.0
+2008,12247,83.5,105.0,5.3,27.5,33.5,11.59,3.26,10.0
+2008,12248,83.5,104.5,5.4,28.0,32.0,12.47,3.26,26.0
+2008,12249,87.25,106.0,4.5,33.5,37.5,11.86,3.17,11.0
+2008,201607,84.25,97.5,9.4,35.0,42.0,11.77,3.43,2.0
+2008,201814,83.25,104.5,6.5,27.5,33.5,11.45,3.25,13.0
+2008,12250,83.5,103.5,6.3,30.0,33.0,12.3,3.24,10.0
+2008,201592,83.25,103.0,5.4,,,,,10.0
+2008,12251,88.0,107.5,4.8,30.5,35.0,11.37,3.14,5.0
+2008,12252,86.5,111.5,6.9,21.5,27.0,12.4,3.33,15.0
+2008,201569,81.0,99.0,8.2,32.0,40.0,10.81,3.01,15.0
+2008,201863,82.25,106.0,17.4,24.5,27.5,12.16,3.32,18.0
+2008,201590,82.0,108.0,7.6,27.5,31.5,11.21,3.2,2.0
+2008,201612,81.0,103.5,6.9,30.5,38.0,11.33,3.08,13.0
+2008,201614,87.0,109.5,5.8,29.5,32.0,11.49,3.33,20.0
+2008,201613,87.0,108.0,9.2,26.5,28.0,10.62,3.27,13.0
+2008,201588,81.0,97.5,3.0,34.0,37.5,12.2,3.07,9.0
+2008,12254,85.25,104.5,3.6,28.5,33.0,12.17,3.4,16.0
+2008,12255,82.75,109.0,8.8,20.5,26.0,12.26,3.54,2.0
+2008,201991,80.75,98.5,3.4,30.5,36.0,11.15,3.16,12.0
+2008,201629,87.0,109.5,6.4,28.0,34.5,11.51,3.18,7.0
+2008,201616,83.25,106.5,12.5,27.0,31.0,11.75,3.26,11.0
+2008,12256,89.0,111.0,9.2,,,,,6.0
+2008,12257,81.5,105.0,12.0,27.0,32.0,12.02,3.36,2.0
+2008,12258,84.25,107.0,12.2,25.5,31.0,11.61,3.33,16.0
+2008,201599,90.0,113.5,7.5,26.0,30.5,12.3,3.27,8.0
+2008,12253,88.0,110.0,9.6,29.0,32.0,12.06,3.2,13.0
+2008,12260,80.5,103.5,9.0,26.0,30.0,11.79,3.39,9.0
+2008,12261,80.0,102.5,8.9,29.5,34.5,11.57,3.36,14.0
+2008,201848,85.25,109.5,10.6,,,,,14.0
+2008,201572,89.5,113.0,6.3,27.5,30.5,12.77,3.57,7.0
+2008,201567,83.25,106.0,12.9,29.5,35.0,11.17,3.22,18.0
+2008,12262,85.0,109.5,10.1,23.0,28.0,11.76,3.35,15.0
+2008,201564,78.0,99.5,6.3,30.5,41.0,11.04,3.14,7.0
+2008,201651,85.75,105.0,8.8,29.5,35.0,11.23,3.19,13.0
+2008,201601,86.5,103.5,7.0,32.0,38.5,11.71,3.17,11.0
+2008,201580,90.0,114.5,5.3,27.0,32.5,12.75,3.25,7.0
+2008,12263,74.5,95.0,6.2,25.5,32.0,11.19,3.2,10.0
+2008,201634,82.0,98.5,4.5,34.5,38.5,10.54,3.13,19.0
+2008,201624,85.0,109.5,9.0,24.0,28.0,12.45,3.45,17.0
+2008,12264,77.0,96.0,7.6,32.0,37.0,10.65,3.07,7.0
+2008,12265,82.5,105.5,11.0,30.5,35.5,11.32,3.17,14.0
+2008,12266,82.5,103.5,6.5,32.0,36.0,11.79,3.14,16.0
+2008,12267,85.0,107.5,13.8,27.0,32.5,11.3,3.4,10.0
+2008,201576,87.0,109.0,4.7,29.0,35.0,11.86,3.26,7.0
+2008,12268,83.25,107.5,10.7,26.5,33.5,11.51,3.13,14.0
+2008,12259,92.75,,11.0,,,,,
+2008,12269,73.25,95.0,3.6,31.5,36.5,10.65,3.05,10.0
+2008,201781,80.0,100.5,7.4,25.0,31.5,11.3,3.15,8.0
+2008,12270,81.75,104.0,9.2,,,,,
+2008,201565,80.0,98.5,4.6,34.5,40.0,11.69,3.05,10.0
+2008,201606,76.5,95.0,4.2,26.0,,,,18.0
+2008,12271,76.25,97.5,8.1,25.0,29.5,11.08,3.26,5.0
+2008,201446,79.25,98.0,3.8,31.0,39.0,10.98,3.08,2.0
+2008,12272,81.0,99.5,8.3,34.5,41.0,11.08,3.19,16.0
+2008,201872,83.0,103.5,6.7,27.0,33.5,12.52,3.14,5.0
+2008,12273,80.0,101.0,6.2,26.0,29.5,11.97,3.4,10.0
+2008,201622,81.0,102.5,7.2,34.0,40.0,11.03,3.09,7.0
+2008,201603,82.0,104.0,4.4,29.0,36.5,10.58,2.96,12.0
+2008,201566,79.75,100.0,4.8,30.0,36.5,10.98,3.08,12.0
+2008,199,81.25,103.0,5.3,31.5,36.5,11.32,3.07,15.0
+2009,202399,86.0,107.5,7.9,27.5,31.5,11.34,3.32,16.0
+2009,201965,85.0,107.0,5.5,31.0,35.0,11.98,3.14,15.0
+2009,201958,81.75,100.0,7.9,29.5,39.0,10.49,3.15,3.0
+2009,201971,86.0,106.5,12.0,26.0,33.0,11.5,3.45,18.0
+2009,201974,86.5,107.5,8.6,30.5,35.5,11.26,3.13,20.0
+2009,201978,79.0,101.0,10.0,29.5,38.5,11.08,3.24,10.0
+2009,201960,82.0,105.0,6.3,,,,,
+2009,201956,81.25,106.5,8.6,25.5,32.5,11.15,3.28,2.0
+2009,12275,81.0,102.5,7.1,27.0,33.5,10.83,3.21,3.0
+2009,201947,86.5,109.5,5.2,28.5,33.0,11.17,3.35,5.0
+2009,201954,75.0,96.5,5.7,30.5,33.5,10.45,3.1,9.0
+2009,201967,83.0,106.5,4.8,28.0,35.0,11.18,3.26,18.0
+2009,201939,75.5,97.0,5.7,29.5,35.5,11.07,3.28,10.0
+2009,201948,86.75,110.0,5.5,25.0,28.0,12.11,3.55,0.0
+2009,201942,81.0,102.5,4.9,29.0,38.5,11.88,3.31,5.0
+2009,201962,78.0,97.5,5.2,28.0,32.5,10.63,3.03,15.0
+2009,201961,78.5,100.0,5.5,31.5,38.0,11.14,3.2,13.0
+2009,201936,83.25,104.0,7.1,28.5,34.0,11.81,3.17,7.0
+2009,201938,76.0,95.5,6.3,33.0,40.0,10.86,3.23,10.0
+2009,201959,88.0,109.0,6.6,25.5,30.0,11.56,3.41,12.0
+2009,201980,82.0,103.0,5.6,29.0,33.0,11.3,3.3,15.0
+2009,201933,83.25,105.0,8.2,32.0,35.5,10.95,3.28,22.0
+2009,201946,83.5,106.0,8.5,27.5,34.0,11.12,3.27,18.0
+2009,201935,82.75,103.5,10.1,31.5,37.0,11.1,3.13,17.0
+2009,201945,82.25,102.5,4.4,31.5,35.0,11.17,3.14,8.0
+2009,12278,85.25,108.0,10.8,28.5,34.0,11.67,3.38,15.0
+2009,201941,85.5,108.0,6.0,31.0,35.0,12.23,3.3,11.0
+2009,201950,79.0,100.5,6.3,28.5,34.0,10.64,3.21,6.0
+2009,12279,82.25,105.0,10.1,26.0,31.0,10.66,3.3,3.0
+2009,201949,84.75,105.5,12.0,30.5,35.0,11.21,3.23,18.0
+2009,201951,72.75,94.5,6.6,29.0,36.5,10.98,3.12,14.0
+2009,201953,74.5,97.0,5.4,28.5,31.5,10.78,3.19,8.0
+2009,12282,74.5,96.0,6.2,30.0,36.5,10.44,3.21,13.0
+2009,12283,79.25,99.5,5.4,31.5,36.5,10.61,3.25,10.0
+2009,201975,76.5,98.0,8.0,28.5,37.0,10.96,3.1,14.0
+2009,201988,74.0,95.0,6.9,27.5,33.0,10.87,3.1,8.0
+2009,201957,85.5,111.0,8.5,28.5,32.5,11.1,3.45,10.0
+2009,201985,75.75,97.0,12.4,26.0,31.0,10.99,3.22,11.0
+2009,12284,81.75,104.5,7.0,29.0,33.5,10.69,3.24,10.0
+2009,201969,84.75,106.5,6.6,29.5,34.5,10.94,3.17,15.0
+2009,201966,80.75,101.0,5.8,34.0,37.5,11.54,3.32,16.0
+2009,201952,79.5,98.5,4.5,30.5,36.5,11.05,3.18,13.0
+2009,201934,90.25,113.0,6.7,,,,,
+2009,201977,77.0,99.0,4.8,31.0,33.0,10.73,3.28,14.0
+2009,201944,81.0,103.5,5.1,30.5,37.0,11.15,3.18,9.0
+2009,201970,82.75,105.5,4.9,27.5,33.0,11.47,3.45,
+2010,202374,89.0,113.0,5.0,22.5,26.0,13.2,3.68,10.0
+2010,202332,88.75,111.5,8.5,23.0,28.0,11.48,3.35,10.0
+2010,202329,87.25,108.5,8.2,27.0,33.5,11.29,3.3,13.0
+2010,202341,80.5,104.0,7.9,30.0,35.5,11.86,3.19,14.0
+2010,202337,83.25,104.5,5.6,29.5,37.5,10.98,3.4,15.0
+2010,202339,79.5,98.0,5.6,,,,,9.0
+2010,202344,81.75,106.0,7.3,31.0,36.0,11.15,3.1,22.0
+2010,202342,84.0,109.0,7.9,26.0,35.0,11.65,3.39,6.0
+2010,202340,79.25,98.5,4.0,31.5,37.5,11.47,3.14,2.0
+2010,202382,84.25,107.5,12.8,25.0,30.5,12.78,3.61,22.0
+2010,202395,74.5,94.0,9.2,27.5,33.0,12.31,3.24,
+2010,202326,89.75,113.0,16.4,23.5,27.5,11.4,3.55,
+2010,202348,79.0,101.0,4.9,31.5,34.5,11.03,3.37,7.0
+2010,202334,84.0,108.0,10.0,31.0,36.0,11.7,3.21,
+2010,202365,84.25,107.5,7.9,23.5,32.0,11.69,3.44,6.0
+2010,202324,88.0,110.0,6.5,31.5,35.5,11.74,3.25,14.0
+2010,12316,88.5,109.5,15.1,23.5,28.5,13.44,3.7,14.0
+2010,12317,85.75,107.5,7.0,24.5,30.5,11.65,3.23,2.0
+2010,202331,83.25,107.0,5.0,,,,,4.0
+2010,202376,81.5,106.0,11.1,24.0,28.5,11.83,3.41,23.0
+2010,202412,79.25,102.0,3.8,,,,,11.0
+2010,202351,84.75,102.0,7.5,31.0,36.0,10.87,3.31,15.0
+2010,202330,79.75,103.0,6.9,30.5,34.5,11.73,3.22,10.0
+2010,202333,83.25,105.0,4.7,28.5,36.5,11.1,3.18,8.0
+2010,202359,81.25,104.5,6.2,29.0,34.0,11.68,3.25,
+2010,202345,84.75,107.0,9.6,29.0,33.0,10.89,3.2,13.0
+2010,202325,85.0,106.0,4.6,32.0,37.0,11.43,3.14,16.0
+2010,202356,80.0,99.5,5.6,31.5,38.5,11.25,3.19,18.0
+2010,202346,81.25,101.0,5.9,26.0,32.5,10.88,3.31,19.0
+2010,12329,89.25,113.0,6.9,,,,,
+2010,12330,81.0,100.5,11.6,28.0,32.0,11.59,3.36,8.0
+2010,202371,84.0,107.5,6.3,27.0,31.5,11.61,3.24,20.0
+2010,202328,86.25,108.5,11.2,25.0,29.0,12.1,3.35,15.0
+2010,202350,88.25,110.5,13.8,24.0,30.5,12.32,3.39,13.0
+2010,12334,85.0,109.5,6.0,25.5,26.5,12.07,3.33,16.0
+2010,202335,85.25,107.0,5.3,28.5,33.5,11.14,3.25,17.0
+2010,202354,90.0,111.0,20.8,,,,,
+2010,202360,79.0,100.0,6.2,23.5,30.5,11.27,3.49,8.0
+2010,12338,85.5,110.0,8.0,25.0,28.5,11.33,3.37,4.0
+2010,202383,84.0,107.5,8.3,,37.5,11.65,3.23,6.0
+2010,202336,89.75,112.0,4.6,25.5,28.0,12.49,3.27,7.0
+2010,12341,75.25,99.0,5.4,,,,,
+2010,202362,82.5,103.0,9.3,27.0,33.0,11.39,3.38,10.0
+2010,12343,79.5,103.0,7.0,23.0,32.0,11.43,3.17,8.0
+2010,202323,80.0,103.5,8.6,27.5,34.5,11.06,3.27,9.0
+2010,202327,88.5,106.5,8.0,31.0,33.5,11.15,3.29,10.0
+2010,12346,87.5,109.5,9.5,29.5,32.5,11.61,3.37,3.0
+2010,202349,79.0,101.0,8.6,,,,,
+2010,202322,81.25,101.5,5.6,30.0,39.0,10.84,3.14,
+2010,202378,78.0,99.5,7.6,23.0,31.5,11.21,3.5,10.0
+2010,202358,81.0,101.0,3.7,31.0,40.0,11.38,3.15,10.0
+2010,202355,91.0,113.0,5.5,27.0,31.5,11.83,3.54,12.0
+2011,202728,87.75,109.5,6.1,31.5,36.0,11.88,3.35,12.0
+2011,202705,85.0,101.0,5.2,34.0,38.5,10.74,3.09,5.0
+2011,202692,82.0,103.5,5.1,29.0,36.0,10.96,3.17,5.0
+2011,202710,79.5,101.5,5.4,32.0,39.0,11.12,3.15,14.0
+2011,202708,74.25,95.5,4.7,29.5,38.5,10.07,3.22,11.0
+2011,202739,78.0,99.0,8.5,28.0,35.0,10.94,3.37,2.0
+2011,12406,87.25,107.5,8.0,29.5,34.5,11.85,3.27,10.0
+2011,12407,78.25,101.0,5.5,26.5,31.0,11.45,3.27,3.0
+2011,202702,84.0,108.0,6.3,30.5,35.0,11.35,3.26,16.0
+2011,12409,76.5,96.5,7.7,28.0,33.0,10.42,3.21,14.0
+2011,202726,76.25,96.5,9.9,32.5,37.0,10.33,3.1,4.0
+2011,202706,81.5,104.0,9.8,25.0,32.0,11.47,3.3,7.0
+2011,202712,83.75,106.0,4.0,28.5,33.0,11.92,3.3,19.0
+2011,202699,83.0,103.5,8.4,31.5,37.5,10.96,3.17,12.0
+2011,202715,81.0,105.0,5.3,30.0,37.0,11.68,3.07,
+2011,12415,82.5,103.5,4.8,32.5,36.0,10.47,3.18,10.0
+2011,202681,76.0,99.0,10.2,,,,,
+2011,12417,86.0,106.5,8.3,28.5,33.0,11.51,3.26,9.0
+2011,202724,79.5,96.5,4.3,29.5,34.0,11.68,3.18,16.0
+2011,202707,86.0,107.5,7.5,33.5,38.0,11.21,3.14,15.0
+2011,202709,77.5,99.0,9.7,27.5,35.0,10.75,3.27,5.0
+2011,202683,85.5,109.5,5.9,26.0,32.5,11.3,3.26,14.0
+2011,202688,78.75,98.5,4.2,29.0,37.5,10.74,3.07,10.0
+2011,202723,81.75,101.5,5.9,30.0,35.5,11.2,3.09,17.0
+2011,202695,87.0,106.0,5.4,25.5,32.0,11.45,3.15,3.0
+2011,202727,82.5,103.0,8.1,33.0,40.5,11.0,3.13,10.0
+2011,202720,84.0,105.5,5.4,29.5,36.5,10.82,3.36,14.0
+2011,202732,83.0,103.5,5.0,27.0,31.0,,3.33,6.0
+2011,12428,80.0,101.0,6.5,28.5,33.0,10.81,3.25,15.0
+2011,202714,79.5,96.5,7.1,32.0,39.0,11.23,3.18,17.0
+2011,12430,78.25,99.5,6.1,27.0,33.0,11.55,3.19,
+2011,202734,81.5,99.5,7.6,32.0,34.5,11.12,3.31,
+2011,202694,82.0,105.5,8.0,29.0,33.0,,3.15,11.0
+2011,202693,82.75,106.5,10.2,27.0,31.5,,3.4,11.0
+2011,202721,79.5,102.0,5.3,24.5,32.0,11.0,3.2,12.0
+2011,202718,81.5,104.5,7.0,25.5,31.5,11.05,3.29,4.0
+2011,12436,82.25,106.5,5.5,27.0,33.5,11.74,3.02,0.0
+2011,202729,77.25,98.0,7.9,29.5,42.0,11.13,3.2,5.0
+2011,202697,81.5,99.5,6.5,36.5,42.0,11.1,3.18,18.0
+2011,202713,82.1,106.0,10.0,23.0,30.0,11.22,3.21,10.0
+2011,202698,85.0,103.5,7.4,30.5,37.5,11.33,3.09,15.0
+2011,12441,85.25,106.5,9.8,26.0,30.5,12.43,3.46,10.0
+2011,202701,77.5,99.0,5.6,28.5,34.0,11.05,3.17,9.0
+2011,12442,86.5,106.5,7.4,29.5,36.0,12.43,3.36,17.0
+2011,12445,84.5,107.5,5.9,32.0,36.5,11.31,3.29,3.0
+2011,202738,73.75,91.5,6.7,31.5,40.0,10.49,3.14,13.0
+2011,202717,85.0,107.5,15.5,27.5,30.5,11.72,3.41,15.0
+2011,202684,85.25,108.5,6.2,30.0,35.0,10.92,3.26,9.0
+2011,202691,81.0,103.5,8.0,26.5,31.5,10.99,3.24,5.0
+2011,202719,89.0,110.5,13.4,28.0,33.5,11.26,3.29,10.0
+2011,202696,88.5,112.5,6.1,23.5,25.0,12.02,3.27,8.0
+2011,202689,75.5,91.5,5.9,32.0,39.5,10.87,3.16,7.0
+2011,202716,84.25,106.5,12.1,25.0,30.5,12.74,3.45,10.0
+2011,202682,85.5,108.0,10.8,29.0,34.5,11.03,3.23,19.0
+2012,203112,86.75,106.5,7.1,32.0,37.0,10.48,3.28,13.0
+2012,203084,83.25,101.5,9.6,38.0,39.5,10.93,3.16,15.0
+2012,203115,81.75,102.5,4.1,30.0,34.0,12.5,3.6,0.0
+2012,203078,80.0,100.0,6.0,33.0,39.0,10.95,3.28,8.0
+2012,12458,77.25,96.0,12.5,26.0,29.5,11.68,3.47,3.0
+2012,203733,81.5,102.0,11.3,27.5,32.5,11.4,3.43,8.0
+2012,203109,81.25,99.5,9.0,31.0,34.5,11.45,3.37,20.0
+2012,203099,78.5,98.0,3.6,,,,,4.0
+2012,203076,89.5,108.0,7.9,,,,,
+2012,203134,77.0,94.5,6.6,33.5,40.0,10.82,3.19,8.0
+2012,203083,90.25,109.5,7.5,31.5,33.5,10.83,3.39,10.0
+2012,203119,78.5,98.0,4.3,29.0,36.5,10.59,3.33,
+2012,203105,89.75,108.0,5.5,34.0,33.5,12.35,3.29,18.0
+2012,12467,83.5,103.5,9.1,29.0,34.0,11.35,3.49,10.0
+2012,203254,86.25,106.5,9.8,29.5,32.5,10.63,3.38,19.0
+2012,203110,85.25,105.0,11.3,28.0,33.0,11.01,3.4,9.0
+2012,203090,84.0,102.5,5.3,32.5,37.0,10.87,3.25,5.0
+2012,203089,89.0,112.0,8.6,25.5,30.0,,,5.0
+2012,203189,77.5,94.5,8.5,28.0,35.0,11.0,3.42,12.0
+2012,203133,80.5,102.0,9.4,27.5,30.0,11.56,3.41,13.0
+2012,203108,87.0,108.5,5.0,30.0,32.5,11.84,3.4,6.0
+2012,203098,80.5,98.0,7.1,30.5,36.5,11.36,3.37,10.0
+2012,203111,83.25,99.0,7.0,32.0,39.5,10.98,3.25,13.0
+2012,203130,79.0,96.0,7.0,33.5,41.5,10.76,3.21,17.0
+2012,203093,86.25,107.0,7.7,29.5,34.5,11.57,3.4,12.0
+2012,203158,85.5,105.0,11.2,27.5,32.5,11.94,3.6,17.0
+2012,203103,85.75,107.0,4.6,33.0,38.5,11.31,3.19,11.0
+2012,203126,83.0,104.0,8.6,28.5,35.0,,3.46,6.0
+2012,203077,84.0,104.5,7.0,32.0,35.5,11.77,3.18,6.0
+2012,203117,78.75,98.5,6.7,29.0,33.5,11.12,3.41,2.0
+2012,203087,83.0,102.0,4.5,31.5,38.0,10.98,3.25,5.0
+2012,203086,87.0,108.0,5.7,30.0,32.5,11.34,3.41,19.0
+2012,203081,79.75,95.5,5.9,34.5,39.5,11.15,3.34,13.0
+2012,203159,76.0,94.5,5.8,27.0,32.5,11.26,3.3,17.0
+2012,203088,77.5,96.0,7.8,31.0,37.0,12.03,3.23,
+2012,203097,86.5,110.0,9.2,29.5,31.0,12.14,3.44,9.0
+2012,203114,82.75,103.0,7.8,28.0,31.0,11.45,3.47,4.0
+2012,203121,81.0,101.0,7.5,33.0,37.0,11.34,3.31,14.0
+2012,203113,85.25,105.0,7.8,30.5,36.0,11.05,3.48,8.0
+2012,203183,82.0,100.0,5.7,31.5,40.0,11.72,3.47,14.0
+2012,203102,86.25,106.5,7.7,33.5,37.5,11.32,3.22,10.0
+2012,203122,78.75,99.0,5.8,31.0,36.5,10.97,3.42,11.0
+2012,203094,88.0,107.0,7.6,28.5,30.5,11.89,3.67,10.0
+2012,203124,88.75,106.5,8.0,31.5,31.5,11.65,3.53,
+2012,203101,84.75,105.5,11.4,34.0,40.5,10.64,3.36,15.0
+2012,203085,79.25,96.5,6.2,32.5,37.5,11.54,3.32,1.0
+2012,203080,87.25,106.0,5.0,28.5,35.5,11.96,3.17,15.0
+2012,203082,79.25,100.5,3.2,31.0,37.5,11.78,3.28,2.0
+2012,203107,79.25,100.0,5.2,,,,,
+2012,203118,82.75,104.0,10.6,27.0,32.5,11.59,3.44,14.0
+2012,203156,88.0,108.0,7.7,26.5,29.5,12.33,3.44,7.0
+2012,203096,85.25,105.5,10.7,29.5,31.0,12.77,3.81,9.0
+2012,203116,78.25,97.5,4.2,32.0,36.5,11.48,3.2,0.0
+2012,12507,75.0,92.5,5.5,33.0,36.5,10.57,3.19,14.0
+2012,203106,78.25,101.5,4.2,33.5,40.0,10.87,3.29,15.0
+2012,203104,79.25,96.5,6.3,32.5,40.5,10.65,3.19,8.0
+2012,203138,81.5,102.5,6.0,28.5,36.5,11.72,3.38,6.0
+2012,203079,79.25,98.0,8.5,,,,,
+2012,203091,84.0,104.5,10.6,,,,,
+2012,203100,81.0,101.0,5.2,30.0,35.5,10.75,3.24,0.0
+2012,203092,84.0,104.5,6.4,30.0,34.0,11.13,3.4,16.0
+2013,203500,88.5,109.5,6.65,28.5,33.0,11.85,3.4,16.0
+2013,203505,78.0,100.5,4.6,28.0,37.5,10.4,3.14,4.0
+2013,203485,79.0,100.0,3.95,28.0,34.0,11.78,3.4,8.0
+2013,203493,80.75,102.0,6.95,31.0,36.5,11.33,3.31,11.0
+2013,203504,77.5,97.5,6.9,29.5,36.5,11.2,3.16,3.0
+2013,203484,80.0,100.5,6.45,29.0,34.5,10.6,3.12,7.0
+2013,203477,76.5,94.5,5.9,33.0,40.5,10.98,3.22,16.0
+2013,203478,85.5,107.0,5.8,30.0,32.0,11.83,3.35,13.0
+2013,203487,79.25,101.0,4.4,31.5,41.0,10.68,3.22,8.0
+2013,12524,84.25,105.0,6.85,28.0,34.5,11.68,3.38,3.0
+2013,203496,85.75,106.0,4.7,29.5,36.0,11.69,3.34,9.0
+2013,203459,83.25,103.5,4.65,30.5,36.0,10.67,3.32,10.0
+2013,203552,76.0,97.5,9.6,,,,,
+2013,203561,85.5,108.5,8.6,26.0,31.5,11.22,3.5,7.0
+2013,203473,88.0,109.0,8.35,28.0,32.5,12.75,3.4,8.0
+2013,203476,87.5,111.5,5.35,,,,,
+2013,203516,83.5,104.5,4.5,29.5,36.5,11.55,3.4,7.0
+2013,203467,81.25,103.5,3.3,32.0,38.5,11.16,3.25,15.0
+2013,203479,83.25,103.5,8.25,,,,,
+2013,203497,92.5,115.0,4.4,25.0,29.0,12.85,3.57,7.0
+2013,203462,81.5,102.0,4.55,30.0,36.0,10.75,3.27,1.0
+2013,203475,77.75,98.0,4.35,,,,,5.0
+2013,203501,79.0,101.0,6.05,31.5,37.5,10.68,3.25,16.0
+2013,203524,81.0,103.0,7.6,29.5,37.5,10.77,3.19,14.0
+2013,203494,82.25,105.5,8.75,,,,,
+2013,203470,86.0,110.0,9.6,26.5,30.0,11.52,3.52,12.0
+2013,203510,70.0,90.0,4.5,,,,,
+2013,203511,86.0,109.0,10.05,28.5,34.0,11.85,3.51,2.0
+2013,203509,78.25,98.0,6.0,27.5,33.5,10.64,3.44,2.0
+2013,203483,87.0,106.5,7.45,34.0,38.0,11.47,3.44,9.0
+2013,203527,83.5,110.0,14.75,,,,,
+2013,203499,70.75,89.5,3.8,34.5,44.0,10.64,3.08,12.0
+2013,203495,79.25,102.5,10.25,27.0,33.5,10.72,3.32,4.0
+2013,203458,87.5,,6.4,,,,,
+2013,203466,86.25,104.5,7.95,32.5,40.5,10.19,3.1,
+2013,203522,88.0,106.5,5.9,30.0,36.5,12.01,3.32,21.0
+2013,203492,75.25,96.5,7.3,30.5,40.0,10.82,3.25,5.0
+2013,203468,78.25,96.5,8.6,32.0,38.5,11.02,3.32,13.0
+2013,203463,79.75,100.5,5.0,32.5,42.0,11.87,3.27,6.0
+2013,203502,86.5,106.5,5.55,33.5,38.0,11.82,3.52,13.0
+2013,203498,83.0,104.5,9.0,29.5,37.0,10.99,3.32,10.0
+2013,203513,82.5,108.0,7.95,24.5,29.5,12.19,3.57,13.0
+2013,203488,85.0,108.0,6.8,28.0,33.5,11.76,3.44,5.0
+2013,203457,87.75,110.0,4.15,,,,,
+2013,203506,81.25,100.5,6.55,33.0,42.0,10.69,3.25,15.0
+2013,203482,81.75,108.0,6.65,24.5,29.5,11.42,3.59,5.0
+2013,203464,82.25,98.0,5.25,33.5,39.5,11.16,3.37,15.0
+2013,203658,86.5,109.0,5.15,31.0,34.5,11.49,3.32,0.0
+2013,203486,83.0,108.0,6.15,30.5,36.0,10.89,3.29,14.0
+2013,203490,85.5,105.5,6.65,27.0,36.0,11.25,3.4,9.0
+2013,203515,74.25,92.0,4.7,33.0,38.5,10.86,3.13,7.0
+2013,203318,81.25,101.5,8.45,33.0,40.5,10.99,3.25,10.0
+2013,203460,83.0,104.5,7.05,30.0,36.5,11.36,3.34,10.0
+2013,203471,79.75,98.0,4.1,30.0,34.0,11.09,3.21,1.0
+2013,203491,75.0,93.0,6.05,33.5,41.5,10.59,3.16,15.0
+2013,203503,83.5,105.5,4.85,30.0,36.5,11.36,3.25,7.0
+2013,203480,85.0,106.0,8.05,29.0,32.0,10.9,3.38,5.0
+2013,203519,85.0,99.0,7.5,34.5,40.5,11.64,3.32,13.0
+2013,203472,82.0,104.0,9.1,28.5,32.0,12.94,3.53,5.0
+2013,203481,86.0,110.5,8.65,26.5,29.0,12.49,3.47,10.0
+2013,203489,75.75,98.0,5.5,,,,,8.0
+2013,203523,80.25,99.0,4.7,,,,,
+2013,203469,82.75,106.0,4.75,35.5,37.5,10.82,3.15,17.0
+2014,203919,82.0,102.0,10.8,24.5,29.5,12.13,3.5,
+2014,203937,86.75,107.5,13.35,,,,,
+2014,203648,84.0,104.5,6.05,31.5,39.5,11.39,3.18,
+2014,203947,88.0,108.5,7.45,29.0,33.0,12.15,3.36,
+2014,203946,84.75,107.0,8.7,31.0,33.5,11.39,3.37,
+2014,203920,85.0,107.0,6.0,30.5,35.5,11.6,3.26,
+2014,203938,85.5,109.0,7.7,27.0,30.0,12.05,3.48,
+2014,203900,80.75,100.0,4.2,36.5,43.5,12.62,3.18,
+2014,203913,80.25,100.0,6.05,28.0,32.0,11.6,3.5,
+2014,203907,79.0,97.5,7.65,29.0,39.5,11.28,3.28,
+2014,203902,78.5,99.0,5.25,30.5,36.5,11.55,3.32,
+2014,203903,80.0,98.0,4.3,33.0,38.5,10.76,3.28,
+2014,203905,74.0,94.5,6.1,29.0,32.0,10.78,3.26,
+2014,203908,86.0,106.5,3.85,26.5,32.0,11.46,3.44,
+2014,203915,80.25,103.0,5.35,,,,,
+2014,203921,82.75,101.5,4.45,34.0,40.0,11.15,3.18,
+2014,203929,83.25,103.5,6.45,29.5,35.0,11.55,3.14,
+2014,203898,79.25,98.0,6.2,29.0,36.0,11.12,3.3,
+2014,203957,81.5,103.0,6.4,31.5,34.5,10.75,3.19,
+2014,203927,81.5,104.0,5.05,27.0,35.0,11.0,3.32,
+2014,203932,83.75,105.0,5.05,32.5,39.0,10.81,3.27,
+2014,203924,86.75,107.0,3.75,,,,,
+2014,203798,81.0,101.0,8.2,32.0,37.0,11.12,3.32,
+2014,203914,78.75,96.0,4.55,,,,,
+2014,203925,78.0,100.0,6.2,28.5,33.5,11.11,3.31,
+2014,203918,80.5,103.0,7.45,29.0,36.0,11.21,3.38,
+2014,203928,84.5,105.0,5.25,33.0,37.5,12.63,3.36,
+2014,203910,79.25,96.5,6.05,33.5,41.5,10.8,3.27,
+2014,203930,79.0,99.0,9.2,,,,,
+2014,203945,87.5,109.5,13.6,28.5,31.5,11.2,3.48,
+2014,203897,80.25,100.0,4.7,33.5,41.5,10.42,3.19,
+2014,203906,81.0,102.0,6.9,29.0,35.0,11.32,3.28,
+2014,203949,86.25,106.5,6.15,29.5,34.0,11.61,3.28,
+2014,203909,83.25,102.0,4.45,33.0,37.0,12.71,3.1,
+2014,203926,81.25,103.0,7.1,28.5,36.5,11.1,3.29,
+2014,203895,84.5,104.0,5.2,27.5,34.5,11.07,3.39,
+2014,203894,75.25,93.0,7.35,30.5,37.5,11.6,3.2,
+2014,203948,86.25,105.0,10.75,31.0,35.5,11.57,3.45,
+2014,203934,83.0,101.0,10.75,27.5,32.5,11.63,3.45,
+2014,203940,88.0,109.0,7.55,,,,,
+2014,203901,80.0,98.5,5.65,31.5,35.5,11.06,3.23,
+2014,203939,84.5,105.0,6.2,28.5,35.0,11.28,3.2,
+2014,203944,84.0,105.5,9.4,29.0,35.5,11.45,3.27,
+2014,203922,82.0,100.5,5.05,36.5,41.5,11.22,3.15,
+2014,203941,85.75,106.0,16.3,25.0,31.0,11.97,3.44,
+2014,203935,81.25,99.0,10.55,33.0,36.0,10.82,3.26,
+2014,203893,75.5,95.0,3.5,29.5,34.0,11.57,3.27,
+2014,203917,79.75,102.0,12.05,29.0,35.5,10.79,3.27,
+2014,203950,85.25,103.5,8.2,31.0,36.0,11.92,3.26,
+2014,203904,76.0,96.0,6.4,29.0,32.5,11.48,3.48,
+2014,203943,88.25,108.0,7.3,31.0,37.0,11.45,3.28,
+2014,203933,82.25,104.0,7.95,27.0,35.5,11.1,3.26,
+2014,203912,81.75,100.5,6.5,31.0,37.5,11.3,3.22,
+2014,203899,77.5,99.0,7.2,27.0,33.0,10.83,,
+2014,203942,85.75,103.5,5.45,32.0,37.5,11.18,3.43,
+2014,203923,84.0,104.0,5.1,28.0,35.5,,,
+2015,1626146,87.5,109.5,5.8,,,,,
+2015,1626147,83.75,101.0,5.0,38.0,43.0,11.13,3.22,12.0
+2015,1626165,87.75,105.0,8.8,31.5,35.5,11.21,3.58,9.0
+2015,1626207,72.5,92.5,6.6,32.0,41.0,10.71,3.26,10.0
+2015,1626164,80.25,102.5,8.3,27.5,34.5,10.27,3.28,8.0
+2015,1626148,83.0,104.5,6.1,27.5,34.5,10.94,3.18,4.0
+2015,1626161,87.0,111.0,6.3,,,,,
+2015,1626176,89.25,110.5,9.6,29.0,32.0,11.6,3.47,9.0
+2015,1626192,80.0,96.0,10.2,37.5,44.0,10.58,3.2,13.0
+2015,1626188,76.0,96.5,6.7,24.5,31.0,11.44,3.38,14.0
+2015,1626183,83.0,105.0,5.8,28.5,34.5,12.22,3.2,12.0
+2015,1626155,83.5,106.0,7.5,25.5,34.5,10.64,3.28,5.0
+2015,1626187,80.0,101.5,7.4,27.0,35.0,10.66,3.32,10.0
+2015,1626203,82.5,103.0,5.5,28.5,31.5,11.64,3.3,11.0
+2015,1626170,79.5,100.0,5.6,,,,,
+2015,1626152,78.0,100.0,4.3,28.0,34.0,11.41,3.25,19.0
+2015,1626149,88.25,109.0,11.9,,,,,
+2015,1626150,81.0,100.0,5.9,26.5,33.0,11.2,3.34,
+2015,1626151,80.25,100.5,6.0,28.5,34.5,,3.27,1.0
+2015,1626227,77.5,98.5,9.2,26.0,28.5,10.56,3.44,1.0
+2015,1626186,80.0,99.5,5.5,28.5,34.0,10.81,3.51,9.0
+2015,1626178,86.0,104.0,5.0,32.0,38.0,10.41,3.12,13.0
+2015,1626158,85.5,108.0,8.8,32.5,36.0,11.24,3.32,15.0
+2015,1626182,83.5,107.5,7.2,25.5,31.0,10.95,3.51,
+2015,1626154,82.5,104.0,6.0,27.5,33.5,10.87,3.26,1.0
+2015,1626205,83.0,104.5,4.6,33.5,37.5,11.19,3.26,13.0
+2015,1626177,86.0,112.0,14.9,22.5,25.0,11.76,3.62,4.0
+2015,1626169,83.5,102.0,7.5,,,,,
+2015,1626145,77.0,97.0,6.5,26.5,32.5,11.84,3.32,2.0
+2015,1626163,83.0,109.5,9.4,,,,,
+2015,1626172,87.5,110.0,11.9,,,,,
+2015,1626168,85.5,108.0,12.1,,,,,
+2015,1626185,81.0,106.5,10.1,28.5,35.0,11.2,3.27,19.0
+2015,204456,74.0,96.5,7.3,26.0,31.5,10.95,3.3,7.0
+2015,1626191,87.25,109.0,6.2,,,,,
+2015,1626175,87.25,106.0,7.2,33.0,37.5,11.72,3.28,9.0
+2015,2006,85.5,108.0,6.4,29.0,37.5,10.93,3.25,10.0
+2015,1626162,86.25,102.5,5.7,34.5,37.0,11.09,3.32,7.0
+2015,1626166,79.25,97.5,6.3,29.75,35.5,10.9,3.28,0.0
+2015,1626189,83.25,104.5,4.9,25.0,31.0,10.91,3.32,15.0
+2015,1626171,86.0,108.5,8.9,25.0,31.5,11.78,3.56,5.0
+2015,1626181,82.75,102.5,6.4,32.5,40.5,10.69,3.2,5.0
+2015,1626180,84.25,104.5,4.0,34.0,39.5,11.88,3.18,9.0
+2015,1626184,79.0,96.5,4.5,33.5,39.5,10.63,3.2,6.0
+2015,1626179,80.25,98.5,5.6,33.0,38.0,10.84,3.15,7.0
+2015,1626156,81.75,102.0,8.3,,,,,
+2015,1626208,74.0,93.0,5.0,34.0,43.0,10.47,3.13,8.0
+2015,1626194,79.75,97.5,5.3,34.5,43.0,10.78,3.02,3.0
+2015,1626160,82.0,100.5,4.1,34.5,40.0,10.97,3.27,12.0
+2015,1626167,88.0,112.0,9.3,,,,,
+2015,1626193,89.5,113.0,12.5,,,,,
+2015,1626173,79.0,101.0,6.2,28.0,34.0,11.4,3.21,5.0
+2015,1626217,86.75,108.0,5.1,30.5,37.0,11.25,3.35,6.0
+2015,1627361,81.5,100.5,8.1,31.5,39.0,10.56,3.2,15.0
+2015,1626210,85.75,106.5,12.0,25.5,28.5,12.26,3.5,8.0
+2015,1626159,82.25,104.5,5.3,,,,,
+2015,1626174,87.25,111.5,14.7,,,,,
+2015,1626153,79.5,101.5,6.6,29.5,31.0,11.16,3.29,4.0
+2017,1628389,86.75,108.0,5.2,33.5,38.5,11.94,3.24,12.0
+2017,1628959,80.75,99.0,11.0,31.5,40.5,11.99,3.3,7.0
+2017,1628386,89.25,109.5,7.4,31.5,35.5,11.82,3.21,4.0
+2017,1628443,81.25,99.5,6.4,33.0,35.5,11.24,3.15,7.0
+2017,1628387,90.25,110.5,5.4,29.5,32.5,12.52,3.44,11.0
+2017,1628384,86.25,107.5,6.8,,,,,
+2017,1628503,82.0,105.0,11.9,23.5,31.0,11.62,3.44,5.0
+2017,1628407,82.0,103.5,7.9,30.0,36.5,11.7,3.22,8.0
+2017,1628431,82.25,104.5,6.8,30.0,37.0,11.18,3.26,11.0
+2017,1628395,83.75,104.5,5.4,31.5,38.0,10.63,3.21,16.0
+2017,1628417,82.0,104.5,5.7,31.0,35.5,11.47,3.17,16.0
+2017,1628449,88.0,110.5,5.4,,,,,
+2017,1628396,89.0,112.5,12.0,24.5,27.5,11.79,3.44,5.0
+2017,1628515,81.0,99.5,11.0,28.0,33.5,10.95,3.38,11.0
+2017,1628415,78.0,100.5,7.5,31.0,37.5,11.14,3.21,16.0
+2017,1628418,90.0,112.5,9.4,25.5,33.0,11.42,3.37,7.0
+2017,1628380,85.0,111.0,8.9,,,,,
+2017,1628381,83.25,106.5,5.4,33.0,37.5,11.66,3.27,15.0
+2017,1628977,83.25,101.5,5.2,34.5,44.5,10.88,3.11,0.0
+2017,1628416,77.25,99.5,4.7,30.5,36.0,10.55,3.16,8.0
+2017,1628422,81.0,100.0,5.3,31.5,38.0,11.18,3.13,13.0
+2017,1628408,83.0,101.0,6.1,34.0,39.0,10.84,3.15,9.0
+2017,1628393,77.5,95.0,9.1,27.5,33.5,11.34,3.21,1.0
+2017,1628390,80.75,103.0,5.8,28.5,38.0,11.16,3.32,
+2017,1628368,78.5,100.0,4.5,,,,,
+2017,1628365,,,,,,,,
+2017,1628385,87.25,109.5,5.2,27.0,32.5,11.08,3.34,5.0
+2017,1628404,80.25,101.0,5.8,27.5,35.5,11.15,3.18,9.0
+2017,1628502,87.25,104.5,11.5,29.0,33.5,11.81,3.27,16.0
+2017,1628439,84.5,105.0,7.7,31.5,37.0,12.31,3.36,11.0
+2017,1628411,85.0,105.5,4.0,31.5,36.0,11.25,3.36,5.0
+2017,1628402,79.5,98.0,6.7,34.5,42.0,10.94,3.14,9.0
+2017,1628992,87.25,107.0,7.1,26.5,31.5,11.78,3.43,
+2017,1628382,83.0,104.5,8.1,29.5,35.5,10.8,3.3,
+2017,1628514,80.0,102.0,11.0,26.5,31.0,11.34,3.41,
+2017,1628379,77.25,98.5,6.6,,,,,
+2017,1628398,84.25,107.5,9.4,27.0,34.0,10.72,3.25,12.0
+2017,1628388,83.0,107.0,6.8,29.0,34.5,11.55,3.27,6.0
+2017,1628399,84.0,107.5,13.6,29.5,33.5,11.68,3.46,1.0
+2017,1628412,75.25,94.0,4.3,34.0,41.0,11.41,3.18,15.0
+2017,1628452,85.0,106.0,11.5,28.0,30.5,12.91,3.5,15.0
+2017,1628378,82.0,97.0,5.9,36.5,40.5,11.53,3.01,10.0
+2017,1628420,76.0,96.5,6.9,28.0,33.5,11.0,3.19,8.0
+2017,1628405,88.0,108.0,,,,,,
+2017,1629004,77.0,100.0,11.4,27.0,33.0,12.4,3.53,8.0
+2017,1628400,81.75,102.0,5.5,35.0,40.5,10.58,3.16,19.0
+2017,1628419,85.25,106.5,7.7,28.0,39.5,12.17,3.16,5.0
+2017,1628383,87.0,111.5,7.8,26.0,30.5,11.8,3.46,
+2017,1628409,82.75,105.0,8.8,,,,,
+2017,1628397,85.5,109.0,6.8,28.5,32.5,12.68,3.35,3.0
+2017,1628432,84.0,102.0,6.5,28.5,36.0,11.37,3.34,12.0
+2017,1628421,84.75,106.0,3.2,35.5,41.5,12.85,3.23,10.0
+2017,1628424,78.0,99.0,5.0,30.5,38.5,11.15,3.18,3.0
+2017,1628410,81.0,102.5,8.3,,,,,
+2017,1628403,87.0,108.0,,,,,,
+2017,1628414,82.0,103.0,7.8,27.0,30.5,11.48,3.36,15.0
+2017,1628453,74.0,95.5,10.6,24.5,32.0,10.75,3.27,6.0
+2017,1629021,84.0,108.0,6.7,25.5,32.5,12.0,3.35,
+2017,1628476,74.5,95.0,5.8,26.0,32.5,11.28,3.29,9.0
+2017,1629118,84.0,109.5,10.9,,,,,11.0
+2017,1628401,79.5,101.5,6.2,31.0,36.5,10.84,3.08,10.0
+2017,1628430,79.25,99.0,5.6,27.5,34.5,10.42,3.19,10.0
+2017,1628391,87.0,109.5,6.4,,,,,
+2017,1962937123,85.0,108.5,7.6,26.0,31.5,12.85,3.45,6.0
+2018,1628959,80.75,99.0,8.9,32.5,40.5,11.5,3.15,10.0
+2018,1628960,79.25,97.0,5.55,32.5,40.5,10.31,3.15,
+2018,1628961,86.25,110.0,5.0,29.5,35.0,12.48,3.21,0.0
+2018,1628962,91.0,112.5,7.95,31.0,31.5,12.97,3.12,11.0
+2018,1628964,94.0,115.5,6.2,,,,,
+2018,1628965,75.5,96.5,11.65,27.0,33.0,11.39,3.31,7.0
+2018,1628966,87.25,106.5,5.35,30.5,35.0,11.2,3.17,11.0
+2018,1628967,81.0,102.0,4.0,32.0,37.5,11.04,3.07,9.0
+2018,1628968,82.25,103.5,7.6,30.5,34.0,11.58,3.28,0.0
+2018,1628970,81.5,103.5,5.9,,,,,
+2018,1628971,81.0,98.5,3.75,32.5,38.0,11.11,3.2,17.0
+2018,1628972,82.25,105.0,7.05,26.0,33.0,11.51,3.33,5.0
+2018,1628973,76.0,96.0,6.7,29.0,37.0,10.59,3.15,7.0
+2018,1628974,80.25,100.0,6.5,25.0,31.5,11.89,3.17,0.0
+2018,1628975,76.25,95.0,4.15,29.0,36.5,11.04,3.18,14.0
+2018,1628976,88.5,109.0,7.85,,,,,
+2018,1628978,78.0,97.5,5.0,34.5,42.0,10.72,3.11,12.0
+2018,1628977,83.5,103.0,4.45,32.5,40.5,10.53,3.1,1.0
+2018,1628979,80.25,97.5,5.2,34.0,41.5,10.93,3.18,6.0
+2018,1629035,78.25,94.5,6.3,28.5,34.5,11.59,3.2,12.0
+2018,1629037,77.25,98.0,6.5,,,,,
+2018,1628980,81.25,102.5,6.5,28.0,35.5,11.11,3.2,8.0
+2018,1628981,88.25,109.0,5.25,29.0,35.0,12.19,3.23,11.0
+2018,1628982,85.75,105.0,7.9,31.0,40.5,11.24,3.08,0.0
+2018,1628983,83.5,104.0,3.0,,,,,
+2018,1628984,78.25,96.0,4.8,31.0,37.0,11.28,3.21,14.0
+2018,1629036,89.0,111.5,12.55,,,,,
+2018,1628985,79.75,102.0,8.45,25.0,31.0,10.95,3.27,6.0
+2018,1628986,77.5,98.0,5.0,31.5,39.5,12.11,3.13,6.0
+2018,1628987,87.5,107.0,5.15,27.5,32.0,11.28,3.36,4.0
+2018,1628988,79.5,97.0,6.4,25.5,33.0,10.96,3.27,
+2018,1628989,79.5,101.5,8.6,31.0,38.0,10.89,3.09,9.0
+2018,1628991,89.25,110.0,7.2,,,,,
+2018,1628992,87.0,105.0,8.9,,,,,
+2018,1628993,80.75,103.0,8.1,25.0,31.0,11.83,3.38,8.0
+2018,1628994,83.5,101.5,7.25,31.0,39.0,10.75,3.29,15.0
+2018,1628995,83.75,108.0,4.95,,,,,
+2018,1628996,84.0,106.5,7.35,31.5,35.0,12.28,3.28,12.0
+2018,1628997,82.0,101.5,7.0,29.0,36.5,10.43,3.26,6.0
+2018,1628998,82.25,102.5,5.45,29.0,36.5,10.64,3.09,4.0
+2018,1628999,84.5,107.5,8.1,27.0,31.5,11.35,3.17,18.0
+2018,1629000,86.0,110.5,8.7,27.5,32.0,11.77,3.23,9.0
+2018,1629001,80.5,99.5,5.2,31.0,36.5,11.48,3.23,1.0
+2018,1629002,84.5,108.0,5.05,29.5,36.0,11.89,3.33,5.0
+2018,1629003,84.75,99.5,6.8,30.0,33.0,11.07,3.25,2.0
+2018,1629004,76.75,100.0,8.45,30.5,37.0,11.25,3.15,4.0
+2018,1629005,77.5,98.5,6.25,27.5,33.5,10.9,3.13,
+2018,1629006,84.0,102.0,5.2,33.0,42.0,11.08,3.04,12.0
+2018,1629033,82.75,103.5,7.35,27.0,34.0,11.53,3.22,7.0
+2018,1629007,84.25,109.0,13.85,25.5,31.0,11.9,3.4,9.0
+2018,1629008,84.25,108.5,6.4,,,,,
+2018,1629009,86.0,108.0,5.45,25.0,33.0,11.26,3.2,0.0
+2018,1629010,79.25,98.0,6.05,,,,,
+2018,1629012,79.25,98.5,5.6,,,,,
+2018,1629013,78.75,100.0,4.85,31.0,39.5,11.26,3.11,8.0
+2018,1629014,81.25,99.5,7.7,32.0,41.5,11.27,3.1,1.0
+2018,1629015,81.75,100.0,6.05,33.0,41.5,11.02,3.05,10.0
+2018,1629034,88.75,109.0,5.55,26.0,32.0,11.48,3.34,12.0
+2018,1629016,86.0,107.5,13.75,28.5,35.5,12.28,3.38,8.0
+2018,1629017,82.5,101.0,6.4,30.0,35.0,10.96,3.18,14.0
+2018,1629018,80.75,98.0,7.0,33.5,39.5,11.37,3.12,12.0
+2018,1629019,78.75,98.0,4.95,32.0,40.0,11.02,3.14,11.0
+2018,1629021,84.0,108.0,6.75,27.0,34.0,11.48,3.18,8.0
+2018,1629022,82.25,99.5,5.65,31.5,40.0,10.87,3.06,12.0
+2018,1629023,86.5,107.0,6.85,27.0,34.0,11.39,3.2,3.0
+2018,1629024,89.0,111.0,5.0,28.0,33.5,12.79,3.3,14.0
+2018,1629025,82.25,103.5,5.15,28.0,35.5,11.29,3.24,1.0
+2018,1629026,79.25,103.5,5.95,28.0,33.0,10.86,3.19,14.0
+2018,1629027,75.0,95.5,5.35,,,,,
+2019,1629638,81.5,102.0,5.9,,,,,
+2019,1629628,,,,,,,,
+2019,1629646,87.5,109.5,8.5,29.0,33.0,12.65,3.53,7.0
+2019,1629647,84.0,107.0,3.6,30.5,37.0,11.09,3.27,4.0
+2019,1629626,91.0,115.5,7.1,,,,,
+2019,1629648,75.25,95.0,5.0,36.0,42.5,9.97,3.08,7.0
+2019,1628968,82.0,103.0,6.5,32.0,35.5,10.98,3.26,1.0
+2019,1629065,79.0,98.0,4.9,27.5,33.0,11.11,3.26,4.0
+2019,1629649,81.25,102.0,6.0,31.0,36.5,11.06,3.36,13.0
+2019,1629052,84.0,104.0,2.9,34.0,37.5,11.3,3.48,11.0
+2019,1629650,88.75,113.0,7.8,27.0,31.0,11.95,3.51,
+2019,1629634,80.25,102.0,4.9,34.0,40.5,10.61,3.15,10.0
+2019,1629651,86.5,110.0,4.5,31.5,36.5,11.26,3.36,8.0
+2019,1629076,84.5,106.5,6.1,27.5,32.0,11.32,3.28,11.0
+2019,1629633,81.5,100.5,5.0,,,,,
+2019,1629056,80.75,101.0,4.1,29.5,34.0,10.69,3.28,13.0
+2019,1629652,80.5,99.5,5.0,32.5,38.0,10.79,3.22,14.0
+2019,1629653,75.25,95.5,5.9,30.0,38.5,10.63,3.04,7.0
+2019,1629654,78.0,94.5,5.5,28.5,34.0,10.53,3.22,14.0
+2019,1629605,98.25,122.5,6.8,22.0,26.5,13.01,3.78,8.0
+2019,1628981,87.25,110.0,5.4,29.5,33.5,11.29,3.21,13.0
+2019,1629655,86.5,110.0,5.9,32.5,36.5,11.61,3.25,5.0
+2019,1629636,,,,,,,,
+2019,1629656,79.75,100.5,8.4,27.5,36.0,10.83,3.2,6.0
+2019,1629657,76.5,95.5,5.7,30.5,36.5,10.48,3.27,4.0
+2019,1628986,77.5,97.0,5.1,33.0,41.5,10.73,3.12,6.0
+2019,1629607,77.5,94.0,3.9,33.5,40.5,10.77,3.04,8.0
+2019,1629637,87.5,110.5,5.0,27.0,34.5,11.74,3.37,5.0
+2019,1629608,85.75,107.0,6.1,30.5,35.5,11.46,3.28,13.0
+2019,1629639,75.25,100.5,7.1,,,,,
+2019,1629658,84.75,105.5,6.7,27.5,35.5,11.44,3.34,8.0
+2019,1629659,85.25,103.0,8.4,26.0,34.5,11.34,3.34,10.0
+2019,1629631,,,,,,,,
+2019,1629610,83.25,104.0,3.9,,,,,
+2019,1629660,76.0,98.0,6.5,26.0,31.5,11.21,3.4,2.0
+2019,1629640,81.25,104.0,5.6,,,,,
+2019,1629661,82.0,103.0,5.8,30.5,36.5,10.52,3.26,
+2019,1629662,87.0,109.5,5.1,28.0,35.5,11.21,3.25,6.0
+2019,1629663,84.25,104.5,4.8,29.0,33.0,10.99,3.28,0.0
+2019,1629641,83.0,103.0,,,,,,
+2019,1629664,86.25,107.5,8.9,23.5,26.0,11.8,3.6,10.0
+2019,1629665,80.5,98.5,4.0,35.0,43.0,11.09,3.29,1.0
+2019,1629642,85.25,104.5,5.9,31.0,38.5,12.15,3.24,5.0
+2019,1629611,79.75,101.0,4.0,32.5,38.5,11.51,3.3,6.0
+2019,1628998,82.25,102.5,5.0,28.0,35.5,10.44,3.32,7.0
+2019,1629666,81.5,103.0,3.8,29.5,37.5,11.26,3.38,9.0
+2019,1629667,84.25,105.5,5.7,29.5,33.5,11.54,3.32,0.0
+2019,1629630,,,,,,,,
+2019,1629668,78.0,101.0,7.5,24.0,30.0,11.6,3.43,
+2019,1629669,79.25,98.0,6.1,32.0,38.5,10.76,3.23,2.0
+2019,1629670,82.5,103.0,7.8,,,,,
+2019,1629643,,,,,,,,
+2019,1629644,85.75,106.5,4.6,30.5,37.0,10.88,3.38,9.0
+2019,1629671,82.75,100.5,4.9,30.5,38.5,11.71,3.17,19.0
+2019,1629672,87.75,103.5,6.3,33.0,38.0,11.63,3.3,18.0
+2019,1629617,84.5,106.0,6.7,28.5,31.5,12.46,3.3,15.0
+2019,1629044,75.5,96.5,9.8,29.0,37.0,11.01,3.2,0.0
+2019,1629673,78.75,99.5,7.5,28.0,35.5,10.59,3.27,
+2019,1629007,84.0,109.5,8.5,,,,,
+2019,1629645,81.0,103.0,5.1,27.0,34.0,10.82,3.14,2.0
+2019,1629674,88.25,111.5,6.3,24.0,32.5,12.04,3.73,1.0
+2019,1629629,84.5,105.5,4.7,,,,,
+2019,1629675,87.25,109.0,14.0,26.0,32.5,12.03,3.42,3.0
+2019,1629676,85.0,106.0,3.9,32.5,35.5,10.63,3.25,9.0
+2019,1629677,82.5,107.0,5.6,27.0,38.0,11.01,3.27,7.0
+2019,1629678,81.75,102.5,6.8,30.0,34.0,10.77,3.37,15.0
+2019,1629621,84.25,103.5,4.7,29.5,36.5,11.16,3.37,9.0
+2019,1629679,85.25,106.0,6.2,27.0,35.5,11.85,3.3,11.0
+2019,1629681,,,,,,,,
+2019,1629023,86.5,106.5,8.6,,,,,
+2019,1629682,74.25,93.5,6.6,30.5,40.5,10.76,3.07,5.0
+2019,1629683,81.0,100.0,6.1,31.0,38.0,11.57,3.16,
+2019,1629632,77.0,97.5,4.3,,,,,
+2019,1629025,82.75,103.0,4.9,27.5,35.0,10.39,3.34,4.0
+2019,1629684,81.75,104.5,5.4,26.0,31.5,10.83,3.33,20.0
+2019,1629627,,,,,,,,
+2019,1629685,82.0,104.5,4.6,29.0,37.5,10.7,3.3,8.0
+2020,1630173,84.75,108.5,6.7,,,,,
+2020,1630234,80.0,100.0,12.3,28.0,33.0,11.33,3.26,
+2020,1628962,91.25,109.0,9.61,37.0,41.0,11.82,3.23,
+2020,1630189,85.25,105.5,5.0,37.0,43.5,11.35,3.17,
+2020,1630213,83.5,106.0,8.2,34.0,38.5,10.87,3.22,
+2020,1629603,87.75,107.0,7.83,28.0,37.0,11.95,3.16,
+2020,1629653,75.0,95.0,4.6,31.5,40.5,10.44,3.02,
+2020,1630220,87.5,108.0,3.8,33.0,35.5,10.79,3.19,
+2020,1629604,79.25,100.5,4.2,30.5,36.5,11.25,3.25,
+2020,1630235,79.5,102.5,5.65,28.0,34.5,11.04,3.18,
+2020,1630182,81.75,101.5,6.8,30.5,39.5,10.64,3.12,
+2020,1630204,80.0,99.5,4.1,29.5,36.5,10.82,3.13,
+2020,1630221,83.0,104.5,7.6,31.5,37.5,12.16,3.38,
+2020,1630223,79.0,97.5,4.4,37.5,42.5,10.59,3.11,
+2020,1630210,72.25,91.5,9.91,30.5,35.5,11.21,3.11,
+2020,1630190,79.5,101.5,10.2,,,,,
+2020,1630198,79.5,101.0,4.7,,,,,
+2020,1630222,79.0,102.5,8.9,24.0,31.0,10.6,3.33,
+2020,1630233,86.0,109.5,8.2,23.0,31.5,11.56,3.31,
+2020,1630177,80.75,100.5,2.8,,,,,
+2020,1630211,83.0,102.0,3.73,31.0,36.0,11.52,3.04,
+2020,1630230,84.75,102.5,8.7,28.5,35.0,11.77,3.37,
+2020,1630231,79.25,102.0,5.9,31.5,38.5,11.93,3.16,
+2020,1630219,78.0,99.0,7.4,29.0,37.5,10.65,3.3,
+2020,1630192,86.0,105.5,5.9,33.0,38.0,10.94,3.2,
+2020,1629670,82.25,104.0,11.68,29.0,35.0,11.29,3.43,
+2020,1629617,84.25,106.5,8.4,30.0,33.5,11.26,3.25,
+2020,1629619,79.0,99.0,15.8,,,,,
+2020,1630193,80.25,99.0,8.2,29.5,35.5,11.21,3.17,
+2020,1630186,78.0,100.5,3.4,,,,,
+2020,1630194,86.0,109.5,6.83,26.5,37.5,12.29,3.45,
+2020,1630208,86.25,110.0,8.5,30.0,34.0,11.42,3.25,
+2020,1630203,77.25,96.5,5.4,32.5,39.5,11.17,3.07,
+2020,1630206,81.5,104.5,3.7,,,,,
+2020,1630188,86.25,110.0,3.7,,,,,
+2020,1630199,79.0,99.5,5.8,34.5,44.0,11.4,3.09,
+2020,1630205,81.0,101.0,6.8,35.0,41.0,10.35,3.2,
+2020,1630191,88.75,108.5,7.5,,,,,
+2020,1630179,73.75,96.0,7.6,30.0,34.0,10.78,3.28,
+2020,1629681,80.0,106.0,12.43,27.5,32.0,11.6,3.4,
+2020,1630214,86.0,106.0,8.5,26.0,32.5,11.8,3.49,
+2020,1629700,87.5,111.5,12.5,21.5,27.0,11.73,3.6,
+2020,1630232,84.25,105.5,5.3,29.0,39.0,11.17,3.28,
+2020,1630216,78.0,97.0,9.0,24.0,28.0,11.15,3.61,
+2020,1630218,86.0,105.5,4.5,32.0,38.0,11.1,3.18,
+2022,1630534,82.25,104.0,5.4,32.0,39.0,10.77,3.13,
+2022,1631116,85.75,110.5,8.9,23.5,26.5,12.25,3.45,
+2022,1631094,,,,,,,,
+2022,1631230,87.0,108.5,5.9,28.5,34.0,11.29,3.33,
+2022,1630699,84.75,106.0,5.3,,,,,
+2022,1630656,77.5,102.0,8.8,24.5,31.5,11.36,3.4,
+2022,1631103,82.0,102.5,6.1,29.0,35.0,11.38,3.17,
+2022,1631128,78.5,99.5,6.2,33.5,40.0,11.0,3.16,
+2022,1631112,83.0,103.0,4.9,31.5,41.0,11.57,3.29,
+2022,1631219,86.25,112.0,4.7,26.5,28.5,11.16,3.33,
+2022,1630577,82.0,107.0,7.1,28.5,34.5,11.39,3.14,
+2022,1631113,77.25,97.0,4.4,31.0,41.5,10.73,,
+2022,1631108,80.75,102.5,4.8,32.0,37.5,10.82,3.07,
+2022,1630594,88.25,110.5,8.2,29.5,32.5,12.11,3.33,
+2022,1630700,82.5,105.0,4.9,29.0,34.0,10.81,3.22,
+2022,1631098,80.5,103.5,6.7,,,,,
+2022,1631120,78.5,99.5,7.8,30.0,37.0,11.38,3.26,
+2022,1630620,,,,,,,,
+2022,1631217,86.5,109.5,2.7,29.0,36.5,11.16,3.26,
+2022,1631172,,,,,,,,
+2022,1631215,,,,,,,,
+2022,1631105,,,,,,,,
+2022,1631106,86.0,107.5,5.9,,,,,
+2022,1631165,80.5,102.0,3.8,28.0,35.5,10.87,3.18,
+2022,1630701,84.25,109.5,6.2,28.0,32.5,11.49,3.22,
+2022,1631221,76.0,98.0,8.6,26.5,33.0,10.95,3.21,
+2022,1631100,,,,,,,,
+2022,1630702,,,,,,,,
+2022,1631199,85.25,105.5,14.3,26.0,30.5,11.41,3.4,
+2022,1631096,,,,,,,,
+2022,1631127,84.25,103.5,8.3,29.5,35.0,11.83,3.31,
+2022,1631093,,,,,,,,
+2022,1631218,,,,,,,,
+2022,1631107,84.25,108.5,7.4,,,,,
+2022,1630548,83.0,102.5,7.5,27.5,32.5,11.03,3.29,
+2022,1631130,,,,,,,,
+2022,1631211,79.25,101.0,13.5,24.5,31.0,11.33,3.27,
+2022,1631117,88.25,113.0,14.7,,,,,
+2022,1631132,89.25,113.0,5.7,28.0,33.5,11.3,3.27,
+2022,1631222,81.5,104.0,9.0,27.5,34.0,10.58,3.37,
+2022,1631171,86.5,105.5,7.3,32.5,35.0,11.49,3.23,
+2022,1630604,83.75,103.5,12.2,35.5,38.0,11.11,3.26,
+2022,1631254,,,,,,,,
+2022,1631213,,,,,,,,
+2022,1631097,81.0,104.0,5.7,,,,,
+2022,1630571,82.5,105.0,11.1,25.5,31.5,10.74,3.39,
+2022,1631121,80.75,103.5,5.4,29.5,34.0,11.12,3.27,
+2022,1631159,86.0,106.5,5.7,30.0,36.5,11.11,3.36,
+2022,1631125,,,,,,,,
+2022,1631198,83.0,104.0,5.1,29.5,36.0,11.54,3.33,
+2022,1631129,80.0,101.0,4.8,31.0,38.0,11.23,3.19,
+2022,1631168,77.25,98.5,7.4,29.5,37.0,11.19,3.17,
+2022,1631111,84.5,101.0,7.5,32.5,38.5,10.94,3.3,
+2022,1631099,,,,,,,,
+2022,1629614,77.75,99.0,4.4,26.5,35.0,10.46,3.26,
+2022,1630590,77.75,95.5,5.3,30.5,37.5,11.07,3.21,
+2022,1630629,80.0,106.0,3.8,29.5,35.0,11.02,3.07,
+2022,1631197,,,,,,,,
+2022,1631115,88.0,111.0,9.5,23.0,27.5,11.4,3.55,
+2022,1631223,83.5,105.0,11.6,27.0,35.5,10.75,3.22,
+2022,1631157,81.75,100.5,5.0,30.5,36.5,11.26,3.07,
+2022,1631204,,,,,,,,
+2022,1631220,80.75,103.5,4.0,30.5,38.0,11.03,3.12,
+2022,1631101,83.5,103.5,4.8,,,,,
+2022,1631173,78.5,98.0,3.8,30.5,38.5,10.63,3.14,
+2022,1631095,,,,,,,,
+2022,1631110,,,,,,,,
+2022,1631164,80.0,102.0,8.6,25.5,31.5,11.42,3.4,
+2022,1631124,81.5,104.5,7.9,28.5,35.0,10.3,3.26,
+2022,1631207,84.75,106.0,5.4,,,,,
+2022,1631166,86.0,107.5,15.7,25.5,31.5,11.71,3.38,
+2022,1631133,82.75,105.0,12.1,29.5,32.5,11.53,3.24,
+2022,1631102,80.0,99.5,12.0,,,,,
+2022,1631212,84.5,107.5,5.2,28.0,33.5,11.03,3.28,
+2022,1631104,81.25,103.0,5.6,30.0,36.0,11.55,3.21,
+2022,1631214,79.0,102.0,7.2,30.0,35.5,10.96,3.15,
+2022,1631114,86.25,105.5,8.9,33.5,39.0,11.13,3.11,
+2022,1631119,85.0,108.5,8.0,24.5,30.0,11.64,3.5,
+2022,1630652,86.75,108.5,10.8,27.5,30.0,12.75,3.48,
+2022,1631258,,,,,,,,
+2022,1631109,90.5,117.0,5.4,,,,,
+2022,1630592,,,,,,,,
+2022,1630855,,,,,,,,
+2023,1641725,82.0,101.5,,29.5,34.0,11.6,3.35,
+2023,1641735,79.0,103.5,,28.5,35.0,11.34,3.19,
+2023,1641734,81.0,105.0,,27.0,32.5,11.54,3.49,
+2023,1641736,79.0,100.5,,30.5,38.0,10.99,3.14,
+2023,1641710,79.5,102.5,,32.0,39.0,11.04,3.35,
+2023,1641737,,110.5,,,,,,
+2023,1641738,84.75,106.5,,28.5,32.0,11.39,3.33,
+2023,1641723,79.75,102.5,,29.0,36.0,11.71,3.26,
+2023,1641739,84.5,107.0,,28.5,33.0,10.7,3.41,
+2023,1631321,81.75,104.0,,30.5,35.5,11.24,3.31,
+2023,1641740,81.0,101.5,,,,,,
+2023,1641730,,,,,,,,
+2023,1641731,,,,,,,,
+2023,1641741,81.0,103.0,,30.5,37.0,11.2,3.33,
+2023,1641711,80.75,101.0,,29.0,34.0,11.13,3.5,
+2023,1641743,80.25,102.0,,,,,,
+2023,1641744,94.5,115.5,,26.0,29.5,11.37,3.45,
+2023,1641745,76.5,97.0,,31.0,36.0,10.96,3.24,
+2023,1641718,,,,,,,,
+2023,1631243,87.25,110.5,,,,,,
+2023,1641722,78.75,101.5,,,,,,
+2023,1641746,84.25,108.5,,26.5,32.5,12.14,3.37,
+2023,1630703,,,,,,,,
+2023,1641707,84.5,107.0,,32.5,36.0,11.27,3.32,
+2023,1641747,84.5,109.0,,29.5,35.0,11.48,3.2,
+2023,1641720,82.25,100.5,,,,,,
+2023,1641724,,,,,,,,
+2023,1641713,83.5,106.0,,31.0,37.0,11.39,3.21,
+2023,1641748,81.75,103.0,,30.5,39.5,10.83,3.14,
+2023,1631218,85.0,106.0,,33.0,36.5,11.8,3.2,
+2023,1631170,81.5,99.5,,34.5,39.0,11.21,3.33,
+2023,1641749,84.0,103.0,,,,,,
+2023,1641732,80.0,103.0,,30.5,35.0,11.14,3.33,
+2023,1641750,89.0,112.5,,28.0,30.5,12.27,3.39,
+2023,1641751,84.5,103.5,,32.5,34.5,11.35,3.44,
+2023,1631340,80.0,101.0,,33.5,42.0,11.07,3.18,
+2023,1641752,,,,,,,,
+2023,1641721,84.0,104.5,,32.5,36.5,11.4,3.43,
+2023,1641726,,,,,,,,
+2023,1641753,83.25,104.5,,30.5,37.0,11.65,3.27,
+2023,1641754,82.25,104.0,,31.5,35.5,11.02,3.15,
+2023,1631256,,,,,,,,
+2023,1641756,72.5,96.0,,33.0,37.0,11.01,3.11,
+2023,1641757,83.75,103.5,,32.0,36.5,11.43,3.17,
+2023,1641706,,,,,,,,
+2023,1631159,86.0,106.5,,32.0,37.5,11.0,3.33,
+2023,1641758,75.5,98.0,,28.5,37.0,10.32,3.24,
+2023,1641759,82.0,105.0,,29.0,37.0,10.92,3.32,
+2023,1641760,81.75,103.5,,29.0,35.5,10.8,3.22,
+2023,1631200,83.75,106.0,,29.5,35.0,11.11,3.3,
+2023,1641761,84.0,106.5,,32.0,35.5,9.99,3.21,
+2023,1641762,,,,,,,,
+2023,1641763,83.5,102.0,,36.0,43.0,11.09,3.32,
+2023,1629618,79.25,98.5,,28.5,33.0,11.91,3.35,
+2023,1641764,77.5,96.5,,31.5,39.0,11.16,3.21,
+2023,1641765,85.0,104.0,,35.0,40.5,10.59,3.21,
+2023,1641712,86.0,106.0,,27.5,32.5,11.18,3.43,
+2023,1641766,86.75,108.5,,28.5,31.0,11.5,3.31,
+2023,1631204,79.0,99.5,,27.0,35.0,10.68,3.43,
+2023,1641729,,,,,,,,
+2023,1630545,80.0,102.0,,32.0,37.5,10.36,3.06,
+2023,1641767,79.75,100.0,,29.5,35.5,10.88,3.17,
+2023,1641771,83.75,106.0,,29.0,33.0,11.26,3.29,
+2023,1631173,78.75,98.0,,30.0,37.0,10.86,3.21,
+2023,1641733,,,,,,,,
+2023,1631124,81.25,105.0,,27.5,34.5,10.94,3.31,
+2023,1641708,84.0,103.5,,,,,,
+2023,1641709,84.0,104.0,,,,,,
+2023,1631166,85.75,108.5,,26.0,30.5,10.93,3.34,
+2023,1641772,,,,,,,,
+2023,1631131,87.5,108.0,,29.5,32.5,12.26,3.32,
+2023,1641773,83.0,108.0,,23.5,30.5,11.17,3.5,
+2023,1641774,86.5,111.0,,26.0,30.5,11.71,3.43,
+2023,1641716,86.5,104.5,,34.5,38.0,10.89,3.2,
+2023,1641717,80.5,101.0,,28.0,36.0,10.82,3.34,
+2023,1641775,85.75,107.0,,33.0,36.0,10.83,3.3,
+2023,1641705,,,,,,,,
+2023,1641727,82.25,103.5,,,,,,
+2023,1641715,80.5,103.5,,31.5,40.5,10.82,3.2,
+2023,1630592,80.0,99.5,,31.5,35.0,11.26,3.2,
+2023,1631209,78.75,97.5,,32.5,37.0,10.93,3.22,
