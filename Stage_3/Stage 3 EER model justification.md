@@ -98,3 +98,5 @@ output:
 relationship since a player does not need to have their player information to exist in the database and the player information totally participates in the relationship since it is a weak entity and would not exist in the database without the actual player.
 
 * The primary key in the relationship is only the playerID since the player information is a weak entity.
+
+
