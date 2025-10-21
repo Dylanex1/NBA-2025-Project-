@@ -28,3 +28,5 @@
 9. return the team stats for a specific game
 10. list the top 20 players in the league for 3 point percentage
     - player must have over 100 attempts to be included
+11. List the players PTS in a game that have a height over 6ft 5in and play the position of center
+    - Maybe filter by a couple shooting positions that should have high points
