@@ -60,3 +60,8 @@
     as well as potentially allow an analyst to see if height is correlated with ppg
 12. this query allows an analyst to evaluate how well one team performs against
     another
+
+## Note
+
+There will also be simple queries to retrieve individual tables. This will be
+done to ensure all data remains accessible
