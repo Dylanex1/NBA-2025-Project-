@@ -17,10 +17,10 @@
 5. return the team and corresponding coach that won the championship that year
    - aggregate functions max and count on playoff wins,
 6. list the roster of a team ordered by ppg, should also show
-   apg and rpg
-   - in case of a tie the tie breaker should be apg, then rpg
+   apg and spg
+   - in case of a tie the tie breaker should be apg, then spg
 7. return the top 10 players in each major category:
-   ppg, apg, rpg
+   ppg, apg, spg
 8. for a team return the average age of their players
    - maybe extend this to connect with other Queries
      - ex. Maybe we want to see the average age of the top
