@@ -31,6 +31,7 @@
 11. List the players name and PTS in a game that have a height over 6ft 5in and play the position of center
     - Maybe filter by a couple shooting positions that should have high points
 12. Return the win % from a home team to another team thats on the visitor side
+13. list the coaches who have made it to the 2024-2025 season playoffs and have a overall playoff win % greater than the user input, order coach's from playoff win % from best to worst
 
 ## justifications
 
@@ -60,6 +61,7 @@
     as well as potentially allow an analyst to see if height is correlated with ppg
 12. this query allows an analyst to evaluate how well one team performs against
     another
+13. This query enables analysts to identify the top-performing coaches who have recently reached the NBA playoffs and evaluate their success based on historical playoff performance.
 
 ## Note
 
