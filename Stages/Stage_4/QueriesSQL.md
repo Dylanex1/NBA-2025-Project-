@@ -306,7 +306,7 @@ WHERE gameID = ? and CPI.height > '6"5' AND CPI.position = 'Center';
 
 ## 12th query
 
-Return the win % from one team to another
+Return the win % from one home team to a visiting team
 
 
 ```sql
