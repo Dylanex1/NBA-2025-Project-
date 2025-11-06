@@ -303,3 +303,18 @@ join playsIn on Player.PlayerID = playsIn.PlayerID
 WHERE gameID = ? and CPI.height > '6"5' AND CPI.position = 'Center';
 
 ```
+
+## 12th query
+
+Return the win % from one team to another
+
+
+```sql
+--first filter the games only played by those 2 teams maybe not by team id
+WITH FirstTeamID as (Select Team_id FROM team where Team_name = ?),
+SecondTeamID as (Select Team_id FROM team where Team_name = ?)
+
+WHERE (HomeTeamID = FirstTeamID OR VisitorTeamID = FirstTeamID) AND (HomeTeamID = SecondTeamID or VisitorTeamID = SecondTeamID)
+--split these up into 2 where first is home and second is visitor then intersect other way then count up the wins for firstTeam/total games
+
+```
