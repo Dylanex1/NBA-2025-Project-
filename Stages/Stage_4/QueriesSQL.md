@@ -288,3 +288,18 @@ Actual query that would take user input
 ```sql
 SELECT * FROM GetTeamAvgAge WHERE Team_Name = ?;
 ```
+
+
+
+## 11th query 
+
+List the players name and PTS in a game (can be chosen) that have a height over 6ft 5in and play the position of center
+
+```sql
+
+SELECT first name, last name, ( (FG-3P)*2 + (3P * 3) + (FT) ) as PTS
+FROM commonPlayerInfo CPI join Player on CPI.PlayerID = Player.PlayerID
+join playsIn on Player.PlayerID = playsIn.PlayerID
+WHERE gameID = ? and CPI.height > '6"5' AND CPI.position = 'Center';
+
+```
