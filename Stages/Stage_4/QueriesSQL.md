@@ -298,9 +298,13 @@ List the players name and PTS in a game (can be chosen) that have a height over 
 ```sql
 
 SELECT first name, last name, ( (FG-3P)*2 + (3P * 3) + (FT) ) as PTS
-FROM commonPlayerInfo CPI join Player on CPI.PlayerID = Player.PlayerID
-join playsIn on Player.PlayerID = playsIn.PlayerID
-WHERE gameID = ? and CPI.height > '6"5' AND CPI.position = 'Center';
+FROM commonPlayerInfo CPI JOIN Player
+ON CPI.PlayerID = Player.PlayerID
+JOIN playsIn
+ON Player.PlayerID = playsIn.PlayerID
+WHERE gameID = ? AND
+CPI.height > '6"5'
+AND CPI.position = 'Center';
 
 ```
 
@@ -311,10 +315,25 @@ Return the win % from one home team to a visiting team
 
 ```sql
 --first filter the games only played by those 2 teams maybe not by team id
-WITH FirstTeamID as (Select Team_id FROM team where Team_name = ?),
-SecondTeamID as (Select Team_id FROM team where Team_name = ?),
-CountAllMatchups as (select count(gameID) from game where homeTeamID = firstTeamID AND visitorTeamID = SecondTeamID)-- get a count of how many games they played
-Select (count(gameID)/CountAllMatchups) * 100 as winPCT from game where HomePTS > VisitorPTS AND homeTeamID = firstTeamID AND visitorTeamID = SecondTeamID ; - gets the win %
+WITH FirstTeamID AS
+(SELECT Team_id
+FROM team
+WHERE Team_name = ?),
+SecondTeamID AS
+(SELECT Team_id
+FROM team
+WHERE Team_name = ?),
+-- get a count of how many games they played
+CountAllMatchups AS (SELECT count(gameID)
+FROM
+game WHERE
+homeTeamID = firstTeamID
+AND visitorTeamID = SecondTeamID)
+SELECT (count(gameID)/CountAllMatchups) * 100 AS winPCT
+FROM game
+WHERE HomePTS > VisitorPTS
+AND homeTeamID = firstTeamID
+AND visitorTeamID = SecondTeamID; - gets the win %
 
 ```
 
@@ -328,7 +347,7 @@ WITH CoachesInRecentPlayoff as
 FROM PlayoffGameCoachStats PGCS
 WHERE Playoffs_Overall_G > 0)
 -- Select the coaches that made the playoffs and have a sufficent overall win rate as the user requested
-SELECT Coach_name, (PGCS.Playoffs_Overall_W / PGCS.Playoffs_Overall_G) as overallWinRate
+SELECT Coach_name, (PGCS.Playoffs_Overall_W / PGCS.Playoffs_Overall_G) AS overallWinRate
 FROM Coach JOIN PlayoffGameCoachStats AS PGCS
 ON Coach.CoachID = PGCS.CoachID
 WHERE  overallWinRate >= ?
