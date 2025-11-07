@@ -270,9 +270,7 @@ GROUP BY pa.Team_Name;
 SELECT * FROM GetTeamAvgAge WHERE Team_Name = ?;
 ```
 
-
-
-## 11th query 
+## 11th query
 
 List the players name and PTS in a game (can be chosen) that have a height over 6ft 5in and play the position of center
 
@@ -292,7 +290,6 @@ AND CPI.position = 'Center';
 ## 12th query
 
 Return the win % from one home team to a visiting team
-
 
 ```sql
 --first filter the games only played by those 2 teams maybe not by team id
@@ -318,11 +315,12 @@ AND visitorTeamID = SecondTeamID; - gets the win %
 
 ```
 
-## 13th query 
+## 13th query
+
 List the coach names who have made it to the 2024-2025 season playoffs and have a overall playoff win % at least as high as the user input, order coach's from playoff win % from best to worst.
 
 ```sql
---List all coachIDs that have made it in the playoffs you have to have Playoffs_overall_W > 0 
+--List all coachIDs that have made it in the playoffs you have to have Playoffs_overall_W > 0
 WITH CoachesInRecentPlayoff as
 (SELECT CoachID
 FROM PlayoffGameCoachStats PGCS
@@ -336,8 +334,6 @@ AND PGCS.coachID IN (CoachesInRecentPlayoff)
 ORDER BY overallWinRate DESC;
 ```
 
-
-
 ## Simple Queries to retrieve tables
 
 1. List every player draft combine stats that has attended in any draft combine
@@ -346,7 +342,7 @@ ORDER BY overallWinRate DESC;
 SELECT *
 FROM DraftCombine
 ```
-  
+
 2. List all drafts in every season from the drafts table
 
 ```sql
@@ -364,6 +360,7 @@ ON C.CoachID = RGCS.CoachID
 JOIN PlayoffGameCoachStats AS PGCS
 ON C.CoachID = PGCS.CoachID
 ```
+
 4. List all Arenas in the dataset
 
 ```sql
@@ -384,6 +381,7 @@ FROM Team
 SELECT *
 FROM Game
 ```
+
 7. List all Players with their Player Information in the Dataset
 
 ```sql
@@ -392,6 +390,3 @@ FROM Player
 LEFT JOIN PlayerInformation
 ON Player.PlayerID = PlayerInformation.PlayerID
 ```
-
-
-
