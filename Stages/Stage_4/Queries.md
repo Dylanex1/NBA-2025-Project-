@@ -38,6 +38,9 @@
 2. List all drafts in every season from the drafts table
 3. List every coach with their regular game stats and their Playoff game stats
 4. List all Arenas in the dataset
+5. List all Teams in the dataset
+6. List all Games in the dataset
+7. List all Players with their Player Information in the Dataset
 
 ## justifications
 
