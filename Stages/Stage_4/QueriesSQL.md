@@ -366,14 +366,14 @@ SELECT *
 FROM DraftCombine
 ```
   
-3. List all drafts in every season from the drafts table
+2. List all drafts in every season from the drafts table
 
 ```sql
 SELECT *
 FROM Drafts
 ```
 
-4. List every coach with their regular game stats and their Playoff game stats
+3. List every coach with their regular game stats and their Playoff game stats
 
 ```sql
 SELECT *
@@ -383,27 +383,27 @@ ON C.CoachID = RGCS.CoachID
 JOIN PlayoffGameCoachStats AS PGCS
 ON C.CoachID = PGCS.CoachID
 ```
-5. List all Arenas in the dataset
+4. List all Arenas in the dataset
 
 ```sql
 SELECT *
 FROM Arena
 ```
 
-6. List all Teams in the dataset
+5. List all Teams in the dataset
 
 ```sql
 SELECT *
 FROM Team
 ```
 
-7. List all Games in the dataset
+6. List all Games in the dataset
 
 ```sql
 SELECT *
 FROM Game
 ```
-8. List all Players with their Player Information in the Dataset
+7. List all Players with their Player Information in the Dataset
 
 ```sql
 SELECT *
