@@ -1,3 +1,8 @@
+---
+output:
+  pdf_document: default
+  html_document: default
+---
 # Queries translated into SQL statements
 
 ## First Query
@@ -270,7 +275,50 @@ GROUP BY pa.Team_Name;
 SELECT * FROM GetTeamAvgAge WHERE Team_Name = ?;
 ```
 
+## 9th query
 
+```sql
+WITH playersGame AS (
+  SELECT Team.TeamID, HomePTS, VisitorPTS, STL, FG, FGA, 3P, 3PA, AST, FTA, FT
+  FROM Game
+  JOIN PlayInGame ON Game.GameID = PlayInGame.GameID
+  JOIN Player ON PlayInGame.PlayerID = Player.PlayerID
+  JOIN Team ON Player.TeamID = Team.Teamid
+  WHERE Game.GameID = ?
+)
+
+SELECT 
+  TeamID,
+  MAX(HomePTS) AS HomePTS, 
+  MAX(VisitorPTS) AS VisitorPTS, 
+  SUM(STL) AS STL, 
+  SUM(FG) AS FG, 
+  SUM(FGA) AS FGA, 
+  SUM(FG) * 1.0/SUM(FGA) AS FGP,
+  SUM(3P) AS 3P, SUM(3PA) AS 3PA, 
+  SUM(3P) * 1.0/SUM(3PA) AS 3PP,
+  SUM(FT) AS FT, SUM(FTA) AS FTA, 
+  SUM(FT) * 1.0/SUM(FTA) AS FTP,
+  SUM(AST) AS AST
+FROM playersGame
+GROUP BY TeamID;
+```
+
+## 10th query
+
+```sql
+SELECT 
+  Player.PlayerID, 
+  FirstName, 
+  LastName, 
+  SUM(3P) * 1.0/SUM(3PA) AS 3PP
+FROM Player 
+JOIN PlayInGame ON Player.PlayerID = PlayInGame.PlayerID
+GROUP BY Player.PlayerID, FirstName, LastName
+HAVING SUM(3PA) > ?
+ORDER BY 3PP DESC
+LIMIT ?;
+```
 
 ## 11th query 
 
