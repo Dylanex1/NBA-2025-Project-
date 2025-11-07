@@ -354,3 +354,39 @@ WHERE  overallWinRate >= ?
 AND PGCS.coachID IN (CoachesInRecentPlayoff)
 ORDER BY overallWinRate DESC;
 ```
+
+
+
+## Simple Queries to retrieve tables
+
+1. List every player draft combine stats that has attended in any draft combine
+
+```sql
+SELECT *
+FROM DraftCombine
+```
+  
+3. List all drafts in every season from the drafts table
+
+```sql
+SELECT *
+FROM Drafts
+```
+
+4. List every coach with their regular game stats and their Playoff game stats
+
+```sql
+SELECT *
+FROM Coach AS C
+JOIN RegularGameCoachStats RGCS
+ON C.CoachID = RGCS.CoachID
+JOIN PlayoffGameCoachStats AS PGCS
+ON C.CoachID = RGCS.CoachID
+```
+5. List all Arenas in the dataset
+
+```sql
+SELECT *
+FROM Arena
+```
+
