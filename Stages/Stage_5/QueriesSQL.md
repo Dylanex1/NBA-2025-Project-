@@ -279,11 +279,22 @@ SELECT * FROM GetTeamAvgAge WHERE Team_Name = ?;
 
 ```sql
 WITH playersGame AS (
-  SELECT Team.TeamID, HomePTS, VisitorPTS, STL, FG, FGA, 3P, 3PA, AST, FTA, FT
+  SELECT 
+    Team.TeamID, 
+    HomePTS, 
+    VisitorPTS, 
+    STL, 
+    FG, 
+    FGA, 
+    "3P", 
+    "3PA", 
+    AST, 
+    FTA, 
+    FT
   FROM Game
   JOIN PlayInGame ON Game.GameID = PlayInGame.GameID
   JOIN Player ON PlayInGame.PlayerID = Player.PlayerID
-  JOIN Team ON Player.TeamID = Team.Teamid
+  JOIN Team ON Player.TeamID = Team.TeamID
   WHERE Game.GameID = ?
 )
 
@@ -294,11 +305,13 @@ SELECT
   SUM(STL) AS STL, 
   SUM(FG) AS FG, 
   SUM(FGA) AS FGA, 
-  SUM(FG) * 1.0/SUM(FGA) AS FGP,
-  SUM(3P) AS 3P, SUM(3PA) AS 3PA, 
-  SUM(3P) * 1.0/SUM(3PA) AS 3PP,
-  SUM(FT) AS FT, SUM(FTA) AS FTA, 
-  SUM(FT) * 1.0/SUM(FTA) AS FTP,
+  SUM(FG)  * 1.0 / NULLIF(SUM(FGA), 0) AS FGP,
+  SUM("3P") AS "3P", 
+  SUM("3PA") AS "3PA", 
+  SUM("3P") * 1.0 / NULLIF(SUM("3PA"), 0) AS "3PP",
+  SUM(FT) AS FT, 
+  SUM(FTA) AS FTA, 
+  SUM(FT)  * 1.0 / NULLIF(SUM(FTA), 0) AS FTP,
   SUM(AST) AS AST
 FROM playersGame
 GROUP BY TeamID;
@@ -311,12 +324,12 @@ SELECT
   Player.PlayerID, 
   FirstName, 
   LastName, 
-  SUM(3P) * 1.0/SUM(3PA) AS 3PP
+  SUM("3P") * 1.0 / NULLIF(SUM("3PA"), 0) AS "3PP"
 FROM Player 
 JOIN PlayInGame ON Player.PlayerID = PlayInGame.PlayerID
 GROUP BY Player.PlayerID, FirstName, LastName
-HAVING SUM(3PA) > ?
-ORDER BY 3PP DESC
+HAVING SUM("3PA") > ?
+ORDER BY "3PP" DESC
 LIMIT ?;
 ```
 
