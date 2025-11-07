@@ -319,21 +319,13 @@ GROUP BY TeamID;
 ## 10th query
 
 ```sql
-<<<<<<< HEAD
 SELECT
   Player.PlayerID,
   FirstName,
   LastName,
   SUM("3P") * 1.0 / NULLIF(SUM("3PA"), 0) AS "3PP"
 FROM Player
-=======
-SELECT
-  Player.PlayerID,
-  FirstName,
-  LastName,
-  SUM(3P) * 1.0/SUM(3PA) AS 3PP
-FROM Player
->>>>>>> 64cb701 ( changed language to match EER diagram)
+
 JOIN PlayInGame ON Player.PlayerID = PlayInGame.PlayerID
 GROUP BY Player.PlayerID, FirstName, LastName
 HAVING SUM("3PA") > ?
