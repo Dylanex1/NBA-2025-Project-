@@ -55,8 +55,8 @@ SELECT
     ROUND(CAST(SUM(pIN.'3P') AS FLOAT) / NULLIF(SUM(pIN.'3PA'), 0), 3) AS threePointPct,
     ROUND(CAST(SUM(pIN.FT) AS FLOAT)/ NULLIF(SUM(pIN.FTA), 0), 3) AS freeThrowPct
 From Player p
-JOIN Play_in pIN ON p.PlayerID = pIN.PlayerID
-GROUP BY p.PlayerID, p.First_name,p.Last_name, p.Team_ID;
+JOIN Playin pIN ON p.PlayerID = pIN.PlayerID
+GROUP BY p.PlayerID, p.FirstName,p.LastName, p.TeamID;
 
 ```
 
@@ -152,13 +152,13 @@ SELECT
     ps.avgPoints,
     ps.avgAssists,
     ps.avgSteals,
-    ps.First_name,
-    ps.Last_name,
+    ps.FirstName,
+    ps.LastName,
     pi.Height,
     pi.Position
 FROM PlayerStats ps
 JOIN Player_information pi ON ps.PlayerID = pi.PlayerID
-ORDER BY pi.Position, pi.height
+ORDER BY pi.Position, pi.Height
 LIMIT ? OFFSET ?;
 
 ```
