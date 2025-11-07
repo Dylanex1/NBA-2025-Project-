@@ -317,3 +317,21 @@ CountAllMatchups as (select count(gameID) from game where homeTeamID = firstTeam
 Select (count(gameID)/CountAllMatchups) * 100 as winPCT from game where HomePTS > VisitorPTS AND homeTeamID = firstTeamID AND visitorTeamID = SecondTeamID ; - gets the win %
 
 ```
+
+## 13th query 
+List the coach names who have made it to the 2024-2025 season playoffs and have a overall playoff win % at least as high as the user input, order coach's from playoff win % from best to worst.
+
+```sql
+--List all coachIDs that have made it in the playoffs you have to have Playoffs_overall_W > 0 
+WITH CoachesInRecentPlayoff as
+(SELECT CoachID
+FROM PlayoffGameCoachStats PGCS
+WHERE Playoffs_Overall_G > 0)
+-- Select the coaches that made the playoffs and have a sufficent overall win rate as the user requested
+SELECT Coach_name, (PGCS.Playoffs_Overall_W / PGCS.Playoffs_Overall_G) as overallWinRate
+FROM Coach JOIN PlayoffGameCoachStats AS PGCS
+ON Coach.CoachID = PGCS.CoachID
+WHERE  overallWinRate >= ?
+AND PGCS.coachID IN (CoachesInRecentPlayoff)
+ORDER BY overallWinRate DESC;
+```
