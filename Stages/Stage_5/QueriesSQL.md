@@ -3,6 +3,7 @@ output:
   pdf_document: default
   html_document: default
 ---
+
 # Queries translated into SQL statements
 
 ## First Query
@@ -10,7 +11,7 @@ output:
 > Note: \
 > ? - is used to indicate the spot where user input would be used
 
-- Return the top 10 teams and some simple stats
+- Return a user defined amount of teams and some simple stats
   (avg ppg, apg, etc) according to Wins
 
 > First define a view to get team wins
@@ -18,13 +19,13 @@ output:
 ```sql
 CREATE VIEW TeamWins AS
 SELECT
-    t.Team_ID,
-    t.Team_Name,
+    t.TeamID,
+    t.TeamName,
     RGCS.Reg_Current_W AS Wins
 FROM RegularGameCoachStats RGCS
 
 JOIN Coach c ON RGCS.CoachID = c.CoachID
-JOIN Team t ON c.Team_ID = t.Team_ID;
+JOIN Team t ON c.TeamID = t.Team_ID;
 ```
 
 > Then find a view for player averages
@@ -33,11 +34,11 @@ JOIN Team t ON c.Team_ID = t.Team_ID;
 CREATE VIEW PlayerStats AS
 SELECT
     p.PlayerID,
-    p.Team_ID,
-    p.First_name,
-    p.Last_name,
+    p.TeamID,
+    p.FirstName,
+    p.LastName,
     --basic stats
-    COUNT(pi.GameID) AS games_played,
+    COUNT(pIN.GameID) AS games_played,
     ROUND(AVG(pIN.PTS),1) AS avgPoints,
     ROUND(AVG(pIN.AST),1) AS avgAssists,
     ROUND(AVG(pIN.STL),1) AS avgSteals,
@@ -45,13 +46,13 @@ SELECT
     ROUND(AVG(pIN.MP),1) AS avgMinutesPlayed,
     ROUND(AVG(pIN.FG), 1) AS avgFieldGoalsMade,
     ROUND(AVG(pIN.FGA), 1) AS avgFieldGoalsAttempted,
-    ROUND(AVG(pIN.3P), 1) AS avgThreePointersMade,
-    ROUND(AVG(pIN.3PA), 1) AS avgThreePointersAttempted,
+    ROUND(AVG(pIN.'3P'), 1) AS avgThreePointersMade,
+    ROUND(AVG(pIN.'3PA'), 1) AS avgThreePointersAttempted,
     ROUND(AVG(pIN.FT), 1) AS avgFreeThrowsMade,
     ROUND(AVG(pIN.FTA), 1) AS avgFreeThrowsAttempted,
     -- now derived stats
     ROUND(CAST(SUM(pIN.FG) AS FLOAT) / NULLIF(SUM(pIN.FGA), 0), 3) AS fieldGoalPct,
-    ROUND(CAST(SUM(pIN.3P) AS FLOAT) / NULLIF(SUM(pIN.3PA), 0), 3) AS threePointPct,
+    ROUND(CAST(SUM(pIN.'3P') AS FLOAT) / NULLIF(SUM(pIN.'3PA'), 0), 3) AS threePointPct,
     ROUND(CAST(SUM(pIN.FT) AS FLOAT)/ NULLIF(SUM(pIN.FTA), 0), 3) AS freeThrowPct
 From Player p
 JOIN Play_in pIN ON p.PlayerID = pIN.PlayerID
@@ -66,8 +67,8 @@ GROUP BY p.PlayerID, p.First_name,p.Last_name, p.Team_ID;
 CREATE VIEW TeamStats AS
 Select
     TW.Wins,
-    TW.Team_Name,
-    TW.Team_ID,
+    TW.TeamName,
+    TW.TeamID,
     ROUND(AVG(pS.avgPoints),1) AS avgTeamPoints,
     ROUND(AVG(pS.avgAssists),1) AS avgTeamAssists,
     ROUND(AVG(pS.avgSteals),1) AS avgTeamSteals,
@@ -76,8 +77,8 @@ Select
     ROUND(AVG(pS.freeThrowPct),3) AS TeamFreeThrowPct
 
 From TeamWins TW
-JOIN PlayerStats pS ON pS.Team_ID = TW.Team_ID
-GROUP BY TW.Team_ID, TW.Team_Name,TW.Wins
+JOIN PlayerStats pS ON pS.TeamID = TW.TeamID
+GROUP BY TW.TeamID, TW.TeamName,TW.Wins
 ```
 
 > final query ( not a view so we can use LIMIT)
@@ -95,13 +96,13 @@ SELECT * FROM TeamStats ORDER BY Wins DESC LIMIT ?;
 ```sql
 WITH vetCoach AS (
 SELECT
-    c.Coach_name,
+    c.CoachName,
     c.CoachID
 FROM Coach c
-WHERE c.Seasons_Overall > 5)
+WHERE c.SeasonsOverall > 5)
 
 SELECT
-    vC.Coach_name,
+    vC.CoachName,
     ROUND(CAST(PGCS.Playoffs_Overall_W AS FLOAT)/PGCS.Playoffs_Overall_G,3) AS PlayoffWinRate
 
 FROM vetCoach vC
@@ -109,8 +110,6 @@ JOIN PlayoffGameCoachStats PGCS ON PGCS.CoachID = vC.CoachID
 WHERE PGCS.Playoffs_Overall_W > PGCS.Playoffs_Overall_L
 ORDER BY PlayoffWinRate DESC;
 ```
-
-- should names match EER diagram or our datasets
 
 ## Third Query
 
@@ -121,25 +120,23 @@ ORDER BY PlayoffWinRate DESC;
 > ppg for a specific team
 
 ```sql
-SELECT Team_Name, avgTeamPoints AS teamAvgPPG
+SELECT TeamName, avgTeamPoints AS teamAvgPPG
 FROM TeamStats
-WHERE Team_Name = ?;
+WHERE TeamName = ?;
 ```
 
 > Option for the league average
 
 ```sql
 SELECT
-    ts.Team_Name,
+    ts.TeamName,
     ts.avgTeamPoints,
-    ts.Team_ID,
+    ts.TeamID,
   ( SELECT ROUND(AVG(ts.avgTeamPoints),1) FROM TeamStats )AS avgLeaguePoints
 
 FROM TeamStats ts
-WHERE ts.Team_Name = ?;
+WHERE ts.TeamName = ?;
 ```
-
-- ? standin for user input
 
 ## forth query
 
@@ -170,7 +167,7 @@ LIMIT ? OFFSET ?;
 > let the user page through them
 > in python:
 > Where limit is the number of results per page ( page size)
-> and offset = (page - 1) \* page size
+> and offset = (page - 1) \* page size, and offset skips a certain amount of results
 
 ## fifth Query
 
@@ -179,12 +176,12 @@ LIMIT ? OFFSET ?;
 
 ```sql
 SELECT
-    c.Coach_name,
-    t.Team_name,
+    c.CoachName,
+    t.TeamName,
     PGCS.Playoffs_Current_W as playoffWins
 FROM PlayoffGameCoachStats PGCS
 JOIN Coach c ON PGCS.CoachID = c.CoachID
-JOIN Team t ON c.Team_ID = t.Team_ID
+JOIN Team t ON c.TeamID = t.TeamID
 -- 16 wins means they won 4 games in each of the 4 rounds, meaning they won
 -- the championship
 WHERE PGCS.Playoffs_Current_W = 16;
@@ -198,22 +195,22 @@ WHERE PGCS.Playoffs_Current_W = 16;
 
 ```sql
 SELECT
-    t.Team_Name,
-    p.First_name,
-    p.Last_name,
+    t.TeamName,
+    p.FirstName,
+    p.LastName,
     ps.avgPoints,
     ps.avgAssists,
     ps.avgSteals
 FROM Team t
-JOIN Player p ON t.Team_ID = p.Team_ID
+JOIN Player p ON t.TeamID = p.TeamID
 JOIN PlayerStats ps ON p.PlayerID = ps.PlayerID
-WHERE t.Team_ID = ?
+WHERE t.TeamName = ?
 ORDER BY ps.avgPoints DESC,ps.avgAssists DESC,ps.avgSteals DESC;
 ```
 
 ## 7th query
 
-- return the top 10 players in each major category:
+- return a user defined amount players ordered by a major category inputted by the User:
   ppg, apg, spg
 
 > Use player stat view from earlier
@@ -222,8 +219,8 @@ Points:
 
 ```sql
 SELECT
-    ps.first_name,
-    ps.last_name,
+    ps.FirstName,
+    ps.LastName,
     ps.avgPoints,
     ps.avgAssists,
     ps.avgSteals
@@ -249,47 +246,48 @@ Limit ?;
 CREATE VIEW GetTeamAvgAge AS
 WITH PlayersAge AS(
 SELECT
-    t.Team_ID,
-    t.Team_Name,
+    t.TeamID,
+    t.TeamName,
     p.PlayerID,
-    p.first_name,
-    p.last_name,
+    p.FirstName,
+    p.LastName,
 
-    YEAR('2024-6-16') - YEAR(pi.birthdate) AS playerAge
-    -- assuming playoffs end in june
+    YEAR('2024-6-16') - YEAR(pi.Birthdate) AS playerAge
+    -- year function in MYSQL not SQLite though
+    -- assuming playoffs end on june 16
 FROM Player_information pi
 JOIN Player p ON pi.PlayerID = p.PlayerID
-JOIN Team t ON p.Team_ID = t.Team_ID
+JOIN Team t ON p.TeamID = t.TeamID
 )
 SELECT
-    pa.Team_Name,
+    pa.TeamName,
     ROUND(AVG(pa.playerAge),1) as avgTeamAge
 FROM PlayersAge pa
-GROUP BY pa.Team_Name;
+GROUP BY pa.TeamName;
 
 ```
 
 > Actual query that would take user input
 
 ```sql
-SELECT * FROM GetTeamAvgAge WHERE Team_Name = ?;
+SELECT * FROM GetTeamAvgAge WHERE TeamName = ?;
 ```
 
 ## 9th query
 
 ```sql
 WITH playersGame AS (
-  SELECT 
-    Team.TeamID, 
-    HomePTS, 
-    VisitorPTS, 
-    STL, 
-    FG, 
-    FGA, 
-    "3P", 
-    "3PA", 
-    AST, 
-    FTA, 
+  SELECT
+    Team.TeamID,
+    HomePTS,
+    VisitorPTS,
+    STL,
+    FG,
+    FGA,
+    "3P",
+    "3PA",
+    AST,
+    FTA,
     FT
   FROM Game
   JOIN PlayInGame ON Game.GameID = PlayInGame.GameID
@@ -298,20 +296,21 @@ WITH playersGame AS (
   WHERE Game.GameID = ?
 )
 
-SELECT 
+SELECT
   TeamID,
-  MAX(HomePTS) AS HomePTS, 
-  MAX(VisitorPTS) AS VisitorPTS, 
-  SUM(STL) AS STL, 
-  SUM(FG) AS FG, 
-  SUM(FGA) AS FGA, 
+  MAX(HomePTS) AS HomePTS,
+  MAX(VisitorPTS) AS VisitorPTS,
+  SUM(STL) AS STL,
+  SUM(FG) AS FG,
+  SUM(FGA) AS FGA,
   SUM(FG)  * 1.0 / NULLIF(SUM(FGA), 0) AS FGP,
-  SUM("3P") AS "3P", 
-  SUM("3PA") AS "3PA", 
+  SUM("3P") AS "3P",
+  SUM("3PA") AS "3PA",
   SUM("3P") * 1.0 / NULLIF(SUM("3PA"), 0) AS "3PP",
-  SUM(FT) AS FT, 
-  SUM(FTA) AS FTA, 
+  SUM(FT) AS FT,
+  SUM(FTA) AS FTA,
   SUM(FT)  * 1.0 / NULLIF(SUM(FTA), 0) AS FTP,
+
   SUM(AST) AS AST
 FROM playersGame
 GROUP BY TeamID;
@@ -320,12 +319,21 @@ GROUP BY TeamID;
 ## 10th query
 
 ```sql
-SELECT 
-  Player.PlayerID, 
-  FirstName, 
-  LastName, 
+<<<<<<< HEAD
+SELECT
+  Player.PlayerID,
+  FirstName,
+  LastName,
   SUM("3P") * 1.0 / NULLIF(SUM("3PA"), 0) AS "3PP"
-FROM Player 
+FROM Player
+=======
+SELECT
+  Player.PlayerID,
+  FirstName,
+  LastName,
+  SUM(3P) * 1.0/SUM(3PA) AS 3PP
+FROM Player
+>>>>>>> 64cb701 ( changed language to match EER diagram)
 JOIN PlayInGame ON Player.PlayerID = PlayInGame.PlayerID
 GROUP BY Player.PlayerID, FirstName, LastName
 HAVING SUM("3PA") > ?
@@ -333,7 +341,7 @@ ORDER BY "3PP" DESC
 LIMIT ?;
 ```
 
-## 11th query 
+## 11th query
 
 List the players name and PTS in a game (can be chosen) that have a height over 6ft 5in and play the position of center
 
@@ -353,7 +361,6 @@ AND CPI.position = 'Center';
 ## 12th query
 
 Return the win % from one home team to a visiting team
-
 
 ```sql
 --first filter the games only played by those 2 teams maybe not by team id
@@ -379,11 +386,12 @@ AND visitorTeamID = SecondTeamID; - gets the win %
 
 ```
 
-## 13th query 
+## 13th query
+
 List the coach names who have made it to the 2024-2025 season playoffs and have a overall playoff win % at least as high as the user input, order coach's from playoff win % from best to worst.
 
 ```sql
---List all coachIDs that have made it in the playoffs you have to have Playoffs_overall_W > 0 
+--List all coachIDs that have made it in the playoffs you have to have Playoffs_overall_W > 0
 WITH CoachesInRecentPlayoff as
 (SELECT CoachID
 FROM PlayoffGameCoachStats PGCS
@@ -397,8 +405,6 @@ AND PGCS.coachID IN (CoachesInRecentPlayoff)
 ORDER BY overallWinRate DESC;
 ```
 
-
-
 ## Simple Queries to retrieve tables
 
 1. List every player draft combine stats that has attended in any draft combine
@@ -407,7 +413,7 @@ ORDER BY overallWinRate DESC;
 SELECT *
 FROM DraftCombine
 ```
-  
+
 2. List all drafts in every season from the drafts table
 
 ```sql
@@ -425,6 +431,7 @@ ON C.CoachID = RGCS.CoachID
 JOIN PlayoffGameCoachStats AS PGCS
 ON C.CoachID = PGCS.CoachID
 ```
+
 4. List all Arenas in the dataset
 
 ```sql
@@ -445,6 +452,7 @@ FROM Team
 SELECT *
 FROM Game
 ```
+
 7. List all Players with their Player Information in the Dataset
 
 ```sql
@@ -453,6 +461,3 @@ FROM Player
 LEFT JOIN PlayerInformation
 ON Player.PlayerID = PlayerInformation.PlayerID
 ```
-
-
-
