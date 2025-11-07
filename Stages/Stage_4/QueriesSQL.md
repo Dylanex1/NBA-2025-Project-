@@ -6,7 +6,7 @@
 > ? - is used to indicate the spot where user input would be used
 
 - Return the top 10 teams and some simple stats
-  ( avg ppg, apg, etc) according to Wins
+  (avg ppg, apg, etc) according to Wins
 
 > First define a view to get team wins
 
@@ -29,8 +29,8 @@ CREATE VIEW PlayerStats AS
 SELECT
     p.PlayerID,
     p.Team_ID,
-    p.first_name,
-    p.last_name,
+    p.First_name,
+    p.Last_name,
     --basic stats
     COUNT(pi.GameID) AS games_played,
     ROUND(AVG(pIN.PTS),1) AS avgPoints,
@@ -45,20 +45,17 @@ SELECT
     ROUND(AVG(pIN.FT), 1) AS avgFreeThrowsMade,
     ROUND(AVG(pIN.FTA), 1) AS avgFreeThrowsAttempted,
     -- now derived stats
-    ROUND(SUM(pIN.FG) / NULLIF(SUM(pIN.FGA), 0), 3) AS fieldGoalPct,
-    ROUND(SUM(pIN.3P) / NULLIF(SUM(pIN.3PA), 0), 3) AS threePointPct,
-    ROUND(SUM(pIN.FT) / NULLIF(SUM(pIN.FTA), 0), 3) AS freeThrowPct
+    ROUND(CAST(SUM(pIN.FG) AS FLOAT) / NULLIF(SUM(pIN.FGA), 0), 3) AS fieldGoalPct,
+    ROUND(CAST(SUM(pIN.3P) AS FLOAT) / NULLIF(SUM(pIN.3PA), 0), 3) AS threePointPct,
+    ROUND(CAST(SUM(pIN.FT) AS FLOAT)/ NULLIF(SUM(pIN.FTA), 0), 3) AS freeThrowPct
 From Player p
 JOIN Play_in pIN ON p.PlayerID = pIN.PlayerID
-GROUP BY p.PlayerID, p.NAME, p.Team_ID;
+GROUP BY p.PlayerID, p.First_name,p.Last_name, p.Team_ID;
 
 ```
 
-- Should we use Common table Expression or Views
-  Finally we can find ?
-- should all we make all our queries views ?
-
 > Finally we can find return the top teams and their corresponding stats
+> made it a view for ease of use
 
 ```sql
 CREATE VIEW TeamStats AS
@@ -76,13 +73,13 @@ Select
 From TeamWins TW
 JOIN PlayerStats pS ON pS.Team_ID = TW.Team_ID
 GROUP BY TW.Team_ID, TW.Team_Name,TW.Wins
-ORDER BY TW.Wins DESC
-Limit ?;
--- replaced in the java or python code we make to present the query
 ```
 
-- ? Is this ok as a standin, I did this as this is how it was done
-  in the assignment
+> final query ( not a view so we can use LIMIT)
+
+```sql
+SELECT * FROM TeamStats ORDER BY Wins DESC LIMIT ?;
+```
 
 ## Second Query
 
@@ -131,10 +128,10 @@ SELECT
     ts.Team_Name,
     ts.avgTeamPoints,
     ts.Team_ID,
-  ( SELECT ROUND(AVG(ts.avgTeamPoints),1) FROM ts.TeamStats )AS avgLeaguePoints
+  ( SELECT ROUND(AVG(ts.avgTeamPoints),1) FROM TeamStats )AS avgLeaguePoints
 
 FROM TeamStats ts
-WHERE ts.TeamName = ?;
+WHERE ts.Team_Name = ?;
 ```
 
 - ? standin for user input
@@ -153,14 +150,22 @@ SELECT
     ps.avgPoints,
     ps.avgAssists,
     ps.avgSteals,
-    cpi.Height,
-    cpi.Position,
-    cpi.PlayerID
+    ps.First_name,
+    ps.Last_name,
+    pi.Height,
+    pi.Position
 FROM PlayerStats ps
-JOIN common_player_inf cpi ON ps.PlayerID = cpi.PlayerID
-ORDER BY cpi.Position, cpi.height
-LIMIT ?;
+JOIN Player_information pi ON ps.PlayerID = pi.PlayerID
+ORDER BY pi.Position, pi.height
+LIMIT ? OFFSET ?;
+
 ```
+
+> Since the query can return a ton of results we want to
+> let the user page through them
+> in python:
+> Where limit is the number of results per page ( page size)
+> and offset = (page - 1) \* page size
 
 ## fifth Query
 
@@ -169,8 +174,7 @@ LIMIT ?;
 
 ```sql
 SELECT
-    PGCS.CoachID,
-    c.TeamID,
+    c.Coach_name,
     t.Team_name,
     PGCS.Playoffs_Current_W as playoffWins
 FROM PlayoffGameCoachStats PGCS
@@ -189,16 +193,14 @@ WHERE PGCS.Playoffs_Current_W = 16;
 
 ```sql
 SELECT
-    t.Team_ID,
     t.Team_Name,
-    p.PlayerID,
-    p.first_name,
-    p.last_name,
+    p.First_name,
+    p.Last_name,
     ps.avgPoints,
     ps.avgAssists,
     ps.avgSteals
 FROM Team t
-JOIN Player p ON t.Team_ID = p.TeamID
+JOIN Player p ON t.Team_ID = p.Team_ID
 JOIN PlayerStats ps ON p.PlayerID = ps.PlayerID
 WHERE t.Team_ID = ?
 ORDER BY ps.avgPoints DESC,ps.avgAssists DESC,ps.avgSteals DESC;
@@ -211,18 +213,7 @@ ORDER BY ps.avgPoints DESC,ps.avgAssists DESC,ps.avgSteals DESC;
 
 > Use player stat view from earlier
 
-```sql
-SELECT
-    ps.first_name,
-    ps.last_name,
-    ps.avgPoints,
-    ps.avgAssists,
-    ps.avgSteals
-FROM PlayerStats ps
-ORDER BY ps.avgPoints DESC
-Limit ?;
-
-```
+Points:
 
 ```sql
 SELECT
@@ -232,20 +223,10 @@ SELECT
     ps.avgAssists,
     ps.avgSteals
 FROM PlayerStats ps
-ORDER BY ps.avgAssists DESC
+ORDER BY ? DESC
+-- options should be avgPoints,avgAssists, or avgSteals
 Limit ?;
-```
 
-```sql
-SELECT
-    ps.first_name,
-    ps.last_name,
-    ps.avgPoints,
-    ps.avgAssists,
-    ps.avgSteals
-FROM PlayerStats ps
-ORDER BY ps.avgSteals DESC
-Limit ?;
 ```
 
 ## 8th Query
@@ -269,10 +250,10 @@ SELECT
     p.first_name,
     p.last_name,
 
-    YEAR('2024-6-16') - YEAR(cpi.birthdate) AS playerAge
+    YEAR('2024-6-16') - YEAR(pi.birthdate) AS playerAge
     -- assuming playoffs end in june
-FROM common_player_inf cpi
-JOIN Player p ON cpi.PlayerID = p.PlayerID
+FROM Player_information pi
+JOIN Player p ON pi.PlayerID = p.PlayerID
 JOIN Team t ON p.Team_ID = t.Team_ID
 )
 SELECT
@@ -283,7 +264,7 @@ GROUP BY pa.Team_Name;
 
 ```
 
-Actual query that would take user input
+> Actual query that would take user input
 
 ```sql
 SELECT * FROM GetTeamAvgAge WHERE Team_Name = ?;
