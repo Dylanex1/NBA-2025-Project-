@@ -55,7 +55,7 @@ SELECT
     ROUND(CAST(SUM(pIN.'3P') AS FLOAT) / NULLIF(SUM(pIN.'3PA'), 0), 3) AS threePointPct,
     ROUND(CAST(SUM(pIN.FT) AS FLOAT)/ NULLIF(SUM(pIN.FTA), 0), 3) AS freeThrowPct
 From Player p
-JOIN Playin pIN ON p.PlayerID = pIN.PlayerID
+JOIN PlayInGame pIN ON p.PlayerID = pIN.PlayerID
 GROUP BY p.PlayerID, p.FirstName,p.LastName, p.TeamID;
 
 ```
