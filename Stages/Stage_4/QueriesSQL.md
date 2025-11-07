@@ -381,7 +381,7 @@ FROM Coach AS C
 JOIN RegularGameCoachStats RGCS
 ON C.CoachID = RGCS.CoachID
 JOIN PlayoffGameCoachStats AS PGCS
-ON C.CoachID = RGCS.CoachID
+ON C.CoachID = PGCS.CoachID
 ```
 5. List all Arenas in the dataset
 
