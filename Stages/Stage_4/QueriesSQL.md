@@ -390,3 +390,27 @@ SELECT *
 FROM Arena
 ```
 
+6. List all Teams in the dataset
+
+```sql
+SELECT *
+FROM Team
+```
+
+7. List all Games in the dataset
+
+```sql
+SELECT *
+FROM Game
+```
+8. List all Players with their Player Information in the Dataset
+
+```sql
+SELECT *
+FROM Player
+LEFT JOIN PlayerInformation
+ON Player.PlayerID = PlayerInformation.PlayerID
+```
+
+
+
