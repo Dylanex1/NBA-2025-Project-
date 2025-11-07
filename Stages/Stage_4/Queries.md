@@ -33,6 +33,12 @@
 12. Return the win % from a home team to another team thats on the visitor side
 13. list the coaches who have made it to the 2024-2025 season playoffs and have a overall playoff win % greater than the user input, order coach's from playoff win % from best to worst
 
+## Simple Queries to retrieve tables
+1. List every player draft combine stats that has attended in any draft combine
+2. List all drafts in every season from the drafts table
+3. List every coach with their regular game stats and their Playoff game stats
+4. List all Arenas in the dataset
+
 ## justifications
 
 1. this will allow a analyst to quickly see the top performers
