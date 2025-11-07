@@ -2,38 +2,37 @@
 
 ## English Queries (non trivial)
 
-1. Return the top 10 teams and some simple stats ( avg ppg, apg, etc) according to Wins
+1. Return a user defined amount of teams and some simple stats
+   (avg ppg, apg, etc) according to Wins
 2. Return the coaches that have coached more than
    5 seasons with a positive win rate in the playoffs
-   - order by winrate
 3. Return the average ppg for a specific team, with the option to
    return the avg ppg for the league
-4. return all players and their ppg,apg and rpg for the season
-   - Group by position and height within
+4. return a user defined amount players and their ppg,apg and spg for the season
+   - Group by position and order by height within
      that position
-     - within positions order by the most important stat ( maybe ) .
-       Ex. pg ordered by apg then ppg, sg and sf ordered by ppg then rpg,
-       pf and center ordered by rpg then ppg
 5. return the team and corresponding coach that won the championship that year
-   - aggregate functions max and count on playoff wins,
 6. list the roster of a team ordered by ppg, should also show
    apg and spg
    - in case of a tie the tie breaker should be apg, then spg
-7. return the top 10 players in each major category:
+7. return a user defined amount players ordered by a major category inputted by the User:
    ppg, apg, spg
 8. for a team return the average age of their players
    - maybe extend this to connect with other Queries
      - ex. Maybe we want to see the average age of the top
        10 teams by wins
+   - Note: this is the age of the player per the end of the season
+
 9. return both teams stats for a specific game
-10. list the top 20 players in the league for 3 point percentage
-    - player must have over 100 attempts to be included
+10. list a user defined amount of players in the league for 3 point percentage
+    - player must have over a user defined amount of attempts to be included
 11. List the players name and PTS in a game that have a height over 6ft 5in and play the position of center
     - Maybe filter by a couple shooting positions that should have high points
 12. Return the win % from a home team to another team thats on the visitor side
 13. list the coaches who have made it to the 2024-2025 season playoffs and have a overall playoff win % greater than the user input, order coach's from playoff win % from best to worst
 
 ## Simple Queries to retrieve tables
+
 1. List every player draft combine stats that has attended in any draft combine
 2. List all drafts in every season from the drafts table
 3. List every coach with their regular game stats and their Playoff game stats

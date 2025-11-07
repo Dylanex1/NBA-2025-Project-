@@ -172,7 +172,6 @@ LIMIT ? OFFSET ?;
 ## fifth Query
 
 - return the team and corresponding coach that won the championship that year
-  - aggregate functions max on playoff wins,
 
 ```sql
 SELECT
@@ -275,6 +274,8 @@ SELECT * FROM GetTeamAvgAge WHERE TeamName = ?;
 
 ## 9th query
 
+- return both teams stats for a specific game
+
 ```sql
 WITH playersGame AS (
   SELECT
@@ -317,6 +318,9 @@ GROUP BY TeamID;
 ```
 
 ## 10th query
+
+- list a user defined amount of players in the league for 3 point percentage
+  - player must have over a user defined amount of attempts to be included
 
 ```sql
 SELECT
