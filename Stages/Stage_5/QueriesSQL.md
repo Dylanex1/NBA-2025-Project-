@@ -325,7 +325,7 @@ LIMIT ?;
 List the players name and PTS in a game (can be chosen) that have a height over 6ft 5in and play the position of center
 
 ```sql
-
+--Field Goals = 2pts and 3 pointers = 3pts and Free Throws = 1pt
 SELECT first name, last name, ( (FG-3P)*2 + (3P * 3) + (FT) ) as PTS
 FROM commonPlayerInfo CPI JOIN Player
 ON CPI.PlayerID = Player.PlayerID
