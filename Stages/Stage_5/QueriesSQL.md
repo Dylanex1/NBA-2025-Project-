@@ -439,7 +439,7 @@ WHERE NOT EXISTS (
       AND wog.ArenaName = ap2.ArenaName
     )
   )
-)
+);
 ```
 
 ## Simple Queries to retrieve tables
