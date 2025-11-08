@@ -401,6 +401,8 @@ AND PGCS.coachID IN (CoachesInRecentPlayoff)
 ORDER BY overallWinRate DESC;
 ```
 
+## 14th query
+
 List all arenas that every team has won in.
 
 ```sql
