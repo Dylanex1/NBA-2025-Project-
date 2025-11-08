@@ -403,7 +403,7 @@ ORDER BY overallWinRate DESC;
 
 ## 14th query
 
-List all arenas that every team has won in.
+List all arenas where each team has won at least once in the 2024-2025 season.
 
 ```sql
 WITH winnerOfGame AS (

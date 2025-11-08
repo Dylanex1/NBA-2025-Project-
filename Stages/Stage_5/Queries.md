@@ -35,7 +35,7 @@ output:
     - Maybe filter by a couple shooting positions that should have high points
 12. Return the win % from a home team to another team thats on the visitor side
 13. list the coaches who have made it to the 2024-2025 season playoffs and have a overall playoff win % greater than the user input, order coach's from playoff win % from best to worst
-14. List all arenas that every team has won at least once.
+14. List all arenas where each team has won at least once in the 2024-2025 season.
 
 ## Simple Queries to retrieve tables
 
