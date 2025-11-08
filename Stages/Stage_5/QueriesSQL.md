@@ -401,6 +401,47 @@ AND PGCS.coachID IN (CoachesInRecentPlayoff)
 ORDER BY overallWinRate DESC;
 ```
 
+List all arenas that every team has won in.
+
+```sql
+WITH winnerOfGame AS (
+  SELECT 
+    Team.TeamID,
+    ArenaName, 
+    HomePTS,
+    VisitorPTS
+  FROM Team, Arena
+  JOIN Game ON Arena.ArenaName = Game.ArenaName
+  WHERE 
+    (Team.TeamID = Game.HomeTeamID AND HomePTS > VisitorPTS)
+    OR
+    (Team.TeamID = Game.VisitorTeamID AND VisitorPTS > HomePTS)
+),
+
+all_pairs AS (
+  SELECT 
+    TeamID,
+    ArenaName
+  FROM Team, Arena
+)
+
+SELECT ArenaName
+FROM all_pairs as ap1
+WHERE NOT EXISTS (
+  SELECT * 
+  FROM all_pairs as ap2
+  WHERE ap1.ArenaName = ap2.ArenaName
+  AND NOT EXISTS (
+    SELECT *
+    FROM winnerOfGame as wog
+    WHERE (
+      wog.TeamID = ap2.TeamID 
+      AND wog.ArenaName = ap2.ArenaName
+    )
+  )
+)
+```
+
 ## Simple Queries to retrieve tables
 
 1. List every player draft combine stats that has attended in any draft combine

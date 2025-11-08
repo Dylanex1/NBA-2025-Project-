@@ -1,3 +1,8 @@
+---
+output:
+  pdf_document: default
+  html_document: default
+---
 # Project Stage 4 - Queries
 
 ## English Queries (non trivial)
@@ -70,6 +75,7 @@
 12. this query allows an analyst to evaluate how well one team performs against
     another
 13. This query enables analysts to identify the top-performing coaches who have recently reached the NBA playoffs and evaluate their success based on historical playoff performance.
+14. List all arenas that every team has won at least once.
 
 ## Note
 
