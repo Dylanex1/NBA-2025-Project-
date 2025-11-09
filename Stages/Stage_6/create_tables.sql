@@ -74,7 +74,7 @@ CREATE TABLE Game (
     VisitorPTS INT CHECK(VisitorPTS >= 0),
     [Length] TIME,
     Arena VARCHAR(100) REFERENCES Arena(ArenaName),
-    Overtime CHAR(2) CHECK(Overtime IN ('N','Y','2Y','3Y', '4Y')),
+    Overtime VARCHAR(2) CHECK(Overtime IN ('N','Y','2Y','3Y', '4Y')),
     AttendingAmount INTEGER CHECK(AttendingAmount >= 0),
     HomeTeamID INT REFERENCES Team(TeamID),
     VisitorTeamID INT REFERENCES Team(TeamID),
@@ -139,14 +139,14 @@ CREATE TABLE Organization (
 
 -- Draft table
 CREATE TABLE Drafts (
-    DraftID INT PRIMARY KEY CHECK(DraftID > 0),
-    PlayerID INT REFERENCES Player(PlayerID),
-    TeamID INT REFERENCES Team(TeamID),
+    PlayerID INT NOT NULL REFERENCES Player(PlayerID),
+    TeamID INT NOT NULL REFERENCES Team(TeamID),
+    Season INT NOT NULL CHECK(Season >= 1900),
     OrganizationID INT REFERENCES Organization(OrganizationID),
-    Season INT CHECK(Season >= 1900),
     RoundNumber INT CHECK(RoundNumber >= 0),
     RoundPick INT CHECK(RoundPick >= 0),
     OverallPick INT CHECK(OverallPick >= 0),
-    DraftType VARCHAR(20) CHECK (DraftType IN ('Draft' , 'Territorial'))
+    DraftType VARCHAR(20) CHECK (DraftType IN ('Draft' , 'Territorial')),
+    PRIMARY KEY (PlayerID, TeamID, Season)
 );
 
