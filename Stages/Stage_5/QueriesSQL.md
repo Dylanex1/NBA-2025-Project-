@@ -6,7 +6,7 @@ output:
 
 # Queries translated into SQL statements
 
-## First Query
+## 1st Query
 
 > Note: \
 > ? - is used to indicate the spot where user input would be used
@@ -87,7 +87,7 @@ GROUP BY TW.TeamID, TW.TeamName,TW.Wins
 SELECT * FROM TeamStats ORDER BY Wins DESC LIMIT ?;
 ```
 
-## Second Query
+## 2nd Query
 
 - Return the coaches that have coached more than
   5 seasons with a positive win rate in the playoffs
@@ -111,7 +111,7 @@ WHERE PGCS.Playoffs_Overall_W > PGCS.Playoffs_Overall_L
 ORDER BY PlayoffWinRate DESC;
 ```
 
-## Third Query
+## 3rd Query
 
 - Return the average ppg for a specific team, with the option to
   return the avg ppg for the league
@@ -138,7 +138,7 @@ FROM TeamStats ts
 WHERE ts.TeamName = ?;
 ```
 
-## forth query
+## 4th query
 
 - return a user defined amount players and their ppg,apg and spg for the season
   - Group by position and order by height within
@@ -169,7 +169,7 @@ LIMIT ? OFFSET ?;
 > Where limit is the number of results per page ( page size)
 > and offset = (page - 1) \* page size, and offset skips a certain amount of results
 
-## fifth Query
+## 5th Query
 
 - return the team and corresponding coach that won the championship that year
 
@@ -186,7 +186,7 @@ JOIN Team t ON c.TeamID = t.TeamID
 WHERE PGCS.Playoffs_Current_W = 16;
 ```
 
-## sixth query
+## 6th query
 
 - list the roster of a team ordered by ppg, should also show
   apg and spg

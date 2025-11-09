@@ -3,7 +3,7 @@ output:
   pdf_document: default
   html_document: default
 ---
-# Project Stage 4 - Queries
+# Project Stage 5 - Queries
 
 ## English Queries (non trivial)
 
@@ -78,8 +78,3 @@ output:
 13. This query enables analysts to identify the top-performing coaches who have recently reached the NBA playoffs and evaluate their success based on historical playoff performance.
 14. This query enables analysts to identify if a certain arena is unbiased towards a certain team winning.
 
-
-## Note
-
-There will also be simple queries to retrieve individual tables. This will be
-done to ensure all data remains accessible

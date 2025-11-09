@@ -1,0 +1,16 @@
+-- Using the cs3380 database
+USE cs3380;
+
+-- Clear database
+DROP TABLE IF EXISTS Drafts;
+DROP TABLE IF EXISTS DraftCombine;
+DROP TABLE IF EXISTS PlayerInformation;
+DROP TABLE IF EXISTS Organization;
+DROP TABLE IF EXISTS RegularGameCoachStats;
+DROP TABLE IF EXISTS PlayOffGameCoachStats;
+DROP TABLE IF EXISTS Coach;
+DROP TABLE IF EXISTS PlayInGame;
+DROP TABLE IF EXISTS Game;
+DROP TABLE IF EXISTS Player;
+DROP TABLE IF EXISTS Team;
+DROP TABLE IF EXISTS Arena;
