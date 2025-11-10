@@ -1,6 +1,7 @@
 import pymssql
 import configparser
 import sys
+from dataLoader import DataLoader
 
 class Database:
     # CONSTANTS
@@ -11,12 +12,13 @@ class Database:
 
     def __init__(self):
         self._connect()
+        self._data_loader = DataLoader(self._connection)
             
     def _connect(self):
         config_items = self._get_config_items()
 
         try:
-            self.connection = pymssql.connect(
+            self._connection = pymssql.connect(
                 server=config_items["server"],
                 user=config_items["username"],
                 password=config_items["password"],
@@ -24,7 +26,7 @@ class Database:
             )
 
         except pymssql.Error as e:
-            print("Database connection failed.")
+            print("Database _connection failed.")
             print(f"Details: {e}") 
             sys.exit(1)
 
@@ -63,10 +65,9 @@ class Database:
             with open(self.CLEAR_DATABASE_SCRIPT, "r") as clear_script:
                 script = clear_script.read()
 
-            cursor = self.connection.cursor()
-            cursor.execute(script)
-            self.connection.commit()
-            cursor.close()
+            with self._connection.cursor() as cursor:
+                cursor.execute(script)
+                self._connection.commit()
 
         except FileNotFoundError as fnfe:
             print(f"Unable to find {self.CLEAR_DATABASE_SCRIPT}.")
@@ -81,17 +82,16 @@ class Database:
             print(f"Error parsing {self.CLEAR_DATABASE_SCRIPT}.")
             sys.exit(1)
 
-    def create_tables(self):
+    def _create_tables(self):
         self.clear_database()
 
         try:
             with open(self.CREATE_TABLES_SCRIPT, "r") as create_tables_script:
                 script = create_tables_script.read()
 
-            cursor = self.connection.cursor()
-            cursor.execute(script)
-            self.connection.commit()
-            cursor.close()
+            with self._connection.cursor() as cursor:
+                cursor.execute(script)
+                self._connection.commit()
 
         except FileNotFoundError as fnfe:
             print(f"Unable to find {self.CREATE_TABLES_SCRIPT}.")
@@ -105,3 +105,15 @@ class Database:
         except OSError as ose:
             print(f"Error parsing {self.CREATE_TABLES_SCRIPT}.")
             sys.exit(1)
+
+    def _load_database(self):
+        self._data_loader.load_arena()
+        self._data_loader.load_team()
+        self._data_loader.load_coach()
+        self._data_loader.load_playoff_coach_stats()
+        self._data_loader.load_regular_coach_stats()
+        self._data_loader.load_player()
+
+    def populate_database(self):
+        self._create_tables()
+        self._load_database()

@@ -1,4 +1,5 @@
 from database import *
 
 db = Database()
-db.create_tables()
+db.populate_database()
+

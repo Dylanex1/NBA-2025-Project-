@@ -14,7 +14,7 @@ CREATE TABLE Team (
     TeamID INT PRIMARY KEY CHECK(TeamID > 0),
     TeamName VARCHAR(100) UNIQUE CHECK(LEN(TeamName) > 0),
     TeamAbbrv VARCHAR(100) UNIQUE CHECK(LEN(TeamAbbrv) > 0),
-    NickName VARCHAR(100) UNIQUE CHECK(LEN(NickName) > 0),
+    Nickname VARCHAR(100) UNIQUE CHECK(LEN(Nickname) > 0),
     [State] VARCHAR(100) CHECK(LEN([State]) > 0),
     YearFounded INT CHECK(YearFounded > 1800 AND YearFounded <= YEAR(GETDATE())),
     ArenaName VARCHAR(100) REFERENCES Arena(ArenaName)
@@ -29,8 +29,8 @@ CREATE TABLE Coach (
     SeasonsOverall INT CHECK(SeasonsOverall >= 0)
 );
 
--- PlayOffGameCoachStats
-CREATE TABLE PlayOffGameCoachStats (
+-- PlayoffGameCoachStats
+CREATE TABLE PlayoffGameCoachStats (
     CoachID INT PRIMARY KEY REFERENCES Coach(CoachID),
     PlayoffsCurrentG INT CHECK(PlayoffsCurrentG >= 0),
     PlayoffsCurrentW INT CHECK(PlayoffsCurrentW >= 0),
