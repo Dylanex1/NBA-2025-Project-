@@ -243,7 +243,6 @@ class DataLoader:
         df["Arena"] = df["Arena"].replace(rename_map)
         df.loc[df["Arena"].isin(null_arenas), "Arena"] = None
 
-
         sql = """
             INSERT INTO Game (
                 GameID,
@@ -279,4 +278,203 @@ class DataLoader:
 
         with self._connection.cursor() as cursor:
             cursor.executemany(sql, params_list)
+            self._connection.commit()
+
+    def load_play_in_game(self):
+        df = pd.read_csv(self.PLAY_IN_GAME_CSV)
+
+        sql = """
+            INSERT INTO PlayInGame (
+                PlayerID,
+                GameID,
+                TeamID,
+                MP,
+                FG,
+                FGA,
+                [3P],
+                [3PA],
+                FT,
+                FTA,
+                AST,
+                STL
+            )
+            VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+        """
+
+        df = df.rename(columns={'3P': 'ThreeP', '3PA': 'ThreePA'})
+
+        params_list = []
+        for row in df.itertuples(index=False):
+            params_list.append(
+                (
+                    row.PlayerID,
+                    row.GameID,
+                    self._check_null(row.TeamID),
+                    self._check_null(row.MP),
+                    self._check_null(row.FG),
+                    self._check_null(row.FGA),
+                    self._check_null(row.ThreeP),
+                    self._check_null(row.ThreePA),
+                    self._check_null(row.FT),
+                    self._check_null(row.FTA),
+                    self._check_null(row.AST),
+                    self._check_null(row.STL)
+                )
+            )
+
+        with self._connection.cursor() as cursor:
+            cursor.executemany(sql, params_list)
+            self._connection.commit()
+
+    def load_player_information(self):
+        df = pd.read_csv(self.PLAYER_INFORMATION_CSV)
+        sql = """
+            INSERT INTO PlayerInformation (
+                PlayerID,
+                Birthdate,
+                School,
+                Country,
+                [Weight],
+                SeasonsPlayed,
+                Position,
+                FromYear,
+                ToYear,
+                Height,
+                IsActive
+            )
+            VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+        """
+
+        df = df.rename(columns={'Height ': 'Height'})
+        df["School"] = df["School"].str.strip()
+        df["School"] = df["School"].replace("", None)
+
+        params_list = []
+        for row in df.itertuples(index=False):
+            params_list.append(
+                (
+                    row.PlayerID,
+                    self._check_null(row.Birthdate),
+                    self._check_null(row.School),
+                    self._check_null(row.Country),
+                    self._check_null(row.Weight),
+                    self._check_null(row.seasonsPlayed),
+                    self._check_null(row.Position),
+                    self._check_null(row.FromYear),
+                    self._check_null(row.ToYear),
+                    self._check_null(row.Height),
+                    self._check_null(row.IsActive)
+                )
+            )
+
+        with self._connection.cursor() as cursor:
+            cursor.executemany(sql, params_list)
+            self._connection.commit()
+
+    def load_draft_combine(self):
+        df = pd.read_csv(self.DRAFT_COMBINE_CSV)
+        player_df = pd.read_csv(self.PLAYER_CSV)
+        valid_ids = set(player_df["PlayerID"])
+        df = df[df["PlayerID"].isin(valid_ids)]
+        sql = """
+            INSERT INTO DraftCombine (
+                Season,
+                PlayerID,
+                Wingspan,
+                StandingReach,
+                BodyFatPct,
+                StandingVerticalLeap,
+                MaximumVerticalLeap,
+                LaneAgilityTime,
+                ThreeQuarterSprint,
+                BenchPress
+            )
+            VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+        """
+
+        params_list = []
+        for row in df.itertuples(index=False):
+            params_list.append(
+                (
+                    row.Season,
+                    row.PlayerID,
+                    self._check_null(row.Wingspan),
+                    self._check_null(row.StandingReach),
+                    self._check_null(row.BodyFatPct),
+                    self._check_null(row.StandingVerticalLeap),
+                    self._check_null(row.MaximumVerticalLeap),
+                    self._check_null(row.LaneAgilityTime),
+                    self._check_null(row.ThreeQuarterSprint),
+                    self._check_null(row.BenchPress)
+                )
+            )
+
+        with self._connection.cursor() as cursor:
+            cursor.executemany(sql,params_list)
+            self._connection.commit()
+
+    def load_organization(self):
+        df = pd.read_csv(self.ORGANIZATION_CSV)
+        sql = """
+            INSERT INTO Organization (
+                OrganizationID,
+                OrganizationName,
+                OrganizationType
+            )
+            VALUES (%s, %s, %s)
+        """
+        
+        params_list = []
+        for row in df.itertuples(index=False):
+            params_list.append(
+                (
+                    row.OrganizationID,
+                    self._check_null(row.OrganizationName),
+                    self._check_null(row.OrganizationType)
+                )
+            )
+
+        with self._connection.cursor() as cursor:
+            cursor.executemany(sql,params_list)
+            self._connection.commit()
+
+    def load_drafts(self):
+        df = pd.read_csv(self.DRAFTS_CSV)
+        player_df = pd.read_csv(self.PLAYER_CSV)
+        team_df = pd.read_csv(self.TEAM_CSV)
+        valid_team_ids = set(team_df["TeamID"])
+        valid_player_ids = set(player_df["PlayerID"])
+        df = df[df["PlayerID"].isin(valid_player_ids) & df["TeamID"].isin(valid_team_ids)]
+        sql = """   
+            INSERT INTO Drafts (
+                PlayerID,
+                TeamID,
+                Season,
+                OrganizationID,
+                RoundNumber,
+                RoundPick,
+                OverallPick,
+                DraftType
+            )
+            VALUES (%s, %s, %s, %s, %s, %s, %s, %s)
+        """
+
+        params_list = []
+        for row in df.itertuples(index=False):
+            org_id = None if pd.isna(row.OrganizationID) else int(row.OrganizationID)
+            params_list.append(
+                (
+                    row.PlayerID,
+                    row.TeamID,
+                    row.Season,
+                    org_id,
+                    self._check_null(row.RoundNumber),
+                    self._check_null(row.RoundPick),
+                    self._check_null(row.OverallPick),
+                    self._check_null(row.DraftType)
+                )
+            )
+
+        with self._connection.cursor() as cursor:
+            cursor.executemany(sql,params_list)
             self._connection.commit()

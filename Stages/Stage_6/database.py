@@ -114,6 +114,12 @@ class Database:
         self._data_loader.load_regular_coach_stats()
         self._data_loader.load_player()
         self._data_loader.load_game()
+        self._data_loader.load_play_in_game()
+        self._data_loader.load_player_information()
+        self._data_loader.load_draft_combine()
+        self._data_loader.load_organization()
+        self._data_loader.load_drafts()
+
 
     def populate_database(self):
         self._create_tables()

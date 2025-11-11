@@ -18,3 +18,18 @@ SELECT * FROM Player;
 
 -- Check if Game loaded properly
 SELECT * FROM Game;
+
+-- Check if PlayInGame loaded properly
+SELECT * FROM PlayInGame;
+
+-- Check if PlayerInformation loaded properly
+SELECT * FROM PlayerInformation;
+
+-- Check if DraftCombine loadedproperly
+SELECT * FROM DraftCombine;
+
+-- Check if Organization loaded properly
+SELECT * FROM Organization
+
+-- Check if Drafts loaded properly
+SELECT * FROM Drafts
