@@ -24,7 +24,7 @@ CREATE TABLE Team (
 CREATE TABLE Coach (
     CoachID INTEGER PRIMARY KEY CHECK(CoachID > 0),
     CoachName VARCHAR(100) CHECK(LEN(CoachName) > 0),
-    TeamID INT REFERENCES Team(TeamID),
+    TeamID INT NOT NULL REFERENCES Team(TeamID),
     SeasonsFranchise INT CHECK(SeasonsFranchise >= 0),
     SeasonsOverall INT CHECK(SeasonsOverall >= 0)
 );
@@ -76,8 +76,8 @@ CREATE TABLE Game (
     Arena VARCHAR(100) REFERENCES Arena(ArenaName),
     Overtime VARCHAR(2) CHECK(Overtime IN ('N','Y','2Y','3Y', '4Y')),
     AttendingAmount INTEGER CHECK(AttendingAmount >= 0),
-    HomeTeamID INT REFERENCES Team(TeamID),
-    VisitorTeamID INT REFERENCES Team(TeamID),
+    HomeTeamID INT NOT NULL REFERENCES Team(TeamID),
+    VisitorTeamID INT NOT NULL REFERENCES Team(TeamID),
     CHECK(HomeTeamID != VisitorTeamID)
 );
 

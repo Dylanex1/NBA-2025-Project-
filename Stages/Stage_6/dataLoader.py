@@ -213,3 +213,70 @@ class DataLoader:
         with self._connection.cursor() as cursor:
             cursor.executemany(sql, params_list)
             self._connection.commit()
+
+    def load_game(self):
+        df = pd.read_csv(self.GAME_CSV)
+
+        df["Date"] = pd.to_datetime(
+            df["Date"].str.strip(),
+            format = "%a, %b %d, %Y"
+        ).dt.date
+
+        rename_map = {
+            "FedEx Forum": "FedExForum",
+            "Rocket Arena": "Rocket Mortgage Fieldhouse",
+            "Madison Square Garden ": "Madison Square Garden",
+
+        }
+
+        null_arenas = {
+            "Intuit Dome",
+            "Mexico City Arena",
+            "T-Mobile Arena",
+            "AccorHotels Arena",
+            "Moody Center"
+        }
+
+        df["Arena"] = df["Arena"].str.strip()
+        df["Length"] = df["Length"].str.strip()
+        df["Length"] = df["Length"].replace("N", None)
+        df["Arena"] = df["Arena"].replace(rename_map)
+        df.loc[df["Arena"].isin(null_arenas), "Arena"] = None
+
+
+        sql = """
+            INSERT INTO Game (
+                GameID,
+                [Date],
+                HomePTS,
+                VisitorPTS,
+                [Length],
+                Arena,
+                Overtime,
+                AttendingAmount,
+                HomeTeamID,
+                VisitorTeamID
+            )
+            VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+        """
+
+        params_list = []
+        for row in df.itertuples(index=False):
+            params_list.append(
+                (
+                    row.GameID,
+                    row.Date,
+                    self._check_null(row.HomePTS),
+                    self._check_null(row.VisitorPTS),
+                    self._check_null(row.Length),
+                    self._check_null(row.Arena),
+                    self._check_null(row.Overtime),
+                    self._check_null(row.AttendingAmount),
+                    row.HomeTeamID,
+                    row.VisitorTeamID
+                )
+            )
+
+        with self._connection.cursor() as cursor:
+            cursor.executemany(sql, params_list)
+            self._connection.commit()

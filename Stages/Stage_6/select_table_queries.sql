@@ -15,3 +15,6 @@ SELECT * FROM RegularGameCoachStats;
 
 -- Check if Player loaded properly
 SELECT * FROM Player;
+
+-- Check if Game loaded properly
+SELECT * FROM Game;

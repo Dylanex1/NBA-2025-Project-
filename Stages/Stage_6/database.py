@@ -113,6 +113,7 @@ class Database:
         self._data_loader.load_playoff_coach_stats()
         self._data_loader.load_regular_coach_stats()
         self._data_loader.load_player()
+        self._data_loader.load_game()
 
     def populate_database(self):
         self._create_tables()
