@@ -30,7 +30,7 @@ class DataLoader:
                 OpeningYear, 
                 ArenaCityName
             )
-            VALUES (%s, %s, %s, %s)
+            VALUES (%s, %s, %s, %s);
         """
 
         with self._connection.cursor() as cursor:
@@ -58,7 +58,7 @@ class DataLoader:
                 YearFounded,
                 ArenaName
             )
-            VALUES (%s, %s, %s, %s, %s, %s, %s)
+            VALUES (%s, %s, %s, %s, %s, %s, %s);
         """
 
         with self._connection.cursor() as cursor:
@@ -87,7 +87,7 @@ class DataLoader:
                 SeasonsFranchise,
                 SeasonsOverall
             )
-            VALUES (%s, %s, %s, %s, %s)
+            VALUES (%s, %s, %s, %s, %s);
         """
 
         with self._connection.cursor() as cursor:
@@ -119,7 +119,7 @@ class DataLoader:
                 PlayoffsOverallW,
                 PlayoffsOverallL
             )
-            VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+            VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s);
         """
 
         with self._connection.cursor() as cursor:
@@ -156,7 +156,7 @@ class DataLoader:
                 RegOverallW,
                 RegOverallL
             )
-            VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+            VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s);
         """
 
         with self._connection.cursor() as cursor:
@@ -189,7 +189,7 @@ class DataLoader:
                 LastName,
                 TeamID
             )
-            VALUES (%s, %s, %s, %s)
+            VALUES (%s, %s, %s, %s);
         """
 
         params_list = []
@@ -256,7 +256,7 @@ class DataLoader:
                 HomeTeamID,
                 VisitorTeamID
             )
-            VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+            VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s);
         """
 
         params_list = []
@@ -298,7 +298,7 @@ class DataLoader:
                 AST,
                 STL
             )
-            VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+            VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s);
         """
 
         df = df.rename(columns={'3P': 'ThreeP', '3PA': 'ThreePA'})
@@ -342,7 +342,7 @@ class DataLoader:
                 Height,
                 IsActive
             )
-            VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+            VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s);
         """
 
         df = df.rename(columns={'Height ': 'Height'})
@@ -389,7 +389,7 @@ class DataLoader:
                 ThreeQuarterSprint,
                 BenchPress
             )
-            VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+            VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s);
         """
 
         params_list = []
@@ -421,7 +421,7 @@ class DataLoader:
                 OrganizationName,
                 OrganizationType
             )
-            VALUES (%s, %s, %s)
+            VALUES (%s, %s, %s);
         """
         
         params_list = []
@@ -456,7 +456,7 @@ class DataLoader:
                 OverallPick,
                 DraftType
             )
-            VALUES (%s, %s, %s, %s, %s, %s, %s, %s)
+            VALUES (%s, %s, %s, %s, %s, %s, %s, %s);
         """
 
         params_list = []

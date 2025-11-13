@@ -1,9 +1,10 @@
 import pymssql
 import configparser
 import sys
-from dataLoader import DataLoader
+from data_loader import DataLoader
+from query_manager import QueryManager
 
-class Database:
+class DatabaseManager:
     # CONSTANTS
     CONFIG_FILE = "auth.cfg"
     DATABASE_NAME = "nba_database_24_25"
@@ -13,6 +14,7 @@ class Database:
     def __init__(self):
         self._connect()
         self._data_loader = DataLoader(self._connection)
+        self._query_manager = QueryManager(self._connection)
             
     def _connect(self):
         config_items = self._get_config_items()
@@ -120,7 +122,30 @@ class Database:
         self._data_loader.load_organization()
         self._data_loader.load_drafts()
 
-
     def populate_database(self):
         self._create_tables()
         self._load_database()
+
+    def run_s1(self):
+        return self._query_manager.get_s1()
+    
+    def run_s2(self):
+        return self._query_manager.get_s2()
+    
+    def run_s3(self):
+        return self._query_manager.get_s3()
+    
+    def run_s4(self):
+        return self._query_manager.get_s4()
+    
+    def run_s5(self):
+        return self._query_manager.get_s5()
+    
+    def run_s6(self):
+        return self._query_manager.get_s6()
+    
+    def run_s7(self):
+        return self._query_manager.get_s7()
+
+    def run_s8(self):
+        return self._query_manager.get_s8()
