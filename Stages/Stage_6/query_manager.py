@@ -93,10 +93,21 @@ class QueryManager:
         
     def get_s8(self):
         sql = """
-            SELECT *
+            SELECT 
+                Player.*,
+                Birthdate,
+                School,
+                Country,
+                [Weight],
+                SeasonsPlayed,
+                Position,
+                FromYear,
+                ToYear,
+                Height,
+                IsActive
             FROM Player
             LEFT JOIN PlayerInformation
-            ON Player.PlayerID= PlayerInformation.PlayerID;
+            ON Player.PlayerID = PlayerInformation.PlayerID;
         """
 
         with self._connection.cursor(as_dict=True) as cursor:
