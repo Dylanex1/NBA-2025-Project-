@@ -1,15 +1,15 @@
 import pymssql
 import configparser
 import sys
-from data_loader import DataLoader
-from query_manager import QueryManager
+from .data_loader import DataLoader
+from .query_manager import QueryManager
 
 class DatabaseManager:
     # CONSTANTS
-    CONFIG_FILE = "auth.cfg"
+    CONFIG_FILE = "config/auth.cfg"
     DATABASE_NAME = "nba_database_24_25"
-    CREATE_TABLES_SCRIPT = "create_tables.sql"
-    CLEAR_DATABASE_SCRIPT = "clear_database.sql"
+    CREATE_TABLES_SCRIPT = "src/sql/create_tables.sql"
+    CLEAR_DATABASE_SCRIPT = "src/sql/clear_database.sql"
 
     def __init__(self):
         self._connect()

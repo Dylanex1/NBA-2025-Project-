@@ -1,4 +1,4 @@
-from database_manager import *
+from .database_manager import *
 import textwrap
 import os
 
@@ -163,23 +163,29 @@ class Interface:
         return widths
     
     def _print_col_headers(self, cols, widths):
+        headers = ["\n"]
         for i, col in enumerate(cols):
             col_padded = f"{col:<{widths[i]}}"
-            print(self._colour_string(self.BRIGHT_ORANGE, col_padded, True)  + self.TAB, end="")
-        print()
+            headers.append(self._colour_string(self.BRIGHT_ORANGE, col_padded, True)  + self.TAB)
+        
+        print("".join(headers))
     
     def _print_header_underlines(self, widths):
+        underlines = []
         for width in widths:
-            print(self._colour_string(self.DARK_ORANGE, "-" * width) + self.TAB, end = "")
-        print()
+            underlines.append(self._colour_string(self.DARK_ORANGE, "-" * width) + self.TAB)
+        
+        print("".join(underlines))
 
     def _print_rows(self, widths, rows, cols):
         for row in rows:
+            row_strs = []
             for i, col in enumerate(cols):
                 val = row[col]
                 val_str = "NULL" if val is None else str(val).strip() 
-                print(f"{val_str:<{widths[i]}}" + self.TAB, end = "")
-            print()
+                row_strs.append(f"{val_str:<{widths[i]}}" + self.TAB)
+
+            print("".join(row_strs))
 
     def _print_table(self, rows):
         if not rows:
