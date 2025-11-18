@@ -20,3 +20,7 @@ This section shows diagrams illustrating how the interface will look.
 ![Help Menu Screenshot](help.png)
 
 ![Query Results Screenshot](query.png)
+
+
+### Prevention of SQL injection
+The plan of how our interface will prevent users from being malicious is first off our interface will only accept a small set of commands to run and those commands will be given to the user and they can search or do actions only with those certain commands if one of the commands is not entered then give a message to the user saying use one of the following commands. This already prevents a good amount of malformed CLI interfaces that may allow a user to input anything and potentially harm the database or crash it. Next when they run any of the set of commands we will use prepared statements and ? in the string query for user input which will limit any SQL injection into the database querys/manipulation since prepared statemtents will take any user input as VALUES. As an additonal layer of security we can grab the user input before the query is executed and look for any keywords that a user should not be able to run. For example if a user inputs SELECT,DELETE,WHERE,OR,AND,=,--,',UPDATE,ALTER and so on we can give an error message for the user saying that is not a valid input please try again. With this plan in place there should be no way for malicious activity.
