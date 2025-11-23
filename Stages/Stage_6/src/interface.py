@@ -15,24 +15,77 @@ class Interface:
     BASKETBALL = "🏀"
     TAB = "   "
 
-    HELP = "help"
     CLEAR = "clear"
-    CLEAR_DB = "clear_db"
-    LOAD = "load"
     EXIT = "exit"
 
-    S1 = "s1"
-    S2 = "s2"
-    S3 = "s3"
-    S4 = "s4"
-    S5 = "s5"
-    S6 = "s6"
-    S7 = "s7"
-    S8 = "s8"
+    SIMPLE_CMDS = [
+        "s1" , "s2", "s3", "s4", "s5", "s6", "s7", "s8"
+    ]
+    COMPLEX_CMDS = [
+        "q1 <N>", "q2", "q3 <team_name> [--avg]", "q4 <limit> <page>", "q5",
+        "q6 <team_name>", "q7 <stat> <N>", "q8 <team_name>", "q9 <game_id>",
+        "q10 <min_attempts> <N>", "q11 <game_id>", "q12 <home_name> <away_name>",
+        "q13 <min_winrate>", "q14"
+    ]
+    SYSTEM_CMDS = [
+        "clear-db",
+        "load",
+        "clear",
+        "exit"
+    ]
+
+    SIMPLE_DESCS = [
+        "List all player draft combine stats",
+        "List all player drafts",
+        "List all coaches along with their regular season stats",
+        "List all coaches along with their playoff season stats",
+        "List all arenas",
+        "List all teams",
+        "List all games in the 2024-2025 season",
+        "List all players along with personal information"
+    ]
+    COMPLEX_DESCS = [
+        "Show the top N teams by wins along with their season averages",
+        "Show coaches with 5+ seasons and a positive playoff win rate",
+        "Shows a team's average PPG (optionally include league average)",
+        "List <limit> players from <page> by position/height with PPG/APG/SPG",
+        "Show the team and coach that won the 2024-2025 championship",
+        "Show a team's roster ordered by PPG, APG, and SPG",
+        "Show the top N players ordered by a chosen stat (PPG, APG, SPG)",
+        "Show the average age of players on a team",
+        "Show both teams' stats for a specific game",
+        "Show the top N players ordered by 3P% with a minimum attempt requirement",
+        "Show centers that are 6\"5+ and their points in a specific game",
+        "Show a home team's win percentage against a specific visiting team",
+        "Show coaches with a playoff winrate ≥ a decimal input (ex. 0.75)",
+        "Show arenas where every team has won at least once"
+    ]
+    SYSTEM_DESCS = [
+        "Clear the entire database (drop all tables)",
+        "Clear and populate the database",
+        "Clear the terminal screen",
+        "Quit the program"
+    ]
 
     def __init__(self):
         self._database_manager = DatabaseManager()
         self._print_welcome_message()
+
+        self.CMDS = {
+            "help" : {"argc" : 0, "run" : self._print_help_menu, "usage" : "help"},
+            "clear" : {"argc" : 0, "run" : self._clear_screen, "usage" : "clear"},
+            "clear-db" : {"argc" : 0, "run" : self._database_manager.clear_database, "usage" : "clear-db"},
+            "load" : {"argc" : 0, "run" : self._database_manager.populate_database, "usage" : "load"},
+            "exit" : {"argc" : 0, "run" : None, "usage" : "exit"},
+            "s1" : {"argc" : 0, "run" : self._database_manager.run_s1, "usage" : "s1"},
+            "s2" : {"argc" : 0, "run" : self._database_manager.run_s2, "usage" : "s2"},
+            "s3" : {"argc" : 0, "run" : self._database_manager.run_s3, "usage" : "s3"},
+            "s4" : {"argc" : 0, "run" : self._database_manager.run_s4, "usage" : "s4"},
+            "s5" : {"argc" : 0, "run" : self._database_manager.run_s5, "usage" : "s5"},
+            "s6" : {"argc" : 0, "run" : self._database_manager.run_s6, "usage" : "s6"},
+            "s7" : {"argc" : 0, "run" : self._database_manager.run_s7, "usage" : "s7"},
+            "s8" : {"argc" : 0, "run" : self._database_manager.run_s8, "usage" : "s8"},
+        }
 
     def _colour_string(self, colour, string, bold = False):
         if bold:
@@ -76,10 +129,10 @@ class Interface:
         print("\n" + help_message)
         print(self._colour_string(self.DARK_ORANGE, "-" * self.SEP_BAR_LEN))
 
-    def _get_cmd_width(self, l1, l2, l3):
-        max_l1 = max(len(s) for s in l1)
-        max_l2 = max(len(s) for s in l2)
-        max_l3 = max(len(s) for s in l3)
+    def _get_cmd_width(self):
+        max_l1 = max(len(s) for s in self.SIMPLE_CMDS)
+        max_l2 = max(len(s) for s in self.COMPLEX_CMDS)
+        max_l3 = max(len(s) for s in self.SYSTEM_CMDS)
         return max(max_l1, max_l2, max_l3) + len(self.TAB)
     
     def _print_cmds(self, header, cmds, descs, cmd_width):
@@ -90,61 +143,12 @@ class Interface:
     def _print_help_menu(self):
         title = " HELP MENU - NBA DATABASE "
 
-        simple_query_cmds = [
-            "s1" , "s2", "s3", "s4", "s5", "s6", "s7", "s8"
-        ]
-        complex_query_cmds = [
-            "q1 <N>", "q2", "q3 <team_name> [--avg]", "q4 <limit> <page>", "q5",
-            "q6 <team_name>", "q7 <stat> <N>", "q8 <team_name>", "q9 <game_id>",
-            "q10 <min_attempts> <N>", "q11 <game_id>", "q12 <home_name> <away_name>",
-            "q13 <min_winrate>", "q14"
-        ]
-        system_cmds = [
-            "clear-db",
-            "load",
-            "clear",
-            "exit"
-        ]
-
-        simple_query_descs = [
-            "List all player draft combine stats",
-            "List all player drafts",
-            "List all coaches along with their regular season stats",
-            "List all coaches along with their playoff season stats",
-            "List all arenas",
-            "List all teams",
-            "List all games in the 2024-2025 season",
-            "List all players along with personal information"
-        ]
-        complex_query_descs = [
-            "Show the top N teams by wins along with their season averages",
-            "Show coaches with 5+ seasons and a positive playoff win rate",
-            "Shows a team's average PPG (optionally include league average)",
-            "List <limit> players from <page> by position/height with PPG/APG/SPG",
-            "Show the team and coach that won the 2024-2025 championship",
-            "Show a team's roster ordered by PPG, APG, and SPG",
-            "Show the top N players ordered by a chosen stat (PPG, APG, SPG)",
-            "Show the average age of players on a team",
-            "Show both teams' stats for a specific game",
-            "Show the top N players ordered by 3P% with a minimum attempt requirement",
-            "Show centers that are 6\"5+ and their points in a specific game",
-            "Show a home team's win percentage against a specific visiting team",
-            "Show coaches with a playoff winrate ≥ a decimal input (ex. 0.75)",
-            "Show arenas where every team has won at least once"
-        ]
-        system_descs = [
-            "Clear the entire database (drop all tables)",
-            "Clear and populate the database",
-            "Clear the terminal screen",
-            "Quit the program"
-        ]
-
-        cmd_width = self._get_cmd_width(simple_query_cmds, complex_query_cmds, system_cmds)
+        cmd_width = self._get_cmd_width()
         print()
         self._print_centered_title(title)
-        self._print_cmds("Simple Queries:", simple_query_cmds, simple_query_descs, cmd_width)
-        self._print_cmds("Complex Queries:", complex_query_cmds, complex_query_descs, cmd_width)
-        self._print_cmds("System:", system_cmds, system_descs, cmd_width)
+        self._print_cmds("Simple Queries:", self.SIMPLE_CMDS, self.SIMPLE_DESCS, cmd_width)
+        self._print_cmds("Complex Queries:", self.COMPLEX_CMDS, self.COMPLEX_DESCS, cmd_width)
+        self._print_cmds("System:", self.SYSTEM_CMDS, self.SYSTEM_DESCS, cmd_width)
         print(self._colour_string(self.DARK_ORANGE, "-" * self.SEP_BAR_LEN))
 
     def _get_col_widths(self, cols, rows):
@@ -197,52 +201,64 @@ class Interface:
         self._print_col_headers(cols, widths)
         self._print_header_underlines(widths)
         self._print_rows(widths, rows, cols)
+    
+    def _clear_screen(self):
+        os.system('cls' if os.name == 'nt' else 'clear')
+
+    def _print_arg_error(self, cmd, num_args_given):
+        argc = self.CMDS[cmd]["argc"]
+        usage = self.CMDS[cmd]["usage"]
+
+        if num_args_given < argc:
+            print(f"Too few arguments for '{cmd}'.")
+        else:
+            print(f"Too many arguments for '{cmd}'.")
+
+        print(f"Usage: {usage}.")
 
     def run(self):
         done = False
         just_cleared = False
         while not done:
-            prompt = "> " if just_cleared else "\n> "
+            prompt = "nba-db> " if just_cleared else "\nnba-db> "
             user_input = input(prompt).strip().lower().split()
-            just_cleared = False
+            done, just_cleared = self._process_user_input(user_input)
+                
+    def _process_user_input(self, input):
+        if not input or input[0] not in self.CMDS:
+            print("Invalid command.")
+            return False, False
 
-            if len(user_input) == 1 and user_input[0] == self.HELP:
-                self._print_help_menu()
+        return self._process_cmd(input)
+    
+    def _process_cmd(self, input):
+        done = False
+        just_cleared = False
+        cmd = input[0]
+        args = input[1:]
+        num_args_given = len(args)
 
-            elif len(user_input) == 1 and user_input[0] == self.CLEAR:   
-                os.system('cls' if os.name == 'nt' else 'clear')
-                just_cleared = True
+        if self.CMDS[cmd]["argc"] != num_args_given:
+            self._print_arg_error(cmd, num_args_given)
+            return done, just_cleared
 
-            elif len(user_input) == 1 and user_input[0] == self.CLEAR_DB:
-                self._database_manager.clear_database()
+        if cmd == self.CLEAR:
+            just_cleared = True
+        elif cmd == self.EXIT:
+            done = True
 
-            elif len(user_input) == 1 and user_input[0] == self.LOAD:
-                self._database_manager.populate_database()
+        if self.CMDS[cmd]["run"] is not None:
+            results = self.CMDS[cmd]["run"](*args)
 
-            elif len(user_input) == 1 and user_input[0] == self.EXIT:
-                done = True
+            if results is not None:
+                self._print_table(results) 
 
-            elif len(user_input) == 1 and user_input[0] == self.S1:
-                self._print_table(self._database_manager.run_s1())
+        return done, just_cleared
+        
 
-            elif len(user_input) == 1 and user_input[0] == self.S2:
-                self._print_table(self._database_manager.run_s2())
 
-            elif len(user_input) == 1 and user_input[0] == self.S3:
-                self._print_table(self._database_manager.run_s3())
+            
 
-            elif len(user_input) == 1 and user_input[0] == self.S4:
-                self._print_table(self._database_manager.run_s4())
 
-            elif len(user_input) == 1 and user_input[0] == self.S5:
-                self._print_table(self._database_manager.run_s5())
 
-            elif len(user_input) == 1 and user_input[0] == self.S6:
-                self._print_table(self._database_manager.run_s6())
-
-            elif len(user_input) == 1 and user_input[0] == self.S7:
-                self._print_table(self._database_manager.run_s7())
-
-            elif len(user_input) == 1 and user_input[0] == self.S8:
-                self._print_table(self._database_manager.run_s8())
 
