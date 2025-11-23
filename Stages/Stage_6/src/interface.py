@@ -1,6 +1,7 @@
 from .database_manager import *
 import textwrap
 import os
+import shlex
 
 class Interface:
     # Constants
@@ -22,9 +23,9 @@ class Interface:
         "s1" , "s2", "s3", "s4", "s5", "s6", "s7", "s8"
     ]
     COMPLEX_CMDS = [
-        "q1 <N>", "q2", "q3 <team_name> [--avg]", "q4 <limit> <page>", "q5",
-        "q6 <team_name>", "q7 <stat> <N>", "q8 <team_name>", "q9 <game_id>",
-        "q10 <min_attempts> <N>", "q11 <game_id>", "q12 <home_name> <away_name>",
+        "q1 <N>", "q2", "q3 \"<team_name>\" [--avg]", "q4 <limit> <page>", "q5",
+        "q6 \"<team_name>\"", "q7 <stat> <N>", "q8 \"<team_name>\"", "q9 <game_id>",
+        "q10 <min_attempts> <N>", "q11 <game_id>", "q12 \"<home_name>\" \"<away_name>\"",
         "q13 <min_winrate>", "q14"
     ]
     SYSTEM_CMDS = [
@@ -85,6 +86,14 @@ class Interface:
             "s6" : {"argc" : 0, "run" : self._database_manager.run_s6, "usage" : "s6"},
             "s7" : {"argc" : 0, "run" : self._database_manager.run_s7, "usage" : "s7"},
             "s8" : {"argc" : 0, "run" : self._database_manager.run_s8, "usage" : "s8"},
+            "q1" : {"argc" : 1, "run" : self._database_manager.run_q1, "usage" : "q1 <N>"},
+            "q2" : {"argc" : 0, "run" : self._database_manager.run_q2, "usage" : "q2"},
+            "q3" : {"argc" : (1, 2), "run" : self._database_manager.run_q3, "usage" : "q3 \"<team_name>\" [--avg]"},
+            "q4" : {"argc" : 2, "run" : self._database_manager.run_q4, "usage" : "q4 <limit> <page>"},
+            "q5" : {"argc" : 0, "run" : self._database_manager.run_q5, "usage" : "q5"},
+            "q6" : {"argc" : 1, "run" : self._database_manager.run_q6, "usage" : "q6 \"<team_name>\""},
+            "q7" : {"argc" : 2, "run" : self._database_manager.run_q7, "usage" : "q7 <stat> <N>"},
+            "q8" : {"argc" : 1, "run" : self._database_manager.run_q8, "usage" : "q8 \"<team_name>\""},
         }
 
     def _colour_string(self, colour, string, bold = False):
@@ -209,7 +218,14 @@ class Interface:
         argc = self.CMDS[cmd]["argc"]
         usage = self.CMDS[cmd]["usage"]
 
-        if num_args_given < argc:
+        min_argc = argc
+
+        if isinstance(argc, int):
+            min_argc = argc
+        else:
+            min_argc = min(argc)
+
+        if num_args_given < min_argc:
             print(f"Too few arguments for '{cmd}'.")
         else:
             print(f"Too many arguments for '{cmd}'.")
@@ -221,15 +237,19 @@ class Interface:
         just_cleared = False
         while not done:
             prompt = "nba-db> " if just_cleared else "\nnba-db> "
-            user_input = input(prompt).strip().lower().split()
+            user_input = input(prompt)
             done, just_cleared = self._process_user_input(user_input)
                 
     def _process_user_input(self, input):
-        if not input or input[0] not in self.CMDS:
+        try:
+            parts = shlex.split(input.strip().lower())
+            if not parts or parts[0] not in self.CMDS:
+                raise ValueError()
+            return self._process_cmd(parts)
+        
+        except ValueError:
             print("Invalid command.")
             return False, False
-
-        return self._process_cmd(input)
     
     def _process_cmd(self, input):
         done = False
@@ -238,7 +258,10 @@ class Interface:
         args = input[1:]
         num_args_given = len(args)
 
-        if self.CMDS[cmd]["argc"] != num_args_given:
+        argc = self.CMDS[cmd]["argc"]
+        cond1 = isinstance(argc, int) and argc != num_args_given
+        cond2 = isinstance(argc, tuple) and num_args_given not in argc
+        if cond1 or cond2:
             self._print_arg_error(cmd, num_args_given)
             return done, just_cleared
 

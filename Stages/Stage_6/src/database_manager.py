@@ -11,6 +11,12 @@ class DatabaseManager:
     CREATE_TABLES_SCRIPT = "src/sql/create_tables.sql"
     CLEAR_DATABASE_SCRIPT = "src/sql/clear_database.sql"
 
+    Q7_STAT_MAP = {
+        "ppg" : "avgPoints",
+        "apg" : "avgAssists",
+        "spg" : "avgSteals"
+    }
+
     def __init__(self):
         self._connect()
         self._data_loader = DataLoader(self._connection)
@@ -121,10 +127,22 @@ class DatabaseManager:
         self._data_loader.load_draft_combine()
         self._data_loader.load_organization()
         self._data_loader.load_drafts()
+        self._data_loader.create_team_wins_view()
 
     def populate_database(self):
         self._create_tables()
         self._load_database()
+
+    def _parse_positive_int(self, input):
+        try:
+            n = int(input)
+            if n <= 0:
+                raise ValueError()
+            return n
+        
+        except ValueError:
+            print(f"Error: Expected a positive integer, but got '{input}'.")
+            return None
 
     def run_s1(self):
         return self._query_manager.get_s1()
@@ -149,3 +167,59 @@ class DatabaseManager:
 
     def run_s8(self):
         return self._query_manager.get_s8()
+    
+    def run_q1(self, num_teams):
+        n = self._parse_positive_int(num_teams)
+        if n is not None:
+            return self._query_manager.get_q1(n)
+        
+    def run_q2(self):
+        return self._query_manager.get_q2()
+    
+    def run_q3(self, team_name, use_avg_str = None):
+        parts = team_name.strip().split()
+        name = ' '.join(parts)
+
+        if use_avg_str == "--avg":
+            use_avg = True
+        elif use_avg_str is None:
+            use_avg = False
+        else:
+            print(f"Error: Expected '--avg', but got '{use_avg_str}'.")
+            return
+
+        return self._query_manager.get_q3(name, use_avg)
+    
+    def run_q4(self, num_players_str, page_str):
+        num_players = self._parse_positive_int(num_players_str)
+        page = self._parse_positive_int(page_str)
+
+        if num_players is not None and page is not None:
+            return self._query_manager.get_q4(num_players, page)
+
+    def run_q5(self):
+        return self._query_manager.get_q5()
+    
+    def run_q6(self, team_name):
+        parts = team_name.strip().split()
+        name = ' '.join(parts)
+        return self._query_manager.get_q6(name)
+    
+    def run_q7(self, stat_str, num_players_str):
+        num_players = self._parse_positive_int(num_players_str)
+        stat = self.Q7_STAT_MAP.get(stat_str)
+        if stat is not None and num_players is not None:
+            return self._query_manager.get_q7(stat, num_players)
+        
+        if stat is None:
+            print(f"Error: Expected 'ppg', 'apg', or 'spg', but got '{stat_str}'.")
+
+    def run_q8(self, team_name):
+        parts = team_name.strip().split()
+        name = ' '.join(parts)
+        return self._query_manager.get_q8(name)
+        
+        
+        
+        
+        
