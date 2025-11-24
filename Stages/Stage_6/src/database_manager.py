@@ -218,6 +218,19 @@ class DatabaseManager:
         parts = team_name.strip().split()
         name = ' '.join(parts)
         return self._query_manager.get_q8(name)
+    
+    def run_q9(self, game_id_str):
+        game_id = self._parse_positive_int(game_id_str)
+        if game_id is not None:
+            return self._query_manager.get_q9(game_id)
+        
+    def run_q10(self, min_attempts_str, num_players_str):
+        num_players = self._parse_positive_int(num_players_str)
+        min_attempts = self._parse_positive_int(min_attempts_str)
+
+        if num_players is not None and min_attempts is not None:
+            return self._query_manager.get_q10(min_attempts, num_players)
+
         
         
         

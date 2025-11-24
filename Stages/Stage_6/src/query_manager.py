@@ -395,6 +395,21 @@ class QueryManager:
             rows = cursor.fetchall()
 
         return rows
+    
+    def get_q9(self, game_id):
+        pass
+
+    def get_q10(self, min_attempts, num_players):
+        pass
+
+    def get_q11(self, game_id):
+        pass
+
+    def get_q12(self, home_team, away_team):
+        pass
+
+    def get_q14(self):
+        pass
 
         
         

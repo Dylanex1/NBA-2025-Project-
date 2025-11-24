@@ -94,6 +94,8 @@ class Interface:
             "q6" : {"argc" : 1, "run" : self._database_manager.run_q6, "usage" : "q6 \"<team_name>\""},
             "q7" : {"argc" : 2, "run" : self._database_manager.run_q7, "usage" : "q7 <stat> <N>"},
             "q8" : {"argc" : 1, "run" : self._database_manager.run_q8, "usage" : "q8 \"<team_name>\""},
+            "q9" : {"argc" : 1, "run" : self._database_manager.run_q9, "usage" : "q9 <game_id>"},
+            "q10" : {"argc" : 2, "run" : self._database_manager.run_q10, "usage" : "q10 <min_attempts> <N>"},
         }
 
     def _colour_string(self, colour, string, bold = False):
