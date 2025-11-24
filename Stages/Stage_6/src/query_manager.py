@@ -2,26 +2,34 @@ class QueryManager:
     def __init__(self, connection):
         self._connection = connection
 
-    def get_s1(self):
+    def get_s1(self, limit, page):
+        offset = (page - 1)*limit
         sql = """
             SELECT * 
-            FROM DraftCombine;
+            FROM DraftCombine
+            ORDER BY PlayerID
+            OFFSET %s ROWS
+            FETCH NEXT %s ROWS ONLY;
         """
 
         with self._connection.cursor(as_dict=True) as cursor:
-            cursor.execute(sql)
+            cursor.execute(sql, (offset, limit))
             rows = cursor.fetchall()
 
         return rows
     
-    def get_s2(self):
+    def get_s2(self, limit, page):
+        offset = (page - 1)*limit
         sql = """
             SELECT * 
-            FROM Drafts;
+            FROM Drafts
+            ORDER BY Season
+            OFFSET %s ROWS
+            FETCH NEXT %s ROWS ONLY;
         """
 
         with self._connection.cursor(as_dict=True) as cursor:
-            cursor.execute(sql)
+            cursor.execute(sql, (offset, limit))
             rows = cursor.fetchall()
 
         return rows
@@ -79,19 +87,24 @@ class QueryManager:
 
         return rows
         
-    def get_s7(self):
+    def get_s7(self, limit, page):
+        offset = (page - 1)*limit
         sql = """
             SELECT * 
-            FROM Game;
+            FROM Game
+            ORDER BY GameID
+            OFFSET %s ROWS
+            FETCH NEXT %s ROWS ONLY;
         """
 
         with self._connection.cursor(as_dict=True) as cursor:
-            cursor.execute(sql)
+            cursor.execute(sql, (offset, limit))
             rows = cursor.fetchall()
 
         return rows
         
-    def get_s8(self):
+    def get_s8(self, limit, page):
+        offset = (page - 1)*limit
         sql = """
             SELECT 
                 Player.*,
@@ -107,11 +120,14 @@ class QueryManager:
                 IsActive
             FROM Player
             LEFT JOIN PlayerInformation
-            ON Player.PlayerID = PlayerInformation.PlayerID;
+            ON Player.PlayerID = PlayerInformation.PlayerID
+            ORDER BY PlayerID
+            OFFSET %s ROWS
+            FETCH NEXT %s ROWS ONLY;
         """
 
         with self._connection.cursor(as_dict=True) as cursor:
-            cursor.execute(sql)
+            cursor.execute(sql, (offset, limit))
             rows = cursor.fetchall()
 
         return rows

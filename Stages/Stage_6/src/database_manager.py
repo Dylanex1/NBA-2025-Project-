@@ -155,11 +155,17 @@ class DatabaseManager:
             print(f"Error: Expected a number in the interval [0,1], but got '{input}'.")
             return None
 
-    def run_s1(self):
-        return self._query_manager.get_s1()
+    def run_s1(self, limit_str, page_str):
+        limit = self._parse_positive_int(limit_str)
+        page = self._parse_positive_int(page_str)
+        if limit is not None and page is not None:
+            return self._query_manager.get_s1(limit, page)
     
-    def run_s2(self):
-        return self._query_manager.get_s2()
+    def run_s2(self, limit_str, page_str):
+        limit = self._parse_positive_int(limit_str)
+        page = self._parse_positive_int(page_str)
+        if limit is not None and page is not None:
+            return self._query_manager.get_s2(limit, page)
     
     def run_s3(self):
         return self._query_manager.get_s3()
@@ -173,11 +179,17 @@ class DatabaseManager:
     def run_s6(self):
         return self._query_manager.get_s6()
     
-    def run_s7(self):
-        return self._query_manager.get_s7()
+    def run_s7(self, limit_str, page_str):
+        limit = self._parse_positive_int(limit_str)
+        page = self._parse_positive_int(page_str)
+        if limit is not None and page is not None:
+            return self._query_manager.get_s7(limit, page)
 
-    def run_s8(self):
-        return self._query_manager.get_s8()
+    def run_s8(self, limit_str, page_str):
+        limit = self._parse_positive_int(limit_str)
+        page = self._parse_positive_int(page_str)
+        if limit is not None and page is not None:
+            return self._query_manager.get_s8(limit, page)
     
     def run_q1(self, num_teams):
         n = self._parse_positive_int(num_teams)

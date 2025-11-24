@@ -20,7 +20,8 @@ class Interface:
     EXIT = "exit"
 
     SIMPLE_CMDS = [
-        "s1" , "s2", "s3", "s4", "s5", "s6", "s7", "s8"
+        "s1 <limit> <page>" , "s2 <limit> <page>", 
+        "s3", "s4", "s5", "s6", "s7 <limit> <page>", "s8 <limit> <page>"
     ]
     COMPLEX_CMDS = [
         "q1 <N>", "q2", "q3 \"<team_name>\" [--avg]", "q4 <limit> <page>", "q5",
@@ -78,14 +79,14 @@ class Interface:
             "clear-db" : {"argc" : 0, "run" : self._database_manager.clear_database, "usage" : "clear-db"},
             "load" : {"argc" : 0, "run" : self._database_manager.populate_database, "usage" : "load"},
             "exit" : {"argc" : 0, "run" : None, "usage" : "exit"},
-            "s1" : {"argc" : 0, "run" : self._database_manager.run_s1, "usage" : "s1"},
-            "s2" : {"argc" : 0, "run" : self._database_manager.run_s2, "usage" : "s2"},
+            "s1" : {"argc" : 2, "run" : self._database_manager.run_s1, "usage" : "s1 <limit> <page>"},
+            "s2" : {"argc" : 2, "run" : self._database_manager.run_s2, "usage" : "s2 <limit> <page>"},
             "s3" : {"argc" : 0, "run" : self._database_manager.run_s3, "usage" : "s3"},
             "s4" : {"argc" : 0, "run" : self._database_manager.run_s4, "usage" : "s4"},
             "s5" : {"argc" : 0, "run" : self._database_manager.run_s5, "usage" : "s5"},
             "s6" : {"argc" : 0, "run" : self._database_manager.run_s6, "usage" : "s6"},
-            "s7" : {"argc" : 0, "run" : self._database_manager.run_s7, "usage" : "s7"},
-            "s8" : {"argc" : 0, "run" : self._database_manager.run_s8, "usage" : "s8"},
+            "s7" : {"argc" : 2, "run" : self._database_manager.run_s7, "usage" : "s7 <limit> <page>"},
+            "s8" : {"argc" : 2, "run" : self._database_manager.run_s8, "usage" : "s8 <limit> <page>"},
             "q1" : {"argc" : 1, "run" : self._database_manager.run_q1, "usage" : "q1 <N>"},
             "q2" : {"argc" : 0, "run" : self._database_manager.run_q2, "usage" : "q2"},
             "q3" : {"argc" : (1, 2), "run" : self._database_manager.run_q3, "usage" : "q3 \"<team_name>\" [--avg]"},
