@@ -65,7 +65,7 @@ class DatabaseManager:
     def _print_config_errors(self, config_items):
         missing_items = [item for item in config_items if config_items[item] is None]
         if len(missing_items) > 0:
-            print(f"Missing config items: {", ".join(missing_items)}")
+            print(f"Missing config items: {', '.join(missing_items)}")
             sys.exit(1)
 
     def clear_database(self):
