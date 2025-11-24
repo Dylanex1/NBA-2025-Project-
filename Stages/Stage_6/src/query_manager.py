@@ -419,7 +419,43 @@ class QueryManager:
         pass
 
     def get_q11(self, game_id):
-        pass
+        sql = """
+            WITH PlayerHeights AS (
+                SELECT
+                    Player.PlayerID as PlayerID,
+                    FirstName,
+                    LastName,
+                    Position,
+                    Height,
+                    CAST(LEFT(Height, CHARINDEX('"', Height) - 1) AS INT) * 12 
+                    +
+                    CAST(
+                        SUBSTRING(Height, CHARINDEX('"', Height) + 1, LEN(Height))
+                        AS INT
+                    ) AS HeightInches
+                FROM PlayerInformation
+                JOIN Player
+                ON PlayerInformation.PlayerID = Player.PlayerID
+            )
+            SELECT 
+                FirstName, 
+                LastName, 
+                Height, 
+                ( (FG-[3P])*2 + ([3P] * 3) + (FT) ) as PTS
+            FROM PlayerHeights
+            JOIN PlayInGame
+            ON PlayerHeights.PlayerID = PlayInGame.PlayerID
+            WHERE gameID = %s 
+                AND
+                HeightInches > 77
+                AND Position = 'Center';
+        """
+
+        with self._connection.cursor(as_dict=True) as cursor:
+            cursor.execute(sql, (game_id,))
+            rows = cursor.fetchall()
+
+        return rows
 
     def get_q12(self, home_team, away_team):
         pass
