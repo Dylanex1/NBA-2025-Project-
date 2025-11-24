@@ -33,13 +33,20 @@ This project is about a NBA Relational Database mainly focused on the season 202
 
 ## Summary Of Data
 
-The reason we chose the dataset was it had the correct relations of how we wanted to model the basketball database for what we wanted and an extensive amount of attributes to chose from and how we wanted to model our database. The total amount of rows that this dataset has is 37,262 rows. The list of attributes consisted of:
-- players personal information like height weight, position, birthdate. 
+The reason we chose the Dataset was it had the correct relations of how we wanted to model the basketball database for what we wanted and an extensive amount of attributes to chose from and how we wanted to model our database. The total amount of rows that this dataset has is 37,262 rows. The list of attributes consisted of:
+
+- Players personal information like height weight, position, Birthdate. 
+
 - Statsistics for players for each game they played like FG, 3P, BLK, etc. 
+
 - Coaches how many seasons they played and their career stats like wins,losses and total games for franchise current and overall games either in regular and in playoff. 
-- NBA Teams had their ID, team name team abbv, year founded. 
+
+- NBA Teams had their ID, team name team abbreviation, year founded. 
+
 - Games played in the 2024-2025 season had the teams that played against each other, the date, the arena that it was played in and the final scores. 
+
 - Draft history contained the drafts and first picks and overall picks. 
+
 - Draft combine history shows measurements of players and stats like bench press, body fat %, etc. 
 
 Loads of cleaning was required to get rid of excess columns that were not gonna be used in the database as well there were columns were not formatted in the right way an example was heights were showing up as years so there was a lot of cleaning that needed to be done. Here are all the sources that we had for our tables are the links below:
