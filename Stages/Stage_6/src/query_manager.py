@@ -408,8 +408,36 @@ class QueryManager:
     def get_q12(self, home_team, away_team):
         pass
 
-    def get_q14(self):
+    def get_q13(self, min_winrate):
         pass
+
+    def get_q14(self, min_teams):
+        sql = """
+            WITH TeamWinAtArena AS(
+                SELECT Arena, HomeTeamID AS TeamID
+                FROM Game
+                WHERE 
+                    HomePTS > VisitorPTS 
+                    AND Arena IS NOT NULL
+                UNION
+                SELECT Arena, VisitorTeamID as TeamID
+                FROM Game
+                WHERE 
+                    VisitorPTS > HomePTS
+                    AND Arena IS NOT NULL
+            )
+            SELECT Arena, COUNT(TeamID) AS NumTeamsWon
+            FROM TeamWinAtArena
+            GROUP BY Arena
+            HAVING COUNT(TeamID) >= %s
+            ORDER BY NumTeamsWon DESC;
+        """
+
+        with self._connection.cursor(as_dict=True) as cursor:
+            cursor.execute(sql, (min_teams,))
+            rows = cursor.fetchall()
+
+        return rows
 
         
         

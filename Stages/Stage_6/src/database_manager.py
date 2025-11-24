@@ -143,6 +143,17 @@ class DatabaseManager:
         except ValueError:
             print(f"Error: Expected a positive integer, but got '{input}'.")
             return None
+        
+    def _parse_winrate(self, input):
+        try:
+            num = float(input)
+            if num < 0 or num > 1:
+                raise ValueError()
+            return num
+            
+        except ValueError:
+            print(f"Error: Expected a number in the interval [0,1], but got '{input}'.")
+            return None
 
     def run_s1(self):
         return self._query_manager.get_s1()
@@ -230,7 +241,28 @@ class DatabaseManager:
 
         if num_players is not None and min_attempts is not None:
             return self._query_manager.get_q10(min_attempts, num_players)
+        
+    def run_q11(self, game_id_str):
+        game_id = self._parse_positive_int(game_id_str)
+        if game_id is not None:
+            return self._query_manager.get_q11(game_id)
+        
+    def run_q12(self, home_name, away_name):
+        parts_home = home_name.strip().split()
+        parts_away = away_name.strip().split()
+        home = ' '.join(parts_home)
+        away = ' '.join(parts_away)
+        return self._query_manager.get_q12(home, away)
 
+    def run_q13(self, min_winrate_str):
+        min_winrate = self._parse_winrate(min_winrate_str)
+        if min_winrate is not None:
+            return self._query_manager.get_q13(min_winrate)
+        
+    def run_q14(self, min_teams_str):
+        min_teams = self._parse_positive_int(min_teams_str)
+        if min_teams is not None:
+            return self._query_manager.get_q14(min_teams)
         
         
         
