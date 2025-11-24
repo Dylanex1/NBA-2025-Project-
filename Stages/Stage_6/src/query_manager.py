@@ -199,6 +199,7 @@ class QueryManager:
             FROM PlayerInformation pi
             JOIN Player p ON pi.PlayerID= p.PlayerID
             JOIN Team t ON p.TeamID= t.TeamID
+            WHERE IsActive = 1
         """
     
     def _query_team_avg_age(self):
