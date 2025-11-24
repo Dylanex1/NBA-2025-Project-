@@ -61,7 +61,7 @@ Loads of cleaning was required to get rid of excess columns that were not gonna 
 
 $\pagebreak$
 
-## Discussion Of Data Model
+# Discussion Of Data Model
 
 * The reason why it was broken down into these tables from the few tables we had was because it made the modeling and the database itself more clear and concise. If we had attributes that made sense to group together and didnt rely on the other attributes we wanted to split those tables up. There is logic as well behind the thought process like teams should be seperated from players and games but still share a relationship. Other examples like coaches and their stats were split up since we wanted basic information to be listed about coaches but not all their stats to follow along everytime we wanted access to just the basic information (this also applies for players and player information table). The rest of the other tables we found from the dataset were already sectioned off for us to use and clean.
 
@@ -74,4 +74,32 @@ $\pagebreak$
 * Yes there are a few places that the model could have been modeled differently. A couple examples of this include the following:
     - Combining the `Player` entity and the `PlayerInformation` entity, that did not need to be seperate. 
     - The `Coach` entity and all the coaches stats like  `PlayoffGameCoachStats` and `RegularGameCoachStats` these three tables could have been just one table and be filtered in queries.
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 
+# Appendix 
+
+Dylan's contributions
+
+* Stage 1: Helped look for the datasets that connect to each other, Created the first timeline with deadlines, reviewed Johnny's work for stage 1 and made any nessacery corrections to it
+
+* Stage 2: Created Rough draft EER model in drawio and wrote the 1 paragraph reminder od chosen data, wrote all justifications rough draft
+
+* Stage 3: Created the final EER model with Johnny and Kamerons feedback, finalized justfications of EER Model and did some of the final relational model, completed Merging,normalizing and cleaning in this stage as well with documentation of my steps.
+
+* Stage 4: Wrote a few english queries while participating in review for Kameron's stage providing any feedback if possible. Made sure the EER diagram was updated for stage 4
+
+* Stage 5: Made sure the EER diagram was updated for any feedback given, did a few implementations of queries written in english and in SQL and wrote why an analyst might care about them. Participated in review again making sure final copy was well done.
+
+* Stage 6: Helped think of the design of what the interface may look like. Wrote the SQL injection prevention plan. Participated in review making sure interface design was well structured and making any comments or adjustments as needed. Kept the EER model updated
+
+* Final Project Report: Given queries for the interface to implement in Python. Started my account for authentication for where the database lives. Participated in review making sure any nessacery tweaks or bugs were fixed before final submission
