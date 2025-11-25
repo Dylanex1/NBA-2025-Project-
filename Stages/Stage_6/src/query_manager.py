@@ -413,10 +413,72 @@ class QueryManager:
         return rows
     
     def get_q9(self, game_id):
-        pass
+        sql = """
+        WITH playersGame AS (
+            SELECT
+                Team.TeamID,
+                HomePTS,
+                VisitorPTS,
+                STL,
+                FG,
+                FGA,
+                "3P",
+                "3PA",
+                AST,
+                FTA,
+                FT
+            FROM Game
+            JOIN PlayInGame ON Game.GameID = PlayInGame.GameID
+            JOIN Player ON PlayInGame.PlayerID = Player.PlayerID
+            JOIN Team ON Player.TeamID = Team.TeamID
+            WHERE Game.GameID = %s
+            )
+        SELECT
+            TeamID,
+            MAX(HomePTS) AS HomePTS,
+            MAX(VisitorPTS) AS VisitorPTS,
+            SUM(STL) AS STL,
+            SUM(FG) AS FG,
+            SUM(FGA) AS FGA,
+            SUM(FG) * 1.0 / NULLIF(SUM(FGA), 0) AS FGP,
+            SUM("3P") AS "3P",
+            SUM("3PA") AS "3PA",
+            SUM("3P") * 1.0 / NULLIF(SUM("3PA"), 0) AS "3PP",
+            SUM(FT) AS FT,
+            SUM(FTA) AS FTA,
+            SUM(FT) * 1.0 / NULLIF(SUM(FTA), 0) AS FTP,
+            SUM(AST) AS AST
+        FROM playersGame
+        GROUP BY TeamID;
+        
+        """
+        with self._connection.cursor(as_dict=True) as cursor:
+            cursor.execute(sql, (game_id,))
+            rows = cursor.fetchall()
+            
+        return rows
+        
 
     def get_q10(self, min_attempts, num_players):
-        pass
+        sql = """
+        SELECT
+            Player.PlayerID,
+            FirstName,
+            LastName,
+            SUM("3P") * 1.0 / NULLIF(SUM("3PA"), 0) AS "3PP"
+        FROM Player
+        JOIN PlayInGame ON Player.PlayerID = PlayInGame.PlayerID
+        GROUP BY Player.PlayerID, FirstName, LastName
+        HAVING SUM("3PA") > %s
+        ORDER BY "3PP" DESC
+        OFFSET 0 ROWS
+        FETCH NEXT %s ROWS ONLY;
+        """
+        with self._connection.cursor(as_dict=True) as cursor:
+            cursor.execute(sql, (min_attempts,num_players))
+            rows = cursor.fetchall()
+            
+        return rows
 
     def get_q11(self, game_id):
         sql = """
