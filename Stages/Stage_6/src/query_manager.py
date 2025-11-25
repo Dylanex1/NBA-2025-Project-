@@ -523,12 +523,12 @@ class QueryManager:
                 SELECT TeamID, TeamName
                 FROM team
                 WHERE 
-                    TeamName = %s),
+                    LOWER(TeamName) = %s),
             SecondTeamID AS(
                 SELECT TeamID, TeamName
                 FROM team
                 WHERE 
-                    TeamName = %s),
+                    LOWER(TeamName) = %s),
             CountAllMatchups AS (
                 SELECT 
                     count(DISTINCT g.gameID) as totalMatchups
