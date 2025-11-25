@@ -3,7 +3,7 @@ class QueryManager:
         self._connection = connection
 
     def get_s1(self, limit, page):
-        offset = (page - 1)*limit
+        offset = (page - 1) * limit
         sql = """
             SELECT * 
             FROM DraftCombine
@@ -17,9 +17,9 @@ class QueryManager:
             rows = cursor.fetchall()
 
         return rows
-    
+
     def get_s2(self, limit, page):
-        offset = (page - 1)*limit
+        offset = (page - 1) * limit
         sql = """
             SELECT * 
             FROM Drafts
@@ -33,7 +33,6 @@ class QueryManager:
             rows = cursor.fetchall()
 
         return rows
-        
 
     def get_s3(self):
         sql = """
@@ -48,7 +47,7 @@ class QueryManager:
             rows = cursor.fetchall()
 
         return rows
-    
+
     def get_s4(self):
         sql = """
             SELECT *
@@ -62,7 +61,7 @@ class QueryManager:
             rows = cursor.fetchall()
 
         return rows
-        
+
     def get_s5(self):
         sql = """
             SELECT * 
@@ -74,7 +73,7 @@ class QueryManager:
             rows = cursor.fetchall()
 
         return rows
-        
+
     def get_s6(self):
         sql = """
             SELECT * 
@@ -86,9 +85,9 @@ class QueryManager:
             rows = cursor.fetchall()
 
         return rows
-        
+
     def get_s7(self, limit, page):
-        offset = (page - 1)*limit
+        offset = (page - 1) * limit
         sql = """
             SELECT * 
             FROM Game
@@ -102,9 +101,9 @@ class QueryManager:
             rows = cursor.fetchall()
 
         return rows
-        
+
     def get_s8(self, limit, page):
-        offset = (page - 1)*limit
+        offset = (page - 1) * limit
         sql = """
             SELECT 
                 Player.*,
@@ -131,9 +130,9 @@ class QueryManager:
             rows = cursor.fetchall()
 
         return rows
-    
+
     def _query_team_wins(self):
-        return  """
+        return """
             SELECT
                 t.TeamID,
                 t.TeamName,
@@ -142,7 +141,7 @@ class QueryManager:
             JOIN Coach c ON RGCS.CoachID= c.CoachID
             JOIN Team t ON c.TeamID= t.TeamID
         """
-    
+
     def _query_player_stats(self):
         return """
             SELECT
@@ -172,7 +171,7 @@ class QueryManager:
             JOIN PlayInGame pIN ON p.PlayerID= pIN.PlayerID
             GROUP BY p.PlayerID, p.FirstName,p.LastName, p.TeamID
         """
-    
+
     def _query_team_stats(self):
         return """
             SELECT
@@ -189,7 +188,7 @@ class QueryManager:
             JOIN PlayerStats pS ON pS.TeamID= TW.TeamID
             GROUP BY TW.TeamID, TW.TeamName,TW.Wins
         """
-    
+
     def _team_stats_cte(self):
         return f"""
             WITH TeamWins AS (
@@ -202,7 +201,7 @@ class QueryManager:
                 {self._query_team_stats()}
             )
         """
-    
+
     def _query_player_age(self):
         return """
             SELECT
@@ -217,7 +216,7 @@ class QueryManager:
             JOIN Team t ON p.TeamID= t.TeamID
             WHERE IsActive = 1
         """
-    
+
     def _query_team_avg_age(self):
         return """
             SELECT
@@ -226,7 +225,7 @@ class QueryManager:
             FROM PlayersAge pa
             GROUP BY pa.TeamName
         """
-    
+
     def get_q1(self, num_teams):
         sql = f"""
             {self._team_stats_cte()}
@@ -242,7 +241,7 @@ class QueryManager:
             rows = cursor.fetchall()
 
         return rows
-    
+
     def get_q2(self):
         sql = """
             WITH vetCoach AS (
@@ -266,7 +265,7 @@ class QueryManager:
             rows = cursor.fetchall()
 
         return rows
-    
+
     def get_q3(self, team_name, use_avg):
         if use_avg:
             sql = f"""
@@ -299,7 +298,7 @@ class QueryManager:
             rows = cursor.fetchall()
 
         return rows
-    
+
     def get_q4(self, num_players, page):
         offset = (page - 1) * num_players
         sql = f"""
@@ -344,7 +343,7 @@ class QueryManager:
             rows = cursor.fetchall()
 
         return rows
-        
+
     def get_q6(self, team_name):
         sql = f"""
             WITH PlayerStats AS (
@@ -369,7 +368,7 @@ class QueryManager:
             rows = cursor.fetchall()
 
         return rows
-    
+
     def get_q7(self, stat, num_players):
         sql = f"""
             WITH PlayerStats AS (
@@ -411,7 +410,7 @@ class QueryManager:
             rows = cursor.fetchall()
 
         return rows
-    
+
     def get_q9(self, game_id):
         sql = """
         WITH playersGame AS (
@@ -455,9 +454,8 @@ class QueryManager:
         with self._connection.cursor(as_dict=True) as cursor:
             cursor.execute(sql, (game_id,))
             rows = cursor.fetchall()
-            
+
         return rows
-        
 
     def get_q10(self, min_attempts, num_players):
         sql = """
@@ -475,9 +473,9 @@ class QueryManager:
         FETCH NEXT %s ROWS ONLY;
         """
         with self._connection.cursor(as_dict=True) as cursor:
-            cursor.execute(sql, (min_attempts,num_players))
+            cursor.execute(sql, (min_attempts, num_players))
             rows = cursor.fetchall()
-            
+
         return rows
 
     def get_q11(self, game_id):
@@ -520,10 +518,83 @@ class QueryManager:
         return rows
 
     def get_q12(self, home_team, away_team):
-        pass
+        sql = """
+             WITH FirstTeamID AS(
+                SELECT 
+                    TeamID
+                FROM team
+                WHERE 
+                    TeamName = %s),
+            SecondTeamID AS(
+                SELECT 
+                    TeamID
+                FROM team
+                WHERE 
+                    TeamName = %s),
+            CountAllMatchups AS (
+                SELECT 
+                    count(DISTINCT g.gameID) as totalMatchups
+                FROM game g
+                WHERE 
+                    (g.HomeTeamID = (SELECT TeamID FROM FirstTeamID) 
+                    AND 
+                    g.VisitorTeamID = (SELECT TeamID FROM SecondTeamID))
+                OR 
+                    (g.HomeTeamID = (SELECT TeamID FROM SecondTeamID) 
+                    AND 
+                    g.VisitorTeamID = (SELECT TeamID FROM FirstTeamID))),
+            CountWins AS (
+                SELECT 
+                    COUNT(DISTINCT g.gameID) AS wins
+                FROM game g
+                WHERE 
+                    (g.HomeTeamID = (SELECT TeamID FROM FirstTeamID) 
+                    AND 
+                    g.VisitorTeamID = (SELECT TeamID FROM SecondTeamID) 
+                    AND 
+                    g.HomePTS > g.VisitorPTS)
+                OR 
+                    (g.HomeTeamID = (SELECT TeamID FROM SecondTeamID) 
+                    AND 
+                    g.VisitorTeamID = (SELECT TeamID FROM FirstTeamID) 
+                    AND 
+                    g.VisitorPTS > g.HomePTS))
+            SELECT 
+                ROUND(
+                    CAST((SELECT wins FROM COUNTWINS) AS FLOAT)/
+                    NULLIF((select totalMatchups from CountAllMatchups),0),3) * 100 AS winPCT
+      
+       """
+        with self._connection.cursor(as_dict=True) as cursor:
+            cursor.execute(sql, (away_team, home_team))
+            rows = cursor.fetchall()
+
+        return rows
 
     def get_q13(self, min_winrate):
-        pass
+        sql = """
+            WITH CoachesInRecentPlayoff as(
+                SELECT 
+                    CoachID
+                FROM PlayoffGameCoachStats PGCS
+                WHERE PlayoffsOverallG > 0)
+                SELECT 
+                    CoachName, 
+                   ROUND(CAST(PGCS.PlayoffsOverallW AS FLOAT)/ NULLIF(PGCS.PlayoffsOverallG,0),3) AS overallWinRate
+                FROM Coach 
+                JOIN PlayoffGameCoachStats AS PGCS
+                ON Coach.CoachID = PGCS.CoachID
+                WHERE (CAST(PGCS.PlayoffsOverallW AS FLOAT)/ NULLIF(PGCS.PlayoffsOverallG,0)) >= %s
+                AND 
+                PGCS.coachID IN (SELECT CoachID from CoachesInRecentPlayoff)
+                ORDER BY overallWinRate DESC; 
+        """
+
+        with self._connection.cursor(as_dict=True) as cursor:
+            cursor.execute(sql, (min_winrate,))
+            rows = cursor.fetchall()
+
+        return rows
 
     def get_q14(self, min_teams):
         sql = """
@@ -552,6 +623,3 @@ class QueryManager:
             rows = cursor.fetchall()
 
         return rows
-
-        
-        
