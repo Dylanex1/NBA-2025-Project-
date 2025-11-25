@@ -26,7 +26,7 @@ class Interface:
     COMPLEX_CMDS = [
         "q1 <N>", "q2", "q3 \"<team_name>\" [--avg]", "q4 <limit> <page>", "q5",
         "q6 \"<team_name>\"", "q7 <stat> <N>", "q8 \"<team_name>\"", "q9 <game_id>",
-        "q10 <min_attempts> <N>", "q11 <game_id>", "q12 \"<home_name>\" \"<away_name>\"",
+        "q10 <min_attempts> <N>", "q11 <game_id>", "q12 \"<team1_name>\" \"<team2_name>\"",
         "q13 <min_winrate>", "q14 <N>"
     ]
     SYSTEM_CMDS = [
@@ -58,7 +58,7 @@ class Interface:
         "Show both teams' stats for a specific game",
         "Show the top N players ordered by 3P% with a minimum attempt requirement",
         "Show centers that are 6\"5+ and their points in a specific game",
-        "Show a home team's win percentage against a specific visiting team",
+        "Shows the win percentage of \"<team1_name>\" against \"<team2_name>\"",
         "Show coaches with a playoff winrate ≥ a decimal input (ex. 0.75)",
         "Show arenas where at least <N> different teams have won at least once"
     ]
@@ -98,7 +98,7 @@ class Interface:
             "q9" : {"argc" : 1, "run" : self._database_manager.run_q9, "usage" : "q9 <game_id>"},
             "q10" : {"argc" : 2, "run" : self._database_manager.run_q10, "usage" : "q10 <min_attempts> <N>"},
             "q11" : {"argc" : 1, "run" : self._database_manager.run_q11, "usage" : "q11 <game_id>"},
-            "q12" : {"argc" : 2, "run" : self._database_manager.run_q12, "usage" : "q12 \"<home_name>\" \"<away_name>\""},
+            "q12" : {"argc" : 2, "run" : self._database_manager.run_q12, "usage" : "q12 \"<team1_name>\" \"<team2_name>\""},
             "q13" : {"argc" : 1, "run" : self._database_manager.run_q13, "usage" : "q13 <min_winrate>"},
             "q14" : {"argc" : 1, "run" : self._database_manager.run_q14, "usage" : "q14 <N>"},
         }

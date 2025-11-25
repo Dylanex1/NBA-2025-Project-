@@ -517,17 +517,15 @@ class QueryManager:
 
         return rows
 
-    def get_q12(self, home_team, away_team):
+    def get_q12(self, team1, team2):
         sql = """
-             WITH FirstTeamID AS(
-                SELECT 
-                    TeamID
+            WITH FirstTeamID AS(
+                SELECT TeamID, TeamName
                 FROM team
                 WHERE 
                     TeamName = %s),
             SecondTeamID AS(
-                SELECT 
-                    TeamID
+                SELECT TeamID, TeamName
                 FROM team
                 WHERE 
                     TeamName = %s),
@@ -558,15 +556,19 @@ class QueryManager:
                     AND 
                     g.VisitorTeamID = (SELECT TeamID FROM FirstTeamID) 
                     AND 
-                    g.VisitorPTS > g.HomePTS))
-            SELECT 
+                                g.VisitorPTS > g.HomePTS))
+            SELECT
+                f.TeamName AS Team1,
+                s.TeamName AS Team2,
                 ROUND(
-                    CAST((SELECT wins FROM COUNTWINS) AS FLOAT)/
-                    NULLIF((select totalMatchups from CountAllMatchups),0),3) * 100 AS winPCT
-      
+                    CAST((SELECT wins FROM CountWins) AS FLOAT) /
+                    NULLIF((SELECT totalMatchups FROM CountAllMatchups), 0),
+                    3
+                ) * 100 AS WinPct
+            FROM FirstTeamID f, SecondTeamID s;
        """
         with self._connection.cursor(as_dict=True) as cursor:
-            cursor.execute(sql, (away_team, home_team))
+            cursor.execute(sql, (team1, team2))
             rows = cursor.fetchall()
 
         return rows

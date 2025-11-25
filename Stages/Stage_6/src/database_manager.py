@@ -258,12 +258,12 @@ class DatabaseManager:
         if game_id is not None:
             return self._query_manager.get_q11(game_id)
         
-    def run_q12(self, home_name, away_name):
-        parts_home = home_name.strip().split()
-        parts_away = away_name.strip().split()
-        home = ' '.join(parts_home)
-        away = ' '.join(parts_away)
-        return self._query_manager.get_q12(home, away)
+    def run_q12(self, team1_name, team2_name):
+        parts_t1 = team1_name.strip().split()
+        parts_t2 = team2_name.strip().split()
+        t1 = ' '.join(parts_t1)
+        t2= ' '.join(parts_t2)
+        return self._query_manager.get_q12(t1, t2)
 
     def run_q13(self, min_winrate_str):
         min_winrate = self._parse_winrate(min_winrate_str)
