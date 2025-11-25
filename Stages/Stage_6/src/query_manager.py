@@ -439,13 +439,13 @@ class QueryManager:
             SUM(STL) AS STL,
             SUM(FG) AS FG,
             SUM(FGA) AS FGA,
-            SUM(FG) * 1.0 / NULLIF(SUM(FGA), 0) AS FGP,
+            CAST(ROUND(SUM(FG) * 1.0 / NULLIF(SUM(FGA), 0), 3) AS FLOAT) AS FGP,
             SUM("3P") AS "3P",
             SUM("3PA") AS "3PA",
-            SUM("3P") * 1.0 / NULLIF(SUM("3PA"), 0) AS "3PP",
+            CAST(ROUND(SUM("3P") * 1.0 / NULLIF(SUM("3PA"), 0), 3) AS FLOAT) AS "3PP",
             SUM(FT) AS FT,
             SUM(FTA) AS FTA,
-            SUM(FT) * 1.0 / NULLIF(SUM(FTA), 0) AS FTP,
+            CAST(ROUND(SUM(FT) * 1.0 / NULLIF(SUM(FTA), 0), 3) AS FLOAT) AS FTP,
             SUM(AST) AS AST
         FROM playersGame
         GROUP BY TeamID;
@@ -463,7 +463,7 @@ class QueryManager:
             Player.PlayerID,
             FirstName,
             LastName,
-            SUM("3P") * 1.0 / NULLIF(SUM("3PA"), 0) AS "3PP"
+            CAST(ROUND(SUM("3P") * 1.0 / NULLIF(SUM("3PA"), 0), 3) AS FLOAT) AS "3PP"
         FROM Player
         JOIN PlayInGame ON Player.PlayerID = PlayInGame.PlayerID
         GROUP BY Player.PlayerID, FirstName, LastName

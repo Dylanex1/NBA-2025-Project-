@@ -1,27 +1,34 @@
 ---
 output:
-  pdf_document: default
-  html_document: default
+  pdf_document:
+    latex_engine: pdflatex
+  word_document: default
+header-includes:
+  - \usepackage{float}
+  - \usepackage{graphicx}
+  - \usepackage{caption}
 ---
-\begin{center}
-{\Huge Comp 3380 Project NBA 2024-2025 Database}
-\end {center}
 
+\begin{titlepage}
+\centering
 
+{\Huge \textbf{COMP 3380 Final Project}}\\[0.5cm]
+{\Large \textbf{NBA 2024–2025 Relational Database}}\\[2cm]
 
+{\Large \textbf{Group Members}}\\[0.5cm]
 
+{\large
+Dylan Beyak — UserID: 7974864\\[0.3cm]
+Johnny Lee — UserID: 7890682\\[0.3cm]
+Kameron Toews — UserID: (add id)\\
+}
 
+\vfill
 
-\vspace{3cm}
+{\large University of Manitoba}\\
+{\large December 2025}
 
-
-
-\begin{center}
-{\Large By: Dylan Beyak Userid: 7974864, Johnny Lee Userid:, Kameron Toews Userid:}
-\end {center}
-
-
-$\pagebreak$
+\end{titlepage}
 
 
 # Overwiew of project and summary of data
@@ -72,17 +79,57 @@ $\pagebreak$
 * No, we do not regret the changes that we made in our model but there were decisions that we had to adjust. This was more at the later stage when it came to the queries. The first one being drafts is not enough to find what team is a player on most recently since trades happen in the NBA so we had to implement this by changing the data model and correctly implementing the change in the data. Secondly, the way we stored teamIDs in the games table we did not need to have a relationship between team and game since we can path our way through joining players.
 
 * Yes there are a few places that the model could have been modeled differently. A couple examples of this include the following:
-    - Combining the `Player` entity and the `PlayerInformation` entity, that did not need to be seperate. 
-    - The `Coach` entity and all the coaches stats like  `PlayoffGameCoachStats` and `RegularGameCoachStats` these three tables could have been just one table and be filtered in queries.
+
+  - Combining the `Player` entity and the `PlayerInformation` entity, that did not need to be seperate. 
+
+  - The `Coach` entity and all the coaches stats like  `PlayoffGameCoachStats` and `RegularGameCoachStats` these three tables could have been just one table and be filtered in queries.
     
     
-    
-    
-    
-    
-    
-    
-    
+# Discussion of the database
+
+For our project, we implemented our database using Microsoft SQL Server (`MSSQL`) hosted on `uranium.cs.umanitoba.ca` as instructed. We connected to uranium using `pymssql`. `MSSQL` was a bit different than using `sqlite3` like we did in class, but the differences were small, which made it easy to adjust.
+
+The tables were created using an SQL script that was loaded into Python and executed by `pymssql`. For all text variables, we used `VARCHAR(100)` to ensure all text data would fit within the column. We also used `CHECK(LEN(attribute) > 0)` to ensure that text values were not empty strings. Our database had `MSSQL` keywords such as `State`, `Date`, `Length`, and `Weight` as column names in some of our tables. To tell `MSSQL` that an attribute name was being used literally and not as a keyword, we wrapped it in square brackets (for example, `[attribute]`).
+
+For date columns, we added constraints to ensure the values were valid. For example, `[Date] DATE CHECK(YEAR([Date]) >= 2024)` ensured each game had a date in 2024, since our database only contained games from the 2024–2025 season. For integer columns, we validated ranges such as `RegFranchiseG INT CHECK(RegFranchiseG >= 0)` which ensured that a coach could not have a negative number of regular-season franchise games. Lastly, for columns that could only take on certain values, we used `CHECK` constraints. For example, `DraftType VARCHAR(20) CHECK (DraftType IN ('Draft', 'Territorial'))` ensured each row had a valid draft type.
+
+Whenever a table referenced an attribute from another table, `MSSQL` enforced referential integrity and ensured that the referenced value existed. One issue we encountered occurred when inserting rows into the `Game` table. Some games referenced arenas that did not exist in the `Arena` table, so we set the `Arena` value in the `Game` table to `NULL` for those rows.
+
+We loaded the data into the database using the `dataloader.py` file. This file read the CSV files into Python using pandas to create DataFrames. Then each row was inserted using a prepared insert statement. In this file, we also implemented a helper method `_check_null` to convert pandas `NaN` values into `None` in Python, which were then converted into `NULL` values in `MSSQL`. Many CSV files required preprocessing, such as trimming whitespace, standardizing string values, removing invalid foreign keys, and replacing placeholder values with `NULL`.
+
+Finally, we normalized the data in Python using pandas, including assigning IDs to tables that did not originally have them and ensuring that each table referencing foreign keys referenced the correct ones. Because of this preprocessing, we did not rely on auto-incrementing for IDs.
+
+# Description of Interface
+
+Our project uses a command-line interface (CLI) with an orange basketball-themed colour scheme, since we're working with NBA data. When the program is run, the user is greeted with a welcome message that briefly describes the database and the information available to them. The welcome message instructs the user to type `help` to see a list of available commands. All query results are printed using dynamically sized columns with orange headers that are underlined for readability. 
+
+The help menu is divided into three sections. The first section lists the simple queries, which display entire tables. These simple queries are used as reference tools for getting the input needed for complex queries. For example, if a complex query requires a GameID, the user should run the game table query to find the GameID of interest, then use that value as input for the complex query. The second section lists the complex queries. Finally, the third section lists system-level commands like clearing or repopulating the database, clearing the screen, or exiting the program. Each command in the help menu includes the command the user must enter, along with any parameters, and a short description of what the command does.
+
+The interface is implemented in Python and is split into 3 different python files which are `interface.py`, `database_manager.py`, and `query_manager.py`. In `database_manager.py`, we created the `DatabaseManager` class, which serves as the central manager for all database operations. It manages the connection by reading the configuration file and runs SQL scripts to create tables, as well as clear the entire database. It also orchestrates data loading and querying through its `DataLoader` (defined in `dataloader.py`) and `QueryManager` (defined in `query_manager.py`) instance variables. In the `query_manager.py`, we defined the `QueryManager` class, which handles all queries sent to SQL Server, again using prepared statements to prevent SQL injection. Finally, we created an `Interface` class that handles user interaction. It displays the welcome message, help menu, and neatly formatted query results. Additionally, it parses user input and sends commands to the `DatabaseManager`.
+
+$\pagebreak$
+
+## Diagrams of Interface
+
+Below are 3 screenshots of the interface in action.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.8\textwidth]{welcome.png}
+\caption{Welcome Message Screenshot}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.8\textwidth]{help.png}
+\caption{Help Menu Screenshot}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.8\textwidth]{query.png}
+\caption{Query Results Screenshot}
+\end{figure}
     
     
 
@@ -90,16 +137,36 @@ $\pagebreak$
 
 Dylan's contributions
 
-* Stage 1: Helped look for the datasets that connect to each other, Created the first timeline with deadlines, reviewed Johnny's work for stage 1 and made any nessacery corrections to it
+* Stage 1: Helped look for the datasets that connect to each other, created the first timeline with deadlines, reviewed Johnny's work for stage 1 and made any necessary corrections to it
 
-* Stage 2: Created Rough draft EER model in drawio and wrote the 1 paragraph reminder od chosen data, wrote all justifications rough draft
+* Stage 2: Created Rough draft EER model in drawio and wrote the 1 paragraph reminder of chosen data, wrote all justifications rough draft
 
-* Stage 3: Created the final EER model with Johnny and Kamerons feedback, finalized justfications of EER Model and did some of the final relational model, completed Merging,normalizing and cleaning in this stage as well with documentation of my steps.
+* Stage 3: Created the final EER model with Johnny and Kameron's feedback, finalized justifications of EER Model and did some of the final relational model, completed Merging, normalizing and cleaning in this stage as well with documentation of my steps.
 
-* Stage 4: Wrote a few english queries while participating in review for Kameron's stage providing any feedback if possible. Made sure the EER diagram was updated for stage 4
+* Stage 4: Wrote a few English queries while participating in review for Kameron's stage providing any feedback if possible. Made sure the EER diagram was updated for stage 4
 
-* Stage 5: Made sure the EER diagram was updated for any feedback given, did a few implementations of queries written in english and in SQL and wrote why an analyst might care about them. Participated in review again making sure final copy was well done.
+* Stage 5: Made sure the EER diagram was updated for any feedback given, did a few implementations of queries written in English and in SQL and wrote why an analyst might care about them. Participated in review again making sure final copy was well done.
 
 * Stage 6: Helped think of the design of what the interface may look like. Wrote the SQL injection prevention plan. Participated in review making sure interface design was well structured and making any comments or adjustments as needed. Kept the EER model updated
 
-* Final Project Report: Given queries for the interface to implement in Python. Started my account for authentication for where the database lives. Participated in review making sure any nessacery tweaks or bugs were fixed before final submission
+* Final Project Report: Given queries for the interface to implement in Python. Started my account for authentication for where the database lives. Participated in review making sure any necessary tweaks or bugs were fixed before final submission
+
+
+Johnny's contributions
+
+* Stage 1: I was the organizer for this stage, meaning I did the bulk of the work. I found most of the datasets, did most of the Stage 1 write-up, and asked my group members for feedback.
+
+* Stage 2: I helped review Dylan's work and made corrections where I felt it was necessary.
+
+* Stage 3: Helped refine the EER diagram and assisted Dylan with normalizing the dataset. I completed my portion of the normalization using `pandas` in Python.
+
+* Stage 4: I helped review Kameron's work and made corrections where I felt they were necessary. I also wrote a few English queries.
+
+* Stage 5: Wrote queries 9, 10, and 14, as well as reviewed Dylan’s and Kameron’s queries. I also helped ensure the EER diagram was correct up to this point.
+
+* Stage 6 + Final Project Submission: I was the organizer for this stage, so I took the lead on implementing the command-line interface. This included planning the codebase architecture by separating the system into `interface.py`, `database_manager.py`, `query_manager.py`, `data_loader.py`, and `main.py`. I implemented the user interaction logic, formatted query outputs, created the help menu and welcome message, and integrated all system-level commands, including creating, clearing, and populating the database. I also wrote most of the write-up, as well as worked with my group members and incorporated their feedback throughout the process. 
+
+* Final report: Wrote the **discussion of database** and **description of interface** sections.
+
+
+

@@ -127,7 +127,6 @@ class DatabaseManager:
         self._data_loader.load_draft_combine()
         self._data_loader.load_organization()
         self._data_loader.load_drafts()
-        self._data_loader.create_team_wins_view()
 
     def populate_database(self):
         self._create_tables()
