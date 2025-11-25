@@ -1,0 +1,904 @@
+OrganizationID,OrganizationName,OrganizationType
+1,Texas-El Paso,College/University
+2,Wisconsin,College/University
+3,Purdue,College/University
+4,Connecticut,College/University
+5,Long Island-Brooklyn,College/University
+6,Pennsylvania,College/University
+7,Ohio State,College/University
+8,Santa Clara,College/University
+9,Vermont,College/University
+10,Oregon,College/University
+11,St. Mary's (MD),College/University
+12,San Francisco,College/University
+13,Toledo,College/University
+14,West Virginia,College/University
+15,High Point,College/University
+16,Houston,College/University
+17,Penn State,College/University
+18,Northwestern,College/University
+19,Minnesota,College/University
+20,DePaul,College/University
+21,Oregon State,College/University
+22,Harvard,College/University
+23,Utah,College/University
+24,Akron,College/University
+25,Kentucky,College/University
+26,Illinois,College/University
+27,Stanford,College/University
+28,New York University,College/University
+29,Denver,College/University
+30,William & Mary,College/University
+31,Rhode Island,College/University
+32,Truman State,College/University
+33,Georgia Tech,College/University
+34,Iowa,College/University
+35,Springfield,College/University
+36,George Washington,College/University
+37,Notre Dame,College/University
+38,Washington,College/University
+39,West Texas A&M,College/University
+40,Kansas State,College/University
+41,Kansas,College/University
+42,Texas Tech,College/University
+43,St. Mary's (CA),College/University
+44,Saint Louis,College/University
+45,Findlay,College/University
+46,Southern Methodist,College/University
+47,Saint Joseph's,College/University
+48,York (PA),College/University
+49,Duke,College/University
+50,Washington & Jefferson,College/University
+51,St. Thomas (MN),College/University
+52,Bates,College/University
+53,Hofstra,College/University
+54,Louisville,College/University
+55,Oklahoma State,College/University
+56,Wyoming,College/University
+57,Temple,College/University
+58,Marshall,College/University
+59,Arkansas,College/University
+60,Columbia,College/University
+61,Cornell,College/University
+62,Indiana,College/University
+63,California,College/University
+64,Seton Hall,College/University
+65,Western Kentucky,College/University
+66,Gustavus Adolphus,College/University
+67,Southern Illinois,College/University
+68,Louisiana State,College/University
+69,Tulane,College/University
+70,Niagara,College/University
+71,Canisius,College/University
+72,Syracuse,College/University
+73,Idaho,College/University
+74,Sam Houston State,College/University
+75,Beloit,College/University
+76,North Carolina,College/University
+77,Texas Wesleyan,College/University
+78,City College of New York,College/University
+79,Eastern Kentucky,College/University
+80,Southern California,College/University
+81,Tennessee,College/University
+82,North Carolina State,College/University
+83,Georgetown,College/University
+84,Rider,College/University
+85,Bowling Green,College/University
+86,Texas A&M-Commerce,College/University
+87,DePauw,College/University
+88,Fordham,College/University
+89,Marquette,College/University
+90,Ohio,College/University
+91,Brigham Young,College/University
+92,Rice,College/University
+93,Holy Cross,College/University
+94,Colgate,College/University
+95,Iowa State,College/University
+96,Loras,College/University
+97,Murray State,College/University
+98,Wheaton (IL),College/University
+99,Siena,College/University
+100,East Central,College/University
+101,California-Los Angeles,College/University
+102,Maryland,College/University
+103,Pepperdine,College/University
+104,Kansas Wesleyan,College/University
+105,Trinity (TX),College/University
+106,Arizona State,College/University
+107,Drake,College/University
+108,Dickinson,College/University
+109,Washington (MO),College/University
+110,San Jose State,College/University
+111,Missouri,College/University
+112,Louisiana Tech,College/University
+113,Occidental,College/University
+114,Newberry,College/University
+115,Wittenberg,College/University
+116,Arkansas State,College/University
+117,Lebanon Valley,College/University
+118,Washington State,College/University
+119,American International,College/University
+120,Moravian,College/University
+121,Arizona,College/University
+122,Humboldt State,College/University
+123,Yale,College/University
+124,St. John's (NY),College/University
+125,Loyola-Chicago,College/University
+126,Nebraska,College/University
+127,Northwestern Oklahoma State,College/University
+128,Missouri State,College/University
+129,Loyola-Maryland,College/University
+130,Baylor,College/University
+131,St. Francis Brooklyn,College/University
+132,Xavier,College/University
+133,Kenyon,College/University
+134,Lafayette,College/University
+135,Butler,College/University
+136,Indiana State,College/University
+137,Michigan,College/University
+138,Dartmouth,College/University
+139,Muhlenberg,College/University
+140,Hamline,College/University
+141,Western Michigan,College/University
+142,Denver Junior College,College/University
+143,Colby,College/University
+144,Missouri Valley,College/University
+145,Emporia State,College/University
+146,Oklahoma,College/University
+147,Alabama,College/University
+148,Florida,College/University
+149,La Salle,College/University
+150,Texas Christian,College/University
+151,Morehead State,College/University
+152,John Carroll,College/University
+153,Southwestern (KS),College/University
+154,Swarthmore,College/University
+155,Wisconsin-River Falls,College/University
+156,Kent State,College/University
+157,Valparaiso,College/University
+158,Bradley,College/University
+159,Georgia,College/University
+160,Mercer,College/University
+161,Charleston (WV),College/University
+162,West Virginia State,College/University
+163,Duquesne,College/University
+164,Northwest Missouri State,College/University
+165,Vanderbilt,College/University
+166,Brown,College/University
+167,St. Bonaventure,College/University
+168,Villanova,College/University
+169,Montana,College/University
+170,San Diego State,College/University
+171,Appalachian State,College/University
+172,Rutgers,College/University
+173,Princeton,High School
+174,Cincinnati,College/University
+175,Virginia,College/University
+176,Northwestern State,College/University
+177,Colorado State,College/University
+178,Millikin,College/University
+179,Le Moyne,College/University
+180,Central Missouri,College/University
+181,South Carolina,College/University
+182,Mississippi State,College/University
+183,Evansville,College/University
+184,Ohio Wesleyan,College/University
+185,American,College/University
+186,St. Peter's,College/University
+187,Indianapolis,College/University
+188,Arkansas Tech,College/University
+189,King's (NY),College/University
+190,Colorado,College/University
+191,Ithaca,College/University
+192,Texas A&M,College/University
+193,Whitworth,College/University
+194,Union (TN),College/University
+195,Memphis,College/University
+196,Florida State,College/University
+197,Washington & Lee,College/University
+198,Michigan State,College/University
+199,New Mexico State,College/University
+200,Utah State,College/University
+201,Lawrence Tech,College/University
+202,Baldwin Wallace,College/University
+203,Clemson,College/University
+204,New Mexico,College/University
+205,Huron,College/University
+206,Dayton,College/University
+207,Maryland-Eastern Shore,College/University
+208,Texas State,College/University
+209,Spring Hill,College/University
+210,Youngstown State,College/University
+211,Oklahoma City,College/University
+212,McDaniel,College/University
+213,West Liberty,College/University
+214,Southern Mississippi,College/University
+215,Eastern Illinois,College/University
+216,Centenary (LA),College/University
+217,Wofford,College/University
+218,Tulsa,College/University
+219,Manhattan,College/University
+220,Miami (FL),College/University
+221,Loyola-Marymount,College/University
+222,Regis (CO),College/University
+223,Seattle,College/University
+224,Iona,College/University
+225,Detroit Mercy,College/University
+226,North Dakota,College/University
+227,Furman,College/University
+228,St. Anselm,College/University
+229,West Virginia Tech,College/University
+230,Clarion,College/University
+231,Cornell College,College/University
+232,Fairleigh Dickinson,College/University
+233,Benedictine (KS),College/University
+234,Navy,College/University
+235,Pittsburgh,College/University
+236,Brandeis,College/University
+237,Franklin & Marshall,College/University
+238,East Carolina,College/University
+239,Point Loma Nazarene,College/University
+240,Concord,College/University
+241,Lycoming,College/University
+242,Polytechnic (NY),College/University
+243,Boston College,College/University
+244,Taylor (IN),College/University
+245,Hastings,College/University
+246,Massachusetts Dartmouth,College/University
+247,Idaho State,College/University
+248,Georgia Southern,College/University
+249,Cal State-Los Angeles,College/University
+250,Grambling,College/University
+251,North Carolina Central,College/University
+252,Midwestern State,College/University
+253,McNeese State,College/University
+254,Rio Grande,College/University
+255,Tennessee Tech,College/University
+256,Wichita State,College/University
+257,Boston University,College/University
+258,Mount St. Mary's,College/University
+259,Southeastern Oklahoma State,College/University
+260,Western Illinois,College/University
+261,Wayne State (MI),College/University
+262,Lenoir-Rhyne,College/University
+263,Texas,College/University
+264,Saint Michael's,College/University
+265,Kentucky Wesleyan,College/University
+266,Kentucky State,College/University
+267,Texas Southern,College/University
+268,North Dakota State,College/University
+269,Mississippi,College/University
+270,Dakota Wesleyan,College/University
+271,Macalester,College/University
+272,New York Tech,College/University
+273,Florida Southern,College/University
+274,Franciscan,College/University
+275,Saint Francis (PA),College/University
+276,Rockhurst,College/University
+277,Thomas More,College/University
+278,Loyola (LA),College/University
+279,Coe,College/University
+280,Alabama State,College/University
+281,Tennessee State,College/University
+282,Fresno State,College/University
+283,Scranton,College/University
+284,Georgetown (KY),College/University
+285,Pacific Lutheran,College/University
+286,Hardin-Simmons,College/University
+287,North Texas,College/University
+288,Davis & Elkins,College/University
+289,Lake Superior State,College/University
+290,Hope,College/University
+291,St. Cloud State,College/University
+292,Providence,College/University
+293,Wake Forest,College/University
+294,Pacific,College/University
+295,West Virginia Wesleyan,College/University
+296,North Carolina A&T,College/University
+297,Christian Brothers,College/University
+298,Gonzaga,College/University
+299,Hawaii,College/University
+300,Creighton,College/University
+301,Auburn,College/University
+302,Montana State,College/University
+303,Portland,College/University
+304,Winston-Salem State,College/University
+305,Virginia Tech,College/University
+306,East Tennessee State,College/University
+307,Belmont Abbey,College/University
+308,South Dakota State,College/University
+309,Virginia Union,College/University
+310,Jackson State,College/University
+311,Pikeville,College/University
+312,Northern State,College/University
+313,Hampton,College/University
+314,Doane,College/University
+315,Wabash,College/University
+316,Milwaukee,College/University
+317,Northern Michigan,College/University
+318,Allan Hancock College,College/University
+319,Concordia (MO),College/University
+320,SUNY Brockport,College/University
+321,Monmouth,College/University
+322,Prairie View A&M,College/University
+323,Eastern,High School
+324,Jacksonville,College/University
+325,Citadel,College/University
+326,Lawrence,College/University
+327,Texas-Pan American,College/University
+328,Elizabeth City State,College/University
+329,Carson-Newman,College/University
+330,Pratt,College/University
+331,Maine,College/University
+332,Lewis,College/University
+333,Williams,College/University
+334,Caltech,College/University
+335,Western Carolina,College/University
+336,Delaware,College/University
+337,Florida A&M,College/University
+338,Westminster (PA),College/University
+339,Howard Payne,College/University
+340,Philadelphia University,College/University
+341,Lakeland,College/University
+342,Oklahoma Christian,College/University
+343,Southeast Missouri State,College/University
+344,Northern Iowa,College/University
+345,Virginia State,College/University
+346,Lewis & Clark,College/University
+347,Chapman,College/University
+348,Clark (MA),College/University
+349,St. Mary of the Plains,College/University
+350,Abilene Christian,College/University
+351,Randolph-Macon,College/University
+352,Morris Brown,College/University
+353,Sir George Williams (CAN),College/University
+354,Virginia Military Institute,College/University
+355,Davidson,College/University
+356,Elon,College/University
+357,Arkansas-Pine Bluff,College/University
+358,Southern University,College/University
+359,Long Beach State,College/University
+360,Ouachita Baptist,College/University
+361,Central State (OH),College/University
+362,Alliance,College/University
+363,North Carolina-Wilmington,College/University
+364,Dillard,College/University
+365,Louisiana-Lafayette,College/University
+366,Hiram,College/University
+367,Miles,College/University
+368,Cleveland State,College/University
+369,Augsburg,College/University
+370,Benedict,College/University
+371,Albany State (GA),College/University
+372,Fairfield,College/University
+373,Oklahoma Baptist,College/University
+374,Hiram Scott,College/University
+375,Nebraska-Omaha,College/University
+376,Cheyney,College/University
+377,Bethune-Cookman,College/University
+378,South Carolina State,College/University
+379,California-Santa Barbara,College/University
+380,Nevada-Las Vegas,College/University
+381,Santa Fe,College/University
+382,Otterbein,College/University
+383,Lincoln (MO),College/University
+384,Albuquerque,College/University
+385,Massachusetts Lowell,College/University
+386,San Francisco State,College/University
+387,Northeastern,College/University
+388,New Haven,College/University
+389,United States International,College/University
+390,New Mexico Highlands,College/University
+391,Richmond,College/University
+392,Erskine,College/University
+393,Northwood (MI),College/University
+394,Minnesota-Morris,College/University
+395,Detroit Tech,College/University
+396,Morningside,College/University
+397,Edinboro,College/University
+398,Guilford,College/University
+399,Northeastern State,College/University
+400,Miami (OH),College/University
+401,Weber State,College/University
+402,Saint Benedict's Preparatory School,High School
+403,Voorhees,College/University
+404,Dickinson State,College/University
+405,Hillsdale,College/University
+406,Colorado State-Pueblo,College/University
+407,Alcorn State,College/University
+408,Ashland,College/University
+409,Clark Atlanta,College/University
+410,Rochester Tech,College/University
+411,Presbyterian,College/University
+412,Lane,College/University
+413,Wisconsin-Oshkosh,College/University
+414,Louisiana-Monroe,College/University
+415,Massachusetts,College/University
+416,California (PA),College/University
+417,Southeastern Louisiana,College/University
+418,Missouri-St. Louis,College/University
+419,Tennessee Wesleyan,College/University
+420,Central Washington,College/University
+421,Norfolk State,College/University
+422,Wisconsin-Stout,College/University
+423,South Dakota,College/University
+424,Catawba,College/University
+425,Huston-Tillotson,College/University
+426,Grove City,College/University
+427,Westmar,College/University
+428,Sacramento State,College/University
+429,Transylvania,College/University
+430,Northern Illinois,College/University
+431,Middle Tennessee State,College/University
+432,Cal State-Northridge,College/University
+433,Southampton,College/University
+434,Carthage,College/University
+435,Puget Sound,College/University
+436,Boston State,College/University
+437,La Verne,College/University
+438,St. John Fisher,College/University
+439,Seattle Pacific,College/University
+440,Augusta State,College/University
+441,California-Riverside,College/University
+442,Tuskegee,College/University
+443,Shepherd,College/University
+444,Western New Mexico,College/University
+445,California-Irvine,College/University
+446,Oglethorpe,College/University
+447,Robert Morris,College/University
+448,Tougaloo,College/University
+449,Jacksonville State,College/University
+450,Central Connecticut State,College/University
+451,Air Force,College/University
+452,Illinois State,College/University
+453,Acadia (CAN),College/University
+454,Northern Arizona,College/University
+455,Stephen F. Austin,College/University
+456,Fort Valley State,College/University
+457,Stetson,College/University
+458,Austin Peay,College/University
+459,Eastern Michigan,College/University
+460,Hanover,College/University
+461,Eastern New Mexico,College/University
+462,Louisiana College,College/University
+463,Drury,College/University
+464,Adams State,College/University
+465,Paul Quinn,College/University
+466,Wiley,College/University
+467,Army,College/University
+468,Windham,College/University
+469,Michigan Lutheran,College/University
+470,Wagner,College/University
+471,Nevada-Reno,College/University
+472,Henderson State,College/University
+473,Sul Ross State,College/University
+474,Yankton,College/University
+475,Fisk,College/University
+476,Pallacanestro Varese (Italy),Other Team/Club
+477,Bellarmine,College/University
+478,Saint Joseph's (IN),College/University
+479,Tufts,College/University
+480,Old Dominion,College/University
+481,Aurora,College/University
+482,Buffalo State,College/University
+483,Alderson Broaddus,College/University
+484,Linfield,College/University
+485,McKendree,College/University
+486,Boise State,College/University
+487,St. Mary's (TX),College/University
+488,Azusa Pacific,College/University
+489,Concordia-Saint Paul,College/University
+490,Saint Mary (KS),College/University
+491,Southwestern Oklahoma,College/University
+492,Baltimore,College/University
+493,Savannah State,College/University
+494,Phillips,College/University
+495,Gannon,College/University
+496,William Carey,College/University
+497,Assumption,College/University
+498,College of New Jersey,College/University
+499,Lamar,College/University
+500,Central Michigan,College/University
+501,Whittier,College/University
+502,Saint Leo,College/University
+503,Lipscomb,College/University
+504,Quinnipiac,College/University
+505,New Hampshire,College/University
+506,New Orleans,College/University
+507,Delaware Valley,College/University
+508,Columbus State,College/University
+509,Suffolk,College/University
+510,Valdosta State,College/University
+511,Johnson C. Smith,College/University
+512,Great Falls,College/University
+513,Bishop,College/University
+514,Wisconsin-La Crosse,College/University
+515,Asociacion Deportiva Mexicana de Basquetbol (Mexico),Other Team/Club
+516,Shaw,College/University
+517,Wisconsin-Eau Claire,College/University
+518,Belhaven,College/University
+519,Gardner-Webb,College/University
+520,Belmont,College/University
+521,Sacred Heart,College/University
+522,LeMoyne-Owen,College/University
+523,Pine Manor,College/University
+524,Fayetteville State,College/University
+525,Saint Augustine's,College/University
+526,South Alabama,College/University
+527,Portland State,College/University
+528,Oral Roberts,College/University
+529,Valley City State,College/University
+530,Ferris State,College/University
+531,Merrimack,College/University
+532,Morehouse,College/University
+533,Ball State,College/University
+534,Benedictine (IL),College/University
+535,Rocky Mountain,College/University
+536,Paine,College/University
+537,Nicholls State,College/University
+538,Johns Hopkins,College/University
+539,Montana Western,College/University
+540,Bethel (TN),College/University
+541,Houston Baptist,College/University
+542,Stonehill,College/University
+543,Westmont,College/University
+544,Missouri Southern State,College/University
+545,Tennessee-Chattanooga,College/University
+546,Bridgewater State,College/University
+547,Elmhurst,College/University
+548,Bay College,College/University
+549,Long Island Post,College/University
+550,Samford,College/University
+551,Buffalo,College/University
+552,Morgan State,College/University
+553,British Columbia (CAN),College/University
+554,Virginia Commonwealth,College/University
+555,West Georgia,College/University
+556,Hutchinson Community College,College/University
+557,Indiana (PA),College/University
+558,San Diego,College/University
+559,Fairmont State,College/University
+560,St. Thomas (FL),College/University
+561,Pacific (OR),College/University
+562,Roanoke,College/University
+563,Huntington,College/University
+564,Drexel,College/University
+565,Cameron,College/University
+566,Upper Iowa,College/University
+567,Missouri S&T,College/University
+568,Potsdam,College/University
+569,Towson,College/University
+570,Maynard Evans,High School
+571,Dwight Morrow,High School
+572,Xavier (LA),College/University
+573,Bentley,College/University
+574,Nebraska-Kearney,College/University
+575,Grand Canyon,College/University
+576,Coppin State,College/University
+577,Armstrong,College/University
+578,North Carolina-Charlotte,College/University
+579,Winona State,College/University
+580,Willamette,College/University
+581,Augustana (IL),College/University
+582,Barber-Scotia,College/University
+583,BC Spartak Saint Petersburg (Russia),Other Team/Club
+584,Saint Mary's (CAN),College/University
+585,Wisconsin-Parkside,College/University
+586,Marymount (VA),College/University
+587,Missouri Western State,College/University
+588,Malone,College/University
+589,Millersville,College/University
+590,Mercyhurst,College/University
+591,Hartwick,College/University
+592,Florida Tech,College/University
+593,Salem International,College/University
+594,Mississippi Valley State,College/University
+595,South Florida,College/University
+596,Minnesota State-Mankato,College/University
+597,Illinois Wesleyan,College/University
+598,Alabama-Huntsville,College/University
+599,Georgia State,College/University
+600,Milligan,College/University
+601,Eastern Washington,College/University
+602,Rutgers-Camden,College/University
+603,Delta State,College/University
+604,Graceland (IA),College/University
+605,Cal State-Fullerton,College/University
+606,Southern Nazarene,College/University
+607,Bloomfield,College/University
+608,James Madison,College/University
+609,Howard,College/University
+610,Briar Cliff,College/University
+611,Nasson,College/University
+612,Pace,College/University
+613,Wisconsin-Green Bay,College/University
+614,Cal Poly,College/University
+615,Widener,College/University
+616,Biola,College/University
+617,Augustana (SD),College/University
+618,Cal State Dominguez Hills,College/University
+619,Chicago State,College/University
+620,Alabama-Birmingham,College/University
+621,Chaminade,College/University
+622,Maryland-Baltimore County,College/University
+623,New Jersey City,College/University
+624,Harding,College/University
+625,Hamilton,College/University
+626,Point Park,College/University
+627,Southern Indiana,College/University
+628,North Park,College/University
+629,Albright,College/University
+630,Alaska-Anchorage,College/University
+631,Lethbridge (CAN),College/University
+632,North Alabama,College/University
+633,Texas-Arlington,College/University
+634,Yeshiva,College/University
+635,King's (PA),College/University
+636,Bucknell,College/University
+637,Texas A&M-Kingsville,College/University
+638,William Paterson,College/University
+639,Ripon,College/University
+640,Japan Basketball Association (Japan),Other Team/Club
+641,Simon Fraser (CAN),College/University
+642,Lambuth,College/University
+643,Fort Hays State,College/University
+644,Wright State,College/University
+645,South Carolina Upstate,College/University
+646,Upsala,College/University
+647,George Mason,College/University
+648,Western Oregon,College/University
+649,Hellenic,College/University
+650,Indiana Wesleyan,College/University
+651,Campbell,College/University
+652,York (CAN),College/University
+653,McMurry,College/University
+654,District of Columbia,College/University
+655,Bridgeport,College/University
+656,Arkansas-Little Rock,College/University
+657,Alabama A&M,College/University
+658,Victoria (CAN),College/University
+659,Oklahoma Panhandle,College/University
+660,California-Davis,College/University
+661,West Alabama,College/University
+662,Massachusetts Boston,College/University
+663,Florida International,College/University
+664,Eastern Oregon,College/University
+665,Longwood,College/University
+666,Calgary (CAN),College/University
+667,Illinois-Chicago,College/University
+668,Texas-San Antonio,College/University
+669,Juvecaserta Basket (Italy),Other Team/Club
+670,Southern Utah,College/University
+671,Bloomsburg,College/University
+672,Framingham State,College/University
+673,Oberlin,College/University
+674,Angelo State,College/University
+675,California-San Diego,College/University
+676,North Carolina Pembroke,College/University
+677,Northeastern Illinois,College/University
+678,Liberty,College/University
+679,George Fox,College/University
+680,Wisconsin-Stevens Point,College/University
+681,Real Madrid Baloncesto (Spain),Other Team/Club
+682,BC Zalgiris (Lithuania),Other Team/Club
+683,Bayer Giants Leverkusen (Germany),Other Team/Club
+684,Union (KY),College/University
+685,BC Cherno More Port Varna (Bulgaria),Other Team/Club
+686,College of Idaho,College/University
+687,Virtus Pallacanestro Bologna (Italy),Other Team/Club
+688,KK Cibona (Croatia),Other Team/Club
+689,Southwestern (TX),College/University
+690,BC Budivelnyk (Ukraine),Other Team/Club
+691,Chancellor,College/University
+692,Hartford,College/University
+693,PBC CSKA Moscow (Russia),Other Team/Club
+694,Central Arkansas,College/University
+695,Basketball Association of the People's Republic of China (China),Other Team/Club
+696,Tampa,College/University
+697,Panionios B.C. (Greece),Other Team/Club
+698,Joventut Badalona (Spain),Other Team/Club
+699,BC Statyba (Lithuania),Other Team/Club
+700,Auxilium Pallacanestro Torino (Italy),Other Team/Club
+701,Marist,College/University
+702,Sport Club Canadense (Argentina),Other Team/Club
+703,Trinity Valley Community College,College/University
+704,KK Partizan (Serbia),Other Team/Club
+705,KK Split (Croatia),Other Team/Club
+706,Universo Treviso Basket (Italy),Other Team/Club
+707,Slippery Rock,College/University
+708,Christopher Newport,College/University
+709,Elan Bearnais Pau-Orthez (France),Other Team/Club
+710,Saski Baskonia (Spain),Other Team/Club
+711,Missouri-Kansas City,College/University
+712,CB Valladolid (Spain),Other Team/Club
+713,Farragut Career Academy,High School
+714,Olympiacos B.C. (Greece),Other Team/Club
+715,Seward County Community College,College/University
+716,Olimpia Milano (Italy),Other Team/Club
+717,BC Neptunas (Lithuania),Other Team/Club
+718,Lower Merion,High School
+719,P.A.O.K. B.C. (Greece),Other Team/Club
+720,Eau Claire,High School
+721,LSU-Atletas (Lithuania),Other Team/Club
+722,BC Kalev/Cramo (Estonia),Other Team/Club
+723,Peristeri B.C. (Greece),Other Team/Club
+724,West Florida,College/University
+725,Mount Zion Christian Academy,High School
+726,South East Melbourne Magic (Australia),Other Team/Club
+727,KK Olimpija (Slovenia),Other Team/Club
+728,Cal State-Bakersfield,College/University
+729,College of Charleston,College/University
+730,Butler Community College,College/University
+731,ASVEL Basket (France),Other Team/Club
+732,Indian Hills Community College,College/University
+733,Newcastle Falcons (Australia),Other Team/Club
+734,FC Barcelona Basquet (Spain),Other Team/Club
+735,DJK Wurzburg (Germany),Other Team/Club
+736,Anadolu Efes S.K. (Turkey),Other Team/Club
+737,Saint Patrick,High School
+738,Elsik,High School
+739,Hargrave Military Academy,High School
+740,Picayune Memorial,High School
+741,Barton Community College,College/University
+742,Limoges CSP (France),Other Team/Club
+743,Martin Luther King,High School
+744,Bayi Rockets (China),Other Team/Club
+745,Saint Paul's,College/University
+746,Viola Reggio Calabria (Italy),Other Team/Club
+747,East St. Louis,High School
+748,Washington Union,High School
+749,KK Dubrava (Croatia),Other Team/Club
+750,A.E.K. Athens B.C. (Greece),Other Team/Club
+751,Fortitudo Pallacanestro Bologna (Italy),Other Team/Club
+752,Cincinnati Stuff (IBL),Other Team/Club
+753,Las Vegas Silver Bandits (IBL),Other Team/Club
+754,Red Star Belgrade (Serbia),Other Team/Club
+755,Glynn Academy,High School
+756,Dominguez,High School
+757,Thornwood,High School
+758,Oak Hill Academy,High School
+759,Northwest Florida State,College/University
+760,KK FMP (Serbia),Other Team/Club
+761,Paris Basket Racing (France),Other Team/Club
+762,St. Jude Educational Institute,High School
+763,Panathinaikos B.C. (Greece),Other Team/Club
+764,BC Lietuvos rytas (Lithuania),Other Team/Club
+765,Shanghai Sharks (China),Other Team/Club
+766,CR Vasco da Gama (Brazil),Other Team/Club
+767,Cypress Creek,High School
+768,Northeast Mississippi Community College,College/University
+769,Skyliners Frankfurt (Germany),Other Team/Club
+770,SV Halle (Germany),Other Team/Club
+771,Club Ourense Baloncesto (Spain),Other Team/Club
+772,Saint Vincent-Saint Mary,High School
+773,KK Vrsac (Serbia),Other Team/Club
+774,KK Buducnost Podgorica (Montenegro),Other Team/Club
+775,Starkville,High School
+776,Westbury Christian School,High School
+777,Clifton J. Ozen,High School
+778,Associacao Bauru Basketball Team (Brazil),Other Team/Club
+779,Madrid (ESP),College/University
+780,Iraklis Thessaloniki B.C. (Greece),Other Team/Club
+781,Basketball Lowen Braunschweig (Germany),Other Team/Club
+782,Ulkerspor (Turkey),Other Team/Club
+783,TV Langen (Germany),Other Team/Club
+784,Central Park Christian,High School
+785,JDA Dijon Basket (France),Other Team/Club
+786,HKK Brotnjo (Bosnia and Herzegovina),Other Team/Club
+787,Hong Kong Flying Dragons (China),Other Team/Club
+788,Southwest Atlanta Christian Academy,High School
+789,Peoria,High School
+790,BK Skonto (Latvia),Other Team/Club
+791,Bakersfield,High School
+792,Abraham Lincoln,High School
+793,Prentiss,High School
+794,South Kent School,High School
+795,Pallalcesto Amatori Udine (Italy),Other Team/Club
+796,Criollos de Caguas (Puerto Rico),Other Team/Club
+797,Southeastern Illinois,College/University
+798,Roseto Sharks (Italy),Other Team/Club
+799,Yonsei (KOR),College/University
+800,Maroussi B.C. (Greece),Other Team/Club
+801,Sakha-Yakutia Yakutsk (Russia),Other Team/Club
+802,Seattle Preparatory School,High School
+803,Saint Joseph,High School
+804,Baloncesto Malaga (Spain),Other Team/Club
+805,Gulf Shores Academy,High School
+806,STB Le Havre (France),Other Team/Club
+807,Skyline,High School
+808,IMG Academy,High School
+809,Lanier,High School
+810,South Gwinnett,High School
+811,Walsh,College/University
+812,Westchester,High School
+813,Koln 99ers (Germany),Other Team/Club
+814,VOO Wolves Verviers-Pepinster (Belgium),Other Team/Club
+815,Pallacanestro Biella (Italy),Other Team/Club
+816,CB Estudiantes (Spain),Other Team/Club
+817,CB Gran Canaria (Spain),Other Team/Club
+818,Objetivo Sao Carlos (Brazil),Other Team/Club
+819,Hapoel Galil Elyon (Israel),Other Team/Club
+820,CB Cornella (Spain),Other Team/Club
+821,Union Bank Lagos B.C. (Nigeria),Other Team/Club
+822,KK Bosna Royal (Bosnia and Herzegovina),Other Team/Club
+823,Guangdong Southern Tigers (China),Other Team/Club
+824,Espoon Honka (Finland),Other Team/Club
+825,Cherkaski Mavpy (Ukraine),Other Team/Club
+826,HKK Siroki (Bosnia and Herzegovina),Other Team/Club
+827,Beijing Olympians (China),Other Team/Club
+828,CB Sant Josep (Spain),Other Team/Club
+829,Townsville Crocodiles (Australia),Other Team/Club
+830,KK Mega Leks (Serbia),Other Team/Club
+831,Hyeres-Toulon Var Basket (France),Other Team/Club
+832,CB L'Hospitalet (Spain),Other Team/Club
+833,Le Mans Sarthe Basket (France),Other Team/Club
+834,IUPUI,College/University
+835,Fenerbahce S.K. (Turkey),Other Team/Club
+836,Cairns Taipans (Australia),Other Team/Club
+837,KK Zagreb (Croatia),Other Team/Club
+838,KK Crvena zvezda (Serbia),Other Team/Club
+839,Idaho Stampede (D-League),Other Team/Club
+840,Pallacanestro Virtus Roma (Italy),Other Team/Club
+841,Valencia BC (Spain),Other Team/Club
+842,Maccabi Tel Aviv B.C. (Israel),Other Team/Club
+843,Cholet Basket (France),Other Team/Club
+844,CB Prat (Spain),Other Team/Club
+845,Central Florida,College/University
+846,BC Dnipro (Ukraine),Other Team/Club
+847,MBC Mykolaiv (Ukraine),Other Team/Club
+848,Tennessee-Martin,College/University
+849,Brose Baskets (Germany),Other Team/Club
+850,CB Murcia (Spain),Other Team/Club
+851,Tulsa 66ers (D-League),Other Team/Club
+852,Baloncesto Fuenlabrada (Spain),Other Team/Club
+853,Tokyo Apache (Japan),Other Team/Club
+854,Oakland,High School
+855,Bakersfield Jam (D-League),Other Team/Club
+856,Al Rayyan Basketball Team (Qatar),Other Team/Club
+857,Gold Coast Blaze (Australia),Other Team/Club
+858,Alba Fehervar (Hungary),Other Team/Club
+859,Poitiers Basket 86 (France),Other Team/Club
+860,CB Sevilla (Spain),Other Team/Club
+861,Banvit B.K. (Turkey),Other Team/Club
+862,CB Axarquia (Spain),Other Team/Club
+863,Galatasaray S.K. (Turkey),Other Team/Club
+864,Pinar Karsiyaka (Turkey),Other Team/Club
+865,Lehigh,College/University
+866,Basket Zaragoza 2002 (Spain),Other Team/Club
+867,B.C. Zenit Saint Petersburg (Russia),Other Team/Club
+868,San Sebastian Gipuzkoa BC (Spain),Other Team/Club
+869,BK Ventspils (Latvia),Other Team/Club
+870,Bahia Basket (Argentina),Other Team/Club
+871,Movistar Estudiantes,Other Team/Club
+872,SPO Rouen Basket,Other Team/Club
+873,KK Mega Vizura,Other Team/Club
+874,Elan Chalon (France),Other Team/Club
+875,Xinjiang Guanghui,Other Team/Club
+876,Denain ASC Voltaire,Other Team/Club
+877,FC Bayern Muenchen,Other Team/Club
+878,Fujian,Other Team/Club
+879,SIG Strasbourg (France),Other Team/Club
+880,Adelaide 36ers (Australia),Other Team/Club
+881,Nanterre 92 (France),Other Team/Club
+882,KK Cedevita (Croatia),Other Team/Club
+883,Fraport Skyliners (Germany),Other Team/Club
+884,Brose Bamberg (Germany),Other Team/Club
+885,Sesi Franca (Brazil),Other Team/Club
+886,Santa Cruz (G League),Other Team/Club
+887,Illawarra (Australia),Other Team/Club
+888,Ratiopharm Ulm (Germany),Other Team/Club
+889,Breakers (New Zealand),Other Team/Club
+890,John A. Logan,College/University
+891,Ignite (G League),Other Team/Club
+892,NBA Global Academy (Australia),Other Team/Club
+893,Besiktas (Turkey),Other Team/Club
+894,Paris (France),Other Team/Club
+895,BC Nevezis (Greece),Other Team/Club
+896,Wisconsin-Milwaukee,College/University
+897,Vanoli Cremona (Italy),Other Team/Club
+898,Mega Mozzart (Serbia),Other Team/Club
+899,Unicaja Baloncesto Malaga (Spain),Other Team/Club
+900,Associacao Atletica Ponte Preta (Brazil),Other Team/Club
+901,Perth Wildcats (Australia),Other Team/Club
+902,Metropolitans 92 (France),Other Team/Club
+903,Overtime Elite,Other Team/Club
