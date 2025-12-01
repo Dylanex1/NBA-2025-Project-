@@ -368,7 +368,7 @@ class QueryManager:
                 ph.Position
             FROM PlayerStats ps
             JOIN PlayerHeights ph ON ps.PlayerID = ph.PlayerID
-            ORDER BY ph.Position, ph.HeightInches
+            ORDER BY ph.Position, ph.HeightInches DESC
             OFFSET %s ROWS
             FETCH NEXT %s ROWS ONLY;
         """
