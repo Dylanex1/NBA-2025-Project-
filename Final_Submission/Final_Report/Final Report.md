@@ -127,7 +127,9 @@ Below are 3 screenshots of the interface in action.
 \caption{Query Results Screenshot}
 \end{figure}
 
-# Queries
+$\pagebreak$
+
+# Description of Queries
 
 In addition to 8 simple queries, which are used to ensure 100% of our
 dataset is accessible to the user, we also implemented 14 complex
@@ -139,16 +141,16 @@ input for a given query and what it will return to the user.
 Figure 2 in the "Diagrams of Interface" section nicely outlines
 exactly what each of the 14 complex queries will return.
 
-## justifications
+## Justifications
 
-1. `Q1:` This query will allow a analyst to quickly see the top performers
+1. `Q1:` This query will allow an analyst to quickly see the top performers
    for the season and the relevant important stats.
-2. `Q2:`This query will allow a analyst to select the coaches that perform
+2. `Q2:`This query will allow an analyst to select the coaches that perform
    the best in the playoffs.
-3. `Q3:`This query enables a analyst to grab the most relevant stat
+3. `Q3:`This query enables an analyst to grab the most relevant stat
    for a team in nba and gives the option to see how that team's ppg
    compares to the league average.
-4. `Q4:`This is an important query because it allows a analyst to retrieve
+4. `Q4:`This is an important query because it allows an analyst to retrieve
    the primary stats for all players in the league while grouping them
    according to the role they play in their team.
 5. `Q5:` While an analyst might already know this information as
@@ -177,9 +179,11 @@ exactly what each of the 14 complex queries will return.
 13. `Q13:`This query enables analysts to identify the top-performing coaches who have recently reached the NBA playoffs and evaluate their success based on historical playoff performance.
 14. `Q14:`This query enables analysts to identify if a certain arena is unbiased towards a certain team winning.
 
+$\pagebreak$
+
 # Conclusion
 
-For this project our group used a relational database to model
+For this project, our group used a relational database to model
 NBA statistics from the 2024/2025 season. However, this raises the
 question: could a graph database or document database model our
 data better?
@@ -192,7 +196,7 @@ Many of our complex queries use aggregate functions, complex joins, set theory, 
 grouping. As such, recreating them in a document database would be
 a nightmare, potentially requiring us to simplify our queries. A document database might be a better fit for a live
 presentation of play-by-play stats, where it could leverage its
-lightning fast writes and lookups without having to worry about
+lightning fast writes and simple lookups without having to worry about
 storing complex nested relations.
 
 While our relational database and queries could
@@ -223,8 +227,8 @@ of relations (1-to-1, m-to-m, and m-to-1), derived attributes,
 composite attributes, weak attributes, foreign keys and much more.
 Students would be able to write simple and complex queries using
 either the whole table or sections of it. One section that is well
-suited to assignment and test problems is the coach - Instructs - team -PlayOnTeam - player - PlayInGame - Game subsection. Using this subset of
-the Database/EER diagram a professor could ask students to construct
+suited to assignment and test problems is the coach - Instructs - team -PlayOnTeam - player - PlayInGame - Game subsection. Using this subsection of
+the Database/EER diagram, a professor could ask students to construct
 all kinds of interesting queries.
 
 # Appendix
