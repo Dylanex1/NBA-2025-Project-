@@ -18,11 +18,17 @@ The database will initially be populated when running the program for the first 
 
 ## Notes
 
-You will not have to worry about authentication, as the `username` and `password` are stored in the `auth.cfg` file in the `config` directory. This file is read by `database_manager.py`, which manages the connection to `uranium`. However, in case you need the credentials, they are below:
+- You will not have to worry about authentication, as the `username` and `password` are stored in the `auth.cfg` file in the `config` directory. This file is read by `database_manager.py`, which manages the connection to `uranium`. However, in case you need the credentials, they are below:
 
-- username = beyakd1
-- password = 7974864
+    - username = beyakd1
+    - password = 7974864
 
-In the main directory, there is a folder titled `extra` that is not used when running the interface. This folder contains another folder called `data_processing`, which includes the Python scripts that were used to normalize the dataset. These scripts are only included as additional context for grading and are not required to run the program.
+- In the main directory, there is a folder titled `extra` that is not used when running the interface. This folder contains another folder called `data_processing`, which includes the Python scripts that were used to normalize the dataset. These scripts are only included as additional context for grading and are not required to run the program.
 
-This interface is meant to be ran on aviary.
+- This interface is meant to be ran on aviary.
+
+- Some commands require a name argument. Since many names contain spaces, make sure to put them in quotes. For example, query 6 requires a name argument and would be entered as follows:
+
+```bash
+q6 "Denver Nuggets"
+```
