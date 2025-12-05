@@ -23,6 +23,8 @@ The database will initially be populated when running the program for the first 
     - username = beyakd1
     - password = 7974864
 
+- Make sure you are in the `Interface` directory (this is the folder containing the README and Makefile).
+
 - In the main directory, there is a folder titled `extra` that is not used when running the interface. This folder contains another folder called `data_processing`, which includes the Python scripts that were used to normalize the dataset. These scripts are only included as additional context for grading and are not required to run the program.
 
 - This interface is meant to be ran on aviary.
