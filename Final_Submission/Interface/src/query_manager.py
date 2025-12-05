@@ -136,10 +136,11 @@ class QueryManager:
             SELECT
                 t.TeamID,
                 t.TeamName,
-                RGCS.RegCurrentW AS Wins
+                SUM(RGCS.RegCurrentW) AS Wins
             FROM RegularGameCoachStats RGCS
-            JOIN Coach c ON RGCS.CoachID= c.CoachID
-            JOIN Team t ON c.TeamID= t.TeamID
+            JOIN Coach c ON RGCS.CoachID = c.CoachID
+            JOIN Team t ON c.TeamID = t.TeamID
+            GROUP BY t.TeamID, t.TeamName
         """
 
     def _query_player_stats(self):
@@ -171,6 +172,27 @@ class QueryManager:
             JOIN PlayInGame pIN ON p.PlayerID= pIN.PlayerID
             GROUP BY p.PlayerID, p.FirstName,p.LastName, p.TeamID
         """
+    
+    def _query_team_game_stats(self):
+        return """
+            SELECT 
+                Team.TeamID,
+                Team.TeamName,
+                GameID,
+                SUM((FG - [3P])*2 + [3P]*3 + FT) AS PTS,
+                SUM(AST) AS AST,
+                SUM(STL) AS STL,
+                SUM(FG) AS FG,
+                SUM(FGA) AS FGA,
+                SUM([3P]) AS ThreeP,
+                SUM([3PA]) AS ThreePA,
+                SUM(FT) AS FT,
+                SUM(FTA) AS FTA
+            FROM Team
+            JOIN PlayInGame ON PlayInGame.TeamID = Team.TeamID
+            GROUP BY Team.TeamID, GameID, Team.TeamName
+        """ 
+
 
     def _query_team_stats(self):
         return """
@@ -178,14 +200,23 @@ class QueryManager:
                 TW.Wins,
                 TW.TeamName,
                 TW.TeamID,
-                ROUND(AVG(pS.avgPoints),1) AS avgTeamPoints,
-                ROUND(AVG(pS.avgAssists),1) AS avgTeamAssists,
-                ROUND(AVG(pS.avgSteals),1) AS avgTeamSteals,
-                ROUND(AVG(pS.fieldGoalPct),3) AS TeamFGPct,
-                ROUND(AVG(pS.threePointPct),3) AS Team3PointPct,
-                ROUND(AVG(pS.freeThrowPct),3) AS TeamFreeThrowPct
+                ROUND(AVG(TGS.PTS),1) AS avgTeamPoints,
+                ROUND(AVG(TGS.AST),1) AS avgTeamAssists,
+                ROUND(AVG(TGS.STL),1) AS avgTeamSteals,
+                ROUND(
+                    CAST(SUM(TGS.FG) AS FLOAT) / NULLIF(SUM(TGS.FGA), 0),
+                    3
+                ) AS TeamFGPct,
+                ROUND(
+                    CAST(SUM(TGS.ThreeP) AS FLOAT) / NULLIF(SUM(TGS.ThreePA), 0),
+                    3
+                ) AS Team3PointPct,
+                ROUND(
+                    CAST(SUM(TGS.FT) AS FLOAT) / NULLIF(SUM(TGS.FTA), 0),
+                    3
+                ) AS TeamFreeThrowPct
             FROM TeamWins TW
-            JOIN PlayerStats pS ON pS.TeamID= TW.TeamID
+            JOIN TeamGameStats TGS ON TGS.TeamID= TW.TeamID
             GROUP BY TW.TeamID, TW.TeamName,TW.Wins
         """
 
@@ -194,8 +225,8 @@ class QueryManager:
             WITH TeamWins AS (
                 {self._query_team_wins()}
             ),
-            PlayerStats AS (
-                {self._query_player_stats()}
+            TeamGameStats AS (
+                {self._query_team_game_stats()}
             ),
             TeamStats AS (
                 {self._query_team_stats()}
@@ -224,6 +255,25 @@ class QueryManager:
                 ROUND(AVG(pa.playerAge),1) as avgTeamAge
             FROM PlayersAge pa
             GROUP BY pa.TeamName
+        """
+    
+    def _query_player_heights(self):
+        return """
+            SELECT
+                Player.PlayerID as PlayerID,
+                FirstName,
+                LastName,
+                Position,
+                Height,
+                CAST(LEFT(Height, CHARINDEX('"', Height) - 1) AS INT) * 12 
+                +
+                CAST(
+                    SUBSTRING(Height, CHARINDEX('"', Height) + 1, LEN(Height))
+                    AS INT
+                ) AS HeightInches
+            FROM PlayerInformation
+            JOIN Player
+            ON PlayerInformation.PlayerID = Player.PlayerID
         """
 
     def get_q1(self, num_teams):
@@ -304,6 +354,9 @@ class QueryManager:
         sql = f"""
             WITH PlayerStats AS (
                 {self._query_player_stats()}
+            ), 
+            PlayerHeights AS (
+                {self._query_player_heights()}
             )
             SELECT
                 ps.avgPoints,
@@ -311,11 +364,11 @@ class QueryManager:
                 ps.avgSteals,
                 ps.FirstName,
                 ps.LastName,
-                pi.Height,
-                pi.Position
+                ph.Height,
+                ph.Position
             FROM PlayerStats ps
-            JOIN PlayerInformation pi ON ps.PlayerID = pi.PlayerID
-            ORDER BY pi.Position, pi.Height
+            JOIN PlayerHeights ph ON ps.PlayerID = ph.PlayerID
+            ORDER BY ph.Position, ph.HeightInches DESC
             OFFSET %s ROWS
             FETCH NEXT %s ROWS ONLY;
         """
@@ -416,41 +469,43 @@ class QueryManager:
         WITH playersGame AS (
             SELECT
                 Team.TeamID,
-                HomePTS,
-                VisitorPTS,
+                Team.TeamName,
+                CASE
+                    WHEN Team.TeamID = Game.HomeTeamID Then HomePTS
+                    WHEN Team.TeamID = Game.VisitorTeamID Then VisitorPTS
+                END AS PTS,
                 STL,
                 FG,
                 FGA,
-                "3P",
-                "3PA",
+                [3P],
+                [3PA],
                 AST,
                 FTA,
                 FT
             FROM Game
             JOIN PlayInGame ON Game.GameID = PlayInGame.GameID
-            JOIN Player ON PlayInGame.PlayerID = Player.PlayerID
-            JOIN Team ON Player.TeamID = Team.TeamID
+            JOIN Team ON PlayInGame.TeamID = Team.TeamID
             WHERE Game.GameID = %s
-            )
+        )
         SELECT
             TeamID,
-            MAX(HomePTS) AS HomePTS,
-            MAX(VisitorPTS) AS VisitorPTS,
+            TeamName,
+            MAX(PTS) AS PTS,
             SUM(STL) AS STL,
             SUM(FG) AS FG,
             SUM(FGA) AS FGA,
             CAST(ROUND(SUM(FG) * 1.0 / NULLIF(SUM(FGA), 0), 3) AS FLOAT) AS FGP,
-            SUM("3P") AS "3P",
-            SUM("3PA") AS "3PA",
-            CAST(ROUND(SUM("3P") * 1.0 / NULLIF(SUM("3PA"), 0), 3) AS FLOAT) AS "3PP",
+            SUM([3P]) AS [3P],
+            SUM([3PA]) AS [3PA],
+            CAST(ROUND(SUM([3P]) * 1.0 / NULLIF(SUM([3PA]), 0), 3) AS FLOAT) AS [3PP],
             SUM(FT) AS FT,
             SUM(FTA) AS FTA,
             CAST(ROUND(SUM(FT) * 1.0 / NULLIF(SUM(FTA), 0), 3) AS FLOAT) AS FTP,
             SUM(AST) AS AST
         FROM playersGame
-        GROUP BY TeamID;
-        
+        GROUP BY TeamID, TeamName;
         """
+
         with self._connection.cursor(as_dict=True) as cursor:
             cursor.execute(sql, (game_id,))
             rows = cursor.fetchall()
@@ -479,23 +534,9 @@ class QueryManager:
         return rows
 
     def get_q11(self, game_id):
-        sql = """
+        sql = f"""
             WITH PlayerHeights AS (
-                SELECT
-                    Player.PlayerID as PlayerID,
-                    FirstName,
-                    LastName,
-                    Position,
-                    Height,
-                    CAST(LEFT(Height, CHARINDEX('"', Height) - 1) AS INT) * 12 
-                    +
-                    CAST(
-                        SUBSTRING(Height, CHARINDEX('"', Height) + 1, LEN(Height))
-                        AS INT
-                    ) AS HeightInches
-                FROM PlayerInformation
-                JOIN Player
-                ON PlayerInformation.PlayerID = Player.PlayerID
+                {self._query_player_heights()}
             )
             SELECT 
                 FirstName, 
@@ -508,7 +549,8 @@ class QueryManager:
             WHERE gameID = %s 
                 AND
                 HeightInches > 77
-                AND Position = 'Center';
+                AND Position = 'Center'
+            ORDER BY HeightInches DESC;
         """
 
         with self._connection.cursor(as_dict=True) as cursor:
