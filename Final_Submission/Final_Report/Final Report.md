@@ -139,45 +139,63 @@ dataset.
 Using the interface for the NBA Database a user can easily see what to
 input for a given query and what it will return to the user.
 Figure 2 in the "Diagrams of Interface" section nicely outlines
-exactly what each of the 14 complex queries will return.
+exactly what each of the 14 complex queries will return. However, for
+convince and clarity I will relist them here.
+
+## Complex Queries:
+
+- `q1 <N>:` Show the top N teams by wins along with their season averages
+- `q2:` Show coaches with 5+ seasons and a positive playoff win rate
+- `q3 "<team_name>" [--avg]:` Shows a team's average PPG (optionally include league average)
+- `q4 <limit> <page>:` List limit players from page by position/height with PPG/APG/SPG
+- `q5:` Show the team and coach that won the 2024-2025 championship
+- `q6 "<team_name>":` Show a team's roster ordered by PPG, APG, and SPG
+- `q7 <stat> <N>:` Show the top N players ordered by a chosen stat (PPG, APG, SPG)
+- `q8 "<team_name>":` Show the average age of players on a team
+- `q9 <game_id>:` Show both teams' stats for a specific game
+- `q10 <min_attempts> <N>:` Show the top N players ordered by 3P% with a minimum attempt requirement
+- `q11 <game_id>:` Show centers that are 6"5+ and their points in a specific game
+- `q12 "<team1_name>" "<team2_name>":` Shows the win percentage of "team1_name" against "team2_name"
+- `q13 <min_winrate>:` Show coaches with a playoff winrate $\ge$ a decimal input (ex. 0.75)
+- `q14 <N>:` Show arenas where at least N different teams have won at least once
 
 ## Justifications
 
-1. `Q1:` This query will allow an analyst to quickly see the top performers
+1. `q1:` This query will allow an analyst to quickly see the top performers
    for the season and the relevant important stats.
-2. `Q2:`This query will allow an analyst to select the coaches that perform
+2. `q2:`This query will allow an analyst to select the coaches that perform
    the best in the playoffs.
-3. `Q3:`This query enables an analyst to grab the most relevant stat
+3. `q3:`This query enables an analyst to grab the most relevant stat
    for a team in nba and gives the option to see how that team's ppg
    compares to the league average.
-4. `Q4:`This is an important query because it allows an analyst to retrieve
+4. `q4:`This is an important query because it allows an analyst to retrieve
    the primary stats for all players in the league while grouping them
    according to the role they play in their team.
-5. `Q5:` While an analyst might already know this information as
+5. `q5:` While an analyst might already know this information as
    general knowledge. It is still important for every sports database to
    have a query that returns the team that won the championship that year.
-6. `Q5:`An analyst would find this query useful, since it allows them to evaluate the
+6. `q6:`An analyst would find this query useful, since it allows them to evaluate the
    most important contributors to a teams scoring by viewing the teams
    roster ordered first by points per page, then by assists per game
    , and lastly through steals per game.
-7. `Q7:` This query allows an analyst to retrieve the leaders of the 3 major statistical categories, which enables a
+7. `q7:` This query allows an analyst to retrieve the leaders of the 3 major statistical categories, which enables a
    analyst to contract new graphics and datasets with the top performers
    in the league.
-8. `Q8` This Query allows an analyst to evaluate whether a team should start considering
+8. `q8` This Query allows an analyst to evaluate whether a team should start considering
    rebuilding or push for a championship, while also evaluating a teams future.
-9. `Q9:`This query allows an analyst to evaluate individual games and each
+9. `q9:`This query allows an analyst to evaluate individual games and each
    teams performance in that game.
-10. `Q10:`This is a fun cool stat but it also allows an analyst to find the best
+10. `q10:`This is a fun cool stat but it also allows an analyst to find the best
     3 point shooters in the league. Additionally this query allows an
     analyst to find the best shooters with a user specified minimum
     amount of attempts. This enables a given analyst to select for the
     best 3-point shooters for an specified volume.
-11. `Q11:`This query allows an analyst to evaluate the performance of centers
+11. `q11:`This query allows an analyst to evaluate the performance of centers
     as well as potentially allow an analyst to see if height is correlated with ppg.
-12. `Q12:`This query allows an analyst to evaluate how well one team performs against
+12. `q12:`This query allows an analyst to evaluate how well one team performs against
     another
-13. `Q13:`This query enables analysts to identify the top-performing coaches who have recently reached the NBA playoffs and evaluate their success based on historical playoff performance.
-14. `Q14:`This query enables analysts to identify if a certain arena is unbiased towards a certain team winning.
+13. `q13:`This query enables analysts to identify the top-performing coaches who have recently reached the NBA playoffs and evaluate their success based on historical playoff performance.
+14. `q14:`This query enables analysts to identify if a certain arena is unbiased towards a certain team winning.
 
 $\pagebreak$
 
@@ -230,6 +248,18 @@ either the whole table or sections of it. One section that is well
 suited to assignment and test problems is the coach - Instructs - team -PlayOnTeam - player - PlayInGame - Game subsection. Using this subsection of
 the Database/EER diagram, a professor could ask students to construct
 all kinds of interesting queries.
+
+## Finally summary
+
+Throughout this project our group has faced numerous difficulties. From scattered data and a lengthy normalization
+process, to malfunctioning queries and invalid output. This project has challenged us all to both grow as computer
+scientists and teammates, while pushing us to learn new concepts and apply them on the fly. If I had to extract the most
+important lesson from this project, it would have to be the importance of Communication. Throughout the construction of
+our NBA database our team met constantly to ensure that work was delegated and everyone was comfortable with what they had to
+do. Thanks to this constant communication and support, every stage of the project was assigned to
+whomever suited that section best, which allowed our team to leverage all of our strengths at every stage while still
+lending support for the other stages. With the completion of this project, every member of this group is now far more
+prepared to work with databases, whether that be in the workforce or through more coursework.
 
 # Appendix
 
@@ -302,4 +332,4 @@ Kameron's contributions
   they did not work.
 
 - Final Report: Wrote the **Conclusion and Queries** sections, as well
-  as the **Teaching tool and justification** subsections.
+  as the **Teaching tool, justification, and Final Summary** subsections.
