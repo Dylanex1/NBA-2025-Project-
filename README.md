@@ -33,7 +33,6 @@ For schedule table that was broken up into tables like Games.csv: https://www.ba
 
 There is an additional PDF for the EER diagram since it is too large and you need to zoom.
 
-\pagebreak
 
 ### Discussion Of Data Model
 The reason why it was broken down into these tables from the few tables we had was because it made the modeling and the database itself more clear and concise. If we had attributes that made sense to group together and didnt rely on the other attributes we wanted to split those tables up. There is logic as well behind the thought process like teams should be seperated from players and games but still share a relationship. Other examples like coaches and their stats were split up since we wanted basic information to be listed about coaches but not all their stats to follow along everytime we wanted access to just the basic information (this also applies for players and player information table). The rest of the other tables we found from the dataset were already sectioned off for us to use and clean.
@@ -70,18 +69,9 @@ The help menu is divided into three sections. The first section lists the simple
 
 The interface is implemented in Python and is split into 3 different python files which are interface.py, database_manager.py, and query_manager.py. In database_manager.py, we created the DatabaseManager class, which serves as the central manager for all database operations. It manages the connection by reading the configuration file and runs SQL scripts to create tables, as well as clear the entire database. It also orchestrates data loading and querying through its DataLoader (defined in dataloader.py) and QueryManager (defined in query_manager.py) instance variables. In the query_manager.py, we defined the QueryManager class, which handles all queries sent to SQL Server, again using prepared statements to prevent SQL injection. Finally, we created an Interface class that handles user interaction. It displays the welcome message, help menu, and neatly formatted query results. Additionally, it parses user input and sends commands to the DatabaseManager.
 
-\pagebreak
 
-### Diagrams of Interface
-Below are 3 screenshots of the interface in action.
 
-\begin{figure}[H] \centering \includegraphics[width=0.8\textwidth]{welcome.png} \caption{Welcome Message Screenshot} \end{figure}
 
-\begin{figure}[H] \centering \includegraphics[width=0.8\textwidth]{help.png} \caption{Help Menu Screenshot} \end{figure}
-
-\begin{figure}[H] \centering \includegraphics[width=0.8\textwidth]{query.png} \caption{Query Results Screenshot} \end{figure}
-
-\pagebreak
 
 ### Description of Queries
 In addition to 8 simple queries, which are used to ensure 100% of our dataset is accessible to the user, we also implemented 14 complex queries that enable analysts to draw important statistics from our dataset.
